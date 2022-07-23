@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.6rem;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header_title {
+  font-size: 4.6rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  font-size: 2.2rem;
+  gap: 2rem;
+}
+
+.navbar ul li {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #fff;
+}
+
+.logo_div {
+  height: 7.2rem;
+  width: 7.2rem;
+}
+
+.logo {
+  width: 100%;
+  border-radius: 50%;
+}
