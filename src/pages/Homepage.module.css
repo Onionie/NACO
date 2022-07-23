@@ -1,3 +1,14 @@
 body {
   background-color: antiquewhite;
 }
+
+.homepage {
+  position: relative;
+}
+
+.top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}

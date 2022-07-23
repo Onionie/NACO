@@ -1,9 +1,5 @@
-body {
-  box-sizing: border-box;
-}
-
 .header {
-  background-color: aquamarine;
+  background-color: #bfdbfe;
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.6rem;
