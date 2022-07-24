@@ -8,8 +8,8 @@ const Feature = () => {
   return (
     <section className={styles.section}>
       <TwoGrid>
-        <FeatureBody />
         <FeatureSlides />
+        <FeatureBody />
       </TwoGrid>
     </section>
   );
