@@ -6,7 +6,7 @@ const Slideshow = () => {
   return (
     <Carousel fade className={styles.slideshow}>
       <Carousel.Item className={styles.item}>
-        <img src="./images/main_slideshow/main_1.jpg" alt="First slide" />
+        <img src="./images/main_slideshow/escribano.jpg" alt="escribano-img" />
         <Carousel.Caption className={`${styles.caption} ${styles.caption1}`}>
           <h1 className={styles.caption_title}>Escribano</h1>
           <h3>A Nelson Adams Product</h3>
@@ -18,7 +18,10 @@ const Slideshow = () => {
       </Carousel.Item>
 
       <Carousel.Item className={styles.item}>
-        <img src="./images/main_slideshow/main_0.jpg" alt="First slide" />
+        <img
+          src="./images/main_slideshow/visualdisplay.jpg"
+          alt="visual-board"
+        />
         <Carousel.Caption className={`${styles.caption} ${styles.caption2}`}>
           <h1 className={styles.caption_title}>Visual Display Unit</h1>
           <h3>A Description About Visual Display Unit</h3>
@@ -30,7 +33,10 @@ const Slideshow = () => {
 
       {/* Tables and Benches */}
       <Carousel.Item className={styles.item}>
-        <img src="./images/main_slideshow/main_2.jpg" alt="First slide" />
+        <img
+          src="./images/main_slideshow/tables.jpg"
+          alt="tables-and-benches"
+        />
         <Carousel.Caption className={`${styles.caption} ${styles.caption3}`}>
           <h1 className={styles.caption_title}>Tables and Benches</h1>
           <h3>A Description About Tables and Benches</h3>
@@ -42,7 +48,7 @@ const Slideshow = () => {
 
       {/* Tackwall Panels */}
       <Carousel.Item className={styles.item}>
-        <img src="./images/main_slideshow/main_4.jpg" alt="First slide" />
+        <img src="./images/main_slideshow/main_4.jpg" alt="tackwall-panels" />
         <Carousel.Caption className={`${styles.caption} ${styles.caption4}`}>
           <h1 className={styles.caption_title}>Tackwall Panels</h1>
           <h3>A Description About Tackwall Panels</h3>
@@ -54,7 +60,10 @@ const Slideshow = () => {
 
       {/* Display Cases */}
       <Carousel.Item className={styles.item}>
-        <img src="./images/main_slideshow/main_3.jpg" alt="First slide" />
+        <img
+          src="./images/main_slideshow/displaycase.jpg"
+          alt="display-cases"
+        />
         <Carousel.Caption className={`${styles.caption} ${styles.caption5}`}>
           <h1 className={styles.caption_title}>Display Cases</h1>
           <h3>A Description About Display Cases</h3>
