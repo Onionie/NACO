@@ -22,7 +22,7 @@ function App() {
         <Route path="/architect" element={<ArchitectCornerPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/escribano" element={<EscribanoPage />} />e
+        <Route path="/escribano" element={<EscribanoPage />} />
         <Route path="/visual" element={<VisualBoards />} />
         <Route path="/tables" element={<TablesBenchesPage />} />
         <Route path="/tackwall" element={<TackWallPage />} />

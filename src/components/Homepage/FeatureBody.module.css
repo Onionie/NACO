@@ -8,11 +8,13 @@
 
 .title {
   font-size: 2.6rem;
-  margin-bottom: 3rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
 }
 
 .feat_description {
   font-size: 2.2rem;
   text-align: center;
+  line-height: 1.2;
   margin-bottom: 4rem;
 }

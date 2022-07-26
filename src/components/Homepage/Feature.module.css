@@ -1,6 +1,6 @@
 .section {
-  background-color: #eff6ff;
-  padding: 5rem;
+  background-color: #fcfdff;
+  padding: 10rem 18rem;
 }
 
 .dropdown_box {
@@ -10,11 +10,13 @@
 .dropdown_button {
   font-size: 2rem;
   padding: 1rem 2rem;
-  background-color: aqua;
+  background-color: #11468f;
+  color: white;
   border: none;
+  border-radius: 0.4rem;
 }
 
-.dropdown_list {
+/* .dropdown_list {
   display: none;
   position: absolute;
   z-index: 10;
@@ -35,4 +37,4 @@
 
 .dropdown_list li:hover {
   background-color: #eff6ff;
-}
+} */

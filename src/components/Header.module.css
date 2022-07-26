@@ -3,7 +3,7 @@ body {
 }
 
 .headerSection {
-  background-color: rgba(239, 246, 255, 1);
+  background-color: rgba(239, 246, 255, 0.8);
   width: 100%;
   max-height: 10rem;
   position: absolute;
@@ -24,8 +24,8 @@ body {
 }
 
 .logo_div {
-  height: 6.2rem;
-  width: 6.2rem;
+  height: 4.8rem;
+  width: 4.8rem;
 }
 
 .logo {
@@ -33,79 +33,98 @@ body {
   border-radius: 50%;
 }
 
+.header_left {
+  transition: all 0.4s;
+}
+
 .header_left:link,
 .header_left:visited {
-  color: #1e3a8a;
+  color: #000b49;
   text-decoration: none;
 }
 
 .header_left:hover {
-  color: #1e40af;
-  text-decoration: none;
+  color: #9b0000;
 }
 
 .header_title {
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 
+/* Main Navgiation */
 .navbar {
   display: flex;
   align-items: center;
 }
 
-.main_list {
+.navbar_list {
   display: flex;
-  list-style: none;
-  font-size: 1.8rem;
-  font-weight: 500;
-  gap: 3rem;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 2.2rem;
 }
 
-.navbar a {
+.navbar_list > div {
+  display: inline-block;
+}
+
+.navbar_list a {
   text-decoration: none;
   color: #000;
+  transition: all 0.4s;
 }
 
-.main_list li {
-  text-transform: uppercase;
-}
-/* .navbar ul li {
-  border-bottom: 2px solid transparent;
+.navbar_list > div > a:hover {
+  color: #424141;
 }
 
-.navbar ul li:hover {
-  cursor: pointer;
-  border-bottom: 2px solid #fff;
-} */
-
-.product {
+.menu {
   position: relative;
 }
 
-.product_list {
+.dropdown_menu {
   display: none;
+  background-color: #fff;
   position: absolute;
-  min-width: 25rem;
 
-  top: 100%;
+  top: 105%;
   padding: 1rem;
   font-size: 1.4rem;
   list-style: none;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.338);
 }
 
 /* Hover on product, set list to visible */
-.product:hover .product_list {
-  background-color: rgba(239, 246, 255);
+.menu:hover .dropdown_menu {
   display: block;
 }
 
-.product_list li {
+.dropdown_menu li {
   padding: 0.5rem;
+  transition: all 0.4s;
 }
 
-.product_list li:hover {
-  background-color: #fff;
+.dropdown_menu li:hover {
+  transform: translateX(1rem);
+}
+
+/* Specific menu */
+.product_dropdown_menu {
+  min-width: 22rem;
+}
+
+.escribano_dropdown_menu {
+  min-width: 13rem;
+}
+
+.architect_dropdown_menu {
+  min-width: 20rem;
+}
+
+.about_dropdown_menu {
+  min-width: 14rem;
 }
