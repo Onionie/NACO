@@ -1,10 +1,14 @@
-.headerSection {
-  background-color: #eff6ff;
-  width: 100%;
+body {
+  font-family: 'inter', sans-serif;
+}
 
-  /* position: absolute;
-  top: 0; */
-  /* opacity: 50%; */
+.headerSection {
+  background-color: rgba(239, 246, 255, 1);
+  width: 100%;
+  max-height: 10rem;
+  position: absolute;
+  top: 0;
+  z-index: 10;
 }
 
 .header {
@@ -19,8 +23,30 @@
   gap: 1rem;
 }
 
+.logo_div {
+  height: 6.2rem;
+  width: 6.2rem;
+}
+
+.logo {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.header_left:link,
+.header_left:visited {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.header_left:hover {
+  color: #1e40af;
+  text-decoration: none;
+}
+
 .header_title {
-  font-size: 4.6rem;
+  font-size: 4.2rem;
+  font-weight: 700;
 }
 
 .navbar {
@@ -28,28 +54,58 @@
   align-items: center;
 }
 
-.navbar ul {
+.main_list {
   display: flex;
   list-style: none;
-  font-size: 2.2rem;
-  gap: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  gap: 3rem;
 }
 
-.navbar ul li {
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_list li {
+  text-transform: uppercase;
+}
+/* .navbar ul li {
   border-bottom: 2px solid transparent;
 }
 
 .navbar ul li:hover {
   cursor: pointer;
   border-bottom: 2px solid #fff;
+} */
+
+.product {
+  position: relative;
 }
 
-.logo_div {
-  height: 7.2rem;
-  width: 7.2rem;
+.product_list {
+  display: none;
+  position: absolute;
+  min-width: 25rem;
+
+  top: 100%;
+  padding: 1rem;
+  font-size: 1.4rem;
+  list-style: none;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
-.logo {
-  width: 100%;
-  border-radius: 50%;
+/* Hover on product, set list to visible */
+.product:hover .product_list {
+  background-color: rgba(239, 246, 255);
+  display: block;
+}
+
+.product_list li {
+  padding: 0.5rem;
+}
+
+.product_list li:hover {
+  background-color: #fff;
 }

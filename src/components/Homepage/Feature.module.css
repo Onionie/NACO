@@ -2,3 +2,37 @@
   background-color: #eff6ff;
   padding: 5rem;
 }
+
+.dropdown_box {
+  position: relative;
+}
+
+.dropdown_button {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: aqua;
+  border: none;
+}
+
+.dropdown_list {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: -55%;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  min-width: 40rem;
+  background-color: aqua;
+  list-style: none;
+}
+
+.dropdown_box:hover .dropdown_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.dropdown_list li:hover {
+  background-color: #eff6ff;
+}

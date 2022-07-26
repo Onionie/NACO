@@ -8,6 +8,7 @@ const FeatureBody = (props) => {
       <div className={styles.feat_description}>
         <p>{props.description}</p>
       </div>
+      {props.children}
     </div>
   );
 };

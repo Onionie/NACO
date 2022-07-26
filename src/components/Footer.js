@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <section className={styles.footer}>
-      <div>
-        <a>Contact Us</a>
-      </div>
+      <Link to="/contact">
+        <h2> Contact Us</h2>
+      </Link>
     </section>
   );
 };
