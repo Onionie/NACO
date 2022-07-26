@@ -1,11 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import styles from './Header.module.css';
 
 const Header = () => {
+  const [fix, setFix] = useState(false);
+
+  const setFixed = function () {
+    if (window.scrollY >= 550) {
+      setFix(true);
+      console.log('true');
+    } else {
+      setFix(false);
+      console.log('false');
+    }
+  };
+
+  window.addEventListener('scroll', setFixed);
+  //styles.headerSection
   return (
-    <header className={styles.headerSection}>
+    <header
+      className={
+        fix
+          ? `${styles.headerSection} ${styles.fixed}`
+          : `${styles.headerSection}`
+      }
+    >
       <div className={styles.header}>
         <Link to="/" className={styles.header_left}>
           <div className={styles.logo_div}>
