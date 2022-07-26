@@ -9,12 +9,12 @@ const Feature = () => {
     <section className={styles.section}>
       <TwoGrid>
         <FeatureSlides
-          image1="./images/products/blackboard.jpg"
-          alt1="blackboard"
-          image2="./images/products/markerboard.jpg"
-          alt2="blackboard"
-          image3="./images/products/Tackboard.jpg"
-          alt3="blackboard"
+          image1="./images/products/vsd1.jpg"
+          alt1="big-whiteboard"
+          image2="./images/products/vsd2.jpg"
+          alt2="whiteboard"
+          image3="./images/products/vsd3.jpg"
+          alt3="tackboard"
         />
         <FeatureBody
           title="Visual Display Boards"
