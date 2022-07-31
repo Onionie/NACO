@@ -1,22 +1,33 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
-import './Slideshow.css';
+import styles from './Slideshow.module.css';
 const Slideshow = () => {
+  const hero = document.querySelector(`.${styles.hero_section}`);
+  console.log(hero);
+
   return (
-    <>
-      <div className="background"></div>
-      <div className="product_titles_box">
-        <div className="products_title_line1">
-          <div className="btn btn_escribano">| Escribano |</div>
-          <div className="btn btn_visual">&nbsp;Visual Displays |</div>
+    <div className={styles.hero_section}>
+      <div className={styles.background}></div>
+      <div className={styles.product_titles_box}>
+        <div className={styles.products_title_line1}>
+          <div className={`${styles.btn} ${styles.btn_escribano}`}>
+            | Escribano |
+          </div>
+          <div className={`${styles.btn} ${styles.btn_visual}`}>
+            &nbsp;Visual Displays |
+          </div>
         </div>
-        <div className="products_title_line2">
-          <div className="btn btn_tables">| Tables & Benches&nbsp;</div>
-          <div className="btn btn_tackwall">| Tackwall |</div>
+        <div className={styles.products_title_line2}>
+          <div className={`${styles.btn} ${styles.btn_tables}`}>
+            | Tables & Benches&nbsp;
+          </div>
+          <div className={`${styles.btn} ${styles.btn_tackwall}`}>
+            | Tackwall |
+          </div>
         </div>
       </div>
-    </>
+    </div>
     // <Carousel fade className={styles.slideshow}>
     //   {/* Escribano */}
     //   <Carousel.Item className={styles.item}>
