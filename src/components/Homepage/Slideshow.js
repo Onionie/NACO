@@ -1,17 +1,44 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 // import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
 import styles from './Slideshow.module.css';
+// import escribanoWalk from '../../assets/images/homepage/escribano_walk1.jpg';
+// import benchesImage from '../../assets/images/homepage/benches.jpg';
+
 const Slideshow = () => {
-  const hero = document.querySelector(`.${styles.hero_section}`);
-  console.log(hero);
+  // const hero = document.querySelector(`.${styles.hero_section}`);
+  // console.log(hero);
+
+  const [bgImage, setbgImage] = useState(
+    './images/main_slideshow/escribano.jpg'
+  );
+  console.log(bgImage);
+
+  const backgroundImage = useRef(null);
+
+  const changeBackgroundImage = () => {
+    setbgImage('./images/main_slideshow/displaycase.jpg');
+  };
+
+  const changeBackToDefault = () => {
+    setbgImage('./images/main_slideshow/escribano.jpg');
+  };
 
   return (
     <div className={styles.hero_section}>
-      <div className={styles.background}></div>
+      <div
+        className={styles.background}
+        style={{
+          backgroundImage: `url(${bgImage})`,
+        }}
+      ></div>
       <div className={styles.product_titles_box}>
         <div className={styles.products_title_line1}>
-          <div className={`${styles.btn} ${styles.btn_escribano}`}>
+          <div
+            className={`${styles.btn} ${styles.btn_escribano}`}
+            onMouseEnter={changeBackgroundImage}
+            onMouseLeave={changeBackToDefault}
+          >
             | Escribano |
           </div>
           <div className={`${styles.btn} ${styles.btn_visual}`}>
