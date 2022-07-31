@@ -3,49 +3,90 @@ import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = () => {
-  const [fix, setFix] = useState(false);
+  const [listDropdown, setListDropdown] = useState(false);
 
-  const setFixed = function () {
-    if (window.scrollY >= 550) {
-      setFix(true);
-      console.log('true');
-    } else {
-      setFix(false);
-      console.log('false');
-    }
+  const menuClickHandler = () => {
+    setListDropdown(!listDropdown);
+    console.log(listDropdown);
   };
 
-  window.addEventListener('scroll', setFixed);
-  //styles.headerSection
+  // const [fix, setFix] = useState(false);
+
+  // const setFixed = function () {
+  //   if (window.scrollY >= 550) {
+  //     setFix(true);
+  //     console.log('true');
+  //   } else {
+  //     setFix(false);
+  //     console.log('false');
+  //   }
+  // };
+
+  // window.addEventListener('scroll', setFixed);
+
   return (
     <header
-      className={
-        fix
-          ? `${styles.headerSection} ${styles.fixed}`
-          : `${styles.headerSection}`
-      }
+      className={styles.headerSection}
+      // className={
+      //   fix
+      //     ? `${styles.headerSection} ${styles.fixed}`
+      //     : `${styles.headerSection}`
+      // }
     >
       <div className={styles.header}>
         <Link to="/" className={styles.header_left}>
-          <div className={styles.logo_div}>
+          {/* <div className={styles.logo_div}>
             <img
               className={styles.logo}
               src="./images/company_logo.webp"
               alt="company_logo"
             />
-          </div>
-          <div className={styles.header_title}>NACO</div>
+          </div> */}
+          <div className={styles.header_title}>NELSON ADAMS NACO</div>
         </Link>
 
         {/* Navigation */}
-        <nav className={styles.navbar}>
-          <div className={styles.navbar_list}>
-            <div>
+        <nav className={styles.dropdown}>
+          <div
+            onClick={menuClickHandler}
+            className={
+              listDropdown
+                ? `${styles.menu} ${styles.menuColor}`
+                : `${styles.menu} `
+            }
+          >
+            Menu
+          </div>
+          <ul
+            className={
+              listDropdown
+                ? `${styles.dropdown_menu} `
+                : `${styles.dropdown_menu} ${styles.hidden}`
+            }
+          >
+            <Link to="/visual">
+              <li>Visual Display Units</li>
+            </Link>
+            <Link to="/tackwall">
+              <li>Tack Wall Panels</li>
+            </Link>
+            <Link to="/tables">
+              <li>Tables and Benches</li>
+            </Link>
+            <Link to="/display">
+              <li>Display Cases</li>
+            </Link>
+            <Link to="/tables">
+              <li>Escribano</li>
+            </Link>
+          </ul>
+          {/* <div className={styles.navbar_list}> */}
+          {/* <div>
               <Link to="/">Home</Link>
-            </div>
+            </div> */}
 
-            {/* Product Menu */}
-            <div className={`${styles.menu} ${styles.product_menu}`}>
+          {/* Product Menu */}
+          {/* <div className={`${styles.menu} ${styles.product_menu}`}>
               <Link to="/products">
                 <div>Products</div>
               </Link>
@@ -68,11 +109,11 @@ const Header = () => {
                   <li>Escribano</li>
                 </Link>
               </ul>
-            </div>
-            {/* End of Product Menu */}
+            </div> */}
+          {/* End of Product Menu */}
 
-            {/* Escribano Menu */}
-            <div className={styles.menu}>
+          {/* Escribano Menu */}
+          {/* <div className={styles.menu}>
               <Link to="/escribano">
                 <div>Escribano</div>
               </Link>
@@ -89,10 +130,10 @@ const Header = () => {
                   <li>Functions</li>
                 </Link>
               </ul>
-            </div>
+            </div> */}
 
-            {/* Architect Menu */}
-            <div className={` ${styles.menu}`}>
+          {/* Architect Menu */}
+          {/* <div className={` ${styles.menu}`}>
               <Link to="/architect">
                 <div>Architect Corner</div>
               </Link>
@@ -116,10 +157,10 @@ const Header = () => {
                   <li>Escribano</li>
                 </Link>
               </ul>
-            </div>
+            </div> */}
 
-            {/* Escribano Menu */}
-            <div className={styles.menu}>
+          {/* Escribano Menu */}
+          {/* <div className={styles.menu}>
               <Link to="/about">
                 <div>About Us</div>
               </Link>
@@ -139,11 +180,11 @@ const Header = () => {
                   <li>Our Vendors</li>
                 </Link>
               </ul>
-            </div>
-            <div>
+            </div> */}
+          {/* <div>
               <Link to="/contact">Contact Us</Link>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </nav>
       </div>
     </header>
