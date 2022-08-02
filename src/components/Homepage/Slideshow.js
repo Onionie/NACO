@@ -64,7 +64,11 @@ const Slideshow = () => {
           >
             | Tables & Benches&nbsp;
           </div>
-          <div className={`${styles.btn} ${styles.btn_tackwall}`}>
+          <div
+            className={`${styles.btn} ${styles.btn_tackwall}`}
+            onMouseEnter={changeToTackwall}
+            onMouseLeave={changeBackToDefault}
+          >
             | Tackwall |
           </div>
         </div>
