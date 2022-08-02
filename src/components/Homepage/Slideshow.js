@@ -20,11 +20,11 @@ const Slideshow = () => {
   };
 
   const changeToTables = () => {
-    setbgImage('./images/homepage/tables.png');
+    setbgImage('./images/homepage/tables.jpg');
   };
 
   const changeToTackwall = () => {
-    setbgImage('./images/homepage/tackwall.png');
+    setbgImage('./images/homepage/tackwall.jpg');
   };
 
   const changeBackToDefault = () => {
@@ -57,7 +57,11 @@ const Slideshow = () => {
           </div>
         </div>
         <div className={styles.products_title_line2}>
-          <div className={`${styles.btn} ${styles.btn_tables}`}>
+          <div
+            className={`${styles.btn} ${styles.btn_tables}`}
+            onMouseEnter={changeToTables}
+            onMouseLeave={changeBackToDefault}
+          >
             | Tables & Benches&nbsp;
           </div>
           <div className={`${styles.btn} ${styles.btn_tackwall}`}>
