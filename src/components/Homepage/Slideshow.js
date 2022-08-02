@@ -2,26 +2,33 @@ import React, { useRef, useState } from 'react';
 // import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
 import styles from './Slideshow.module.css';
-// import escribanoWalk from '../../assets/images/homepage/escribano_walk1.jpg';
-// import benchesImage from '../../assets/images/homepage/benches.jpg';
 
 const Slideshow = () => {
-  // const hero = document.querySelector(`.${styles.hero_section}`);
-  // console.log(hero);
-
   const [bgImage, setbgImage] = useState(
-    './images/main_slideshow/escribano.jpg'
+    './images/homepage/escribano_walk1.jpg'
   );
-  console.log(bgImage);
+  // console.log(bgImage);
 
-  const backgroundImage = useRef(null);
+  // const backgroundImage = useRef(null);
 
-  const changeBackgroundImage = () => {
-    setbgImage('./images/main_slideshow/displaycase.jpg');
+  const changeToEscribano = () => {
+    setbgImage('./images/homepage/escribano.png');
+  };
+
+  const changeToVisualDisplay = () => {
+    setbgImage('./images/homepage/visualdisplay.jpg');
+  };
+
+  const changeToTables = () => {
+    setbgImage('./images/homepage/tables.png');
+  };
+
+  const changeToTackwall = () => {
+    setbgImage('./images/homepage/tackwall.png');
   };
 
   const changeBackToDefault = () => {
-    setbgImage('./images/main_slideshow/escribano.jpg');
+    setbgImage('./images/homepage/escribano_walk1.jpg');
   };
 
   return (
@@ -36,12 +43,16 @@ const Slideshow = () => {
         <div className={styles.products_title_line1}>
           <div
             className={`${styles.btn} ${styles.btn_escribano}`}
-            onMouseEnter={changeBackgroundImage}
+            onMouseEnter={changeToEscribano}
             onMouseLeave={changeBackToDefault}
           >
             | Escribano |
           </div>
-          <div className={`${styles.btn} ${styles.btn_visual}`}>
+          <div
+            className={`${styles.btn} ${styles.btn_visual}`}
+            onMouseEnter={changeToVisualDisplay}
+            onMouseLeave={changeBackToDefault}
+          >
             &nbsp;Visual Displays |
           </div>
         </div>
