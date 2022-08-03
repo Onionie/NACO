@@ -1,25 +1,10 @@
 .section {
   background-color: #fcfdff;
-  padding: 10rem 18rem;
+  padding: 10rem 12rem;
 }
 
-.dropdown_box a:link,
-.dropdown_box a:visited {
-  text-decoration: none;
-}
-
-.dropdown_button {
-  background-color: #11468f;
-  border-radius: 0.4rem;
-  font-size: 2rem;
-  padding: 1rem 2rem;
-  color: white;
-}
-
-a .dropdown_button:hover {
-  background-color: #29599a;
-}
-
-a .dropdown_button:active {
-  background-color: #0c3164;
+.section div {
+  background-color: red;
+  height: 50rem;
+  width: 100%;
 }

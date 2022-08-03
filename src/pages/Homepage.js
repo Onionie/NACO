@@ -19,7 +19,7 @@ const Homepage = () => {
       {/* <div data-aos="fade-down"> */}
       {/* <NACObody /> */}
       {/* </div> */}
-      {/* <Feature /> */}
+      <Feature />
       <Footer />
     </div>
   );
