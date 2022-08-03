@@ -16,10 +16,10 @@ const Homepage = () => {
   return (
     <div className={styles.homepage}>
       <Slideshow />
-      <div data-aos="fade-down">
-        <NACObody />
-      </div>
-      <Feature />
+      {/* <div data-aos="fade-down"> */}
+      {/* <NACObody /> */}
+      {/* </div> */}
+      {/* <Feature /> */}
       <Footer />
     </div>
   );
