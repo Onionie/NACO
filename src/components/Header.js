@@ -51,19 +51,13 @@ const Header = () => {
             onClick={menuClickHandler}
             className={
               listDropdown
-                ? `${styles.menu} ${styles.menuColor}`
+                ? `${styles.menu} ${styles.menu_active}`
                 : `${styles.menu} `
             }
           >
             Menu
           </div>
-          <ul
-            className={
-              listDropdown
-                ? `${styles.dropdown_menu} `
-                : `${styles.dropdown_menu} ${styles.hidden}`
-            }
-          >
+          <ul className={`${styles.dropdown_menu}`}>
             <Link to="/escribano">
               <li>Escribano</li>
             </Link>
@@ -80,111 +74,6 @@ const Header = () => {
               <li>Contact Us</li>
             </Link>
           </ul>
-          {/* <div className={styles.navbar_list}> */}
-          {/* <div>
-              <Link to="/">Home</Link>
-            </div> */}
-
-          {/* Product Menu */}
-          {/* <div className={`${styles.menu} ${styles.product_menu}`}>
-              <Link to="/products">
-                <div>Products</div>
-              </Link>
-              <ul
-                className={`${styles.dropdown_menu} ${styles.product_dropdown_menu}`}
-              >
-                <Link to="/visual">
-                  <li>Visual Display Units</li>
-                </Link>
-                <Link to="/tackwall">
-                  <li>Tack Wall Panels</li>
-                </Link>
-                <Link to="/tables">
-                  <li>Tables and Benches</li>
-                </Link>
-                <Link to="/display">
-                  <li>Display Cases</li>
-                </Link>
-                <Link to="/tables">
-                  <li>Escribano</li>
-                </Link>
-              </ul>
-            </div> */}
-          {/* End of Product Menu */}
-
-          {/* Escribano Menu */}
-          {/* <div className={styles.menu}>
-              <Link to="/escribano">
-                <div>Escribano</div>
-              </Link>
-              <ul
-                className={`${styles.dropdown_menu} ${styles.escribano_dropdown_menu}`}
-              >
-                <Link to="/">
-                  <li>Home</li>
-                </Link>
-                <Link to="/">
-                  <li>Patricia AI</li>
-                </Link>
-                <Link to="/">
-                  <li>Functions</li>
-                </Link>
-              </ul>
-            </div> */}
-
-          {/* Architect Menu */}
-          {/* <div className={` ${styles.menu}`}>
-              <Link to="/architect">
-                <div>Architect Corner</div>
-              </Link>
-
-              <ul
-                className={`${styles.dropdown_menu} ${styles.architect_dropdown_menu}`}
-              >
-                <Link to="/">
-                  <li>AutoCad Library</li>
-                </Link>
-                <Link to="/">
-                  <li>Installation</li>
-                </Link>
-                <Link to="/">
-                  <li>Tables and Benches</li>
-                </Link>
-                <Link to="/">
-                  <li>Display Cases</li>
-                </Link>
-                <Link to="/">
-                  <li>Escribano</li>
-                </Link>
-              </ul>
-            </div> */}
-
-          {/* Escribano Menu */}
-          {/* <div className={styles.menu}>
-              <Link to="/about">
-                <div>About Us</div>
-              </Link>
-              <ul
-                className={`${styles.dropdown_menu} ${styles.about_dropdown_menu}`}
-              >
-                <Link to="/">
-                  <li>Customers</li>
-                </Link>
-                <Link to="/">
-                  <li>History</li>
-                </Link>
-                <Link to="/">
-                  <li>Our Team</li>
-                </Link>
-                <Link to="/">
-                  <li>Our Vendors</li>
-                </Link>
-              </ul>
-            </div> */}
-          {/* <div>
-              <Link to="/contact">Contact Us</Link>
-            </div> */}
-          {/* </div> */}
         </nav>
       </div>
     </header>
