@@ -35,13 +35,13 @@ const Header = () => {
     >
       <div className={styles.header}>
         <Link to="/" className={styles.header_left}>
-          {/* <div className={styles.logo_div}>
+          <div className={styles.logo_div}>
             <img
               className={styles.logo}
               src="./images/company_logo.webp"
               alt="company_logo"
             />
-          </div> */}
+          </div>
           <div className={styles.header_title}>NELSON ADAMS NACO</div>
         </Link>
 
