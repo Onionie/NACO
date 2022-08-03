@@ -1,10 +1,57 @@
-.section {
-  background-color: #fcfdff;
+.features {
+  background-color: #fdebe6;
   padding: 10rem 12rem;
 }
 
-.section div {
-  background-color: red;
-  height: 50rem;
-  width: 100%;
+.features_box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: 1fr 1fr 1fr;
+}
+
+.features_box > div {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.feature_1 {
+  grid-template-columns: 3fr 2fr;
+  margin-bottom: 8rem;
+  background-color: #8ca0b1;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+}
+
+.feature_image_box {
+  padding: 3rem;
+}
+
+.feature_image_box img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.feature_image_box img:hover {
+  transform: scale(1.1);
+}
+
+.main_image {
+  margin-bottom: 2rem;
+}
+
+.sub_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.main_image,
+.sub_images > div {
+  border-radius: 0.4rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }

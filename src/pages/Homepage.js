@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Slideshow from '../components/Homepage/Slideshow';
-import NACObody from '../components/Homepage/NACObody';
+// import NACObody from '../components/Homepage/NACObody';
 import Feature from '../components/Homepage/Feature';
 import Footer from '../components/Footer';
 import styles from './Homepage.module.css';
