@@ -64,20 +64,20 @@ const Header = () => {
                 : `${styles.dropdown_menu} ${styles.hidden}`
             }
           >
-            <Link to="/visual">
-              <li>Visual Display Units</li>
+            <Link to="/escribano">
+              <li>Escribano</li>
             </Link>
             <Link to="/tackwall">
-              <li>Tack Wall Panels</li>
+              <li>Our Products</li>
             </Link>
             <Link to="/tables">
-              <li>Tables and Benches</li>
+              <li>Architect Corner</li>
             </Link>
             <Link to="/display">
-              <li>Display Cases</li>
+              <li>About Us</li>
             </Link>
             <Link to="/tables">
-              <li>Escribano</li>
+              <li>Contact Us</li>
             </Link>
           </ul>
           {/* <div className={styles.navbar_list}> */}

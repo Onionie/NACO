@@ -53,10 +53,6 @@ body {
   /* font-weight: 700; */
 }
 
-/* .header_left:hover {
-  color: #9b0000;
-} */
-
 /* Main Navgiation */
 .dropdown {
   display: flex;
@@ -66,7 +62,7 @@ body {
 
 .menu {
   color: white;
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding: 0.5rem 1.5rem;
   text-transform: uppercase;
   cursor: pointer;
@@ -92,8 +88,8 @@ body {
   margin-right: 1rem;
   font-size: 1.4rem;
   list-style: none;
-  border-radius: 0.4rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  /* border-radius: 0.4rem; */
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); */
   pointer-events: auto;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out, transform 150m ease-in-out;
