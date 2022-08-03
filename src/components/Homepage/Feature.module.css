@@ -1,5 +1,5 @@
 .features {
-  background-color: #fdebe6;
+  background-color: #fef1ed;
   padding: 10rem 12rem;
 }
 
@@ -54,4 +54,69 @@
   border-radius: 0.4rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
   overflow: hidden;
+}
+
+.feature_text_box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  background-color: #f4f7fd;
+  padding: 0 4rem;
+}
+
+.title {
+  font-size: 5.2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.description ul {
+  margin-top: 4rem;
+  list-style: none;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.description ul li {
+  display: flex;
+  align-items: center;
+}
+
+.feat_button_box {
+  display: flex;
+  justify-content: end;
+}
+
+.feat_button {
+  display: inline-block;
+  font-size: 2.6rem;
+  padding: 1rem 2rem;
+  color: black;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: 2px solid #001a37;
+
+  transition: all 0.4s;
+}
+
+.feat_button:hover {
+  background-color: #001a37;
+  color: white;
+}
+
+.feat_button:active {
+  background-color: #77797e;
 }
