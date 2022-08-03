@@ -10,6 +10,10 @@ const Header = () => {
     console.log(listDropdown);
   };
 
+  const setMenuStatusBack = () => {
+    setListDropdown(false);
+  };
+
   // const [fix, setFix] = useState(false);
 
   // const setFixed = function () {
@@ -59,7 +63,7 @@ const Header = () => {
           </div>
           <ul className={`${styles.dropdown_menu}`}>
             <Link to="/escribano">
-              <li>Escribano</li>
+              <li onClick={setMenuStatusBack}>Escribano</li>
             </Link>
             <Link to="/tackwall">
               <li>Our Products</li>
