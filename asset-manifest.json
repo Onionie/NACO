@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NACO/static/css/main.660099d1.css",
-    "main.js": "/NACO/static/js/main.82c9c366.js",
+    "main.js": "/NACO/static/js/main.5bb19b61.js",
     "static/media/background_office.jpg": "/NACO/static/media/background_office.43369eac1afbc2b51039.jpg",
     "index.html": "/NACO/index.html",
     "main.660099d1.css.map": "/NACO/static/css/main.660099d1.css.map",
-    "main.82c9c366.js.map": "/NACO/static/js/main.82c9c366.js.map"
+    "main.5bb19b61.js.map": "/NACO/static/js/main.5bb19b61.js.map"
   },
   "entrypoints": [
     "static/css/main.660099d1.css",
-    "static/js/main.82c9c366.js"
+    "static/js/main.5bb19b61.js"
   ]
 }
