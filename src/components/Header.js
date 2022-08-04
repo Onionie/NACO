@@ -65,17 +65,17 @@ const Header = () => {
             <Link to="/escribano">
               <li onClick={setMenuStatusBack}>Escribano</li>
             </Link>
-            <Link to="/tackwall">
-              <li>Our Products</li>
+            <Link to="/products">
+              <li onClick={setMenuStatusBack}>Our Products</li>
             </Link>
-            <Link to="/tables">
-              <li>Architect Corner</li>
+            <Link to="/architect">
+              <li onClick={setMenuStatusBack}>Architect Corner</li>
             </Link>
-            <Link to="/display">
-              <li>About Us</li>
+            <Link to="/about">
+              <li onClick={setMenuStatusBack}>About Us</li>
             </Link>
-            <Link to="/tables">
-              <li>Contact Us</li>
+            <Link to="/contact">
+              <li onClick={setMenuStatusBack}>Contact Us</li>
             </Link>
           </ul>
         </nav>
