@@ -1,13 +1,13 @@
 .features {
-  background-color: #fef1ed;
-  padding: 10rem 12rem;
+  background-color: #f9f5eb;
+  padding: 12rem;
 }
 
-.features_box {
+/* .features_box {
   display: grid;
   grid-template-columns: 1fr;
   grid-row: 1fr 1fr 1fr;
-}
+} */
 
 .features_box > div {
   display: grid;
@@ -97,7 +97,7 @@
 
 .feat_button_box {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .feat_button {
@@ -119,4 +119,85 @@
 
 .feat_button:active {
   background-color: #77797e;
+}
+
+/* Feature - 2 */
+.feature_cards {
+  height: 600px;
+
+  margin: 15rem 0 20rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 9fr 1fr;
+  gap: 6rem;
+}
+
+.feature_cards > div {
+  background-color: #f6f8fa;
+}
+
+.feature_cards > div:last-child {
+  background-color: transparent;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-1.6rem);
+}
+
+.card_img_box img {
+  width: 100%;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.card_title {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+.card_body {
+  font-size: 2rem;
+  margin: 4rem 0;
+}
+
+.card_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.solo_button {
+  display: flex;
+  margin-top: 4rem;
+
+  justify-content: center;
+  align-items: center;
+  grid-column: -4/-1;
+  background-color: none;
+}
+
+.more_button {
+  font-size: 3.6rem;
+  background-color: #1c3879;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0.4);
+}
+
+.more_button:hover {
+  font-size: 3.6rem;
+  background-color: #023e8a;
+  color: #fff;
+}
+
+.more_button:active {
+  font-size: 3.6rem;
+  background-color: #001a37;
+  color: #fff;
 }

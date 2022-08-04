@@ -76,6 +76,59 @@ const Feature = () => {
             </div>
           </div>
         </div>
+
+        {/* Feature 2 */}
+        <div className={styles.feature_cards}>
+          <div className={styles.card}>
+            <div className={styles.card_img_box}>
+              <img src="./images/tableAndBenches/tnb1.jpg" alt="table" />
+            </div>
+            <div className={styles.card_title}>Mobile Tables</div>
+            <div className={styles.card_body}>
+              When choosing from our table selection, you have the option to
+              choose from the standard bench, individual stool seating or a
+              combination of bench and stool.{' '}
+            </div>
+            <div className={styles.card_button}>
+              <div className={styles.feat_button}>Mobile Tables &rarr;</div>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.card_img_box}>
+              <img src="./images/tableAndBenches/tnb2.jpg" alt="table" />
+            </div>
+            <div className={styles.card_title}>In Wall Tables</div>
+            <div className={styles.card_body}>
+              When choosing from our table selection, you have the option to
+              choose from the standard bench, individual stool seating or a
+              combination of bench and stool.{' '}
+            </div>
+            <div className={styles.card_button}>
+              <div className={styles.feat_button}>
+                Shop In Wall Tables &rarr;
+              </div>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.card_img_box}>
+              <img src="./images/tableAndBenches/tnb1.jpg" alt="table" />
+            </div>
+            <div className={styles.card_title}>Round Tables</div>
+            <div className={styles.card_body}>
+              When choosing from our table selection, you have the option to
+              choose from the standard bench, individual stool seating or a
+              combination of bench and stool.{' '}
+            </div>
+            <div className={styles.card_button}>
+              <div className={styles.feat_button}>Shop Round Tables &rarr;</div>
+            </div>
+          </div>
+          <div className={styles.solo_button}>
+            <div className={`${styles.more_button} ${styles.feat_button}`}>
+              Browse More Tables and Benches &rarr;
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
