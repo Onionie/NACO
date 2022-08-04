@@ -26,6 +26,11 @@
   color: #fff;
 }
 
+.product_titles_box a:link,
+.product_titles_box a:visited {
+  color: #fff;
+}
+
 .product_titles_box div div {
   display: inline-block;
   padding: 2rem 0;
@@ -35,12 +40,12 @@
   display: flex;
 }
 
-.btn {
+a .btn {
   font-size: 7.8rem;
   text-transform: uppercase;
 }
 
-.btn:hover {
+a .btn:hover {
   cursor: pointer;
 }
 

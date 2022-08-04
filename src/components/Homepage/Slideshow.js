@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-bootstrap';
 import styles from './Slideshow.module.css';
 
@@ -41,36 +41,44 @@ const Slideshow = () => {
       ></div>
       <div className={styles.product_titles_box}>
         <div className={styles.products_title_line1}>
-          <div
-            className={`${styles.btn} ${styles.btn_escribano}`}
-            onMouseEnter={changeToEscribano}
-            onMouseLeave={changeBackToDefault}
-          >
-            | Escribano |
-          </div>
-          <div
-            className={`${styles.btn} ${styles.btn_visual}`}
-            onMouseEnter={changeToVisualDisplay}
-            onMouseLeave={changeBackToDefault}
-          >
-            &nbsp;Visual Displays |
-          </div>
+          <Link to="/escribano">
+            <div
+              className={`${styles.btn} ${styles.btn_escribano}`}
+              onMouseEnter={changeToEscribano}
+              onMouseLeave={changeBackToDefault}
+            >
+              | Escribano |
+            </div>
+          </Link>
+          <Link to="/visual">
+            <div
+              className={`${styles.btn} ${styles.btn_visual}`}
+              onMouseEnter={changeToVisualDisplay}
+              onMouseLeave={changeBackToDefault}
+            >
+              &nbsp;Visual Displays |
+            </div>
+          </Link>
         </div>
         <div className={styles.products_title_line2}>
-          <div
-            className={`${styles.btn} ${styles.btn_tables}`}
-            onMouseEnter={changeToTables}
-            onMouseLeave={changeBackToDefault}
-          >
-            | Tables & Benches&nbsp;
-          </div>
-          <div
-            className={`${styles.btn} ${styles.btn_tackwall}`}
-            onMouseEnter={changeToTackwall}
-            onMouseLeave={changeBackToDefault}
-          >
-            | Tackwall |
-          </div>
+          <Link to="/tables">
+            <div
+              className={`${styles.btn} ${styles.btn_tables}`}
+              onMouseEnter={changeToTables}
+              onMouseLeave={changeBackToDefault}
+            >
+              | Tables & Benches&nbsp;
+            </div>
+          </Link>
+          <Link to="/tackwall">
+            <div
+              className={`${styles.btn} ${styles.btn_tackwall}`}
+              onMouseEnter={changeToTackwall}
+              onMouseLeave={changeBackToDefault}
+            >
+              | Tackwall |
+            </div>
+          </Link>
         </div>
       </div>
     </div>
