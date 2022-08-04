@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NACO/static/css/main.b5121b62.css",
-    "main.js": "/NACO/static/js/main.06436351.js",
+    "main.js": "/NACO/static/js/main.4e120e61.js",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/tackwall.jpg": "/NACO/static/media/tackwall.e861c18bed8641659c73.jpg",
     "static/media/tables.jpg": "/NACO/static/media/tables.df1f45c25690b28d9c11.jpg",
@@ -10,10 +10,10 @@
     "static/media/background_office.jpg": "/NACO/static/media/background_office.43369eac1afbc2b51039.jpg",
     "index.html": "/NACO/index.html",
     "main.b5121b62.css.map": "/NACO/static/css/main.b5121b62.css.map",
-    "main.06436351.js.map": "/NACO/static/js/main.06436351.js.map"
+    "main.4e120e61.js.map": "/NACO/static/js/main.4e120e61.js.map"
   },
   "entrypoints": [
     "static/css/main.b5121b62.css",
-    "static/js/main.06436351.js"
+    "static/js/main.4e120e61.js"
   ]
 }
