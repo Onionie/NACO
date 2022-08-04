@@ -4,24 +4,28 @@ import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <section className={styles.footer}>
-      <div className={styles.main_footer_box}>
-        <div className={styles.address}>
-          12345 MadeUp Street, Fake City, Somewhere State, 67890
-          <span>United States of America</span>
-          <div className={styles.copyright}>&copy; Copyright 2022 </div>
+    <footer>
+      <div className={styles.footer}>
+        <div className={styles.footer_left_portion}>
+          <div className={styles.footer_company_box}>
+            <img src="./images/company_logo.webp" alt="company-logo" />
+          </div>
+          <div>NELSON ADAMS NACO</div>
+        </div>
+
+        <div>
+          <div>160 N. Cactus Ave</div>
+          <div>Rialto CA, 92346</div>
+          <div>909-879-0421</div>
         </div>
         <div>
-          <div>(123)456-7890</div>
-          <div>E-mail@fake.com</div>
-          <div>Follow Us</div>
-          <div>Logos</div>
+          <div>Escribano</div>
+          <div>Unique Visual concepts</div>
+          <div>Tables And Benches</div>
+          <div>Tackwall Systems</div>
         </div>
       </div>
-      {/* <Link to="/contact">
-        <h2> Contact Us</h2>
-      </Link> */}
-    </section>
+    </footer>
   );
 };
 
