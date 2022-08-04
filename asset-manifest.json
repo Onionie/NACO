@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.660099d1.css",
-    "main.js": "/NACO/static/js/main.5bb19b61.js",
+    "main.css": "/NACO/static/css/main.b5121b62.css",
+    "main.js": "/NACO/static/js/main.06436351.js",
+    "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
+    "static/media/tackwall.jpg": "/NACO/static/media/tackwall.e861c18bed8641659c73.jpg",
+    "static/media/tables.jpg": "/NACO/static/media/tables.df1f45c25690b28d9c11.jpg",
+    "static/media/visualdisplay.jpg": "/NACO/static/media/visualdisplay.5b0fa873a447fb13134c.jpg",
+    "static/media/escribano_walk1.jpg": "/NACO/static/media/escribano_walk1.53c9a7dcf734d528a2cd.jpg",
     "static/media/background_office.jpg": "/NACO/static/media/background_office.43369eac1afbc2b51039.jpg",
     "index.html": "/NACO/index.html",
-    "main.660099d1.css.map": "/NACO/static/css/main.660099d1.css.map",
-    "main.5bb19b61.js.map": "/NACO/static/js/main.5bb19b61.js.map"
+    "main.b5121b62.css.map": "/NACO/static/css/main.b5121b62.css.map",
+    "main.06436351.js.map": "/NACO/static/js/main.06436351.js.map"
   },
   "entrypoints": [
-    "static/css/main.660099d1.css",
-    "static/js/main.5bb19b61.js"
+    "static/css/main.b5121b62.css",
+    "static/js/main.06436351.js"
   ]
 }
