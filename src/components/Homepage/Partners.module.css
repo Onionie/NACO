@@ -1,0 +1,68 @@
+.vendors {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/background_office.jpg');
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12rem;
+  padding: 4rem 10rem;
+
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.partners_title,
+.partners_subtitle {
+  text-align: center;
+}
+
+.partners_title {
+  font-size: 4.8rem;
+}
+
+.partners_subtitle {
+  font-size: 3.2rem;
+}
+
+.partners_logo_box,
+.vendors_logo_box {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.partners_logo_box > div > img {
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.7);
+}
+
+.lausd,
+.garden_grove {
+  height: 15rem;
+  width: 15rem;
+}
+
+.ucr {
+  height: 15rem;
+}
+
+.ucr img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.partners_logo_box img {
+  max-width: 100%;
+}
+
+.lausd_img,
+.garden_grove_img {
+  border-radius: 50%;
+}
+
+/* Vendors box section */
+.vendors-logo-box {
+  margin: 1rem 10rem;
+}
