@@ -14,7 +14,7 @@ import DisplayCasesPage from './pages/DisplayCases';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} exact />
