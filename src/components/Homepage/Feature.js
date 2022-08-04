@@ -14,7 +14,17 @@ const Feature = () => {
     <section className={styles.features}>
       <div className={styles.features_box}>
         {/* Feature 1 */}
-        <div className={styles.feature_1}>
+        <div className={styles.feature_heading}>
+          <div className={styles.feature_title}>
+            Insert A Very Catchy Title Here
+          </div>
+          <div className={styles.feature_subtitle}>
+            Insert catchy phrase or paragraph in here. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className={`${styles.feature} ${styles.feature_1}`}>
           <div className={styles.feature_image_box}>
             <div className={styles.main_image}>
               <img
@@ -78,7 +88,17 @@ const Feature = () => {
         </div>
 
         {/* Feature 2 */}
-        <div className={styles.feature_cards}>
+        <div className={styles.feature_heading}>
+          <div className={styles.feature_title}>
+            Insert A Very Catchy Title Here
+          </div>
+          <div className={styles.feature_subtitle}>
+            Insert catchy phrase or paragraph in here. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div className={`${styles.feature} ${styles.feature_cards}`}>
           <div className={styles.card}>
             <div className={styles.card_img_box}>
               <img src="./images/tableAndBenches/tnb1.jpg" alt="table" />

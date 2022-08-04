@@ -1,23 +1,39 @@
 .features {
+  font-family: 'Montserrat', sans-serif;
   background-color: #d3dde5;
-  padding: 12rem;
+  padding: 6rem 12rem 10rem;
 }
 
-/* .features_box {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row: 1fr 1fr 1fr;
-} */
-
-.features_box > div {
+.feature {
   display: grid;
   align-items: center;
   justify-items: center;
 }
 
+.feature_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  text-align: center;
+
+  padding: 0 10rem;
+}
+
+.feature_title {
+  font-size: 5.6rem;
+  font-weight: 500;
+}
+
+.feature_subtitle {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+
 .feature_1 {
   grid-template-columns: 3fr 2fr;
-  margin-bottom: 8rem;
+  margin-bottom: 14rem;
   background-color: #8ca0b1;
   border-radius: 0.4rem;
   overflow: hidden;
@@ -68,6 +84,7 @@
 
 .title {
   font-size: 5.2rem;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 
@@ -125,7 +142,7 @@
 .feature_cards {
   height: 600px;
 
-  margin: 15rem 0 20rem;
+  margin: 0 0 20rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 9fr 1fr;
   gap: 6rem;
@@ -164,7 +181,7 @@
 
 .card_body {
   font-size: 2rem;
-  margin: 4rem 0;
+  margin: 1rem 0 4rem;
 }
 
 .card_button {

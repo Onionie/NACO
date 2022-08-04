@@ -1,34 +1,38 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { Carousel } from 'react-bootstrap';
+import escribanoWalk from '../../assets/images/homepage/escribano_walk1.jpg';
+import escribano from '../../assets/images/homepage/escribano.png';
+import visual from '../../assets/images/homepage/visualdisplay.jpg';
+import table from '../../assets/images/homepage/tables.jpg';
+import tackwall from '../../assets/images/homepage/tackwall.jpg';
+
 import styles from './Slideshow.module.css';
 
 const Slideshow = () => {
-  const [bgImage, setbgImage] = useState(
-    './images/homepage/escribano_walk1.jpg'
-  );
-  // console.log(bgImage);
+  const pictures = [escribanoWalk, escribano, visual, table, tackwall];
 
-  // const backgroundImage = useRef(null);
+  componentDidMount(){}
+
+  const [bgImage, setbgImage] = useState(escribanoWalk);
 
   const changeToEscribano = () => {
-    setbgImage('./images/homepage/escribano.png');
+    setbgImage(escribano);
   };
 
   const changeToVisualDisplay = () => {
-    setbgImage('./images/homepage/visualdisplay.jpg');
+    setbgImage(visual);
   };
 
   const changeToTables = () => {
-    setbgImage('./images/homepage/tables.jpg');
+    setbgImage(table);
   };
 
   const changeToTackwall = () => {
-    setbgImage('./images/homepage/tackwall.jpg');
+    setbgImage(tackwall);
   };
 
   const changeBackToDefault = () => {
-    setbgImage('./images/homepage/escribano_walk1.jpg');
+    setbgImage(escribanoWalk);
   };
 
   return (
