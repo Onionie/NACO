@@ -1,9 +1,10 @@
 import React from 'react';
-import Slider from '../components/ProductsPage/Slider';
+import styles from './ProductsPage.module.css';
+import SliderContent from '../components/ProductsPage/SliderContent';
 
 const ProductsPage = () => {
   return (
-    <>
+    <section className={styles.section}>
       {/* <div
         style={{
           display: 'flex',
@@ -14,8 +15,8 @@ const ProductsPage = () => {
       >
         Products Page
       </div> */}
-      <Slider />
-    </>
+      <SliderContent />
+    </section>
   );
 };
 
