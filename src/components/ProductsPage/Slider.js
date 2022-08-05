@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Slider.module.css';
+import './Slider.css';
 
 const Slider = () => {
-  return <section className={styles.slider}>Slider</section>;
+  return <section className="slider">Slider</section>;
 };
 
 export default Slider;
