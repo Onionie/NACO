@@ -16,7 +16,7 @@ import mobileMb from '../../assets/images/VisualBoards/mobileMb.jpg';
 import tackBoard from '../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../assets/images/VisualBoards/verticalSliders.jpg';
 
-const SliderContent = () => {
+const SliderContent = (props) => {
   const Images = [
     chalkboard,
     bulletinBoard,
@@ -46,14 +46,18 @@ const SliderContent = () => {
   };
 
   const [imageIndex, setImageIndex] = useState(0);
+  const small = window.matchMedia('(max-width: 102.5em)');
+  console.log(small);
 
   const settings = {
+    className: 'center',
+    centerMode: true,
     infinite: true,
     lazyLoad: true,
     speed: 400,
     slidesToShow: 5,
-    centerMode: true,
-    centerPadding: 30,
+
+    centerPadding: 0,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
     beforeChange: (curent, next) => setImageIndex(next),
@@ -70,6 +74,9 @@ const SliderContent = () => {
                 className={idx === imageIndex ? 'slide activeSlide' : 'slide'}
               >
                 <img src={img} alt={img} />
+                <div className="slide_title_box">
+                  <div className="slide_title">Chalkboard</div>
+                </div>
               </div>
             );
           })}
