@@ -1,19 +1,31 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = () => {
+  const location = useLocation();
+
+  // In Home Page or not state
+  const [inHomepage, setInHomepage] = useState(null);
+
+  // Show Dropdown state
   const [listDropdown, setListDropdown] = useState(false);
 
   const menuClickHandler = () => {
     setListDropdown(!listDropdown);
-    console.log(listDropdown);
   };
 
   const setMenuStatusBack = () => {
     setListDropdown(false);
   };
 
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setInHomepage(true);
+    } else {
+      setInHomepage(false);
+    }
+  }, [location.pathname]);
   // const [fix, setFix] = useState(false);
 
   // const setFixed = function () {
@@ -37,7 +49,11 @@ const Header = () => {
       //     : `${styles.headerSection}`
       // }
     >
-      <div className={styles.header}>
+      <div
+        className={
+          inHomepage ? `${styles.header} ${styles.inHome}` : `${styles.header}`
+        }
+      >
         <Link to="/" className={styles.header_left}>
           <div className={styles.logo_div}>
             <img
@@ -56,7 +72,7 @@ const Header = () => {
             className={
               listDropdown
                 ? `${styles.menu} ${styles.menu_active}`
-                : `${styles.menu} `
+                : `${styles.menu}`
             }
           >
             Menu

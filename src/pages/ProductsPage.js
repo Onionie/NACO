@@ -23,38 +23,47 @@ import surfaceMount from '../assets/images/TablesAndBenches/surfaceMount.jpg';
 const ProductsPage = () => {
   const slider1 = [
     {
+      id: 1,
       product: 'Chalkboard',
       imageSrc: chalkboard,
     },
     {
+      id: 2,
       product: 'Bulletin Board Natural Cork',
       imageSrc: bulletinBoard,
     },
     {
+      id: 3,
       product: 'Forbo Blue TackBoard',
       imageSrc: fTackBoard,
     },
     {
+      id: 4,
       product: 'Bulletin Board Forbo',
       imageSrc: hingeDoor,
     },
     {
+      id: 5,
       product: 'Horizontal Sliders',
       imageSrc: markerBoard,
     },
     {
+      id: 6,
       product: 'Markerboards',
       imageSrc: mb,
     },
     {
+      id: 7,
       product: 'Mobile Markerboard',
       imageSrc: mobileMb,
     },
     {
+      id: 8,
       product: 'Tackboard Natural Board',
       imageSrc: tackBoard,
     },
     {
+      id: 9,
       product: 'Vertical Sliders',
       imageSrc: vertical,
     },
@@ -62,22 +71,27 @@ const ProductsPage = () => {
 
   const slider2 = [
     {
+      id: 1,
       product: 'Convertible Table',
       imageSrc: ctb,
     },
     {
+      id: 2,
       product: 'In Wall Tables & Benches',
       imageSrc: inWall,
     },
     {
+      id: 3,
       product: 'Round Tables',
       imageSrc: logoTable,
     },
     {
+      id: 4,
       product: 'Rectangular Mobile Table',
       imageSrc: mobileTable,
     },
     {
+      id: 5,
       product: 'Surface Wall Tables',
       imageSrc: surfaceMount,
     },
