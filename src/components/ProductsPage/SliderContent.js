@@ -6,28 +6,28 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Slider.css';
 
 // images
-import chalkboard from '../../assets/images/VisualBoards/chalkboard.jpg';
-import bulletinBoard from '../../assets/images/VisualBoards/enclosedBulletinBoard.jpg';
-import fTackBoard from '../../assets/images/VisualBoards/forboBlueTackBoard.jpg';
-import hingeDoor from '../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
-import markerBoard from '../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
-import mb from '../../assets/images/VisualBoards/MB.jpg';
-import mobileMb from '../../assets/images/VisualBoards/mobileMb.jpg';
-import tackBoard from '../../assets/images/VisualBoards/tackboard.jpg';
-import vertical from '../../assets/images/VisualBoards/verticalSliders.jpg';
+// import chalkboard from '../../assets/images/VisualBoards/chalkboard.jpg';
+// import bulletinBoard from '../../assets/images/VisualBoards/enclosedBulletinBoard.jpg';
+// import fTackBoard from '../../assets/images/VisualBoards/forboBlueTackBoard.jpg';
+// import hingeDoor from '../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
+// import markerBoard from '../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
+// import mb from '../../assets/images/VisualBoards/MB.jpg';
+// import mobileMb from '../../assets/images/VisualBoards/mobileMb.jpg';
+// import tackBoard from '../../assets/images/VisualBoards/tackboard.jpg';
+// import vertical from '../../assets/images/VisualBoards/verticalSliders.jpg';
 
 const SliderContent = (props) => {
-  const Images = [
-    chalkboard,
-    bulletinBoard,
-    fTackBoard,
-    hingeDoor,
-    markerBoard,
-    mb,
-    mobileMb,
-    tackBoard,
-    vertical,
-  ];
+  // const Images = [
+  //   chalkboard,
+  //   bulletinBoard,
+  //   fTackBoard,
+  //   hingeDoor,
+  //   markerBoard,
+  //   mb,
+  //   mobileMb,
+  //   tackBoard,
+  //   vertical,
+  // ];
 
   const NextArrow = ({ onClick }) => {
     return (
@@ -65,17 +65,17 @@ const SliderContent = (props) => {
 
   return (
     <section className="slider">
-      <div className="slider_title">Visual Display Boards</div>
+      <div className="slider_title">{props.header}</div>
       <div className="item">
         <Slider {...settings}>
-          {Images.map((img, idx) => {
+          {props.images.map((img, idx) => {
             return (
               <div
                 className={idx === imageIndex ? 'slide activeSlide' : 'slide'}
               >
-                <img src={img} alt={img} />
+                <img src={img.imageSrc} alt={img.imageSrc} />
                 <div className="slide_title_box">
-                  <div className="slide_title">Chalkboard</div>
+                  <div className="slide_title">{img.product}</div>
                 </div>
               </div>
             );
