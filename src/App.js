@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Homepage from './pages/Homepage';
 import ProductsPage from './pages/ProductsPage';
 import ArchitectCornerPage from './pages/ArchitectCornerPage';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

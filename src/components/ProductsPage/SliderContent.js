@@ -28,6 +28,7 @@ const SliderContent = (props) => {
   //   tackBoard,
   //   vertical,
   // ];
+  const numOfSlide = props.slidesNum;
 
   const NextArrow = ({ onClick }) => {
     return (
@@ -55,7 +56,7 @@ const SliderContent = (props) => {
     infinite: true,
     lazyLoad: true,
     speed: 400,
-    slidesToShow: 5,
+    slidesToShow: numOfSlide,
 
     centerPadding: 0,
     prevArrow: <PrevArrow />,
