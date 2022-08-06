@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FiMenu } from 'react-icons/fi';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -26,6 +27,7 @@ const Header = () => {
       setInHomepage(false);
     }
   }, [location.pathname]);
+
   // const [fix, setFix] = useState(false);
 
   // const setFixed = function () {
@@ -75,7 +77,8 @@ const Header = () => {
                 : `${styles.menu}`
             }
           >
-            Menu
+            {/* Menu */}
+            <FiMenu />
           </div>
           <ul className={`${styles.dropdown_menu}`}>
             <Link to="/escribano">

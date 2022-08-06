@@ -72,13 +72,15 @@ body {
 }
 
 .menu {
+  display: flex;
   color: #000;
   font-size: 2.4rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 1rem;
   border: 1px solid #000;
+  border-radius: 0.3rem;
   transition: all 0.6s;
 }
 
@@ -86,6 +88,10 @@ body {
 .menu_active {
   background-color: #fff;
   color: #000;
+}
+
+.menu svg {
+  font-size: 3rem;
 }
 
 .header.inHome .menu {
@@ -108,7 +114,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
 
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 1rem;
   list-style: none;
   font-size: 2.2rem;
