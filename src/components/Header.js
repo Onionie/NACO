@@ -62,7 +62,7 @@ const Header = () => {
               alt="company_logo"
             />
           </div>
-          <div className={styles.header_title}>NELSON ADAMS NACO</div>
+          {/* <div className={styles.header_title}>NELSON ADAMS NACO</div> */}
         </Link>
 
         {/* Navigation */}
