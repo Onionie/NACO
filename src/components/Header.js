@@ -58,7 +58,7 @@ const Header = () => {
           <div className={styles.logo_div}>
             <img
               className={styles.logo}
-              src="./images/company_logo.webp"
+              src="./images/company_logo_big.jpg"
               alt="company_logo"
             />
           </div>
