@@ -149,6 +149,11 @@ body {
   pointer-events: auto;
 }
 
+.menu.menu_active + .dropdown_menu a:link,
+.menu.menu_active + .dropdown_menu a:visited {
+  color: #000;
+}
+
 /* .closeIcon {
   position: absolute;
   display: flex;
