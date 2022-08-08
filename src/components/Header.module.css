@@ -148,3 +148,17 @@ body {
   transform: translateY(-0.2rem);
   pointer-events: auto;
 }
+
+.closeIcon {
+  position: absolute;
+  display: flex;
+  padding: 0.6rem;
+  background-color: #fff;
+  top: -0.5rem;
+  right: -1rem;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+  background-color: pink;
+}

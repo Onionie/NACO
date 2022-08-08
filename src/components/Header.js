@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
+import { GrClose } from 'react-icons/gr';
 import styles from './Header.module.css';
+import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const Header = () => {
   const location = useLocation();
@@ -10,14 +12,18 @@ const Header = () => {
   const [inHomepage, setInHomepage] = useState(null);
 
   // Show Dropdown state
-  const [listDropdown, setListDropdown] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const menuClickHandler = () => {
-    setListDropdown(!listDropdown);
+    setShowDropdown(!showDropdown);
   };
 
   const setMenuStatusBack = () => {
-    setListDropdown(false);
+    setShowDropdown(false);
+  };
+
+  const closeHandler = () => {
+    setShowDropdown(false);
   };
 
   useEffect(() => {
@@ -58,11 +64,7 @@ const Header = () => {
       >
         <Link to="/" className={styles.header_left}>
           <div className={styles.logo_div}>
-            <img
-              className={styles.logo}
-              src="./images/company_logo_big.jpg"
-              alt="company_logo"
-            />
+            <img className={styles.logo} src={companyLogo} alt="company_logo" />
           </div>
           {/* <div className={styles.header_title}>NELSON ADAMS NACO</div> */}
         </Link>
@@ -72,7 +74,7 @@ const Header = () => {
           <div
             onClick={menuClickHandler}
             className={
-              listDropdown
+              showDropdown
                 ? `${styles.menu} ${styles.menu_active}`
                 : `${styles.menu}`
             }
@@ -80,7 +82,13 @@ const Header = () => {
             {/* Menu */}
             <FiMenu />
           </div>
+
           <ul className={`${styles.dropdown_menu}`}>
+            <li>
+              <div className={styles.closeIcon} onClick={closeHandler}>
+                <GrClose />
+              </div>
+            </li>
             <Link to="/escribano">
               <li onClick={setMenuStatusBack}>Escribano</li>
             </Link>
