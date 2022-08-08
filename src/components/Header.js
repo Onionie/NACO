@@ -18,10 +18,6 @@ const Header = () => {
     setShowDropdown(!showDropdown);
   };
 
-  const setMenuStatusBack = () => {
-    setShowDropdown(false);
-  };
-
   const closeHandler = () => {
     setShowDropdown(false);
   };
@@ -84,25 +80,25 @@ const Header = () => {
           </div>
 
           <ul className={`${styles.dropdown_menu}`}>
-            <li>
+            {/* <li>
               <div className={styles.closeIcon} onClick={closeHandler}>
                 <GrClose />
               </div>
-            </li>
+            </li> */}
             <Link to="/escribano">
-              <li onClick={setMenuStatusBack}>Escribano</li>
+              <li onClick={closeHandler}>Escribano</li>
             </Link>
             <Link to="/products">
-              <li onClick={setMenuStatusBack}>Our Products</li>
+              <li onClick={closeHandler}>Our Products</li>
             </Link>
             <Link to="/architect">
-              <li onClick={setMenuStatusBack}>Architect Corner</li>
+              <li onClick={closeHandler}>Architect Corner</li>
             </Link>
             <Link to="/about">
-              <li onClick={setMenuStatusBack}>About Us</li>
+              <li onClick={closeHandler}>About Us</li>
             </Link>
             <Link to="/contact">
-              <li onClick={setMenuStatusBack}>Contact Us</li>
+              <li onClick={closeHandler}>Contact Us</li>
             </Link>
           </ul>
         </nav>

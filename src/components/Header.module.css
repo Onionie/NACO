@@ -114,7 +114,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
 
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(255, 255, 255, 0.4); */
   padding: 1rem;
   list-style: none;
   font-size: 2.2rem;
@@ -149,7 +149,7 @@ body {
   pointer-events: auto;
 }
 
-.closeIcon {
+/* .closeIcon {
   position: absolute;
   display: flex;
   padding: 0.6rem;
@@ -161,4 +161,4 @@ body {
 .closeIcon:hover {
   cursor: pointer;
   background-color: pink;
-}
+} */
