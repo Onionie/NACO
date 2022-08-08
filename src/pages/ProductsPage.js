@@ -13,13 +13,6 @@ import mobileMb from '../assets/images/VisualBoards/mobileMb.jpg';
 import tackBoard from '../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../assets/images/VisualBoards/verticalSliders.jpg';
 
-// import Tables and Benches Images
-import ctb from '../assets/images/TablesAndBenches/ctb.JPG';
-import inWall from '../assets/images/TablesAndBenches/inWall.JPG';
-import logoTable from '../assets/images/TablesAndBenches/logoTable.jpg';
-import mobileTable from '../assets/images/TablesAndBenches/mobileTable.JPG';
-import surfaceMount from '../assets/images/TablesAndBenches/surfaceMount.jpg';
-
 const ProductsPage = () => {
   const slider1 = [
     {
@@ -69,33 +62,6 @@ const ProductsPage = () => {
     },
   ];
 
-  const slider2 = [
-    {
-      id: 1,
-      product: 'Convertible Table',
-      imageSrc: ctb,
-    },
-    {
-      id: 2,
-      product: 'In Wall Tables & Benches',
-      imageSrc: inWall,
-    },
-    {
-      id: 3,
-      product: 'Round Tables',
-      imageSrc: logoTable,
-    },
-    {
-      id: 4,
-      product: 'Rectangular Mobile Table',
-      imageSrc: mobileTable,
-    },
-    {
-      id: 5,
-      product: 'Surface Wall Tables',
-      imageSrc: surfaceMount,
-    },
-  ];
   return (
     <section className={styles.section}>
       <SliderContent
@@ -103,7 +69,6 @@ const ProductsPage = () => {
         images={slider1}
         slidesNum={5}
       />
-      <SliderContent header="TablesAndBenches" images={slider2} slidesNum={4} />
     </section>
   );
 };

@@ -2,15 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
+import companyLogo from '../assets/images/company_logo_big.jpg';
+
 const Footer = () => {
   return (
     <footer>
       <div className={styles.footer}>
-        <div className={styles.footer_left_portion}>
-          <div className={styles.footer_company_box}>
-            <img src="./images/company_logo.webp" alt="company-logo" />
+        <div className={styles.footer_left_box}>
+          <div className={styles.footer_company_logo_box}>
+            <img src={companyLogo} alt="company-logo" />
           </div>
-          <div>NELSON ADAMS NACO</div>
+          <div className={styles.footer_company_title}>NELSON ADAMS NACO</div>
         </div>
 
         <div>

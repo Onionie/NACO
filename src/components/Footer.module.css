@@ -14,18 +14,21 @@ footer {
   text-transform: uppercase;
 }
 
-.footer_left_portion {
+.footer_left_box {
   display: flex;
   gap: 1rem;
 }
 
-.footer_company_box {
-  height: 3rem;
-  width: 3rem;
+.footer_company_logo_box {
+  height: 4rem;
+  width: 4rem;
 }
 
-.footer_left_portion img {
+.footer_left_box img {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 0 0 0.4rem rgba(255, 255, 255);
+}
+
+.footer_company_title {
+  font-size: 3.6rem;
 }

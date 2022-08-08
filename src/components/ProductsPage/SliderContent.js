@@ -42,7 +42,7 @@ const SliderContent = (props) => {
   };
 
   return (
-    <section className="slider">
+    <div className="slider">
       <div className="slider_title">{props.header}</div>
       <div className="item">
         <Slider {...settings}>
@@ -61,7 +61,7 @@ const SliderContent = (props) => {
           })}
         </Slider>
       </div>
-    </section>
+    </div>
   );
 };
 

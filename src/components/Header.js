@@ -53,6 +53,10 @@ const Header = () => {
       //     : `${styles.headerSection}`
       // }
     >
+      {/* <div className={styles.demoDropdown}>
+        <div className={styles.emptyGrid}></div>
+        <div className={styles.navDrop}></div>
+      </div> */}
       <div
         className={
           inHomepage ? `${styles.header} ${styles.inHome}` : `${styles.header}`
@@ -75,8 +79,8 @@ const Header = () => {
                 : `${styles.menu}`
             }
           >
-            {/* Menu */}
-            <FiMenu />
+            Menu
+            {/* <FiMenu /> */}
           </div>
 
           <ul className={`${styles.dropdown_menu}`}>
