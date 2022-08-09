@@ -56,7 +56,7 @@ const SliderContent = (props) => {
       <div className="slider_title">{props.header}</div>
       <div className="item">
         <div className={showModal ? `overlay` : `hidden`}>
-          <div className="modal">
+          <div className="modalz">
             <div className="modal_box">
               <div className="image_box">
                 <img src={chalkboard} alt="chalkboard" />
