@@ -2,11 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import styles from './Header.module.css';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const Header = () => {
   const location = useLocation();
+
+  // Offcanvas states
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   // In Home Page or not state
   const [inHomepage, setInHomepage] = useState(null);
@@ -72,7 +79,7 @@ const Header = () => {
         {/* Navigation */}
         <nav className={styles.dropdown}>
           <div
-            onClick={menuClickHandler}
+            onClick={handleShow}
             className={
               showDropdown
                 ? `${styles.menu} ${styles.menu_active}`
@@ -82,32 +89,40 @@ const Header = () => {
             Menu
             {/* <FiMenu /> */}
           </div>
-
-          <ul className={`${styles.dropdown_menu}`}>
-            {/* <li>
+          <div>
+            <Offcanvas show={show} onHide={handleClose} placement="end">
+              <Offcanvas.Header>
+                <div onClick={handleClose}>X</div>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <ul className={`${styles.dropdown_menu}`}>
+                  {/* <li>
               <div className={styles.closeIcon} onClick={closeHandler}>
                 <GrClose />
               </div>
             </li> */}
-            <Link to="/escribano">
-              <li onClick={closeHandler}>Escribano</li>
-            </Link>
-            <Link to="/visual">
-              <li onClick={closeHandler}>Visual Displays</li>
-            </Link>
-            <Link to="/tables">
-              <li onClick={closeHandler}>Tables & Benches</li>
-            </Link>
-            <Link to="/architect">
-              <li onClick={closeHandler}>Architect Corner</li>
-            </Link>
-            <Link to="/about">
-              <li onClick={closeHandler}>About Us</li>
-            </Link>
-            <Link to="/contact">
-              <li onClick={closeHandler}>Contact Us</li>
-            </Link>
-          </ul>
+                  <Link to="/escribano">
+                    <li onClick={closeHandler}>Escribano</li>
+                  </Link>
+                  <Link to="/visual">
+                    <li onClick={closeHandler}>Visual Displays</li>
+                  </Link>
+                  <Link to="/tables">
+                    <li onClick={closeHandler}>Tables & Benches</li>
+                  </Link>
+                  <Link to="/architect">
+                    <li onClick={closeHandler}>Architect Corner</li>
+                  </Link>
+                  <Link to="/about">
+                    <li onClick={closeHandler}>About Us</li>
+                  </Link>
+                  <Link to="/contact">
+                    <li onClick={closeHandler}>Contact Us</li>
+                  </Link>
+                </ul>
+              </Offcanvas.Body>
+            </Offcanvas>
+          </div>
         </nav>
       </div>
     </header>
