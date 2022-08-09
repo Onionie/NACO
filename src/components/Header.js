@@ -92,7 +92,7 @@ const Header = () => {
             <Link to="/escribano">
               <li onClick={closeHandler}>Escribano</li>
             </Link>
-            <Link to="/products">
+            <Link to="/visual">
               <li onClick={closeHandler}>Visual Displays</li>
             </Link>
             <Link to="/tables">

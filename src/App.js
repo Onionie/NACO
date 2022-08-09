@@ -23,7 +23,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} exact />
-        <Route path="/products" element={<VisualPage />} />
         <Route path="/architect" element={<ArchitectCornerPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
