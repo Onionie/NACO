@@ -19,21 +19,21 @@ const NACObody = () => {
           <div className={styles.lausd}>
             <img
               className={styles.lausd_img}
-              src="./images/clients/lausd_logo.jpg"
+              src="./images/clients/LAUSD.png"
               alt="lausd-logo"
             />
           </div>
           <div className={styles.garden_grove}>
             <img
               className={styles.garden_grove_img}
-              src="./images/clients/garden-grove.png"
+              src="./images/clients/gg.png"
               alt="lausd-logo"
             />
           </div>
           <div className={styles.ucr}>
             <img
               className={styles.ucr_img}
-              src="./images/clients/ucr.jpg"
+              src="./images/clients/UCR.png"
               alt="ucr-logo"
             />
           </div>

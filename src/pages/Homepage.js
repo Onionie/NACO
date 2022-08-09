@@ -16,9 +16,8 @@ const Homepage = () => {
     <div className={styles.homepage}>
       <Slideshow />
       {/* <div data-aos="fade-down"> */}
-      {/* <NACObody /> */}
       {/* </div> */}
-      <Feature />
+      {/* <Feature /> */}
       <Partners />
     </div>
   );
