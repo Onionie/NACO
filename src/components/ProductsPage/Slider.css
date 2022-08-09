@@ -37,9 +37,24 @@
   opacity: 1;
 }
 
+.link_box {
+  pointer-events: none;
+}
+
+.activeSlide > .link_box {
+  pointer-events: auto;
+}
+
+.link_box a:link,
+.link_box a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .slide_title_box {
   width: 100%;
   text-align: center;
+  pointer-events: none;
 }
 
 .slide_title {
@@ -50,6 +65,7 @@
   padding: 1rem 2rem;
   font-size: 2rem;
   text-transform: uppercase;
+  pointer-events: none;
 }
 
 .arrow {

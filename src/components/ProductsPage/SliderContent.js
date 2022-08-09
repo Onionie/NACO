@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -46,15 +47,19 @@ const SliderContent = (props) => {
       <div className="slider_title">{props.header}</div>
       <div className="item">
         <Slider {...settings}>
-          {props.images.map((img, idx) => {
+          {props.products.map((prod, idx) => {
             return (
               <div
-                key={img.id}
+                key={prod.id}
                 className={idx === imageIndex ? 'slide activeSlide' : 'slide'}
               >
-                <img src={img.imageSrc} alt={img.product} />
-                <div className="slide_title_box">
-                  <div className="slide_title">{img.product}</div>
+                <img src={prod.imageSrc} alt={prod.product} />
+                <div className="link_box">
+                  <Link to={`/${prod.category}/${prod.item}`}>
+                    <div className="slide_title_box">
+                      <div className="slide_title">{prod.product}</div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             );

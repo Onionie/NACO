@@ -93,7 +93,10 @@ const Header = () => {
               <li onClick={closeHandler}>Escribano</li>
             </Link>
             <Link to="/products">
-              <li onClick={closeHandler}>Our Products</li>
+              <li onClick={closeHandler}>Visual Displays</li>
+            </Link>
+            <Link to="/tables">
+              <li onClick={closeHandler}>Tables & Benches</li>
             </Link>
             <Link to="/architect">
               <li onClick={closeHandler}>Architect Corner</li>
