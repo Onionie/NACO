@@ -16,11 +16,13 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
+import Header2 from './components/Header2';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Header />
+      {/* <Header /> */}
+      <Header2 />
       <Routes>
         <Route path="/" element={<Homepage />} exact />
         <Route path="/architect" element={<ArchitectCornerPage />} />

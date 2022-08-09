@@ -1,0 +1,15 @@
+.headerSection {
+  /* background-color: rgba(239, 246, 255, 0.8); */
+
+  color: #fff;
+  width: 100%;
+  max-height: 10rem;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.btn-close {
+  height: 4rem;
+  width: 4rem;
+}
