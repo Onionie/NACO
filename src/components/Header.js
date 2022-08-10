@@ -2,8 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
+
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import styles from './Header.module.css';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+// import styles from './Header.module.css';
+import './Header.css';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const Header = () => {
@@ -12,21 +17,34 @@ const Header = () => {
   // Offcanvas states
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    setShowProducts(false);
+  };
   const handleShow = () => setShow(true);
 
   // In Home Page or not state
   const [inHomepage, setInHomepage] = useState(null);
 
   // Show Dropdown state
-  const [showDropdown, setShowDropdown] = useState(false);
+  // const [showDropdown, setShowDropdown] = useState(false);
 
-  const menuClickHandler = () => {
-    setShowDropdown(!showDropdown);
+  const [showProducts, setShowProducts] = useState(false);
+
+  // const menuClickHandler = () => {
+  //   setShowDropdown(!showDropdown);
+  // };
+
+  const handleShowProducts = () => {
+    if (showProducts === false) {
+      setShowProducts(true);
+    } else {
+      setShowProducts(false);
+    }
   };
 
-  const closeHandler = () => {
-    setShowDropdown(false);
+  const handleCloseProducts = () => {
+    setShowProducts(false);
   };
 
   useEffect(() => {
@@ -53,7 +71,7 @@ const Header = () => {
 
   return (
     <header
-      className={styles.headerSection}
+      className="headerSection"
       // className={
       //   fix
       //     ? `${styles.headerSection} ${styles.fixed}`
@@ -64,67 +82,107 @@ const Header = () => {
         <div className={styles.emptyGrid}></div>
         <div className={styles.navDrop}></div>
       </div> */}
-      <div
-        className={
-          inHomepage ? `${styles.header} ${styles.inHome}` : `${styles.header}`
-        }
-      >
-        <Link to="/" className={styles.header_left}>
-          <div className={styles.logo_div}>
-            <img className={styles.logo} src={companyLogo} alt="company_logo" />
+      <div className={inHomepage ? `header inHome` : `styles.header`}>
+        <Link to="/" className="header_left">
+          <div className="logo_div">
+            <img className="logo" src={companyLogo} alt="company_logo" />
           </div>
           {/* <div className={styles.header_title}>NELSON ADAMS NACO</div> */}
         </Link>
 
         {/* Navigation */}
-        <nav className={styles.dropdown}>
+        <nav className="dropdown">
           <div
             onClick={handleShow}
-            className={
-              show ? `${styles.menu} ${styles.menu_active}` : `${styles.menu}`
-            }
+            className={show ? `menu menu_active` : `menu`}
           >
             Menu
             {/* <FiMenu /> */}
           </div>
 
           <Offcanvas
-            className={styles.offc}
+            className="offc"
             show={show}
             onHide={handleClose}
             placement="end"
           >
-            <Offcanvas.Header>
-              <div className={styles.closeIcon} onClick={handleClose}>
+            <Offcanvas.Header className="offc_header">
+              <div className="closeIcon" onClick={handleClose}>
                 <GrClose />
               </div>
             </Offcanvas.Header>
-            <Offcanvas.Body className={styles.offcBody}>
-              <ul className={`${styles.dropdown_menu}`}>
-                {/* <li>
+            <Offcanvas.Body className="offcBody">
+              {/* Using React Nav */}
+              <Nav className="nav_">
+                <Nav.Item onClick={handleClose}>
+                  <Nav.Link>Escribano</Nav.Link>
+                </Nav.Item>
+                <Nav.Item onClick={handleClose}>
+                  <Nav.Link>Patricia</Nav.Link>
+                </Nav.Item>
+
+                <NavDropdown
+                  className="products_list"
+                  onClick={handleShowProducts}
+                  title="Our Products"
+                >
+                  <NavDropdown.Item>Visual Display Boards</NavDropdown.Item>
+                  <NavDropdown.Item>Tables & Benches</NavDropdown.Item>
+                  <NavDropdown.Item>Teaching Walls</NavDropdown.Item>
+                  <NavDropdown.Item>Display Cases</NavDropdown.Item>
+                  <NavDropdown.Item>Tackwall Panels</NavDropdown.Item>
+                </NavDropdown>
+                <div
+                  className={showProducts ? `translate_down flex_` : `flex_`}
+                >
+                  <Nav.Item onClick={handleClose}>
+                    <Nav.Link>Architects Corner</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link onClick={handleClose}>About Us</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link onClick={handleClose}>Contact Us</Nav.Link>
+                  </Nav.Item>
+                </div>
+                <div onClick={handleCloseProducts}></div>
+              </Nav>
+
+              {/* Custom List */}
+              {/* <ul className={`${styles.dropdown_menu}`}> */}
+              {/* <li>
               <div className={styles.closeIcon} onClick={closeHandler}>
                 <GrClose />
               </div>
             </li> */}
-                <Link to="/escribano">
+              {/* <Link to="/escribano">
                   <li onClick={handleClose}>Escribano</li>
                 </Link>
-                <Link to="/visual">
-                  <li onClick={handleClose}>Visual Displays</li>
+                <Link to="/escribano">
+                  <li onClick={handleClose}>Patricia</li>
                 </Link>
-                <Link to="/tables">
-                  <li onClick={handleClose}>Tables & Benches</li>
-                </Link>
-                <Link to="/architect">
-                  <li onClick={handleClose}>Architect Corner</li>
+                <li className={styles.product_bar}>
+                  Our Products
+                  <ul className={styles.product_list}>
+                    <Link to="/visual">
+                      <li onClick={handleClose}>Visual Display Boards</li>
+                    </Link>
+                    <Link to="/tables">
+                      <li onClick={handleClose}>Tables & Benches</li>
+                    </Link>
+                  </ul>
+                </li> */}
+
+              {/* <Link to="/architect">
+                  <li onClick={closeHandler}>Architect Corner</li>
                 </Link>
                 <Link to="/about">
-                  <li onClick={handleClose}>About Us</li>
+                  <li onClick={closeHandler}>About Us</li>
                 </Link>
                 <Link to="/contact">
-                  <li onClick={handleClose}>Contact Us</li>
-                </Link>
-              </ul>
+                  <li onClick={closeHandler}>Contact Us</li>
+                </Link> */}
+              {/* </ul> */}
             </Offcanvas.Body>
           </Offcanvas>
         </nav>
