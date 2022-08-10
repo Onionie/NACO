@@ -82,7 +82,7 @@ const Header = () => {
         <div className={styles.emptyGrid}></div>
         <div className={styles.navDrop}></div>
       </div> */}
-      <div className={inHomepage ? `header inHome` : `styles.header`}>
+      <div className={inHomepage ? `header inHome` : `header`}>
         <Link to="/" className="header_left">
           <div className="logo_div">
             <img className="logo" src={companyLogo} alt="company_logo" />
@@ -115,10 +115,14 @@ const Header = () => {
               {/* Using React Nav */}
               <Nav className="nav_">
                 <Nav.Item onClick={handleClose}>
-                  <Nav.Link>Escribano</Nav.Link>
+                  <Nav.Link as={Link} to="/escribano">
+                    Escribano
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item onClick={handleClose}>
-                  <Nav.Link>Patricia</Nav.Link>
+                  <Nav.Link as={Link} to="/escribano">
+                    Patricia
+                  </Nav.Link>
                 </Nav.Item>
 
                 <NavDropdown
@@ -126,23 +130,59 @@ const Header = () => {
                   onClick={handleShowProducts}
                   title="Our Products"
                 >
-                  <NavDropdown.Item>Visual Display Boards</NavDropdown.Item>
-                  <NavDropdown.Item>Tables & Benches</NavDropdown.Item>
-                  <NavDropdown.Item>Teaching Walls</NavDropdown.Item>
-                  <NavDropdown.Item>Display Cases</NavDropdown.Item>
-                  <NavDropdown.Item>Tackwall Panels</NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/visual"
+                    onClick={handleClose}
+                  >
+                    Visual Display Boards
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/tables"
+                    onClick={handleClose}
+                  >
+                    Tables & Benches
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/tables"
+                    onClick={handleClose}
+                  >
+                    Teaching Walls
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/display"
+                    onClick={handleClose}
+                  >
+                    Display Cases
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/display"
+                    onClick={handleClose}
+                  >
+                    Tackwall Panels
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <div
                   className={showProducts ? `translate_down flex_` : `flex_`}
                 >
                   <Nav.Item onClick={handleClose}>
-                    <Nav.Link>Architects Corner</Nav.Link>
+                    <Nav.Link as={Link} to="/architect">
+                      Architects Corner
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link onClick={handleClose}>About Us</Nav.Link>
+                    <Nav.Link as={Link} to="/about" onClick={handleClose}>
+                      About Us
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link onClick={handleClose}>Contact Us</Nav.Link>
+                    <Nav.Link as={Link} to="/contact" onClick={handleClose}>
+                      Contact Us
+                    </Nav.Link>
                   </Nav.Item>
                 </div>
                 <div onClick={handleCloseProducts}></div>
