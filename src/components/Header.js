@@ -81,48 +81,52 @@ const Header = () => {
           <div
             onClick={handleShow}
             className={
-              showDropdown
-                ? `${styles.menu} ${styles.menu_active}`
-                : `${styles.menu}`
+              show ? `${styles.menu} ${styles.menu_active}` : `${styles.menu}`
             }
           >
             Menu
             {/* <FiMenu /> */}
           </div>
-          <div>
-            <Offcanvas show={show} onHide={handleClose} placement="end">
-              <Offcanvas.Header>
-                <div onClick={handleClose}>X</div>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <ul className={`${styles.dropdown_menu}`}>
-                  {/* <li>
+
+          <Offcanvas
+            className={styles.offc}
+            show={show}
+            onHide={handleClose}
+            placement="end"
+          >
+            <Offcanvas.Header>
+              <div className={styles.closeIcon} onClick={handleClose}>
+                <GrClose />
+              </div>
+            </Offcanvas.Header>
+            <Offcanvas.Body className={styles.offcBody}>
+              <ul className={`${styles.dropdown_menu}`}>
+                {/* <li>
               <div className={styles.closeIcon} onClick={closeHandler}>
                 <GrClose />
               </div>
             </li> */}
-                  <Link to="/escribano">
-                    <li onClick={closeHandler}>Escribano</li>
-                  </Link>
-                  <Link to="/visual">
-                    <li onClick={closeHandler}>Visual Displays</li>
-                  </Link>
-                  <Link to="/tables">
-                    <li onClick={closeHandler}>Tables & Benches</li>
-                  </Link>
-                  <Link to="/architect">
-                    <li onClick={closeHandler}>Architect Corner</li>
-                  </Link>
-                  <Link to="/about">
-                    <li onClick={closeHandler}>About Us</li>
-                  </Link>
-                  <Link to="/contact">
-                    <li onClick={closeHandler}>Contact Us</li>
-                  </Link>
-                </ul>
-              </Offcanvas.Body>
-            </Offcanvas>
-          </div>
+                <Link to="/escribano">
+                  <li onClick={handleClose}>Escribano</li>
+                </Link>
+                <Link to="/visual">
+                  <li onClick={handleClose}>Visual Displays</li>
+                </Link>
+                <Link to="/tables">
+                  <li onClick={handleClose}>Tables & Benches</li>
+                </Link>
+                <Link to="/architect">
+                  <li onClick={handleClose}>Architect Corner</li>
+                </Link>
+                <Link to="/about">
+                  <li onClick={handleClose}>About Us</li>
+                </Link>
+                <Link to="/contact">
+                  <li onClick={handleClose}>Contact Us</li>
+                </Link>
+              </ul>
+            </Offcanvas.Body>
+          </Offcanvas>
         </nav>
       </div>
     </header>
