@@ -106,14 +106,13 @@ const Header = () => {
             onHide={handleClose}
             placement="end"
           >
-            <Offcanvas.Header className="offc_header">
-              <div className="closeIcon" onClick={handleClose}>
-                <GrClose />
-              </div>
-            </Offcanvas.Header>
+            <div className="closeIcon" onClick={handleClose}>
+              <GrClose />
+            </div>
             <Offcanvas.Body className="offcBody">
               {/* Using React Nav */}
               <Nav className="nav_">
+                <div onClick={handleCloseProducts}></div>
                 <Nav.Item onClick={handleClose}>
                   <Nav.Link as={Link} to="/escribano">
                     Escribano
