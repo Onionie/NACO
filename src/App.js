@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage';
 // Visual Display Boards
 import VisualPage from './pages/ProductsPage/VisualDisplays/VisualDisplays.js';
 import Chalkboard from './pages/ProductsPage/VisualDisplays/Chalkboard';
+import Markerboard from './pages/ProductsPage/VisualDisplays/Markerboard';
 import TackWallPage from './pages/TackWallPanelsPage';
 
 // Tables and Benches
@@ -32,6 +33,9 @@ function App() {
         {/* Visual Display Boards Route */}
         <Route path="/visual" element={<VisualPage />} />
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
+        <Route path="/visual/markerboard" element={<Markerboard />} />
+
+        {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
