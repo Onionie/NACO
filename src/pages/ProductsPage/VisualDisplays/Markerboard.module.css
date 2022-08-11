@@ -1,6 +1,6 @@
 .section_markerboard {
   min-height: 100vh;
-  padding: 14rem 25rem;
+  padding: 14rem 12rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -74,13 +74,132 @@
 /* Product Information */
 .product_specifications {
   margin-top: 15rem;
+  padding: 0 16rem;
   border-top: 2px solid #eee;
 }
 
 .product_specifications_title {
   margin-top: 3rem;
-  font-size: 2.6rem;
-  font-weight: 500;
+  margin-bottom: 8rem;
+  font-size: 2.8rem;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: center;
+  color: #1282a2;
+}
+
+.markerboard_sizes_box {
+  margin: 2rem 0 10rem;
+}
+
+.markerboard_sizes_title {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.markerboard_sizes_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.markerboard_sizes_list li {
+  display: block;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.customize_boards_box {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 2rem;
+}
+
+.customize_box_1 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.customize_options_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.customize_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.customize_images img {
+  max-width: 100%;
+}
+
+.customize_images > div div,
+.customize_accessories_image > div {
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(76, 76, 76);
+}
+
+.customize_box_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.customize_accessories_options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 6rem;
+}
+
+.customize_accessories_options > div {
+  height: 22rem;
+}
+
+.customize_accessories_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customize_accessories_options img {
+  max-height: 100%;
+}
+
+.combination_boards {
+  position: relative;
+}
+
+.combination_boards img {
+  max-width: 100%;
+}
+
+.akronym_info {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  font-size: 1.4rem;
+}
+
+.akronym_info ul {
+  list-style: none;
 }
