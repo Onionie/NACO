@@ -11,8 +11,8 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 2rem;
-  border-radius: 0.6rem;
-  overflow: hidden;
+  /* border-radius: 0.6rem; */
+  /* overflow: hidden; */
   /* box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.4); */
 }
 
@@ -23,6 +23,7 @@
 
 .markerboard_image_box img {
   min-width: 100%;
+  border-radius: 0.6rem;
 }
 
 /* .markerboard_carousel {
@@ -43,6 +44,8 @@
   display: flex;
   flex-direction: column;
   padding: 4rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.4);
 }
 
 .markerboard_body_title {
@@ -103,18 +106,28 @@
 .markerboard_sizes_list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 2rem;
   padding: 0;
   list-style: none;
 }
 
 .markerboard_sizes_list li {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid black;
   padding: 1rem 2rem;
   font-size: 1.8rem;
   text-align: center;
+}
+
+.markerboard_sizes_list li:last-child {
+  /* padding: 1rem 2rem; */
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #034078;
 }
 
 .customize_boards_box {
@@ -145,13 +158,15 @@
   padding: 2rem;
 }
 
-.customize_images img {
+.customize_images img,
+.customize_porcelain_image img,
+.combination_boards img {
   max-width: 100%;
 }
 
 .customize_images > div div,
-.customize_accessories_image > div {
-  margin-top: 1rem;
+.customize_accessories_image > div,
+.customize_porcelain_image > div {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -162,12 +177,18 @@
 .customize_box_2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr 1fr 2fr;
 }
 
-.customize_accessories_options {
+.customize_box_2 > div {
+  margin-bottom: 10rem;
+}
+
+.customize_accessories_options,
+.customize_porcelain_options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
   padding: 2rem 6rem;
 }
 
@@ -175,7 +196,8 @@
   height: 22rem;
 }
 
-.customize_accessories_image {
+.customize_accessories_image,
+.customize_porcelain_image {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,12 +207,9 @@
   max-height: 100%;
 }
 
+/* Combination Boards */
 .combination_boards {
   position: relative;
-}
-
-.combination_boards img {
-  max-width: 100%;
 }
 
 .akronym_info {

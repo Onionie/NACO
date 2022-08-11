@@ -13,6 +13,12 @@ import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_ho
 import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
 import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
 import combination from '../../../assets/images/VisualBoards/Markerboards/combination.jpg';
+import porcelainWhite from '../../../assets/images/VisualBoards/Markerboards/porcelain_white.jpg';
+import porcelainSilver from '../../../assets/images/VisualBoards/Markerboards/porcelain_silver.jpg';
+import porcelainBlack from '../../../assets/images/VisualBoards/Markerboards/porcelain_black.jpg';
+import dividerBar from '../../../assets/images/VisualBoards/Markerboards/divider_bar.jpg';
+import hBar from '../../../assets/images/VisualBoards/Markerboards/h_bar.jpg';
+import splineJoint from '../../../assets/images/VisualBoards/Markerboards/spline_joint.jpg';
 
 const Markerboard = () => {
   return (
@@ -109,6 +115,7 @@ const Markerboard = () => {
             <li>4' x 14'</li>
             <li>4' x 15'</li>
             <li>4' x 16'</li>
+            <li>Custom Sizes Available</li>
           </ul>
         </div>
         <div className={styles.customize_boards_box}>
@@ -170,6 +177,45 @@ const Markerboard = () => {
                 <div className={styles.customize_accessories_image}>
                   <img src={maphook} alt="map_hook" />
                   <div>Map Hook</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Porcelain Section */}
+            <div>
+              <div className={styles.customize_options_title}>
+                Porcelain Finishes
+              </div>
+              <div className={styles.customize_porcelain_options}>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={porcelainWhite} alt="porcelain_white" />
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={porcelainSilver} alt="porcelain_silver" />
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={porcelainBlack} alt="porcelain_black" />
+                </div>
+              </div>
+            </div>
+
+            {/* Joints */}
+            <div>
+              <div className={styles.customize_options_title}>
+                Joints for boards over 16' in length
+              </div>
+              <div className={styles.customize_porcelain_options}>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={splineJoint} alt="Spline_Joint" />
+                  <div>Spline Joint</div>
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={hBar} alt="H_Bar" />
+                  <div>H-Bar</div>
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={dividerBar} alt="Divider_bar" />
+                  <div>Divider Bar</div>
                 </div>
               </div>
             </div>
