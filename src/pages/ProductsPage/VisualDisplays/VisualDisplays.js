@@ -16,6 +16,13 @@ import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 const ProductsPage = () => {
   const visualDisplayBoards = [
     {
+      id: 6,
+      product: 'Markerboards',
+      imageSrc: mb,
+      category: 'visual',
+      item: 'markerboard',
+    },
+    {
       id: 1,
       product: 'Chalkboard',
       imageSrc: chalkboard,
@@ -49,13 +56,6 @@ const ProductsPage = () => {
       imageSrc: markerBoard,
       category: 'visual',
       item: 'horizontal_sliders',
-    },
-    {
-      id: 6,
-      product: 'Markerboards',
-      imageSrc: mb,
-      category: 'visual',
-      item: 'markerboard',
     },
     {
       id: 7,

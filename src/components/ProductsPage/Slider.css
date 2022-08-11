@@ -118,9 +118,9 @@
   border-radius: 0.4rem;
 }
 
-.activeSlide img:hover {
+/* .activeSlide img:hover {
   cursor: pointer;
-}
+} */
 
 .slide {
   transform: scale(0.5);

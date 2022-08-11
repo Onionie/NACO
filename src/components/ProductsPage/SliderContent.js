@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Slider.css';
 
-import chalkboard from '../../assets/images/VisualBoards/chalkboard.jpg';
+// import chalkboard from '../../assets/images/VisualBoards/chalkboard.jpg';
 
 const SliderContent = (props) => {
   const [showModal, setShowModal] = useState(false);
@@ -34,7 +34,7 @@ const SliderContent = (props) => {
   };
 
   const [imageIndex, setImageIndex] = useState(0);
-  const small = window.matchMedia('(max-width: 102.5em)');
+  // const small = window.matchMedia('(max-width: 102.5em)');
 
   const settings = {
     className: 'center',
@@ -55,7 +55,7 @@ const SliderContent = (props) => {
     <div className="slider">
       <div className="slider_title">{props.header}</div>
       <div className="item">
-        <div className={showModal ? `overlay` : `hidden`}>
+        {/* <div className={showModal ? `overlay` : `hidden`}>
           <div className="modalz">
             <div className="modal_box">
               <div className="image_box">
@@ -78,7 +78,7 @@ const SliderContent = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <Slider {...settings}>
           {props.products.map((prod, idx) => {
             return (

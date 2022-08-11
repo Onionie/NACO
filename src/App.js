@@ -7,8 +7,10 @@ import Homepage from './pages/Homepage';
 // Visual Display Boards
 import VisualPage from './pages/ProductsPage/VisualDisplays/VisualDisplays.js';
 import Chalkboard from './pages/ProductsPage/VisualDisplays/Chalkboard';
-import TablesBenchesPage from './pages/TablesBenchesPage';
 import TackWallPage from './pages/TackWallPanelsPage';
+
+// Tables and Benches
+import TablesBenchesPage from './pages/TablesBenchesPage';
 
 import ArchitectCornerPage from './pages/ArchitectCornerPage';
 import AboutPage from './pages/AboutPage';
@@ -16,13 +18,11 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
-import Header2 from './components/Header2';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
-      {/* <Header2 /> */}
       <Routes>
         <Route path="/" element={<Homepage />} exact />
         <Route path="/architect" element={<ArchitectCornerPage />} />
