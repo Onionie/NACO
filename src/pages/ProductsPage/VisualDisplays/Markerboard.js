@@ -1,6 +1,13 @@
 import React from 'react';
 import styles from './Markerboard.module.css';
-import Carousel from 'react-bootstrap/Carousel';
+
+import ProductSection from '../../../components/SpecificProduct/ProductSection';
+import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
+import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
+import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
+import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
+import Joints from '../../../components/SpecificProduct/Joints';
+import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
 import standard from '../../../assets/images/VisualBoards/Markerboards/standard.jpg';
@@ -12,112 +19,69 @@ import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.j
 import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
 import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
 import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
-import combination from '../../../assets/images/VisualBoards/Markerboards/combination.jpg';
-import porcelainWhite from '../../../assets/images/VisualBoards/Markerboards/porcelain_white.jpg';
-import porcelainSilver from '../../../assets/images/VisualBoards/Markerboards/porcelain_silver.jpg';
-import porcelainBlack from '../../../assets/images/VisualBoards/Markerboards/porcelain_black.jpg';
-import dividerBar from '../../../assets/images/VisualBoards/Markerboards/divider_bar.jpg';
-import hBar from '../../../assets/images/VisualBoards/Markerboards/h_bar.jpg';
-import splineJoint from '../../../assets/images/VisualBoards/Markerboards/spline_joint.jpg';
+
+import chalkboard from '../../../assets/images/VisualBoards/chalkboard.jpg';
 
 const Markerboard = () => {
+  const mainImages = [
+    {
+      id: 1,
+      image: markerboard,
+      alt: 'markerboard',
+    },
+    // {
+    //   id: 2,
+    //   image: chalkboard,
+    //   alt: 'chalkboard',
+    // },
+  ];
+
   return (
-    <section className={styles.section_markerboard}>
-      <div className={styles.markerboard_box}>
-        <div className={styles.markerboard_image_box}>
-          <img src={markerboard} alt="markerboard" />
-          {/* <Carousel className={styles.markerboard_carousel} indicators={false}>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={chalkboard}
-                alt="First slide"
-              />
-            </Carousel.Item> */}
-          {/* <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
-                alt="Second slide"
-              />
+    <ProductSection>
+      <HeroProduct
+        mainImages={mainImages}
+        imgSrc={markerboard}
+        indicators={false}
+        controls={false}
+      >
+        <li>Porcelain enamel steel writing surface with aluminum trim.</li>
+        <li>
+          1/2" particleboard with optional .005 or .015 moisture barrier backer.
+        </li>
+        <li>
+          Standard satin clear anodized aluminum that include 2ea: C-4 or C-18
+          side trim, standard CR-4 blade tray with radius edges.
+        </li>
+        <li>
+          Optional 1" or 2" map-rail with various insert options: natural cork,
+          Forbo or vinyl covered natural cork insert at additional cost.
+        </li>
+        <li>
+          All aluminum is 6063-T5 alloy that comes in satin standard clear
+          anodized color.
+        </li>
+      </HeroProduct>
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="holder.js/800x400?text=Third slide&bg=20232a"
-                alt="Third slide"
-              />
+      {/* Product Information Section*/}
+      <ProductInfo>
+        <AvailableSizes>
+          <li>3' x 4'</li>
+          <li>4' x 4'</li>
+          <li>4' x 6'</li>
+          <li>4' x 7'</li>
+          <li>4' x 8'</li>
+          <li>4' x 9'</li>
+          <li>4' x 10'</li>
+          <li>4' x 11'</li>
+          <li>4' x 12'</li>
+          <li>4' x 13'</li>
+          <li>4' x 14'</li>
+          <li>4' x 15'</li>
+          <li>4' x 16'</li>
+          <li>Custom Sizes Available</li>
+        </AvailableSizes>
 
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item> */}
-          {/* </Carousel> */}
-        </div>
-        <div className={styles.markerboard_body_box}>
-          <div className={styles.markerboard_body_title}>Markerboards</div>
-          <div className={styles.markerboard_body_description}>
-            <ul>
-              <li>
-                Porcelain enamel steel writing surface with aluminum trim.
-              </li>
-              <li>
-                1/2" particleboard with optional .005 or .015 moisture barrier
-                backer.
-              </li>
-              <li>
-                Standard satin clear anodized aluminum that include 2ea: C-4 or
-                C-18 side trim, standard CR-4 blade tray with radius edges.
-              </li>
-              <li>
-                Optional 1" or 2" map-rail with various insert options: natural
-                cork, Forbo or vinyl covered natural cork insert at additional
-                cost.
-              </li>
-              <li>
-                All aluminum is 6063-T5 alloy that comes in satin standard clear
-                anodized color.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      {/* Product Information */}
-      <div className={styles.product_specifications}>
-        <div className={styles.product_specifications_title}>
-          Product Information
-        </div>
-        <div className={styles.markerboard_sizes_box}>
-          <div className={styles.markerboard_sizes_title}>
-            Sizes Available (HxW):
-          </div>
-          <ul className={styles.markerboard_sizes_list}>
-            <li>3' x 4'</li>
-            <li>4' x 4'</li>
-            <li>4' x 6'</li>
-            <li>4' x 7'</li>
-            <li>4' x 8'</li>
-            <li>4' x 9'</li>
-            <li>4' x 10'</li>
-            <li>4' x 11'</li>
-            <li>4' x 12'</li>
-            <li>4' x 13'</li>
-            <li>4' x 14'</li>
-            <li>4' x 15'</li>
-            <li>4' x 16'</li>
-            <li>Custom Sizes Available</li>
-          </ul>
-        </div>
+        {/* Options Row */}
         <div className={styles.customize_boards_box}>
           <div className={styles.customize_box_1}>
             <div className={styles.customize_options}>
@@ -182,65 +146,15 @@ const Markerboard = () => {
             </div>
 
             {/* Porcelain Section */}
-            <div>
-              <div className={styles.customize_options_title}>
-                Porcelain Finishes
-              </div>
-              <div className={styles.customize_porcelain_options}>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={porcelainWhite} alt="porcelain_white" />
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={porcelainSilver} alt="porcelain_silver" />
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={porcelainBlack} alt="porcelain_black" />
-                </div>
-              </div>
-            </div>
+            <PorcelainSection />
 
             {/* Joints */}
-            <div>
-              <div className={styles.customize_options_title}>
-                Joints for boards over 16' in length
-              </div>
-              <div className={styles.customize_porcelain_options}>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={splineJoint} alt="Spline_Joint" />
-                  <div>Spline Joint</div>
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={hBar} alt="H_Bar" />
-                  <div>H-Bar</div>
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={dividerBar} alt="Divider_bar" />
-                  <div>Divider Bar</div>
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.combination_boards}>
-              <div className={styles.customize_options_title}>
-                Typical Combination Boards
-                <br />
-                (Also Available with Sliding Boards)
-                <br />
-                <br />
-              </div>
-              <img src={combination} alt="combination_boards" />
-              <div className={styles.akronym_info}>
-                <ul>
-                  <li>MB = Markerboard</li>
-                  <li>CB = Chalkboard</li>
-                  <li>TB = Tackboard</li>
-                </ul>
-              </div>
-            </div>
+            <Joints />
+            <CombinationBoards />
           </div>
         </div>
-      </div>
-    </section>
+      </ProductInfo>
+    </ProductSection>
   );
 };
 

@@ -1,0 +1,38 @@
+.markerboard_sizes_box {
+  margin: 2rem 0 10rem;
+}
+
+.markerboard_sizes_title {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.markerboard_sizes_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.markerboard_sizes_list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.markerboard_sizes_list li:last-child {
+  /* padding: 1rem 2rem; */
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #034078;
+}

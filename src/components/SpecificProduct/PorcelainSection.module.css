@@ -1,0 +1,31 @@
+.customize_options_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.customize_porcelain_options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+  padding: 2rem 6rem;
+}
+
+.customize_porcelain_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customize_porcelain_image img {
+  max-width: 100%;
+}
+
+/* .customize_porcelain_image > div {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(76, 76, 76);
+} */

@@ -1,0 +1,25 @@
+.combination_boards {
+  position: relative;
+}
+
+.combination_boards img {
+  max-width: 100%;
+}
+
+.customize_options_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.akronym_info {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  font-size: 1.4rem;
+}
+
+.akronym_info ul {
+  list-style: none;
+}
