@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import styles from './HeroProduct.module.css';
+import './HeroProduct.css';
 
 const HeroProduct = (props) => {
   return (
-    <div className={styles.markerboard_box}>
+    <div className="markerboard_box">
       <Carousel
-        className={styles.markerboard_carousel}
+        className="markerboard_carousel"
         indicators={props.indicators}
         controls={props.controls}
         variant="dark"
