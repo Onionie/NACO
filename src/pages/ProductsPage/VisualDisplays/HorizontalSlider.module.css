@@ -1,0 +1,73 @@
+.accessories_box {
+  margin-bottom: 10rem;
+}
+
+.customize_accessories_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.customize_accessories_image > div {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(76, 76, 76);
+}
+
+.customize_accessories_options,
+.customize_porcelain_options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+  padding: 2rem 6rem;
+}
+
+.customize_accessories_options > div {
+  height: 22rem;
+}
+
+.customize_accessories_image,
+.customize_porcelain_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customize_accessories_options img {
+  max-height: 100%;
+}
+
+/* Panels Section */
+.panel_box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  margin-bottom: 10rem;
+}
+
+.sliding_marker_title,
+.panel_configuration_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.sliding_marker_subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.panel_configuration_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.panel_configuration_box img {
+  max-width: 100%;
+}

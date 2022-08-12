@@ -7,12 +7,17 @@ import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
+import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
+import Joints from '../../../components/SpecificProduct/Joints';
 import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 
 // Images
 import horizontal_slider from '../../../assets/images/VisualBoards/HorizontalSlider/horizontal_slider.jpg';
-import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
-import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
+import slider_tracks from '../../../assets/images/VisualBoards/HorizontalSlider/slider_tracks.jpg';
+import sliding_markerboard from '../../../assets/images/VisualBoards/HorizontalSlider/sliding_markerboard.jpg';
+import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
+import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
+import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
 
 const HorizontalSlider = () => {
   const title = 'Horizontal Sliders';
@@ -66,23 +71,50 @@ const HorizontalSlider = () => {
           <li>4' x 14'</li>
           <li>4' x 15'</li>
           <li>4' x 16'</li>
-          <li>8' x 4'</li>
-          <li>10' x 8'</li>
           <li>Custom Sizes Available</li>
         </AvailableSizes>
-        <div className={styles.aluminum_trim_box}>
-          <div className={styles.customize_options_title}>Aluminum Trim</div>
-          <div className={styles.customize_images}>
-            <div>
-              <img src={c4trim} alt="c4_trim" />
-              <div>c4-Aluminum Trim</div>
+        <div className={styles.panel_box}>
+          <div className={styles.sliding_marker_box}>
+            <div className={styles.sliding_marker_title}></div>
+            <div className={styles.sliding_marker_image_box}>
+              <div className={styles.sliding_marker_title}>
+                Sliding Markerboard
+              </div>
+              <div className={styles.sliding_marker_subtitle}>
+                (Available with no back panel)
+              </div>
+              <img src={sliding_markerboard} alt="sliding_markerboard" />
+            </div>
+          </div>
+
+          <div className={styles.panel_configuration_box}>
+            <div className={styles.panel_configuration_title}>
+              Panel Configurations
             </div>
             <div>
-              <img src={c18trim} alt="c18_trim" />
-              <div>c18-Aluminum Trim</div>
+              <img src={slider_tracks} alt="sliding_tracks" />
             </div>
           </div>
         </div>
+        <OptionsRow />
+        <div className={styles.accessories_box}>
+          <div className={styles.customize_accessories_title}>Accessories</div>
+          <div className={styles.customize_accessories_options}>
+            <div className={styles.customize_accessories_image}>
+              <img src={flagholder} alt="flag_holder" />
+              <div>Flag Holder</div>
+            </div>
+            <div className={styles.customize_accessories_image}>
+              <img src={rollerbracket} alt="roller_bracket" />
+              <div>Roller Bracket</div>
+            </div>
+            <div className={styles.customize_accessories_image}>
+              <img src={maphook} alt="map_hook" />
+              <div>Map Hook</div>
+            </div>
+          </div>
+        </div>
+        <Joints />
         <PorcelainSection />
       </ProductInfo>
     </ProductSection>
