@@ -23,6 +23,13 @@ const ProductsPage = () => {
       item: 'markerboard',
     },
     {
+      id: 9,
+      product: 'Vertical Sliders',
+      imageSrc: vertical,
+      category: 'visual',
+      item: 'vertical_sliders',
+    },
+    {
       id: 1,
       product: 'Chalkboard',
       imageSrc: chalkboard,
@@ -70,13 +77,6 @@ const ProductsPage = () => {
       imageSrc: tackBoard,
       category: 'visual',
       item: 'tackboard_natural_board',
-    },
-    {
-      id: 9,
-      product: 'Vertical Sliders',
-      imageSrc: vertical,
-      category: 'visual',
-      item: 'vertical_sliders',
     },
   ];
 

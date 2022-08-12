@@ -8,6 +8,7 @@ import PorcelainSection from '../../../components/SpecificProduct/PorcelainSecti
 import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
 import Joints from '../../../components/SpecificProduct/Joints';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
+import HeroBody from '../../../components/SpecificProduct/HeroBody';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
 import standard from '../../../assets/images/VisualBoards/Markerboards/standard.jpg';
@@ -44,22 +45,25 @@ const Markerboard = () => {
         indicators={false}
         controls={false}
       >
-        <li>Porcelain enamel steel writing surface with aluminum trim.</li>
-        <li>
-          1/2" particleboard with optional .005 or .015 moisture barrier backer.
-        </li>
-        <li>
-          Standard satin clear anodized aluminum that include 2ea: C-4 or C-18
-          side trim, standard CR-4 blade tray with radius edges.
-        </li>
-        <li>
-          Optional 1" or 2" map-rail with various insert options: natural cork,
-          Forbo or vinyl covered natural cork insert at additional cost.
-        </li>
-        <li>
-          All aluminum is 6063-T5 alloy that comes in satin standard clear
-          anodized color.
-        </li>
+        <HeroBody title="Markerboards">
+          <li>Porcelain enamel steel writing surface with aluminum trim.</li>
+          <li>
+            1/2" particleboard with optional .005 or .015 moisture barrier
+            backer.
+          </li>
+          <li>
+            Standard satin clear anodized aluminum that include 2ea: C-4 or C-18
+            side trim, standard CR-4 blade tray with radius edges.
+          </li>
+          <li>
+            Optional 1" or 2" map-rail with various insert options: natural
+            cork, Forbo or vinyl covered natural cork insert at additional cost.
+          </li>
+          <li>
+            All aluminum is 6063-T5 alloy that comes in satin standard clear
+            anodized color.
+          </li>
+        </HeroBody>
       </HeroProduct>
 
       {/* Product Information Section*/}
