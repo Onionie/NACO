@@ -8,6 +8,7 @@ import Homepage from './pages/Homepage';
 import VisualPage from './pages/ProductsPage/VisualDisplays/VisualDisplays.js';
 import Markerboard from './pages/ProductsPage/VisualDisplays/Markerboard';
 import VerticalSliders from './pages/ProductsPage/VisualDisplays/VerticalSliders';
+import HorizontalSlider from './pages/ProductsPage/VisualDisplays/HorizontalSlider';
 import Chalkboard from './pages/ProductsPage/VisualDisplays/Chalkboard';
 
 import TackWallPage from './pages/TackWallPanelsPage';
@@ -38,6 +39,10 @@ function App() {
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
         <Route path="/visual/markerboard" element={<Markerboard />} />
         <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
+        <Route
+          path="/visual/horizontal_sliders"
+          element={<HorizontalSlider />}
+        />
 
         {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />
