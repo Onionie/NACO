@@ -1,11 +1,20 @@
 import React from 'react';
+import styles from './VerticalSliders.module.css';
+
+// Components
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
+import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
+import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
+import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 
+// Images
 import vs1 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider1.jpg';
 import vs2 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider2.jpg';
 import vs3 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_sliders3.jpg';
+import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
+import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
 
 const VerticalSliders = () => {
   const title = 'Vertical Sliders';
@@ -59,6 +68,40 @@ const VerticalSliders = () => {
             </li>
           </HeroBody>
         </HeroProduct>
+        <ProductInfo>
+          <AvailableSizes>
+            <li>4' x 4'</li>
+            <li>4' x 5'</li>
+            <li>4' x 6'</li>
+            <li>4' x 7'</li>
+            <li>4' x 8'</li>
+            <li>4' x 9'</li>
+            <li>4' x 10'</li>
+            <li>4' x 11'</li>
+            <li>4' x 12'</li>
+            <li>4' x 13'</li>
+            <li>4' x 14'</li>
+            <li>4' x 15'</li>
+            <li>4' x 16'</li>
+            <li>8' x 4'</li>
+            <li>10' x 8'</li>
+            <li>Custom Sizes Available</li>
+          </AvailableSizes>
+          <div className={styles.aluminum_trim_box}>
+            <div className={styles.customize_options_title}>Aluminum Trim</div>
+            <div className={styles.customize_images}>
+              <div>
+                <img src={c4trim} alt="c4_trim" />
+                <div>c4-Aluminum Trim</div>
+              </div>
+              <div>
+                <img src={c18trim} alt="c18_trim" />
+                <div>c18-Aluminum Trim</div>
+              </div>
+            </div>
+          </div>
+          <PorcelainSection />
+        </ProductInfo>
       </ProductSection>
     </>
   );
