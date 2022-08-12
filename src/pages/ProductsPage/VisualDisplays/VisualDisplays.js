@@ -30,6 +30,13 @@ const ProductsPage = () => {
       item: 'vertical_sliders',
     },
     {
+      id: 5,
+      product: 'Horizontal Sliders',
+      imageSrc: markerBoard,
+      category: 'visual',
+      item: 'horizontal_sliders',
+    },
+    {
       id: 1,
       product: 'Chalkboard',
       imageSrc: chalkboard,

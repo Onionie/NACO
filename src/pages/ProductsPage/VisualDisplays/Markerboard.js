@@ -4,6 +4,7 @@ import styles from './Markerboard.module.css';
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
+import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
 import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
 import Joints from '../../../components/SpecificProduct/Joints';
@@ -11,12 +12,7 @@ import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
-import standard from '../../../assets/images/VisualBoards/Markerboards/standard.jpg';
-import box from '../../../assets/images/VisualBoards/Markerboards/box.jpg';
-import maprail from '../../../assets/images/VisualBoards/Markerboards/maprail.jpg';
-import maprail2 from '../../../assets/images/VisualBoards/Markerboards/maprail_2.jpg';
-import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
-import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
+
 import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
 import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
 import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
@@ -87,52 +83,12 @@ const Markerboard = () => {
 
         {/* Options Row */}
         <div className={styles.customize_boards_box}>
-          <div className={styles.customize_box_1}>
-            <div className={styles.customize_options}>
-              <div className={styles.customize_options_title}>Tray Options</div>
-              <div className={styles.customize_images}>
-                <div>
-                  <img src={standard} alt="standard_tray" />
-                  <div>Standard</div>
-                </div>
-                <div>
-                  <img src={box} alt="box_tray" />
-                  <div>box</div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.customize_options}>
-              <div className={styles.customize_options_title}>Map Rail</div>
-              <div className={styles.customize_images}>
-                <div>
-                  <img src={maprail} alt="maprail" />
-                  <div>1" Maprail</div>
-                </div>
-                <div>
-                  <img src={maprail2} alt="maprail" />
-                  <div>2" Maprail</div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.customize_options}>
-              <div className={styles.customize_options_title}>
-                Aluminum Trim
-              </div>
-              <div className={styles.customize_images}>
-                <div>
-                  <img src={c4trim} alt="c4_trim" />
-                  <div>c4-Aluminum Trim</div>
-                </div>
-                <div>
-                  <img src={c18trim} alt="c18_trim" />
-                  <div>c18-Aluminum Trim</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <OptionsRow />
           <div className={styles.customize_box_2}>
             <div>
-              <div className={styles.customize_options_title}>Accessories</div>
+              <div className={styles.customize_accessories_title}>
+                Accessories
+              </div>
               <div className={styles.customize_accessories_options}>
                 <div className={styles.customize_accessories_image}>
                   <img src={flagholder} alt="flag_holder" />
