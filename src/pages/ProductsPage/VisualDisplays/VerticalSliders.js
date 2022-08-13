@@ -12,13 +12,13 @@ import PorcelainSection from '../../../components/SpecificProduct/PorcelainSecti
 // Images
 import vs1 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider1.jpg';
 import vs2 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider2.jpg';
-import vs3 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_sliders3.jpg';
 import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
 import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
+import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 const VerticalSliders = () => {
-  const title = 'Vertical Sliders';
-
   const mainImages = [
     {
       id: 1,
@@ -30,11 +30,43 @@ const VerticalSliders = () => {
       image: vs2,
       alt: 'vertical_slider2',
     },
-    // {
-    //   id: 3,
-    //   image: vs3,
-    //   alt: 'vertical_slider3',
-    // },
+  ];
+
+  const colors = [
+    {
+      id: 1,
+      imgSrc: wbWhite,
+      title: 'White',
+    },
+    {
+      id: 2,
+      imgSrc: wbLightgrey,
+      title: 'Light Gray',
+    },
+    {
+      id: 3,
+      imgSrc: wbBeige,
+      title: 'Beige',
+    },
+  ];
+
+  const finishes = [
+    {
+      id: 1,
+      text: 'Ultra Gloss (EMEA/APAC)',
+    },
+    {
+      id: 2,
+      text: 'High Gloss (Americas)',
+    },
+    {
+      id: 3,
+      text: 'Satin Gloss (Americas)',
+    },
+    {
+      id: 4,
+      text: 'Low Gloss (EMEA/APAC)',
+    },
   ];
 
   return (
@@ -69,6 +101,7 @@ const VerticalSliders = () => {
           </HeroBody>
         </HeroProduct>
         <ProductInfo>
+          <PorcelainSection colors={colors} finishes={finishes} />
           <AvailableSizes>
             <li>4' x 4'</li>
             <li>4' x 5'</li>
@@ -87,6 +120,8 @@ const VerticalSliders = () => {
             <li>10' x 8'</li>
             <li>Custom Sizes Available</li>
           </AvailableSizes>
+
+          {/* 2 Trims */}
           <div className={styles.aluminum_trim_box}>
             <div className={styles.customize_options_title}>Aluminum Trim</div>
             <div className={styles.customize_images}>
@@ -100,7 +135,6 @@ const VerticalSliders = () => {
               </div>
             </div>
           </div>
-          <PorcelainSection />
         </ProductInfo>
       </ProductSection>
     </>
