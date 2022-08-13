@@ -1,0 +1,35 @@
+.customize_accessories_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.customize_accessories_options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+  padding: 2rem 6rem;
+}
+
+.customize_accessories_options > div {
+  height: 22rem;
+}
+
+.customize_accessories_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customize_accessories_image > div {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(76, 76, 76);
+}
+
+.customize_accessories_options img {
+  max-height: 100%;
+}

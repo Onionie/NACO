@@ -24,24 +24,15 @@ const PorcelainSection = (props) => {
               <div className={styles.finishes_colors}>
                 {props.colors.map((color) => {
                   return (
-                    <div className={styles.customize_porcelain_image}>
+                    <div
+                      key={color.id}
+                      className={styles.customize_porcelain_image}
+                    >
                       <img src={color.imgSrc} alt="whiteboard_white" />
                       <div>{color.title}</div>
                     </div>
                   );
                 })}
-                {/* <div className={styles.customize_porcelain_image}>
-                  <img src={wbWhite} alt="whiteboard_white" />
-                  <div>White</div>
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={wbLightgrey} alt="whiteboard_lightgrey" />
-                  <div>Light Gray</div>
-                </div>
-                <div className={styles.customize_porcelain_image}>
-                  <img src={wbBeige} alt="whiteboard_beige" />
-                  <div>Beige</div>
-                </div> */}
               </div>
             </div>
             <div className={styles.porcelain_finishes_available_box}>
@@ -49,10 +40,13 @@ const PorcelainSection = (props) => {
                 Available Finishes:
               </div>
               <ul className={styles.porcelain_finishes_available}>
-                <li>Ultra Gloss (EMEA/APAC)</li>
+                {props.finishes.map((finish) => {
+                  return <li key={finish.id}>{finish.text}</li>;
+                })}
+                {/* <li>Ultra Gloss (EMEA/APAC)</li>
                 <li>High Gloss (Americas)</li>
                 <li>Satin Gloss (Americas)</li>
-                <li>Low Gloss (EMEA/APAC)</li>
+                <li>Low Gloss (EMEA/APAC)</li> */}
               </ul>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Markerboard.module.css';
 
+import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
+import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
@@ -8,19 +10,12 @@ import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
 import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
 import Joints from '../../../components/SpecificProduct/Joints';
-import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
-import HeroBody from '../../../components/SpecificProduct/HeroBody';
+import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
-
-import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
-import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
-import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
 import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
 import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
 import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
-
-import chalkboard from '../../../assets/images/VisualBoards/chalkboard.jpg';
 
 const Markerboard = () => {
   const mainImages = [
@@ -29,11 +24,6 @@ const Markerboard = () => {
       image: markerboard,
       alt: 'markerboard',
     },
-    // {
-    //   id: 2,
-    //   image: chalkboard,
-    //   alt: 'chalkboard',
-    // },
   ];
 
   const colors = [
@@ -51,6 +41,25 @@ const Markerboard = () => {
       id: 3,
       imgSrc: wbBeige,
       title: 'Beige',
+    },
+  ];
+
+  const finishes = [
+    {
+      id: 1,
+      text: 'Ultra Gloss (EMEA/APAC)',
+    },
+    {
+      id: 2,
+      text: 'High Gloss (Americas)',
+    },
+    {
+      id: 3,
+      text: 'Satin Gloss (Americas)',
+    },
+    {
+      id: 4,
+      text: 'Low Gloss (EMEA/APAC)',
     },
   ];
 
@@ -86,7 +95,7 @@ const Markerboard = () => {
       {/* Product Information Section*/}
       <ProductInfo>
         {/* Porcelain Section */}
-        <PorcelainSection colors={colors} />
+        <PorcelainSection colors={colors} finishes={finishes} />
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>
@@ -107,25 +116,7 @@ const Markerboard = () => {
         {/* Options Row */}
         <div className={styles.customize_boards_box}>
           <div className={styles.customize_box_2}>
-            <div>
-              <div className={styles.customize_accessories_title}>
-                Accessories
-              </div>
-              <div className={styles.customize_accessories_options}>
-                <div className={styles.customize_accessories_image}>
-                  <img src={flagholder} alt="flag_holder" />
-                  <div>Flag Holder</div>
-                </div>
-                <div className={styles.customize_accessories_image}>
-                  <img src={rollerbracket} alt="roller_bracket" />
-                  <div>Roller Bracket</div>
-                </div>
-                <div className={styles.customize_accessories_image}>
-                  <img src={maphook} alt="map_hook" />
-                  <div>Map Hook</div>
-                </div>
-              </div>
-            </div>
+            <Accessories />
             <Joints />
             <OptionsRow />
 
