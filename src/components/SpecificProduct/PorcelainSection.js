@@ -2,9 +2,6 @@ import React from 'react';
 import styles from './PorcelainSection.module.css';
 
 // Images
-import wbWhite from '../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-import wbLightgrey from '../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-import wbBeige from '../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 import grid from '../../assets/images/VisualBoards/Finishes/grid_grid.jpg';
 import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
 import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
@@ -43,10 +40,6 @@ const PorcelainSection = (props) => {
                 {props.finishes.map((finish) => {
                   return <li key={finish.id}>{finish.text}</li>;
                 })}
-                {/* <li>Ultra Gloss (EMEA/APAC)</li>
-                <li>High Gloss (Americas)</li>
-                <li>Satin Gloss (Americas)</li>
-                <li>Low Gloss (EMEA/APAC)</li> */}
               </ul>
             </div>
           </div>

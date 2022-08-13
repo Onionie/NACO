@@ -9,54 +9,94 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
 import Joints from '../../../components/SpecificProduct/Joints';
+import Accessories from '../../../components/SpecificProduct/Accessories';
 import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 
 // Images
 import horizontal_slider from '../../../assets/images/VisualBoards/HorizontalSlider/horizontal_slider.jpg';
 import slider_tracks from '../../../assets/images/VisualBoards/HorizontalSlider/slider_tracks.jpg';
 import sliding_markerboard from '../../../assets/images/VisualBoards/HorizontalSlider/sliding_markerboard.jpg';
-import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
-import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
-import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
+import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 const HorizontalSlider = () => {
-  const title = 'Horizontal Sliders';
-
   const mainImages = [
     {
       id: 1,
       image: horizontal_slider,
       alt: 'horizontal_slider1',
     },
-    // {
-    //   id: 2,
-    //   image: vs2,
-    //   alt: 'vertical_slider2',
-    // },
-    // {
-    //   id: 3,
-    //   image: vs3,
-    //   alt: 'vertical_slider3',
-    // },
+  ];
+
+  const colors = [
+    {
+      id: 1,
+      imgSrc: wbWhite,
+      title: 'White',
+    },
+    {
+      id: 2,
+      imgSrc: wbLightgrey,
+      title: 'Light Gray',
+    },
+    {
+      id: 3,
+      imgSrc: wbBeige,
+      title: 'Beige',
+    },
+  ];
+
+  const finishes = [
+    {
+      id: 1,
+      text: 'Ultra Gloss (EMEA/APAC)',
+    },
+    {
+      id: 2,
+      text: 'High Gloss (Americas)',
+    },
+    {
+      id: 3,
+      text: 'Satin Gloss (Americas)',
+    },
+    {
+      id: 4,
+      text: 'Low Gloss (EMEA/APAC)',
+    },
   ];
 
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Horizontal Sliders">
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
-          <li>Needs Description</li>
+        <HeroBody title="Horizontal Surface Sliders">
+          <li>
+            Consists of e3 porcelain on 1/2" fiberboard with .015 moisture
+            barrier backer.
+          </li>
+          <li>
+            2 7/8" x 1 9/16" aluminum housing with standard satin clear anodized
+            aluminum.
+          </li>
+          <li>
+            Includes C-4 perimeter trim, standard integrated blade tray with
+            radius edges and optional 1" or 2" map-rail.
+          </li>
+          <li>
+            Various insert options: natural cork, Forbo or vinyl covered natural
+            cork insert at an additional cost.
+          </li>
+          <li>
+            All aluminum is 6063-T5 alloy that comes in a satin standard clear
+            anodized color.
+          </li>
+          <li>
+            Call the office for a powder-coat optional an additional cost.
+          </li>
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
+        <PorcelainSection colors={colors} finishes={finishes} />
         <AvailableSizes>
           <li>4' x 4'</li>
           <li>4' x 5'</li>
@@ -73,6 +113,10 @@ const HorizontalSlider = () => {
           <li>4' x 16'</li>
           <li>Custom Sizes Available</li>
         </AvailableSizes>
+        <Accessories />
+        <Joints />
+
+        {/* Panels Section */}
         <div className={styles.panel_box}>
           <div className={styles.sliding_marker_box}>
             <div className={styles.sliding_marker_title}></div>
@@ -97,25 +141,6 @@ const HorizontalSlider = () => {
           </div>
         </div>
         <OptionsRow />
-        <div className={styles.accessories_box}>
-          <div className={styles.customize_accessories_title}>Accessories</div>
-          <div className={styles.customize_accessories_options}>
-            <div className={styles.customize_accessories_image}>
-              <img src={flagholder} alt="flag_holder" />
-              <div>Flag Holder</div>
-            </div>
-            <div className={styles.customize_accessories_image}>
-              <img src={rollerbracket} alt="roller_bracket" />
-              <div>Roller Bracket</div>
-            </div>
-            <div className={styles.customize_accessories_image}>
-              <img src={maphook} alt="map_hook" />
-              <div>Map Hook</div>
-            </div>
-          </div>
-        </div>
-        <Joints />
-        <PorcelainSection />
       </ProductInfo>
     </ProductSection>
   );

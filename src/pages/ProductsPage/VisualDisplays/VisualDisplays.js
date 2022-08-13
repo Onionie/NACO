@@ -65,13 +65,6 @@ const ProductsPage = () => {
       item: 'bulletin_board_forbo',
     },
     {
-      id: 5,
-      product: 'Horizontal Sliders',
-      imageSrc: markerBoard,
-      category: 'visual',
-      item: 'horizontal_sliders',
-    },
-    {
       id: 7,
       product: 'Mobile Markerboard',
       imageSrc: mobileMb,
