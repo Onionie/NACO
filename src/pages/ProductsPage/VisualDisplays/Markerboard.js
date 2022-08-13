@@ -16,6 +16,9 @@ import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
 import flagholder from '../../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
 import rollerbracket from '../../../assets/images/VisualBoards/Markerboards/roller_bracket.jpg';
 import maphook from '../../../assets/images/VisualBoards/Markerboards/map_hook.jpg';
+import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard.jpg';
 
@@ -31,6 +34,24 @@ const Markerboard = () => {
     //   image: chalkboard,
     //   alt: 'chalkboard',
     // },
+  ];
+
+  const colors = [
+    {
+      id: 1,
+      imgSrc: wbWhite,
+      title: 'White',
+    },
+    {
+      id: 2,
+      imgSrc: wbLightgrey,
+      title: 'Light Gray',
+    },
+    {
+      id: 3,
+      imgSrc: wbBeige,
+      title: 'Beige',
+    },
   ];
 
   return (
@@ -64,6 +85,8 @@ const Markerboard = () => {
 
       {/* Product Information Section*/}
       <ProductInfo>
+        {/* Porcelain Section */}
+        <PorcelainSection colors={colors} />
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>
@@ -83,7 +106,6 @@ const Markerboard = () => {
 
         {/* Options Row */}
         <div className={styles.customize_boards_box}>
-          <OptionsRow />
           <div className={styles.customize_box_2}>
             <div>
               <div className={styles.customize_accessories_title}>
@@ -104,12 +126,11 @@ const Markerboard = () => {
                 </div>
               </div>
             </div>
-
-            {/* Porcelain Section */}
-            <PorcelainSection />
+            <Joints />
+            <OptionsRow />
 
             {/* Joints */}
-            <Joints />
+
             <CombinationBoards />
           </div>
         </div>

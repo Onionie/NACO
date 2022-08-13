@@ -1,23 +1,80 @@
 import React from 'react';
 import styles from './PorcelainSection.module.css';
 
-import porcelainWhite from '../../assets/images/VisualBoards/Markerboards/porcelain_white.jpg';
-import porcelainSilver from '../../assets/images/VisualBoards/Markerboards/porcelain_silver.jpg';
-import porcelainBlack from '../../assets/images/VisualBoards/Markerboards/porcelain_black.jpg';
+// Images
+import wbWhite from '../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+import wbLightgrey from '../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+import wbBeige from '../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
+import grid from '../../assets/images/VisualBoards/Finishes/grid_grid.jpg';
+import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
+import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
 
-const PorcelainSection = () => {
+const PorcelainSection = (props) => {
   return (
     <div>
-      <div className={styles.customize_options_title}>Porcelain Finishes</div>
-      <div className={styles.customize_porcelain_options}>
-        <div className={styles.customize_porcelain_image}>
-          <img src={porcelainWhite} alt="porcelain_white" />
+      <div className={styles.customize_porcelain_title}>Porcelain Finishes</div>
+      <div className={styles.porcelain_finishes_box}>
+        {/* Porcelain */}
+        <div className={styles.porcelain_finishes_options}>
+          <div className={styles.porcelain_finishes_colors}>
+            <div className={styles.porcelain_colors_available_box}>
+              <div className={styles.porcelain_options_title}>
+                Available Colors:
+              </div>
+              <div className={styles.finishes_colors}>
+                {props.colors.map((color) => {
+                  return (
+                    <div className={styles.customize_porcelain_image}>
+                      <img src={color.imgSrc} alt="whiteboard_white" />
+                      <div>{color.title}</div>
+                    </div>
+                  );
+                })}
+                {/* <div className={styles.customize_porcelain_image}>
+                  <img src={wbWhite} alt="whiteboard_white" />
+                  <div>White</div>
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={wbLightgrey} alt="whiteboard_lightgrey" />
+                  <div>Light Gray</div>
+                </div>
+                <div className={styles.customize_porcelain_image}>
+                  <img src={wbBeige} alt="whiteboard_beige" />
+                  <div>Beige</div>
+                </div> */}
+              </div>
+            </div>
+            <div className={styles.porcelain_finishes_available_box}>
+              <div className={styles.porcelain_options_title}>
+                Available Finishes:
+              </div>
+              <ul className={styles.porcelain_finishes_available}>
+                <li>Ultra Gloss (EMEA/APAC)</li>
+                <li>High Gloss (Americas)</li>
+                <li>Satin Gloss (Americas)</li>
+                <li>Low Gloss (EMEA/APAC)</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className={styles.customize_porcelain_image}>
-          <img src={porcelainSilver} alt="porcelain_silver" />
-        </div>
-        <div className={styles.customize_porcelain_image}>
-          <img src={porcelainBlack} alt="porcelain_black" />
+
+        {/* Grid */}
+        <div className={styles.porcelain_grid_options}>
+          <div className={styles.porcelain_options_title}>Available Grids:</div>
+          <div className={styles.porcelain_grid_box}>
+            <div className={styles.customize_porcelain_image}>
+              <img src={staffLines} alt="staff_lines" />
+              <div>Staff Lines</div>
+            </div>
+            <div className={styles.customize_porcelain_image}>
+              <img src={grid} alt="grid" />
+              <div>Grid</div>
+            </div>
+            <div className={styles.customize_porcelain_image}>
+              <img src={polarGrid} alt="polar_grid" />
+              <div>Polar Grid</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

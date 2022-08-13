@@ -1,15 +1,45 @@
-.customize_options_title {
+.customize_porcelain_title {
   text-align: center;
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
 }
 
-.customize_porcelain_options {
+.porcelain_finishes_box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+}
+
+.porcelain_finishes_options,
+.porcelain_grid_options {
+  margin-top: 2rem;
+}
+
+.porcelain_colors_available_box,
+.porcelain_finishes_available_box {
+  margin-bottom: 2rem;
+}
+
+.porcelain_finishes_colors {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.porcelain_options_title {
+  padding-left: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.porcelain_grid_box,
+.finishes_colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 6rem;
-  padding: 2rem 6rem;
+  gap: 2rem;
+  padding: 1rem 0;
 }
 
 .customize_porcelain_image {
@@ -20,6 +50,24 @@
 
 .customize_porcelain_image img {
   max-width: 100%;
+}
+
+.customize_porcelain_image div {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.porcelain_finishes_available {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  width: 30%;
+}
+
+.porcelain_finishes_available li {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid rgb(207, 204, 204);
 }
 
 /* .customize_porcelain_image > div {
