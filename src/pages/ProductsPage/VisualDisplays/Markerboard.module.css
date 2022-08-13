@@ -1,11 +1,5 @@
 /* Product Information */
 
-.customize_boards_box {
-  display: grid;
-  /* grid-template-rows: 1fr 1fr; */
-  gap: 2rem;
-}
-
 .customize_accessories_title {
   text-align: center;
   font-weight: 600;
@@ -19,16 +13,6 @@
   font-size: 1.6rem;
   font-weight: 500;
   color: rgb(76, 76, 76);
-}
-
-.customize_box_2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1.25fr 1fr 1fr 2fr;
-}
-
-.customize_box_2 > div {
-  margin-bottom: 10rem;
 }
 
 .customize_accessories_options,

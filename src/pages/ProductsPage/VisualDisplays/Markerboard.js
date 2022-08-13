@@ -65,12 +65,7 @@ const Markerboard = () => {
 
   return (
     <ProductSection>
-      <HeroProduct
-        mainImages={mainImages}
-        imgSrc={markerboard}
-        indicators={false}
-        controls={false}
-      >
+      <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
         <HeroBody title="Markerboards">
           <li>Porcelain enamel steel writing surface with aluminum trim.</li>
           <li>
@@ -113,18 +108,10 @@ const Markerboard = () => {
           <li>Custom Sizes Available</li>
         </AvailableSizes>
 
-        {/* Options Row */}
-        <div className={styles.customize_boards_box}>
-          <div className={styles.customize_box_2}>
-            <Accessories />
-            <Joints />
-            <OptionsRow />
-
-            {/* Joints */}
-
-            <CombinationBoards />
-          </div>
-        </div>
+        <Accessories />
+        <Joints />
+        <OptionsRow />
+        <CombinationBoards />
       </ProductInfo>
     </ProductSection>
   );

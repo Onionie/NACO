@@ -22,9 +22,8 @@
 }
 
 .porcelain_finishes_colors {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .porcelain_options_title {

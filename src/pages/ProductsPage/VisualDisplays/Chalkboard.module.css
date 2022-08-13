@@ -1,32 +1,15 @@
-.chalkboard_section {
-  min-height: 100vh;
-  padding-top: 15rem;
-}
-
-.board_box {
+.customize_boards_box {
   display: grid;
-  margin: 2rem 8rem;
-  padding: 2rem;
-  grid-template-columns: 3fr 2fr;
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 2rem;
 }
 
-.board_image_box img {
-  width: 100%;
-  height: 100%;
+.customize_box_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.25fr 1fr 1fr 2fr;
 }
 
-.board_description_box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 4rem;
-}
-
-.description_title {
-  margin-bottom: 2rem;
-  font-size: 5rem;
-}
-.description_paragraph {
-  font-size: 2.6rem;
+.customize_box_2 > div {
+  margin-bottom: 10rem;
 }

@@ -3,7 +3,7 @@ import styles from './VisualDisplays.module.css';
 import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 // import Visual Display Images
-import chalkboard from '../../../assets/images/VisualBoards/chalkboard.jpg';
+import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
 import bulletinBoard from '../../../assets/images/VisualBoards/enclosedBulletinBoard.jpg';
 import fTackBoard from '../../../assets/images/VisualBoards/forboBlueTackBoard.jpg';
 import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
@@ -16,63 +16,63 @@ import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 const ProductsPage = () => {
   const visualDisplayBoards = [
     {
-      id: 6,
+      id: 1,
       product: 'Markerboards',
       imageSrc: mb,
       category: 'visual',
       item: 'markerboard',
     },
     {
-      id: 9,
+      id: 2,
       product: 'Vertical Sliders',
       imageSrc: vertical,
       category: 'visual',
       item: 'vertical_sliders',
     },
     {
-      id: 5,
+      id: 3,
       product: 'Horizontal Sliders',
       imageSrc: markerBoard,
       category: 'visual',
       item: 'horizontal_sliders',
     },
     {
-      id: 1,
+      id: 4,
       product: 'Chalkboard',
       imageSrc: chalkboard,
       category: 'visual',
       item: 'chalkboard',
     },
     {
-      id: 2,
+      id: 5,
       product: 'Bulletin Board Natural Cork',
       imageSrc: bulletinBoard,
       category: 'visual',
       item: 'bulletin_board_natural_cork',
     },
     {
-      id: 3,
+      id: 6,
       product: 'Forbo Blue TackBoard',
       imageSrc: fTackBoard,
       category: 'visual',
       item: 'tackboard_forbo_blue',
     },
     {
-      id: 4,
+      id: 7,
       product: 'Bulletin Board Forbo',
       imageSrc: hingeDoor,
       category: 'visual',
       item: 'bulletin_board_forbo',
     },
     {
-      id: 7,
+      id: 8,
       product: 'Mobile Markerboard',
       imageSrc: mobileMb,
       category: 'visual',
       item: 'markerboard_mobile',
     },
     {
-      id: 8,
+      id: 9,
       product: 'Tackboard Natural Board',
       imageSrc: tackBoard,
       category: 'visual',
