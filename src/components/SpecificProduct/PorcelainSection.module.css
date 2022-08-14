@@ -27,7 +27,6 @@
 }
 
 .porcelain_options_title {
-  padding-left: 2rem;
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -48,7 +47,7 @@
 }
 
 .customize_porcelain_image img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .customize_porcelain_image div {
@@ -59,7 +58,7 @@
 .porcelain_finishes_available {
   margin-top: 1rem;
   list-style: none;
-  padding: 0 2rem;
+  padding: 0;
   font-size: 1.6rem;
   width: 30%;
 }
