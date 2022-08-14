@@ -4,9 +4,9 @@ import './HeroProduct.css';
 
 const HeroProduct = (props) => {
   return (
-    <div className="markerboard_box">
+    <section className="product_box">
       <Carousel
-        className="markerboard_carousel"
+        className="product_carousel"
         indicators={props.indicators}
         controls={props.controls}
         variant="dark"
@@ -18,7 +18,7 @@ const HeroProduct = (props) => {
         ))}
       </Carousel>
       {props.children}
-    </div>
+    </section>
   );
 };
 

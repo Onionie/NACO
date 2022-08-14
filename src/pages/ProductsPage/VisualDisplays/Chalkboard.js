@@ -106,19 +106,10 @@ const Chalkboard = () => {
           <li>4' x 16'</li>
           <li>Custom Sizes Available</li>
         </AvailableSizes>
-
-        {/* Options Row */}
-        <div className={styles.customize_boards_box}>
-          <div className={styles.customize_box_2}>
-            <Accessories />
-            <Joints />
-            <OptionsRow />
-
-            {/* Joints */}
-
-            <CombinationBoards />
-          </div>
-        </div>
+        <Accessories />
+        <Joints />
+        <OptionsRow />
+        <CombinationBoards />
       </ProductInfo>
     </ProductSection>
   );

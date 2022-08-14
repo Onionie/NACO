@@ -6,10 +6,10 @@ import 'aos/dist/aos.css';
 
 const ProductInfo = (props) => {
   useEffect(() => {
-    Aos.init({ delay: 300, duration: 2500 }, []);
+    Aos.init({ duration: 1500 }, []);
   });
   return (
-    <section className={styles.product_information} data-aos="slide-up">
+    <section className={styles.product_information}>
       <div className={styles.product_information_title}>
         Product Information
       </div>

@@ -1,6 +1,5 @@
-.customize_boards_box {
+/* .customize_boards_box {
   display: grid;
-  /* grid-template-rows: 1fr 1fr; */
   gap: 2rem;
 }
 
@@ -12,4 +11,4 @@
 
 .customize_box_2 > div {
   margin-bottom: 10rem;
-}
+} */
