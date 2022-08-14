@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Accessories.module.css';
 
 import flagholder from '../../assets/images/VisualBoards/Markerboards/flag_holder.jpg';
@@ -7,7 +7,7 @@ import maphook from '../../assets/images/VisualBoards/Markerboards/map_hook.jpg'
 
 const Accessories = () => {
   return (
-    <div className={styles.customize_accessories_box}>
+    <div data-aos="fade-up" className={styles.customize_accessories_box}>
       <div className={styles.customize_accessories_title}>Accessories</div>
       <div className={styles.customize_accessories_options}>
         <div className={styles.customize_accessories_image}>

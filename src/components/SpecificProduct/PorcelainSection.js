@@ -1,8 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './PorcelainSection.module.css';
-
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 // Images
 import grid from '../../assets/images/VisualBoards/Finishes/grid_grid.jpg';
@@ -10,12 +7,8 @@ import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid
 import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
 
 const PorcelainSection = (props) => {
-  useEffect(() => {
-    Aos.init({ delay: 100, duration: 2000 });
-  }, []);
-
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" className={styles.section_customize_porcelain}>
       <div className={styles.customize_porcelain_title}>Porcelain Finishes</div>
       <div className={styles.porcelain_finishes_box}>
         {/* Porcelain */}
