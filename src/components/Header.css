@@ -157,6 +157,16 @@ body {
   padding: 0 1rem;
 }
 
+.dropdown-item {
+  transition: transform 0.6s ease-out;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  transform: scale(1.2);
+  color: #033a6c;
+}
+
 /* .dropdown_menu li:hover {
   background-color: #fff;
   color: #000;
