@@ -7,7 +7,7 @@ import splineJoint from '../../assets/images/VisualBoards/Markerboards/spline_jo
 
 const Joints = () => {
   return (
-    <div data-aos="fade-up" className={styles.joints_box}>
+    <div className={styles.joints_box} data-aos="slide-up">
       <div className={styles.customize_joints_title}>
         Joints for boards over 16' in length
       </div>

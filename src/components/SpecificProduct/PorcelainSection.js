@@ -8,7 +8,7 @@ import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lin
 
 const PorcelainSection = (props) => {
   return (
-    <div data-aos="fade-up" className={styles.section_customize_porcelain}>
+    <div className={styles.section_customize_porcelain} data-aos="slide-up">
       <div className={styles.customize_porcelain_title}>Porcelain Finishes</div>
       <div className={styles.porcelain_finishes_box}>
         {/* Porcelain */}

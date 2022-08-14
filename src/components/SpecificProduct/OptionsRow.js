@@ -10,7 +10,7 @@ import c18trim from '../../assets/images/VisualBoards/Markerboards/c18_trim.jpg'
 
 const OptionsRow = () => {
   return (
-    <div data-aos="fade-up" className={styles.customize_box}>
+    <div className={styles.customize_box} data-aos="slide-up">
       <div className={styles.customize_options}>
         <div className={styles.customize_options_title}>Tray Options</div>
         <div className={styles.customize_images}>

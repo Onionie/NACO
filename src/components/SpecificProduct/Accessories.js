@@ -7,7 +7,7 @@ import maphook from '../../assets/images/VisualBoards/Markerboards/map_hook.jpg'
 
 const Accessories = () => {
   return (
-    <div data-aos="fade-up" className={styles.customize_accessories_box}>
+    <div className={styles.customize_accessories_box} data-aos="slide-up">
       <div className={styles.customize_accessories_title}>Accessories</div>
       <div className={styles.customize_accessories_options}>
         <div className={styles.customize_accessories_image}>

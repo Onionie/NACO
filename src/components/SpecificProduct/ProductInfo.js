@@ -9,7 +9,7 @@ const ProductInfo = (props) => {
     Aos.init({ delay: 300, duration: 2500 }, []);
   });
   return (
-    <section data-aos="fade-up" className={styles.product_information}>
+    <section className={styles.product_information} data-aos="slide-up">
       <div className={styles.product_information_title}>
         Product Information
       </div>

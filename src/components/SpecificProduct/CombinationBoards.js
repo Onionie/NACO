@@ -5,7 +5,7 @@ import combination from '../../assets/images/VisualBoards/Markerboards/combinati
 
 const CombinationBoards = () => {
   return (
-    <div className={styles.combination_boards}>
+    <div className={styles.combination_boards} data-aos="slide-up">
       <div className={styles.customize_options_title}>
         Typical Combination Boards
         <br />
