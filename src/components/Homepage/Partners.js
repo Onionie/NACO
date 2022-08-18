@@ -5,9 +5,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const NACObody = () => {
-  useEffect(() => {
-    Aos.init({ delay: 50, duration: 1500 });
-  }, []);
   return (
     <section className={styles.vendors}>
       <div className={styles.partners_box}>
