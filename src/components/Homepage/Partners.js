@@ -8,6 +8,9 @@ import styles from './Partners.module.css';
 import lausd from '../../assets/images/Vendors/LAUSD.png';
 import gg from '../../assets/images/Vendors/gg.png';
 import ucr from '../../assets/images/Vendors/UCR.png';
+import forbo from '../../assets/images/Vendors/forbo.jpg';
+import guilford from '../../assets/images/Vendors/guilfordmane.JPG';
+import koroseal from '../../assets/images/Vendors/koroseal.JPG';
 
 const NACObody = () => {
   return (
@@ -40,24 +43,20 @@ const NACObody = () => {
         </div>
         <div className={styles.vendors_logo_box}>
           <div className={styles.forbo}>
-            <img
-              className={styles.forbo_img}
-              src="./images/vendors/forbo.jpg"
-              alt="forbo-logo"
-            />
+            <img className={styles.forbo_img} src={forbo} alt="forbo-logo" />
           </div>
           <div className={styles.guilford}>
             <img
               className={styles.guilford_img}
-              src="./images/vendors/guilfordmane.JPG"
+              src={guilford}
               alt="guilford-logo"
             />
           </div>
           <div className={styles.guilford}>
             <img
               className={styles.guilford_img}
-              src="./images/vendors/koroseal.JPG"
-              alt="guilford-logo"
+              src={koroseal}
+              alt="koroseal-logo"
             />
           </div>
         </div>
