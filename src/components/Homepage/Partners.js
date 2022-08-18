@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
 import styles from './Partners.module.css';
 
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+// import Aos from 'aos';
+// import 'aos/dist/aos.css';
+
+// Images
+import lausd from '../../assets/images/Vendors/LAUSD.png';
+import gg from '../../assets/images/Vendors/gg.png';
+import ucr from '../../assets/images/Vendors/UCR.png';
 
 const NACObody = () => {
   return (
@@ -14,25 +19,17 @@ const NACObody = () => {
         </div>
         <div className={styles.partners_logo_box}>
           <div className={styles.lausd}>
-            <img
-              className={styles.lausd_img}
-              src="./images/clients/LAUSD.png"
-              alt="lausd-logo"
-            />
+            <img className={styles.lausd_img} src={lausd} alt="lausd-logo" />
           </div>
           <div className={styles.garden_grove}>
             <img
               className={styles.garden_grove_img}
-              src="./images/clients/gg.png"
-              alt="lausd-logo"
+              src={gg}
+              alt="garden-grove-logo"
             />
           </div>
           <div className={styles.ucr}>
-            <img
-              className={styles.ucr_img}
-              src="./images/clients/UCR.png"
-              alt="ucr-logo"
-            />
+            <img className={styles.ucr_img} src={ucr} alt="ucr-logo" />
           </div>
         </div>
       </div>
