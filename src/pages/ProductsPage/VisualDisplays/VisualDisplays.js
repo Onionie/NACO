@@ -12,6 +12,7 @@ import mb from '../../../assets/images/VisualBoards/MB.jpg';
 import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
+import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
 
 const ProductsPage = () => {
   const visualDisplayBoards = [
@@ -45,34 +46,41 @@ const ProductsPage = () => {
     },
     {
       id: 5,
+      product: 'Teaching Walls',
+      imageSrc: tWall,
+      category: 'visual',
+      item: 'teaching_walls',
+    },
+    {
+      id: 6,
       product: 'Bulletin Board Natural Cork',
       imageSrc: bulletinBoard,
       category: 'visual',
       item: 'bulletin_board_natural_cork',
     },
     {
-      id: 6,
+      id: 7,
       product: 'Forbo Blue TackBoard',
       imageSrc: fTackBoard,
       category: 'visual',
       item: 'tackboard_forbo_blue',
     },
     {
-      id: 7,
+      id: 8,
       product: 'Bulletin Board Forbo',
       imageSrc: hingeDoor,
       category: 'visual',
       item: 'bulletin_board_forbo',
     },
     {
-      id: 8,
+      id: 9,
       product: 'Mobile Markerboard',
       imageSrc: mobileMb,
       category: 'visual',
       item: 'markerboard_mobile',
     },
     {
-      id: 9,
+      id: 10,
       product: 'Tackboard Natural Board',
       imageSrc: tackBoard,
       category: 'visual',
