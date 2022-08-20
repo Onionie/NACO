@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Magnifier from 'react-magnifier';
 import './ModalAvail.css';
 
-import grid from '../../assets/images/VisualBoards/Finishes/grid_grid.jpg';
+import grid from '../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
 import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
 import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
 
@@ -22,8 +22,10 @@ const ModalAvail = (props) => {
       <Modal
         show={modalShow}
         aria-labelledby="contained-modal-title-vcenter"
-        centered
         onHide={handleClose}
+        dialogClassName="hero-modal-width"
+        contentClassName="hero-modal-height"
+        centered
       >
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
@@ -37,24 +39,11 @@ const ModalAvail = (props) => {
               <Magnifier
                 src={grid}
                 zoomFactor={1.2}
-                mgShape={'square'}
+                // mgShape={'square'}
                 mgHeight={250}
-                mgWidth={300}
+                mgWidth={250}
               />
               {/* <img src={grid} alt="grid" /> */}
-            </Carousel.Item>
-            <Carousel.Item>
-              <Magnifier
-                src={polarGrid}
-                zoomFactor={1.2}
-                mgShape={'square'}
-                mgHeight={250}
-                mgWidth={300}
-              />
-              {/* <img src={polarGrid} alt="grid" /> */}
-            </Carousel.Item>
-            <Carousel.Item>
-              <img src={staffLines} alt="grid" />
             </Carousel.Item>
           </Carousel>
 
