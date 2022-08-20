@@ -36,7 +36,7 @@
 }
 
 .carousel-inner {
-  clip-path: inset(-100vw 0 -100vw -100vw);
+  clip-path: inset(-100vw 0 -100vw 0);
   overflow: visible;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './HeroBody.module.css';
+import ModalAvail from './ModalAvail';
 
 const HeroBody = (props) => {
   return (
@@ -8,6 +9,7 @@ const HeroBody = (props) => {
       <div className={styles.markerboard_body_description}>
         <ul>{props.children}</ul>
       </div>
+      <ModalAvail></ModalAvail>
     </div>
   );
 };
