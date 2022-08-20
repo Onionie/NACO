@@ -69,7 +69,7 @@ const HorizontalSlider = () => {
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Horizontal Surface Sliders">
+        <HeroBody title="Horizontal Sliders">
           <li>
             Consists of e3 porcelain on 1/2" fiberboard with .015 moisture
             barrier backer.

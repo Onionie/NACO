@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './HeroProduct.css';
+import Magnifier from 'react-magnifier';
 
 const HeroProduct = (props) => {
   return (
@@ -13,6 +14,13 @@ const HeroProduct = (props) => {
       >
         {props.mainImages.map((main) => (
           <Carousel.Item key={main.id}>
+            {/* <Magnifier
+              src={main.image}
+              zoomFactor={1.2}
+              mgShape={'square'}
+              mgHeight={250}
+              mgWidth={300}
+            /> */}
             <img className="d-block w-100" src={main.image} alt={main.alt} />
           </Carousel.Item>
         ))}

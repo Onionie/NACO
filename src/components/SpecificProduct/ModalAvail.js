@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
+import Magnifier from 'react-magnifier';
+import './ModalAvail.css';
 
 import grid from '../../assets/images/VisualBoards/Finishes/grid_grid.jpg';
 import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
@@ -18,7 +20,6 @@ const ModalAvail = (props) => {
         Launch static backdrop modal
       </Button>
       <Modal
-        {...props}
         show={modalShow}
         aria-labelledby="contained-modal-title-vcenter"
         centered
@@ -33,15 +34,30 @@ const ModalAvail = (props) => {
             variant="dark"
           >
             <Carousel.Item>
-              <img src={grid} alt="grid" />
+              <Magnifier
+                src={grid}
+                zoomFactor={1.2}
+                mgShape={'square'}
+                mgHeight={250}
+                mgWidth={300}
+              />
+              {/* <img src={grid} alt="grid" /> */}
             </Carousel.Item>
             <Carousel.Item>
-              <img src={polarGrid} alt="grid" />
+              <Magnifier
+                src={polarGrid}
+                zoomFactor={1.2}
+                mgShape={'square'}
+                mgHeight={250}
+                mgWidth={300}
+              />
+              {/* <img src={polarGrid} alt="grid" /> */}
             </Carousel.Item>
             <Carousel.Item>
               <img src={staffLines} alt="grid" />
             </Carousel.Item>
           </Carousel>
+
           {/* <div>
             <img src={grid} alt="grid" />
             <img src={polarGrid} alt="grid" />

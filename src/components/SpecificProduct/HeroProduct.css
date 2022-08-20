@@ -35,6 +35,11 @@
   pointer-events: auto;
 }
 
+.magnifier img {
+  height: 100%;
+  width: 100%;
+}
+
 .carousel-inner {
   clip-path: inset(-100vw 0 -100vw 0);
   overflow: visible;
@@ -46,4 +51,8 @@
 
 .carousel-item.active img:hover {
   transform: scale(1.2);
+}
+
+.modal-body .carousel-item.active img:hover {
+  transform: scale(1);
 }
