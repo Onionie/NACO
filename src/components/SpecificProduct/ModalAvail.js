@@ -17,9 +17,9 @@ const ModalAvail = (props) => {
   const handleShow = () => setModalShow(true);
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
-      </Button>
+      <div className="btn_available_box" onClick={handleShow}>
+        <div className="btn_available">Available Colors and Finishes</div>
+      </div>
       <Modal
         show={modalShow}
         aria-labelledby="contained-modal-title-vcenter"
