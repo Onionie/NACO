@@ -26,42 +26,42 @@ const Markerboard = () => {
     },
   ];
 
-  const colors = [
-    {
-      id: 1,
-      imgSrc: wbWhite,
-      title: 'White',
-    },
-    {
-      id: 2,
-      imgSrc: wbLightgrey,
-      title: 'Light Gray',
-    },
-    {
-      id: 3,
-      imgSrc: wbBeige,
-      title: 'Beige',
-    },
-  ];
+  // const colors = [
+  //   {
+  //     id: 1,
+  //     imgSrc: wbWhite,
+  //     title: 'White',
+  //   },
+  //   {
+  //     id: 2,
+  //     imgSrc: wbLightgrey,
+  //     title: 'Light Gray',
+  //   },
+  //   {
+  //     id: 3,
+  //     imgSrc: wbBeige,
+  //     title: 'Beige',
+  //   },
+  // ];
 
-  const finishes = [
-    {
-      id: 1,
-      text: 'Ultra Gloss (EMEA/APAC)',
-    },
-    {
-      id: 2,
-      text: 'High Gloss (Americas)',
-    },
-    {
-      id: 3,
-      text: 'Satin Gloss (Americas)',
-    },
-    {
-      id: 4,
-      text: 'Low Gloss (EMEA/APAC)',
-    },
-  ];
+  // const finishes = [
+  //   {
+  //     id: 1,
+  //     text: 'Ultra Gloss (EMEA/APAC)',
+  //   },
+  //   {
+  //     id: 2,
+  //     text: 'High Gloss (Americas)',
+  //   },
+  //   {
+  //     id: 3,
+  //     text: 'Satin Gloss (Americas)',
+  //   },
+  //   {
+  //     id: 4,
+  //     text: 'Low Gloss (EMEA/APAC)',
+  //   },
+  // ];
 
   return (
     <ProductSection>
@@ -90,7 +90,7 @@ const Markerboard = () => {
       {/* Product Information Section*/}
       <ProductInfo>
         {/* Porcelain Section */}
-        <PorcelainSection colors={colors} finishes={finishes} />
+        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>

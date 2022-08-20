@@ -2,14 +2,29 @@
   transform: scale(1);
 } */
 
-/* .hero-modal-width {
-  height: 90vh;
-  width: 80vw;
-  max-width: 80vw;
+.hero-modal-width {
+  max-width: 950px;
 }
 
-.hero-modal-height {
-  height: 80vh;
+/* .hero-modal-height {
+  height: 90vh;
+} */
+
+.modal-body {
+  overflow: hidden;
+}
+
+.magnifier {
+  max-height: 100%;
+}
+
+.magnifier-image {
+  width: 100% !important;
+}
+
+/* .magnifier {
+  display: flex;
+  justify-content: center;
 } */
 
 /* .hero-modal img {

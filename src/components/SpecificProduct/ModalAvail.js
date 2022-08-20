@@ -6,6 +6,7 @@ import Magnifier from 'react-magnifier';
 import './ModalAvail.css';
 
 import grid from '../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
+import mb from '../../assets/images/VisualBoards/Finishes/mb.jpg';
 import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
 import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
 
@@ -37,11 +38,11 @@ const ModalAvail = (props) => {
           >
             <Carousel.Item>
               <Magnifier
-                src={grid}
+                src={mb}
                 zoomFactor={1.2}
-                // mgShape={'square'}
+                mgShape={'square'}
                 mgHeight={250}
-                mgWidth={250}
+                mgWidth={300}
               />
               {/* <img src={grid} alt="grid" /> */}
             </Carousel.Item>
