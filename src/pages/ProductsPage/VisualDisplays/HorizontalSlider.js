@@ -19,6 +19,7 @@ import sliding_markerboard from '../../../assets/images/VisualBoards/HorizontalS
 // import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
 // import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
 // import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
+import mb from '../../../assets/images/VisualBoards/Finishes/mb.jpg';
 
 const HorizontalSlider = () => {
   const mainImages = [
@@ -26,6 +27,14 @@ const HorizontalSlider = () => {
       id: 1,
       image: horizontal_slider,
       alt: 'horizontal_slider1',
+    },
+  ];
+
+  const availImages = [
+    {
+      id: 1,
+      image: mb,
+      alt: 'available_mb',
     },
   ];
 
@@ -69,7 +78,12 @@ const HorizontalSlider = () => {
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Horizontal Sliders">
+        <HeroBody
+          title="Horizontal Sliders"
+          availImages={availImages}
+          indicators={false}
+          controls={false}
+        >
           <li>
             Consists of e3 porcelain on 1/2" fiberboard with .015 moisture
             barrier backer.
@@ -117,7 +131,7 @@ const HorizontalSlider = () => {
         <Joints />
 
         {/* Panels Section */}
-        <div className={styles.panel_box}>
+        <div className={styles.panel_box} data-aos="slide-up">
           <div className={styles.sliding_marker_box}>
             <div className={styles.sliding_marker_title}></div>
             <div className={styles.sliding_marker_image_box}>

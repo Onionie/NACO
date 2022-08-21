@@ -40,11 +40,11 @@ function App() {
 
         <Route path="/visual/markerboard" element={<Markerboard />} />
         <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
-        {/* <Route
+        <Route
           path="/visual/horizontal_sliders"
           element={<HorizontalSlider />}
         />
-        <Route path="/visual/chalkboard" element={<Chalkboard />} />
+        {/* <Route path="/visual/chalkboard" element={<Chalkboard />} />
         <Route path="/visual/teaching_walls" element={<TeachingWalls />} /> */}
 
         {/* Tables Route */}
