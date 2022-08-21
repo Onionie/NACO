@@ -39,8 +39,8 @@ function App() {
         <Route path="/visual" element={<VisualPage />} />
 
         <Route path="/visual/markerboard" element={<Markerboard />} />
-        {/* <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
-        <Route
+        <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
+        {/* <Route
           path="/visual/horizontal_sliders"
           element={<HorizontalSlider />}
         />

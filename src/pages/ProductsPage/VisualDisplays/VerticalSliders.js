@@ -17,6 +17,7 @@ import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.j
 // import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
 // import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
 // import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
+import mb from '../../../assets/images/VisualBoards/Finishes/mb.jpg';
 
 const VerticalSliders = () => {
   const mainImages = [
@@ -29,6 +30,14 @@ const VerticalSliders = () => {
       id: 2,
       image: vs2,
       alt: 'vertical_slider2',
+    },
+  ];
+
+  const availImages = [
+    {
+      id: 1,
+      image: mb,
+      alt: 'available_mb',
     },
   ];
 
@@ -73,7 +82,12 @@ const VerticalSliders = () => {
     <>
       <ProductSection>
         <HeroProduct mainImages={mainImages} indicators={false} controls={true}>
-          <HeroBody title="Vertical Sliders">
+          <HeroBody
+            title="Vertical Sliders"
+            availImages={availImages}
+            indicators={false}
+            controls={false}
+          >
             <li>
               Allows you to have multiple panels and help with rooms with
               limited space.
@@ -122,7 +136,7 @@ const VerticalSliders = () => {
           </AvailableSizes>
 
           {/* 2 Trims */}
-          <div className={styles.aluminum_trim_box}>
+          <div className={styles.aluminum_trim_box} data-aos="slide-up">
             <div className={styles.customize_options_title}>Aluminum Trim</div>
             <div className={styles.customize_images}>
               <div>
