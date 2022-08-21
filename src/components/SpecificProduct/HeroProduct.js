@@ -14,14 +14,14 @@ const HeroProduct = (props) => {
       >
         {props.mainImages.map((main) => (
           <Carousel.Item key={main.id}>
-            {/* <Magnifier
+            <Magnifier
               src={main.image}
-              zoomFactor={1.2}
+              zoomFactor={1}
               mgShape={'square'}
               mgHeight={250}
               mgWidth={300}
-            /> */}
-            <img className="d-block w-100" src={main.image} alt={main.alt} />
+            />
+            {/* <img className="d-block w-100" src={main.image} alt={main.alt} /> */}
           </Carousel.Item>
         ))}
       </Carousel>
