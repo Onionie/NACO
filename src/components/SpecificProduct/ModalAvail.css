@@ -3,7 +3,7 @@
 } */
 
 .hero-modal-width {
-  max-width: 950px;
+  max-width: 95rem;
 }
 
 /* .hero-modal-height {
@@ -47,6 +47,7 @@
   text-align: center;
   padding: 1rem 2rem;
   font-size: 2.8rem;
+  font-weight: 500;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0.4);
   border-radius: 0.4rem;
 

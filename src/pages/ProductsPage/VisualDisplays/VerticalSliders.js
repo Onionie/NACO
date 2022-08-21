@@ -14,9 +14,9 @@ import vs1 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_sli
 import vs2 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider2.jpg';
 import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
 import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
-import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
+// import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+// import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+// import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 const VerticalSliders = () => {
   const mainImages = [
@@ -32,42 +32,42 @@ const VerticalSliders = () => {
     },
   ];
 
-  const colors = [
-    {
-      id: 1,
-      imgSrc: wbWhite,
-      title: 'White',
-    },
-    {
-      id: 2,
-      imgSrc: wbLightgrey,
-      title: 'Light Gray',
-    },
-    {
-      id: 3,
-      imgSrc: wbBeige,
-      title: 'Beige',
-    },
-  ];
+  // const colors = [
+  //   {
+  //     id: 1,
+  //     imgSrc: wbWhite,
+  //     title: 'White',
+  //   },
+  //   {
+  //     id: 2,
+  //     imgSrc: wbLightgrey,
+  //     title: 'Light Gray',
+  //   },
+  //   {
+  //     id: 3,
+  //     imgSrc: wbBeige,
+  //     title: 'Beige',
+  //   },
+  // ];
 
-  const finishes = [
-    {
-      id: 1,
-      text: 'Ultra Gloss (EMEA/APAC)',
-    },
-    {
-      id: 2,
-      text: 'High Gloss (Americas)',
-    },
-    {
-      id: 3,
-      text: 'Satin Gloss (Americas)',
-    },
-    {
-      id: 4,
-      text: 'Low Gloss (EMEA/APAC)',
-    },
-  ];
+  // const finishes = [
+  //   {
+  //     id: 1,
+  //     text: 'Ultra Gloss (EMEA/APAC)',
+  //   },
+  //   {
+  //     id: 2,
+  //     text: 'High Gloss (Americas)',
+  //   },
+  //   {
+  //     id: 3,
+  //     text: 'Satin Gloss (Americas)',
+  //   },
+  //   {
+  //     id: 4,
+  //     text: 'Low Gloss (EMEA/APAC)',
+  //   },
+  // ];
 
   return (
     <>
@@ -101,7 +101,7 @@ const VerticalSliders = () => {
           </HeroBody>
         </HeroProduct>
         <ProductInfo>
-          <PorcelainSection colors={colors} finishes={finishes} />
+          {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
           <AvailableSizes>
             <li>4' x 4'</li>
             <li>4' x 5'</li>

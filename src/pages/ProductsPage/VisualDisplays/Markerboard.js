@@ -13,9 +13,9 @@ import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
-import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
+// import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
+// import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
+// import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 const Markerboard = () => {
   const mainImages = [

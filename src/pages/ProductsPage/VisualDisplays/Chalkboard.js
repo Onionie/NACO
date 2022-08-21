@@ -13,10 +13,10 @@ import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
-import chalkBlack from '../../../assets/images/VisualBoards/Finishes/color_chalk_black.jpg';
-import chalkBlue from '../../../assets/images/VisualBoards/Finishes/color_chalk_blue.jpg';
-import chalkGreen from '../../../assets/images/VisualBoards/Finishes/color_chalk_green.jpg';
-import chalkSlate from '../../../assets/images/VisualBoards/Finishes/color_chalk_slate.jpg';
+// import chalkBlack from '../../../assets/images/VisualBoards/Finishes/color_chalk_black.jpg';
+// import chalkBlue from '../../../assets/images/VisualBoards/Finishes/color_chalk_blue.jpg';
+// import chalkGreen from '../../../assets/images/VisualBoards/Finishes/color_chalk_green.jpg';
+// import chalkSlate from '../../../assets/images/VisualBoards/Finishes/color_chalk_slate.jpg';
 
 const Chalkboard = () => {
   const mainImages = [
@@ -27,44 +27,44 @@ const Chalkboard = () => {
     },
   ];
 
-  const colors = [
-    {
-      id: 1,
-      imgSrc: chalkGreen,
-      title: 'Green Chalk',
-    },
-    {
-      id: 2,
-      imgSrc: chalkBlack,
-      title: 'Black Chalk',
-    },
-    {
-      id: 3,
-      imgSrc: chalkSlate,
-      title: 'Slate Chalk',
-    },
-    {
-      id: 4,
-      imgSrc: chalkBlue,
-      title: 'Blue Chalk',
-    },
-  ];
+  // const colors = [
+  //   {
+  //     id: 1,
+  //     imgSrc: chalkGreen,
+  //     title: 'Green Chalk',
+  //   },
+  //   {
+  //     id: 2,
+  //     imgSrc: chalkBlack,
+  //     title: 'Black Chalk',
+  //   },
+  //   {
+  //     id: 3,
+  //     imgSrc: chalkSlate,
+  //     title: 'Slate Chalk',
+  //   },
+  //   {
+  //     id: 4,
+  //     imgSrc: chalkBlue,
+  //     title: 'Blue Chalk',
+  //   },
+  // ];
 
-  const finishes = [
-    {
-      id: 1,
-      text: 'Ultra MAtte (Americas, EMEA, APAC)',
-    },
-    {
-      id: 2,
-      text: '*Available in EMEA + APAC Only',
-    },
-  ];
+  // const finishes = [
+  //   {
+  //     id: 1,
+  //     text: 'Ultra MAtte (Americas, EMEA, APAC)',
+  //   },
+  //   {
+  //     id: 2,
+  //     text: '*Available in EMEA + APAC Only',
+  //   },
+  // ];
 
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Markerboards">
+        <HeroBody title="Chalkboards">
           <li>Porcelain enamel steel writing surface with aluminum trim.</li>
           <li>
             1/2" particleboard with optional .005 or .015 moisture barrier
@@ -88,7 +88,7 @@ const Chalkboard = () => {
       {/* Product Information Section*/}
       <ProductInfo>
         {/* Porcelain Section */}
-        <PorcelainSection colors={colors} finishes={finishes} />
+        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>
