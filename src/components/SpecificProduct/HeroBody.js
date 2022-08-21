@@ -9,7 +9,11 @@ const HeroBody = (props) => {
       <div className={styles.markerboard_body_description}>
         <ul>{props.children}</ul>
       </div>
-      <ModalAvail></ModalAvail>
+      <ModalAvail
+        indicators={props.indicators}
+        controls={props.controls}
+        availImages={props.availImages}
+      ></ModalAvail>
     </div>
   );
 };

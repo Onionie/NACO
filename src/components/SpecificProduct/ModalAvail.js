@@ -11,6 +11,7 @@ import cb from '../../assets/images/VisualBoards/Finishes/cb.jpg';
 import bel1 from '../../assets/images/VisualBoards/Finishes/BEL1.png';
 import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
 import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
+import AvailableSizes from './AvailableSizes';
 
 const ModalAvail = (props) => {
   const [modalShow, setModalShow] = useState(false);
@@ -38,15 +39,18 @@ const ModalAvail = (props) => {
             controls={props.controls}
             variant="dark"
           >
-            <Carousel.Item>
-              <Magnifier
-                src={bel1}
-                zoomFactor={1}
-                mgShape={'square'}
-                mgHeight={300}
-                mgWidth={400}
-              />
-            </Carousel.Item>
+            {props.availImages.map((avail) => (
+              <Carousel.Item>
+                <Magnifier
+                  src={avail.image}
+                  alt={avail.alt}
+                  zoomFactor={1}
+                  mgShape={'square'}
+                  mgHeight={300}
+                  mgWidth={400}
+                />
+              </Carousel.Item>
+            ))}
           </Carousel>
 
           {/* <div>

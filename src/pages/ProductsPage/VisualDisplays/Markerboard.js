@@ -13,6 +13,7 @@ import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
+import cbnmb from '../../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
 // import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
 // import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
 // import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
@@ -23,6 +24,14 @@ const Markerboard = () => {
       id: 1,
       image: markerboard,
       alt: 'markerboard',
+    },
+  ];
+
+  const availImages = [
+    {
+      id: 1,
+      image: cbnmb,
+      alt: 'cbnmb',
     },
   ];
 
@@ -66,7 +75,12 @@ const Markerboard = () => {
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Markerboards">
+        <HeroBody
+          title="Markerboards"
+          availImages={availImages}
+          indicators={false}
+          controls={false}
+        >
           <li>Porcelain enamel steel writing surface with aluminum trim.</li>
           <li>
             1/2" particleboard with optional .005 or .015 moisture barrier

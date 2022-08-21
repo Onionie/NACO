@@ -37,14 +37,15 @@ function App() {
 
         {/* Visual Display Boards Route */}
         <Route path="/visual" element={<VisualPage />} />
-        <Route path="/visual/chalkboard" element={<Chalkboard />} />
+
         <Route path="/visual/markerboard" element={<Markerboard />} />
-        <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
+        {/* <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
         <Route
           path="/visual/horizontal_sliders"
           element={<HorizontalSlider />}
         />
-        <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
+        <Route path="/visual/chalkboard" element={<Chalkboard />} />
+        <Route path="/visual/teaching_walls" element={<TeachingWalls />} /> */}
 
         {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />
