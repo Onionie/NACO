@@ -7,6 +7,7 @@
     #c0c3c5,
     #babdbf
   ); */
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -35,6 +36,7 @@
 .markerboard_body_description {
   font-size: 2rem;
   line-height: 1.2;
+  margin-bottom: 10rem;
 }
 
 .markerboard_body_description li {

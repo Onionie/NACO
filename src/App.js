@@ -45,7 +45,7 @@ function App() {
           element={<HorizontalSlider />}
         />
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
-        {/* <Route path="/visual/teaching_walls" element={<TeachingWalls />} /> */}
+        <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
 
         {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />
