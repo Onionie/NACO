@@ -1,3 +1,68 @@
-.section_tWall {
-  min-height: 100vh;
+.additional_price {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  grid-column: -5/-3;
+}
+
+.tw_details_box {
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+}
+
+.tw_details_box img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.tw_details_title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.tw_details1 {
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.tw_details1 div {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.panel_box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  margin-bottom: 10rem;
+}
+
+.sliding_marker_title,
+.panel_configuration_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.sliding_marker_subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.panel_configuration_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.panel_configuration_box img {
+  max-width: 100%;
 }
