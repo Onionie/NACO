@@ -85,7 +85,7 @@ const TeachingWall = () => {
 
           <div className={styles.tw_details_box}>
             <div className={styles.tw_details_title}>Teaching Wall Details</div>
-            <div className={styles.tw_details1}>
+            <div className={styles.tw_details1} data-aos="slide-up">
               <div>
                 <img src={twFront} alt="teaching_wall_details_front" />
                 <div>Front</div>
