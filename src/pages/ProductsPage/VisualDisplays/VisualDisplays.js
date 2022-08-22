@@ -13,6 +13,7 @@ import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
+import tackboard1 from '../../../assets/images/VisualBoards/tackboard1.png';
 
 const ProductsPage = () => {
   const visualDisplayBoards = [
@@ -50,6 +51,13 @@ const ProductsPage = () => {
       imageSrc: tWall,
       category: 'visual',
       item: 'teaching_walls',
+    },
+    {
+      id: 6,
+      product: 'Tackboard',
+      imageSrc: tackboard1,
+      category: 'visual',
+      item: 'tackboard',
     },
     {
       id: 6,
