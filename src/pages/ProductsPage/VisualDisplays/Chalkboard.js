@@ -17,6 +17,7 @@ import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg
 // import chalkBlue from '../../../assets/images/VisualBoards/Finishes/color_chalk_blue.jpg';
 // import chalkGreen from '../../../assets/images/VisualBoards/Finishes/color_chalk_green.jpg';
 // import chalkSlate from '../../../assets/images/VisualBoards/Finishes/color_chalk_slate.jpg';
+import cb from '../../../assets/images/VisualBoards/Finishes/cb.jpg';
 
 const Chalkboard = () => {
   const mainImages = [
@@ -24,6 +25,14 @@ const Chalkboard = () => {
       id: 1,
       image: chalkboard,
       alt: 'chalkboard',
+    },
+  ];
+
+  const availImages = [
+    {
+      id: 1,
+      image: cb,
+      alt: 'available_mb',
     },
   ];
 
@@ -64,7 +73,12 @@ const Chalkboard = () => {
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
-        <HeroBody title="Chalkboards">
+        <HeroBody
+          title="Chalkboards"
+          availImages={availImages}
+          indicators={false}
+          controls={false}
+        >
           <li>Porcelain enamel steel writing surface with aluminum trim.</li>
           <li>
             1/2" particleboard with optional .005 or .015 moisture barrier
