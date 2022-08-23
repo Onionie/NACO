@@ -13,7 +13,7 @@ import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
-import tackboard1 from '../../../assets/images/VisualBoards/tackboard1.png';
+// import tackboard1 from '../../../assets/images/VisualBoards/tackboard1.png';
 
 const ProductsPage = () => {
   const visualDisplayBoards = [
@@ -55,7 +55,7 @@ const ProductsPage = () => {
     {
       id: 6,
       product: 'Tackboard',
-      imageSrc: tackboard1,
+      imageSrc: tackBoard,
       category: 'visual',
       item: 'tackboard',
     },
@@ -87,13 +87,13 @@ const ProductsPage = () => {
       category: 'visual',
       item: 'markerboard_mobile',
     },
-    {
-      id: 10,
-      product: 'Tackboard Natural Board',
-      imageSrc: tackBoard,
-      category: 'visual',
-      item: 'tackboard_natural_board',
-    },
+    // {
+    //   id: 10,
+    //   product: 'Tackboard Natural Board',
+    //   imageSrc: tackBoard,
+    //   category: 'visual',
+    //   item: 'tackboard_natural_board',
+    // },
   ];
 
   return (
