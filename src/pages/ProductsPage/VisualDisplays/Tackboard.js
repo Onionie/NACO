@@ -8,6 +8,7 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 
 import tb from '../../../assets/images/VisualBoards/Tackboard/tackboard.png';
+import tackboardNC from '../../../assets/images/VisualBoards/Tackboard/tackboard_nc.jpg';
 import bel from '../../../assets/images/VisualBoards/Finishes/BEL1.png';
 import dessand1 from '../../../assets/images/VisualBoards/Finishes/DesertSand1.png';
 import dessand2 from '../../../assets/images/VisualBoards/Finishes/DesertSand2.png';
@@ -23,6 +24,11 @@ const Tackboard = () => {
       id: 1,
       image: tb,
       alt: 'tackboard',
+    },
+    {
+      id: 2,
+      image: tackboardNC,
+      alt: 'tackboard_natural_cork',
     },
   ];
 
@@ -60,7 +66,7 @@ const Tackboard = () => {
   ];
   return (
     <ProductSection>
-      <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
+      <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
         <HeroBody
           title="Tackboard"
           availImages={availImages}
@@ -68,7 +74,7 @@ const Tackboard = () => {
           controls={true}
         >
           <li>
-            Our standard tackboards incorporate a 1/4" Natural Cork with a 1/4"
+            Our standard tackboards incorporate a 1/4" natural Cork with a 1/4"
             Hardboard backing and aluminum trim.
           </li>
           <li>
