@@ -5,7 +5,7 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 // import Visual Display Images
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
 import bulletinBoard from '../../../assets/images/VisualBoards/enclosedBulletinBoard.jpg';
-import fTackBoard from '../../../assets/images/VisualBoards/forboBlueTackBoard.jpg';
+import fTackBoard from '../../../assets/images/VisualBoards/ForboTackboard/forboBlueTackBoard_main.jpg';
 import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
 import markerBoard from '../../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
@@ -68,10 +68,10 @@ const ProductsPage = () => {
     },
     {
       id: 7,
-      product: 'Forbo Blue TackBoard',
+      product: 'Forbo TackBoard',
       imageSrc: fTackBoard,
       category: 'visual',
-      item: 'tackboard_forbo_blue',
+      item: 'tackboard_forbo',
     },
     {
       id: 8,

@@ -12,6 +12,7 @@ import HorizontalSlider from './pages/ProductsPage/VisualDisplays/HorizontalSlid
 import Chalkboard from './pages/ProductsPage/VisualDisplays/Chalkboard';
 import TeachingWalls from './pages/ProductsPage/VisualDisplays/TeachingWall';
 import Tackboard from './pages/ProductsPage/VisualDisplays/Tackboard';
+import TackboardForbo from './pages/ProductsPage/VisualDisplays/TackboardForbo';
 
 import TackWallPage from './pages/TackWallPanelsPage';
 
@@ -48,6 +49,7 @@ function App() {
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
         <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
         <Route path="/visual/tackboard" element={<Tackboard />} />
+        <Route path="/visual/tackboard_forbo" element={<TackboardForbo />} />
 
         {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />
