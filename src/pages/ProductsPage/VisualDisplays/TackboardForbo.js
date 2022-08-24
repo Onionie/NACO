@@ -42,13 +42,12 @@ const TackboardForbo = () => {
           controls={false}
         >
           <li>
-            Our standard tackboards incorporate a 1/4" natural Cork with a 1/4"
-            Hardboard backing and aluminum trim.
+            Forbo tackboards incorporate a 1/4" Forbo with a 1/4" Hardboard
+            backing and aluminum trim.
           </li>
-          <li>
-            Or customize it with Vinyl or Fabric face wrapped onto a 1/2"
-            Hardboard backing.
-          </li>
+          <li>Extremely Durable.</li>
+          <li>Low level of light reflectance.</li>
+          <li>Will not warp or crumble.</li>
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
