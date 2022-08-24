@@ -16,12 +16,13 @@ footer {
 
 .footer_left_box {
   display: flex;
+  align-items: flex-start;
   gap: 1rem;
 }
 
 .footer_company_logo_box {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .footer_left_box img {
