@@ -49,6 +49,25 @@ const MobileMbRev = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
+        <AvailableSizes>
+          <li>4' x 4'</li>
+          <li>4' x 5'</li>
+          <li>4' x 6'</li>
+          <li>4' x 7'</li>
+          <li>4' x 8'</li>
+          <li>4' x 9'</li>
+          <li>4' x 10'</li>
+          <li>4' x 11'</li>
+          <li>4' x 12'</li>
+          <li>4' x 13'</li>
+          <li>4' x 14'</li>
+          <li>4' x 15'</li>
+          <li>4' x 16'</li>
+          <div />
+        </AvailableSizes>
+      </ProductInfo>
     </ProductSection>
   );
 };
