@@ -33,7 +33,21 @@ const MobileMbRev = () => {
           availImages={availImages}
           indicators={false}
           controls={false}
-        ></HeroBody>
+        >
+          <li>
+            Polyvision Porcelain is the most suitable writing surface for the
+            Reversible Mobile Markerboard.
+          </li>
+          <li>It comes with a satin anodized aluminum trim.</li>
+          <li>
+            Panel rotates horizontally, and a metal locking mechanism maintains
+            the intended angle.
+          </li>
+          <li>
+            For simple movement, there are two locking and two non-locking
+            casters provided.
+          </li>
+        </HeroBody>
       </HeroProduct>
     </ProductSection>
   );
