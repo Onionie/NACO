@@ -13,6 +13,7 @@ import Chalkboard from './pages/ProductsPage/VisualDisplays/Chalkboard';
 import TeachingWalls from './pages/ProductsPage/VisualDisplays/TeachingWall';
 import Tackboard from './pages/ProductsPage/VisualDisplays/Tackboard';
 import TackboardForbo from './pages/ProductsPage/VisualDisplays/TackboardForbo';
+import MobileMbRev from './pages/ProductsPage/VisualDisplays/MobileMbRev';
 
 import TackWallPage from './pages/TackWallPanelsPage';
 
@@ -50,6 +51,10 @@ function App() {
         <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
         <Route path="/visual/tackboard" element={<Tackboard />} />
         <Route path="/visual/tackboard_forbo" element={<TackboardForbo />} />
+        <Route
+          path="/visual/mobile_markerboard_reversible"
+          element={<MobileMbRev />}
+        />
 
         {/* Tables Route */}
         <Route path="/tables" element={<TablesBenchesPage />} />

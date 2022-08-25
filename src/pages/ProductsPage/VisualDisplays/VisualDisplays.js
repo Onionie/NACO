@@ -10,6 +10,7 @@ import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg
 import markerBoard from '../../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
 import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
+import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
@@ -61,18 +62,19 @@ const ProductsPage = () => {
     },
     {
       id: 6,
-      product: 'Bulletin Board Natural Cork',
-      imageSrc: bulletinBoard,
-      category: 'visual',
-      item: 'bulletin_board_natural_cork',
-    },
-    {
-      id: 7,
       product: 'Forbo TackBoard',
       imageSrc: fTackBoard,
       category: 'visual',
       item: 'tackboard_forbo',
     },
+    {
+      id: 7,
+      product: 'Bulletin Board Natural Cork',
+      imageSrc: bulletinBoard,
+      category: 'visual',
+      item: 'bulletin_board_natural_cork',
+    },
+
     {
       id: 8,
       product: 'Bulletin Board Forbo',
@@ -82,18 +84,18 @@ const ProductsPage = () => {
     },
     {
       id: 9,
+      product: 'Reversible Mobile Markerboard',
+      imageSrc: revMobMB,
+      category: 'visual',
+      item: 'mobile_markerboard_reversible',
+    },
+    {
+      id: 10,
       product: 'Mobile Markerboard',
       imageSrc: mobileMb,
       category: 'visual',
       item: 'markerboard_mobile',
     },
-    // {
-    //   id: 10,
-    //   product: 'Tackboard Natural Board',
-    //   imageSrc: tackBoard,
-    //   category: 'visual',
-    //   item: 'tackboard_natural_board',
-    // },
   ];
 
   return (
