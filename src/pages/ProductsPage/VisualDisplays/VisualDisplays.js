@@ -11,6 +11,7 @@ import markerBoard from '../../../assets/images/VisualBoards/markerBoardHorizont
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
 import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
 import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
+import tTypeMB from '../../../assets/images/VisualBoards/mobileMb_T.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
 import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
@@ -92,9 +93,9 @@ const ProductsPage = () => {
     {
       id: 10,
       product: 'Mobile Markerboard',
-      imageSrc: mobileMb,
+      imageSrc: tTypeMB,
       category: 'visual',
-      item: 'markerboard_mobile',
+      item: 'mobile_markerboard_Ttype',
     },
   ];
 

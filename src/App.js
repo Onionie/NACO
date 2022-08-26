@@ -26,6 +26,7 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
+import MobileMbTtype from './pages/ProductsPage/VisualDisplays/MobileMbTtype';
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
         <Route
           path="/visual/mobile_markerboard_reversible"
           element={<MobileMbRev />}
+        />
+        <Route
+          path="/visual/mobile_markerboard_Ttype"
+          element={<MobileMbTtype />}
         />
 
         {/* Tables Route */}
