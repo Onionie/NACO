@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.733fe52b.css",
-    "main.js": "/NACO/static/js/main.02c7f33a.js",
+    "main.css": "/NACO/static/css/main.98d55f98.css",
+    "main.js": "/NACO/static/js/main.aa22445c.js",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/DesertSand1.png": "/NACO/static/media/DesertSand1.37a75bf24aa45ea1b52c.png",
     "static/media/BEL1.png": "/NACO/static/media/BEL1.f8c41289dcfe9ca8fe44.png",
@@ -38,7 +38,9 @@
     "static/media/MB.jpg": "/NACO/static/media/MB.2cb8a168f07f289c14d6.jpg",
     "static/media/vertical_slider2.jpg": "/NACO/static/media/vertical_slider2.a08799410ea0c5c02eac.jpg",
     "static/media/teaching_walls1.jpg": "/NACO/static/media/teaching_walls1.c85b4575b34fa20c15e0.jpg",
+    "static/media/reversible.jpg": "/NACO/static/media/reversible.5a0e51ec03908dc63b1a.jpg",
     "static/media/enclosedBulletinBoard.jpg": "/NACO/static/media/enclosedBulletinBoard.5ecb622bba9ce0dfa995.jpg",
+    "static/media/T_type.jpg": "/NACO/static/media/T_type.3068c0c44b14187c30b0.jpg",
     "static/media/tw_details_front.png": "/NACO/static/media/tw_details_front.951c6972d576299c43f2.png",
     "static/media/grid_grid.jpg": "/NACO/static/media/grid_grid.d052cca5c1ac8578cf99.jpg",
     "static/media/divider_bar.jpg": "/NACO/static/media/divider_bar.48e0bca0ba63eee4a127.jpg",
@@ -47,6 +49,7 @@
     "static/media/tackboard.jpg": "/NACO/static/media/tackboard.7a02cec0104bfc1d73ce.jpg",
     "static/media/spline_joint.jpg": "/NACO/static/media/spline_joint.252ab5a1dcb66f047539.jpg",
     "static/media/grid_polar_grid.jpg": "/NACO/static/media/grid_polar_grid.66d374ebd061f187e7d8.jpg",
+    "static/media/reversible_mobileMB.jpg": "/NACO/static/media/reversible_mobileMB.d3ddcd62b2d0542a7ce6.jpg",
     "static/media/box.jpg": "/NACO/static/media/box.7e4561a5edd4e4964296.jpg",
     "static/media/map_hook.jpg": "/NACO/static/media/map_hook.9759260d0d2998962430.jpg",
     "static/media/surfaceMount.jpg": "/NACO/static/media/surfaceMount.0813d6cf6959f0e96de5.jpg",
@@ -64,6 +67,7 @@
     "static/media/c18_trim.jpg": "/NACO/static/media/c18_trim.ef05d56977d71d08b577.jpg",
     "static/media/c4_trim.jpg": "/NACO/static/media/c4_trim.c0174b225b60fe77183d.jpg",
     "static/media/guilfordmane.JPG": "/NACO/static/media/guilfordmane.609ece1994a92e3bbc78.JPG",
+    "static/media/mobileMb_T.jpg": "/NACO/static/media/mobileMb_T.f18ac35390f623c6dc41.jpg",
     "static/media/grid_staff_lines.jpg": "/NACO/static/media/grid_staff_lines.bb461a05b646d03aef0e.jpg",
     "static/media/forbo.jpg": "/NACO/static/media/forbo.2e971e18f73527873dfc.jpg",
     "static/media/koroseal.JPG": "/NACO/static/media/koroseal.534f0a4b6cf80e23f06e.JPG",
@@ -74,11 +78,11 @@
     "static/media/slick.ttf": "/NACO/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/NACO/index.html",
     "static/media/slick.woff": "/NACO/static/media/slick.295183786cd8a1389865.woff",
-    "main.733fe52b.css.map": "/NACO/static/css/main.733fe52b.css.map",
-    "main.02c7f33a.js.map": "/NACO/static/js/main.02c7f33a.js.map"
+    "main.98d55f98.css.map": "/NACO/static/css/main.98d55f98.css.map",
+    "main.aa22445c.js.map": "/NACO/static/js/main.aa22445c.js.map"
   },
   "entrypoints": [
-    "static/css/main.733fe52b.css",
-    "static/js/main.02c7f33a.js"
+    "static/css/main.98d55f98.css",
+    "static/js/main.aa22445c.js"
   ]
 }
