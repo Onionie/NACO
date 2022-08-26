@@ -33,7 +33,17 @@ const MobileMbTtype = () => {
           availImages={availImages}
           indicators={false}
           controls={false}
-        ></HeroBody>
+        >
+          <li>
+            Our porcelain mobile markerboard comes in heights of 60" or 72", and
+            widths of 36", 42, 48", and 60".
+          </li>
+          <li>
+            Comes with two locking hubless casters and two non-locing ones for
+            convenient maneuverability.
+          </li>
+          <li>The board is double-sided.</li>
+        </HeroBody>
       </HeroProduct>
     </ProductSection>
   );
