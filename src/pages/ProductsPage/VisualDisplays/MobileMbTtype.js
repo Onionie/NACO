@@ -45,6 +45,17 @@ const MobileMbTtype = () => {
           <li>The board is double-sided.</li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        <AvailableSizes>
+          <li>5' x 3.5'</li>
+          <li>5' x 4'</li>
+          <li>5' x 5'</li>
+          <li>6' x 4'</li>
+          <li>6' x 5'</li>
+          <li>6' x 6'</li>
+          <div />
+        </AvailableSizes>
+      </ProductInfo>
     </ProductSection>
   );
 };
