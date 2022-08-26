@@ -92,7 +92,7 @@ const ProductsPage = () => {
     },
     {
       id: 10,
-      product: 'Mobile Markerboard',
+      product: 'Mobile Markerboard T Type',
       imageSrc: tTypeMB,
       category: 'visual',
       item: 'mobile_markerboard_Ttype',
