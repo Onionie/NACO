@@ -14,6 +14,8 @@ import TeachingWalls from './pages/ProductsPage/VisualDisplays/TeachingWall';
 import Tackboard from './pages/ProductsPage/VisualDisplays/Tackboard';
 import TackboardForbo from './pages/ProductsPage/VisualDisplays/TackboardForbo';
 import MobileMbRev from './pages/ProductsPage/VisualDisplays/MobileMbRev';
+import MobileMbTtype from './pages/ProductsPage/VisualDisplays/MobileMbTtype';
+import EnclosedBB from './pages/ProductsPage/VisualDisplays/EnclosedBB';
 
 import TackWallPage from './pages/TackWallPanelsPage';
 
@@ -26,7 +28,6 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
-import MobileMbTtype from './pages/ProductsPage/VisualDisplays/MobileMbTtype';
 
 function App() {
   return (
@@ -52,6 +53,10 @@ function App() {
         <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
         <Route path="/visual/tackboard" element={<Tackboard />} />
         <Route path="/visual/tackboard_forbo" element={<TackboardForbo />} />
+        <Route
+          path="/visual/enclosed_bulletin_board"
+          element={<EnclosedBB />}
+        />
         <Route
           path="/visual/mobile_markerboard_reversible"
           element={<MobileMbRev />}
