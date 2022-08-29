@@ -5,6 +5,7 @@ import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
+import NaturalCork from '../../../components/SpecificProduct/NaturalCork';
 
 import eNC from '../../../assets/images/VisualBoards/EnclosedBB/enclosedBB_nc.jpg';
 import eFB from '../../../assets/images/VisualBoards/EnclosedBB/enclosedBB_f.jpg';
@@ -105,6 +106,7 @@ const EnclosedBB = () => {
           <li>4' x 16'</li>
           <li>Custom Sizes Available</li>
         </AvailableSizes>
+        <NaturalCork />
       </ProductInfo>
     </ProductSection>
   );
