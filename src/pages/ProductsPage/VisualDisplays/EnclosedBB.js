@@ -28,7 +28,17 @@ const EnclosedBB = () => {
           availImages={mainImages}
           indicators={false}
           controls={false}
-        ></HeroBody>
+        >
+          <li>Enclosed Bulletin Board Cabinets feature aluminum trim. </li>
+          <li>Comes with locking hinged doors and tempered clear glass.</li>
+          <li>
+            Available in standard with a 1/4" natural cork with 1/4" hardboard
+            backing.
+          </li>
+          <li>
+            Other options are 1/4" Forbo or 1/2" vinyl tackable back panel.
+          </li>
+        </HeroBody>
       </HeroProduct>
     </ProductSection>
   );
