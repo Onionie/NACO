@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.98d55f98.css",
-    "main.js": "/NACO/static/js/main.aa22445c.js",
+    "main.css": "/NACO/static/css/main.50a1e29d.css",
+    "main.js": "/NACO/static/js/main.d050d555.js",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/DesertSand1.png": "/NACO/static/media/DesertSand1.37a75bf24aa45ea1b52c.png",
     "static/media/BEL1.png": "/NACO/static/media/BEL1.f8c41289dcfe9ca8fe44.png",
@@ -14,10 +14,12 @@
     "static/media/tackwall.jpg": "/NACO/static/media/tackwall.e861c18bed8641659c73.jpg",
     "static/media/HarborWeave_group.png": "/NACO/static/media/HarborWeave_group.63a508e39551cc685476.png",
     "static/media/tables.jpg": "/NACO/static/media/tables.df1f45c25690b28d9c11.jpg",
+    "static/media/forbo_colors_group.jpg": "/NACO/static/media/forbo_colors_group.8d718234b1d02dfe2e15.jpg",
     "static/media/visualdisplay.jpg": "/NACO/static/media/visualdisplay.5b0fa873a447fb13134c.jpg",
     "static/media/forbo_blue.jpg": "/NACO/static/media/forbo_blue.dccea8a9e29ce317f6e7.jpg",
     "static/media/escribano_walk1.jpg": "/NACO/static/media/escribano_walk1.53c9a7dcf734d528a2cd.jpg",
     "static/media/forbo_colors.jpg": "/NACO/static/media/forbo_colors.ca56cedbf2dfde92960b.jpg",
+    "static/media/enclosedBB_nc.jpg": "/NACO/static/media/enclosedBB_nc.c75b34b56f9077f2ff83.jpg",
     "static/media/forbo_options.jpg": "/NACO/static/media/forbo_options.56b264f3c4c4514cdce2.jpg",
     "static/media/cbNmb.jpg": "/NACO/static/media/cbNmb.b8e806c7f31df748fecb.jpg",
     "static/media/gg.png": "/NACO/static/media/gg.23e72e93a1feeaca0037.png",
@@ -29,6 +31,7 @@
     "static/media/teachingwall2.jpg": "/NACO/static/media/teachingwall2.311273b6d58cb82ccb4a.jpg",
     "static/media/logoTable.jpg": "/NACO/static/media/logoTable.5061bb981902c089ceb5.jpg",
     "static/media/mobileTable.JPG": "/NACO/static/media/mobileTable.08b10655b38affa1bd67.JPG",
+    "static/media/enclosedBB_f.jpg": "/NACO/static/media/enclosedBB_f.e117b57b1eeadf12d3e5.jpg",
     "static/media/ctb.JPG": "/NACO/static/media/ctb.1be61a4883219a0297ec.JPG",
     "static/media/cb.jpg": "/NACO/static/media/cb.7c56647f670a361c64ea.jpg",
     "static/media/vertical_slider1.jpg": "/NACO/static/media/vertical_slider1.3a8db494b09c4a55940f.jpg",
@@ -78,11 +81,11 @@
     "static/media/slick.ttf": "/NACO/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/NACO/index.html",
     "static/media/slick.woff": "/NACO/static/media/slick.295183786cd8a1389865.woff",
-    "main.98d55f98.css.map": "/NACO/static/css/main.98d55f98.css.map",
-    "main.aa22445c.js.map": "/NACO/static/js/main.aa22445c.js.map"
+    "main.50a1e29d.css.map": "/NACO/static/css/main.50a1e29d.css.map",
+    "main.d050d555.js.map": "/NACO/static/js/main.d050d555.js.map"
   },
   "entrypoints": [
-    "static/css/main.98d55f98.css",
-    "static/js/main.aa22445c.js"
+    "static/css/main.50a1e29d.css",
+    "static/js/main.d050d555.js"
   ]
 }
