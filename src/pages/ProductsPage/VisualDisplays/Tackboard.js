@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Tackboard.module.css';
 
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
