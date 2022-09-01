@@ -3,7 +3,7 @@ import styles from './TablesBenchesPage.module.css';
 import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 // import Tables and Benches Images
-import ctb from '../../../assets/images/TablesAndBenches/ctb.JPG';
+import ctb from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_main.png';
 import inWall from '../../../assets/images/TablesAndBenches/inWall.JPG';
 import logoTable from '../../../assets/images/TablesAndBenches/logoTable.jpg';
 import mobileTable from '../../../assets/images/TablesAndBenches/mobileTable.JPG';
