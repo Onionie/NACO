@@ -28,6 +28,7 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
+import ConvertibleTable from './pages/ProductsPage/TablesBenches/ConvertibleTable';
 
 function App() {
   return (
@@ -68,6 +69,10 @@ function App() {
         {/* ---------------------------------------------------------- */}
         {/* Tables Route */}
         <Route path="/tables&benches" element={<TablesBenchesPage />} />
+        <Route
+          path="/tables&benches/convertible_tables"
+          element={<ConvertibleTable />}
+        />
 
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />

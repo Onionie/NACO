@@ -15,6 +15,8 @@ const TablesBenchesPage = () => {
       id: 1,
       product: 'Convertible Table',
       imageSrc: ctb,
+      category: 'tables&benches',
+      item: 'convertible_tables',
     },
     {
       id: 2,
