@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import escribanoWalk from '../../assets/images/homepage/escribano_walk1.jpg';
 import escribano from '../../assets/images/homepage/escribano.png';
