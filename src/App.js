@@ -20,7 +20,7 @@ import EnclosedBB from './pages/ProductsPage/VisualDisplays/EnclosedBB';
 import TackWallPage from './pages/TackWallPanelsPage';
 
 // Tables and Benches
-import TablesBenchesPage from './pages/TablesBenchesPage';
+import TablesBenchesPage from './pages/ProductsPage/TablesBenches/TablesBenchesPage';
 
 import ArchitectCornerPage from './pages/ArchitectCornerPage';
 import AboutPage from './pages/AboutPage';
@@ -42,7 +42,6 @@ function App() {
 
         {/* Visual Display Boards Route */}
         <Route path="/visual" element={<VisualPage />} />
-
         <Route path="/visual/markerboard" element={<Markerboard />} />
         <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
         <Route
@@ -66,8 +65,10 @@ function App() {
           element={<MobileMbTtype />}
         />
 
+        {/* ---------------------------------------------------------- */}
         {/* Tables Route */}
-        <Route path="/tables" element={<TablesBenchesPage />} />
+        <Route path="/tables&benches" element={<TablesBenchesPage />} />
+
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
       </Routes>

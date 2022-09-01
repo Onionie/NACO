@@ -71,7 +71,7 @@ const Slideshow = () => {
           </Link>
         </div>
         <div className={styles.products_title_line2}>
-          <Link to="/tables">
+          <Link to="/tables&benches">
             <div
               className={`${styles.btn} ${styles.btn_tables}`}
               onMouseEnter={changeToTables}
