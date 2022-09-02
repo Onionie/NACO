@@ -9,6 +9,8 @@ import ctb2 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_
 import ctb3 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_3.png';
 import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_4.PNG';
 
+import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
+
 const ConvertibleTable = () => {
   const mainImages = [
     {
@@ -33,12 +35,20 @@ const ConvertibleTable = () => {
     },
   ];
 
+  const availImages = [
+    {
+      id: 1,
+      image: ctb_finishes,
+      alt: 'table_color_options',
+    },
+  ];
+
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
         <HeroBody
           title="Convertible Table Bench"
-          availImages={mainImages}
+          availImages={availImages}
           indicators={false}
           controls={false}
         >
