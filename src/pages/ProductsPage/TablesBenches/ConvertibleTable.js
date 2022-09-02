@@ -5,6 +5,7 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
+import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import ctb1 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_1.png';
 import ctb2 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_2.png';
@@ -88,10 +89,7 @@ const ConvertibleTable = () => {
             <div className={styles.ctb_hiwtc_title}>How It Works</div>
             <img src={ctb_hiw} alt="how_it_works" />
           </div>
-          <div>
-            <div className={styles.ctb_hiwtc_title}> Table Components</div>
-            <img src={ctb_comp} alt="table_components" />
-          </div>
+          <TableComponent />
         </div>
 
         {/* Settings */}

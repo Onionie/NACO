@@ -49,6 +49,7 @@ const RoundTable = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo></ProductInfo>
     </ProductSection>
   );
 };
