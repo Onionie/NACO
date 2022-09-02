@@ -1,8 +1,10 @@
 import React from 'react';
+import styles from './ConvertibleTable.module.css';
 
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
+import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 
 import ctb1 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_1.png';
 import ctb2 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_2.png';
@@ -10,6 +12,7 @@ import ctb3 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_
 import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_4.PNG';
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
+import ctb_sizes from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_sizes.png';
 
 const ConvertibleTable = () => {
   const mainImages = [
@@ -67,6 +70,15 @@ const ConvertibleTable = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        {/* Available Table Sizes */}
+        <div className={styles.ctb_sizes_box}>
+          <div className={styles.ctb_sizes_title}>Available Sizes</div>
+          <div className={styles.ctb_sizes_image_box}>
+            <img src={ctb_sizes} alt="availabe_sizes" />
+          </div>
+        </div>
+      </ProductInfo>
     </ProductSection>
   );
 };
