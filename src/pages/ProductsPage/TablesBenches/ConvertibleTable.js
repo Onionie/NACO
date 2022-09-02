@@ -13,6 +13,7 @@ import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 import ctb_sizes from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_sizes1.png';
+import ctb_hiw from '../../../assets/images/TablesAndBenches/ConvertibleTables/hiw.png';
 import ctb_settings from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_settings.png';
 
 const ConvertibleTable = () => {
@@ -77,6 +78,17 @@ const ConvertibleTable = () => {
           <div className={styles.ctb_sizes_title}>Seating Size Options</div>
           <div className={styles.ctb_sizes_image_box}>
             <img src={ctb_sizes} alt="availabe_sizes" />
+          </div>
+        </div>
+
+        {/* How It Works and Table Components */}
+        <div className={styles.ctb_hiwtc_box}>
+          <div>
+            <div className={styles.ctb_hiwtc_title}>How It Works</div>
+            <img src={ctb_hiw} alt="how_it_works" />
+          </div>
+          <div>
+            <div className={styles.ctb_hiwtc_title}> Table Components</div>
           </div>
         </div>
 
