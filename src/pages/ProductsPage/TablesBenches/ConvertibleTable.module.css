@@ -1,10 +1,13 @@
-.ctb_sizes_box {
+.ctb_sizes_box,
+.ctb_settings_box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
-.ctb_sizes_title {
+.ctb_sizes_title,
+.ctb_settings_title {
   font-weight: 600;
   font-size: 2.6rem;
   text-transform: uppercase;
@@ -12,5 +15,9 @@
 }
 
 .ctb_sizes_image_box img {
+  max-width: 100%;
+}
+
+.ctb_settings_image_box img {
   max-width: 100%;
 }

@@ -12,7 +12,8 @@ import ctb3 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_
 import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_4.PNG';
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
-import ctb_sizes from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_sizes.png';
+import ctb_sizes from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_sizes1.png';
+import ctb_settings from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_settings.png';
 
 const ConvertibleTable = () => {
   const mainImages = [
@@ -73,9 +74,17 @@ const ConvertibleTable = () => {
       <ProductInfo>
         {/* Available Table Sizes */}
         <div className={styles.ctb_sizes_box}>
-          <div className={styles.ctb_sizes_title}>Available Sizes</div>
+          <div className={styles.ctb_sizes_title}>Seating Size Options</div>
           <div className={styles.ctb_sizes_image_box}>
             <img src={ctb_sizes} alt="availabe_sizes" />
+          </div>
+        </div>
+
+        {/* Settings */}
+        <div className={styles.ctb_settings_box}>
+          <div className={styles.ctb_settings_title}>Different Settings</div>
+          <div className={styles.ctb_settings_image_box}>
+            <img src={ctb_settings} alt="different_settings" />
           </div>
         </div>
       </ProductInfo>
