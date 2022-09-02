@@ -5,6 +5,7 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
+import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import rtb1 from '../../../assets/images/TablesAndBenches/RoundTables/rtb_1.png';
 import rtb_sizes from '../../../assets/images/TablesAndBenches/RoundTables/rtb_sizes.png';
@@ -61,7 +62,7 @@ const RoundTable = () => {
             </div>
             <img src={rtb_custom} alt="how_it_works" />
           </div>
-          <div></div>
+          <TableComponent />
         </div>
 
         {/* Sizes */}

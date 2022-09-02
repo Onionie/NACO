@@ -18,7 +18,7 @@
 
 .rtb_csttc_box {
   display: grid;
-  padding: 0 5rem;
+  gap: 3rem;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 10rem;
 }
