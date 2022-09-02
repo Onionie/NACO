@@ -8,6 +8,7 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 
 import rtb1 from '../../../assets/images/TablesAndBenches/RoundTables/rtb_1.png';
 import rtb_sizes from '../../../assets/images/TablesAndBenches/RoundTables/rtb_sizes.png';
+import rtb_op from '../../../assets/images/TablesAndBenches/RoundTables/rtb_op.png';
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
@@ -54,8 +55,13 @@ const RoundTable = () => {
       <ProductInfo>
         {/* Sizes */}
         <div className={styles.rtb_options_box}>
-          <div className={styles.rtb_options_title}>Seating Options</div>
+          <div className={styles.rtb_options_title}>Table Seating Options</div>
           <img src={rtb_sizes} alt="seating_options" />
+        </div>
+
+        <div className={styles.rtb_options_box}>
+          <div className={styles.rtb_options_title}>Deployment Operations</div>
+          <img src={rtb_op} alt="deployment_operations" />
         </div>
       </ProductInfo>
     </ProductSection>

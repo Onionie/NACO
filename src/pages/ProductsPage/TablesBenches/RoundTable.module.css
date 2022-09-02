@@ -5,6 +5,10 @@
   margin-bottom: 10rem;
 }
 
+.rtb_options_box img {
+  max-width: 100%;
+}
+
 .rtb_options_title {
   font-weight: 600;
   font-size: 2.6rem;
