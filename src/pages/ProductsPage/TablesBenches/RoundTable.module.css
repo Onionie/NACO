@@ -1,0 +1,13 @@
+.rtb_options_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.rtb_options_title {
+  font-weight: 600;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}

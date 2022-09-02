@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './RoundTable.module.css';
 
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
@@ -6,6 +7,7 @@ import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 
 import rtb1 from '../../../assets/images/TablesAndBenches/RoundTables/rtb_1.png';
+import rtb_sizes from '../../../assets/images/TablesAndBenches/RoundTables/rtb_sizes.png';
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
@@ -49,7 +51,13 @@ const RoundTable = () => {
           </li>
         </HeroBody>
       </HeroProduct>
-      <ProductInfo></ProductInfo>
+      <ProductInfo>
+        {/* Sizes */}
+        <div className={styles.rtb_options_box}>
+          <div className={styles.rtb_options_title}>Seating Options</div>
+          <img src={rtb_sizes} alt="seating_options" />
+        </div>
+      </ProductInfo>
     </ProductSection>
   );
 };
