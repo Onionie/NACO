@@ -14,6 +14,7 @@ import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 import ctb_sizes from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_sizes1.png';
 import ctb_hiw from '../../../assets/images/TablesAndBenches/ConvertibleTables/hiw.png';
+import ctb_comp from '../../../assets/images/TablesAndBenches/ConvertibleTables/tb_comp.png';
 import ctb_settings from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_settings.png';
 
 const ConvertibleTable = () => {
@@ -89,6 +90,7 @@ const ConvertibleTable = () => {
           </div>
           <div>
             <div className={styles.ctb_hiwtc_title}> Table Components</div>
+            <img src={ctb_comp} alt="table_components" />
           </div>
         </div>
 
