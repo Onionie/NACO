@@ -9,6 +9,7 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import rtb1 from '../../../assets/images/TablesAndBenches/RoundTables/rtb_1.png';
 import rtb_sizes from '../../../assets/images/TablesAndBenches/RoundTables/rtb_sizes.png';
 import rtb_op from '../../../assets/images/TablesAndBenches/RoundTables/rtb_op.png';
+import rtb_custom from '../../../assets/images/TablesAndBenches/RoundTables/rtb_custom.png';
 
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
@@ -53,6 +54,16 @@ const RoundTable = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
+        <div className={styles.rtb_csttc_box}>
+          <div>
+            <div className={styles.rtb_csstc_title}>
+              Custom Printing Available
+            </div>
+            <img src={rtb_custom} alt="how_it_works" />
+          </div>
+          <div></div>
+        </div>
+
         {/* Sizes */}
         <div className={styles.rtb_options_box}>
           <div className={styles.rtb_options_title}>Table Seating Options</div>
