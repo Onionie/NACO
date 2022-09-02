@@ -7,6 +7,7 @@ import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ctb1 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_1.png';
 import ctb2 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_2.png';
 import ctb3 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_3.png';
+import ctb4 from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_4.PNG';
 
 const ConvertibleTable = () => {
   const mainImages = [
@@ -25,15 +26,37 @@ const ConvertibleTable = () => {
       image: ctb3,
       alt: 'convertible_table',
     },
+    {
+      id: 4,
+      image: ctb4,
+      alt: 'convertible_table',
+    },
   ];
 
   return (
     <ProductSection>
-      <HeroProduct
-        mainImages={mainImages}
-        indicators={true}
-        controls={true}
-      ></HeroProduct>
+      <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
+        <HeroBody
+          title="Convertible Table Bench"
+          availImages={mainImages}
+          indicators={false}
+          controls={false}
+        >
+          <li>
+            Allows you to turn any room into a variety of seating
+            accommodations.
+          </li>
+          <li>
+            From a standard cafeteria table to setting up a classroom and/or
+            auditorium setting.
+          </li>
+          <li>This convertible bench allows you to maximize your space.</li>
+          <li>
+            Have them in a customizable arrangements and length sizes to meet
+            your room space availability.
+          </li>
+        </HeroBody>
+      </HeroProduct>
     </ProductSection>
   );
 };
