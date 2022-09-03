@@ -20,11 +20,29 @@ const MobileTables = () => {
 
   return (
     <ProductSection>
-      <HeroProduct
-        mainImages={mainImages}
-        indicators={false}
-        controls={false}
-      ></HeroProduct>
+      <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
+        <HeroBody
+          title="Mobile Tables"
+          availImages={mainImages}
+          indicators={false}
+          controls={false}
+        >
+          <li>
+            NELSON ADAMS allows you to customize your table with a variety of
+            laminates that change the environment of your room.
+          </li>
+          <li>
+            Whether they're laid out ready to be used or folded up for storage,
+            your table will be different from the original drabby cafeteria
+            tables.
+          </li>
+          <li>
+            Mobile Tables can be customized to be wheelchair accessible upon
+            request.
+          </li>
+          <li>Mobile Tables are also available with individual seating.</li>
+        </HeroBody>
+      </HeroProduct>
     </ProductSection>
   );
 };
