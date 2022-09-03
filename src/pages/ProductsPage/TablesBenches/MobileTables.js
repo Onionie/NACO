@@ -9,6 +9,7 @@ import TableComponent from '../../../components/SpecificProduct/TablesBenches/Ta
 
 import mbtb1 from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_1.png';
 import mbtb_seat from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_seating.PNG';
+import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
 const MobileTables = () => {
   const mainImages = [
@@ -19,12 +20,20 @@ const MobileTables = () => {
     },
   ];
 
+  const availImages = [
+    {
+      id: 1,
+      image: ctb_finishes,
+      alt: 'table_color_options',
+    },
+  ];
+
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
         <HeroBody
           title="Mobile Tables"
-          availImages={mainImages}
+          availImages={availImages}
           indicators={false}
           controls={false}
         >
