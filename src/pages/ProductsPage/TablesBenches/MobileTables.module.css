@@ -1,0 +1,9 @@
+.mbtb_seating_opt {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.mbtb_seating_opt img {
+  max-width: 100%;
+}

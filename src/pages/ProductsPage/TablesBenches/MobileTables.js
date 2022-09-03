@@ -8,6 +8,7 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import mbtb1 from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_1.png';
+import mbtb_seat from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_seating.PNG';
 
 const MobileTables = () => {
   const mainImages = [
@@ -43,6 +44,11 @@ const MobileTables = () => {
           <li>Mobile Tables are also available with individual seating.</li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        <div className={styles.mbtb_seating_opt}>
+          <img src={mbtb_seat} alt="seating_options" />
+        </div>
+      </ProductInfo>
     </ProductSection>
   );
 };
