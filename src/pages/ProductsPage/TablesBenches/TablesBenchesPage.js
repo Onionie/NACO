@@ -5,6 +5,7 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 // import Tables and Benches Images
 import ctb from '../../../assets/images/TablesAndBenches/ConvertibleTables/ctb_main.png';
 import rtb from '../../../assets/images/TablesAndBenches/RoundTables/rtb_main.PNG';
+import mbtb from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_main.PNG';
 import logoTable from '../../../assets/images/TablesAndBenches/logoTable.jpg';
 import mobileTable from '../../../assets/images/TablesAndBenches/mobileTable.JPG';
 import surfaceMount from '../../../assets/images/TablesAndBenches/surfaceMount.jpg';
@@ -27,8 +28,10 @@ const TablesBenchesPage = () => {
     },
     {
       id: 3,
-      product: 'Round Tables',
-      imageSrc: logoTable,
+      product: 'Mobile Tables',
+      imageSrc: mbtb,
+      category: 'tables&benches',
+      item: 'mobile_tables',
     },
     {
       id: 4,

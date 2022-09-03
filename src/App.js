@@ -30,6 +30,7 @@ import EscribanoPage from './pages/EscribanoPage';
 import DisplayCasesPage from './pages/DisplayCases';
 import ConvertibleTable from './pages/ProductsPage/TablesBenches/ConvertibleTable';
 import RoundTable from './pages/ProductsPage/TablesBenches/RoundTable';
+import MobileTables from './pages/ProductsPage/TablesBenches/MobileTables';
 
 function App() {
   return (
@@ -75,6 +76,10 @@ function App() {
           element={<ConvertibleTable />}
         />
         <Route path="/tables&benches/round_tables" element={<RoundTable />} />
+        <Route
+          path="/tables&benches/mobile_tables"
+          element={<MobileTables />}
+        />
 
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
