@@ -17,8 +17,7 @@
 
 .ctb_hiwtc_box {
   display: grid;
-  padding: 0 5rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   margin-bottom: 10rem;
 }
 

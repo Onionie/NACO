@@ -4,3 +4,7 @@
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
+
+div img {
+  max-width: 100%;
+}

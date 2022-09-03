@@ -40,7 +40,7 @@ const ModalAvail = (props) => {
             variant="dark"
           >
             {props.availImages.map((avail) => (
-              <Carousel.Item>
+              <Carousel.Item key={avail.id}>
                 <Magnifier
                   src={avail.image}
                   alt={avail.alt}
