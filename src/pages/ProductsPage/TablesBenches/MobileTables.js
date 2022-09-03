@@ -9,6 +9,7 @@ import TableComponent from '../../../components/SpecificProduct/TablesBenches/Ta
 
 import mbtb1 from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_1.png';
 import mbtb_seat from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_seating.PNG';
+import mbtb_avail from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_avail.png';
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
 const MobileTables = () => {
@@ -56,6 +57,9 @@ const MobileTables = () => {
       <ProductInfo>
         <div className={styles.mbtb_seating_opt}>
           <img src={mbtb_seat} alt="seating_options" />
+        </div>
+        <div className={styles.mbtb_seating_opt}>
+          <img src={mbtb_avail} alt="available_tables" />
         </div>
       </ProductInfo>
     </ProductSection>
