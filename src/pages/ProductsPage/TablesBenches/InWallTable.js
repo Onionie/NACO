@@ -8,6 +8,7 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import iwtb1 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_1.png';
+import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
 const InWallTable = () => {
   const mainImages = [
@@ -17,12 +18,21 @@ const InWallTable = () => {
       alt: 'in-wall_table',
     },
   ];
+
+  const availImages = [
+    {
+      id: 1,
+      image: ctb_finishes,
+      alt: 'table_color_options',
+    },
+  ];
+
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
         <HeroBody
           title="In-Wall Tables & Benches"
-          availImages={mainImages}
+          availImages={availImages}
           indicators={false}
           controls={false}
         >
