@@ -56,6 +56,7 @@ const InWallTable = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo></ProductInfo>
     </ProductSection>
   );
 };
