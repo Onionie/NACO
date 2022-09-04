@@ -21,6 +21,10 @@ import TackWallPage from './pages/TackWallPanelsPage';
 
 // Tables and Benches
 import TablesBenchesPage from './pages/ProductsPage/TablesBenches/TablesBenchesPage';
+import ConvertibleTable from './pages/ProductsPage/TablesBenches/ConvertibleTable';
+import RoundTable from './pages/ProductsPage/TablesBenches/RoundTable';
+import MobileTables from './pages/ProductsPage/TablesBenches/MobileTables';
+import InWallTable from './pages/ProductsPage/TablesBenches/InWallTable';
 
 import ArchitectCornerPage from './pages/ArchitectCornerPage';
 import AboutPage from './pages/AboutPage';
@@ -28,9 +32,6 @@ import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
 import DisplayCasesPage from './pages/DisplayCases';
-import ConvertibleTable from './pages/ProductsPage/TablesBenches/ConvertibleTable';
-import RoundTable from './pages/ProductsPage/TablesBenches/RoundTable';
-import MobileTables from './pages/ProductsPage/TablesBenches/MobileTables';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
           path="/tables&benches/mobile_tables"
           element={<MobileTables />}
         />
+        <Route path="/tables&benches/inwall_tables" element={<InWallTable />} />
 
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
