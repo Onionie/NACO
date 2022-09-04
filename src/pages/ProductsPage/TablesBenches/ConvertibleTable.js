@@ -54,7 +54,7 @@ const ConvertibleTable = () => {
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
         <HeroBody
-          title="Convertible Table Bench"
+          title="Convertible Tables & Benches"
           availImages={availImages}
           indicators={false}
           controls={false}

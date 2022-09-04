@@ -19,11 +19,33 @@ const InWallTable = () => {
   ];
   return (
     <ProductSection>
-      <HeroProduct
-        mainImages={mainImages}
-        indicators={false}
-        controls={false}
-      ></HeroProduct>
+      <HeroProduct mainImages={mainImages} indicators={false} controls={false}>
+        <HeroBody
+          title="In-Wall Tables & Benches"
+          availImages={mainImages}
+          indicators={false}
+          controls={false}
+        >
+          <li>
+            Provides the most efficient use of space in a cateria or
+            multi-purpose room setting.
+          </li>
+          <li>
+            Allows you to customize multiple units that can store up to 4 tables
+            and 8 benches.
+          </li>
+          <li>
+            Configurations allow you to provide wheelchair accessibility
+            throughout your room.
+          </li>
+          <li>
+            NELSON ADAMS now provides two kinds of in-wall tables & benches; D
+            series Recessed Mounted <b>(DRM)</b> and D series Surface Mounted{' '}
+            <b>(DSM)</b> configurations, allowing you to either locate the
+            pockets within your wall or along the surface of your wall.
+          </li>
+        </HeroBody>
+      </HeroProduct>
     </ProductSection>
   );
 };
