@@ -8,6 +8,8 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import iwtb1 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_1.png';
+import iwtb_deploy from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_deploy.png';
+import iwtb_safety from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_safety.png';
 import iwtb_dim1 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_dim1.png';
 import iwtb_dim2 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_dim2.png';
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
@@ -59,6 +61,25 @@ const InWallTable = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
+        {/***** Safety *****/}
+        <div className={styles.safety_box}>
+          <div className={styles.safety_text_box}>
+            <div className={styles.safety_title}>Safety Features</div>
+            <div className={styles.safety_text_body}>
+              At Nelson Adams, safety is our main priority. We have innovated
+              our in-wall systems to a safety standard not offered by our
+              competition. By choosing our product you can rely on quality and
+              safety.
+            </div>
+          </div>
+
+          <div className={styles.safety_image_box}>
+            <img src={iwtb_deploy} alt="table_dimensions" />
+            <img src={iwtb_safety} alt="table_dimensions" />
+          </div>
+        </div>
+
+        {/***** Dimensions *****/}
         <div className={styles.dimensions_box}>
           <div className={styles.dimensions_title}>Dimensions</div>
           <div className={styles.dimensions_image_box}>
