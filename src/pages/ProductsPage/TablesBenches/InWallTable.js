@@ -8,6 +8,8 @@ import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import iwtb1 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_1.png';
+import iwtb_dim1 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_dim1.png';
+import iwtb_dim2 from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_dim2.png';
 import ctb_finishes from '../../../assets/images/TablesAndBenches/ctb_finishes.png';
 
 const InWallTable = () => {
@@ -56,7 +58,17 @@ const InWallTable = () => {
           </li>
         </HeroBody>
       </HeroProduct>
-      <ProductInfo></ProductInfo>
+      <ProductInfo>
+        <div className={styles.dimensions_box}>
+          <div className={styles.dimensions_title}>Dimensions</div>
+          <div className={styles.dimensions_image_box}>
+            <img src={iwtb_dim2} alt="table_dimensions" />
+            <img src={iwtb_dim1} alt="table_dimensions" />
+          </div>
+        </div>
+
+        <TableComponent />
+      </ProductInfo>
     </ProductSection>
   );
 };

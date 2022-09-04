@@ -1,0 +1,27 @@
+.dimensions_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.dimensions_title {
+  font-weight: 600;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.dimensions_image_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dimensions_image_box img {
+  max-width: 100%;
+}
+
+.dimensions_image_box img:first-child {
+  margin-bottom: 5rem;
+}
