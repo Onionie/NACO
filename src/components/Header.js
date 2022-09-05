@@ -145,7 +145,7 @@ const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to="/tables"
+                    to="/teaching_walls"
                     onClick={handleClose}
                   >
                     Teaching Walls

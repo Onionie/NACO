@@ -53,7 +53,7 @@ function App() {
           element={<HorizontalSlider />}
         />
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
-        <Route path="/visual/teaching_walls" element={<TeachingWalls />} />
+        {/* <Route path="/visual/teaching_walls" element={<TeachingWalls />} /> */}
         <Route path="/visual/tackboard" element={<Tackboard />} />
         <Route path="/visual/tackboard_forbo" element={<TackboardForbo />} />
         <Route
@@ -83,6 +83,9 @@ function App() {
         />
         <Route path="/tables&benches/inwall_tables" element={<InWallTable />} />
 
+        {/* ---------------------------------------------------------- */}
+
+        <Route path="/teaching_walls" element={<TeachingWalls />} />
         <Route path="/tackwall" element={<TackWallPage />} />
         <Route path="/display" element={<DisplayCasesPage />} />
       </Routes>
