@@ -9,7 +9,6 @@ import fTackBoard from '../../../assets/images/VisualBoards/ForboTackboard/forbo
 import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
 import markerBoard from '../../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
-import mobileMb from '../../../assets/images/VisualBoards/mobileMb.jpg';
 import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
 import tTypeMB from '../../../assets/images/VisualBoards/mobileMb_T.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
@@ -47,13 +46,13 @@ const ProductsPage = () => {
       category: 'visual',
       item: 'chalkboard',
     },
-    {
-      id: 5,
-      product: 'Teaching Walls',
-      imageSrc: tWall,
-      category: 'visual',
-      item: 'teaching_walls',
-    },
+    // {
+    //   id: 5,
+    //   product: 'Teaching Walls',
+    //   imageSrc: tWall,
+    //   category: 'visual',
+    //   item: 'teaching_walls',
+    // },
     {
       id: 6,
       product: 'Tackboard',
