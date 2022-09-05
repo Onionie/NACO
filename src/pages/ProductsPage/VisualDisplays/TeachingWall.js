@@ -9,8 +9,8 @@ import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
-import tw1 from '../../../assets/images/VisualBoards/TeachingWalls/teachingwall1.jpg';
-import tw2 from '../../../assets/images/VisualBoards/TeachingWalls/teachingwall2.jpg';
+import tw1 from '../../../assets/images/VisualBoards/TeachingWalls/tw_1.png';
+import tw2 from '../../../assets/images/VisualBoards/TeachingWalls/tw_2.png';
 import cbNmb from '../../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
 import twFront from '../../../assets/images/VisualBoards/TeachingWalls/tw_details_front.png';
 import twSide from '../../../assets/images/VisualBoards/TeachingWalls/tw_details_side2.png';
