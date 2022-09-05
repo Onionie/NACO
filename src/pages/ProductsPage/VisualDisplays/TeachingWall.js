@@ -11,6 +11,8 @@ import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import tw1 from '../../../assets/images/VisualBoards/TeachingWalls/tw_1.png';
 import tw2 from '../../../assets/images/VisualBoards/TeachingWalls/tw_2.png';
+import tw3 from '../../../assets/images/VisualBoards/TeachingWalls/teachingwall1.jpg';
+import tw4 from '../../../assets/images/VisualBoards/TeachingWalls/teachingwall2.jpg';
 import cbNmb from '../../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
 import twFront from '../../../assets/images/VisualBoards/TeachingWalls/tw_details_front.png';
 import twSide from '../../../assets/images/VisualBoards/TeachingWalls/tw_details_side2.png';
@@ -28,6 +30,16 @@ const TeachingWall = () => {
       id: 2,
       image: tw2,
       alt: 'teaching_wall2',
+    },
+    {
+      id: 3,
+      image: tw3,
+      alt: 'teaching_wall3',
+    },
+    {
+      id: 4,
+      image: tw4,
+      alt: 'teaching_wall4',
     },
   ];
 
@@ -83,11 +95,9 @@ const TeachingWall = () => {
             </div>
           </AvailableSizes>
 
-          <div className={styles.tw_details_box}>
-            <div className={styles.tw_details_title} data-aos="slide-up">
-              Teaching Wall Details
-            </div>
-            <div className={styles.tw_details1} data-aos="slide-up">
+          <div className={styles.tw_details_box} data-aos="slide-up">
+            <div className={styles.tw_details_title}>Teaching Wall Details</div>
+            <div className={styles.tw_details1}>
               <div>
                 <img src={twFront} alt="teaching_wall_details_front" />
                 <div>Front</div>
@@ -97,7 +107,7 @@ const TeachingWall = () => {
                 <div>Side</div>
               </div>
             </div>
-            <div className={styles.panel_box} data-aos="slide-up">
+            <div className={styles.panel_box}>
               <div className={styles.sliding_marker_box}>
                 <div className={styles.sliding_marker_title}></div>
                 <div className={styles.sliding_marker_image_box}>
