@@ -31,7 +31,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
-import DisplayCasesPage from './pages/DisplayCases';
+import DisplayCasesPage from './pages/ProductsPage/DisplayCases/DisplayCases';
 
 function App() {
   return (
@@ -47,25 +47,25 @@ function App() {
         {/* Visual Display Boards Route */}
         <Route path="/visual" element={<VisualPage />} />
         <Route path="/visual/markerboard" element={<Markerboard />} />
-        <Route path="/visual/vertical_sliders" element={<VerticalSliders />} />
+        <Route path="/visual/vertical-sliders" element={<VerticalSliders />} />
         <Route
-          path="/visual/horizontal_sliders"
+          path="/visual/horizontal-sliders"
           element={<HorizontalSlider />}
         />
         <Route path="/visual/chalkboard" element={<Chalkboard />} />
         {/* <Route path="/visual/teaching_walls" element={<TeachingWalls />} /> */}
         <Route path="/visual/tackboard" element={<Tackboard />} />
-        <Route path="/visual/tackboard_forbo" element={<TackboardForbo />} />
+        <Route path="/visual/tackboard-forbo" element={<TackboardForbo />} />
         <Route
-          path="/visual/enclosed_bulletin_board"
+          path="/visual/enclosed-bulletin-board"
           element={<EnclosedBB />}
         />
         <Route
-          path="/visual/mobile_markerboard_reversible"
+          path="/visual/mobile-markerboard-reversible"
           element={<MobileMbRev />}
         />
         <Route
-          path="/visual/mobile_markerboard_Ttype"
+          path="/visual/mobile-markerboard-t-type"
           element={<MobileMbTtype />}
         />
 
@@ -73,21 +73,21 @@ function App() {
         {/* Tables Route */}
         <Route path="/tables&benches" element={<TablesBenchesPage />} />
         <Route
-          path="/tables&benches/convertible_tables"
+          path="/tables&benches/convertible-tables"
           element={<ConvertibleTable />}
         />
-        <Route path="/tables&benches/round_tables" element={<RoundTable />} />
+        <Route path="/tables&benches/round-tables" element={<RoundTable />} />
         <Route
-          path="/tables&benches/mobile_tables"
+          path="/tables&benches/mobile-tables"
           element={<MobileTables />}
         />
-        <Route path="/tables&benches/inwall_tables" element={<InWallTable />} />
+        <Route path="/tables&benches/inwall-tables" element={<InWallTable />} />
 
         {/* ---------------------------------------------------------- */}
 
-        <Route path="/teaching_walls" element={<TeachingWalls />} />
+        <Route path="/teaching-walls" element={<TeachingWalls />} />
         <Route path="/tackwall" element={<TackWallPage />} />
-        <Route path="/display" element={<DisplayCasesPage />} />
+        {/* <Route path="/display" element={<DisplayCasesPage />} /> */}
       </Routes>
       <Footer />
     </Router>

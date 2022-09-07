@@ -30,14 +30,14 @@ const ProductsPage = () => {
       product: 'Vertical Sliders',
       imageSrc: vertical,
       category: 'visual',
-      item: 'vertical_sliders',
+      item: 'vertical-sliders',
     },
     {
       id: 3,
       product: 'Horizontal Sliders',
       imageSrc: markerBoard,
       category: 'visual',
-      item: 'horizontal_sliders',
+      item: 'horizontal-sliders',
     },
     {
       id: 4,
@@ -65,7 +65,7 @@ const ProductsPage = () => {
       product: 'Forbo TackBoard',
       imageSrc: fTackBoard,
       category: 'visual',
-      item: 'tackboard_forbo',
+      item: 'tackboard-forbo',
     },
     // {
     //   id: 7,
@@ -80,21 +80,21 @@ const ProductsPage = () => {
       product: 'Enclosed Bulletin Board',
       imageSrc: hingeDoor,
       category: 'visual',
-      item: 'enclosed_bulletin_board',
+      item: 'enclosed-bulletin-board',
     },
     {
       id: 8,
       product: 'Reversible Mobile Markerboard',
       imageSrc: revMobMB,
       category: 'visual',
-      item: 'mobile_markerboard_reversible',
+      item: 'mobile-markerboard-reversible',
     },
     {
       id: 9,
       product: 'Mobile Markerboard T Type',
       imageSrc: tTypeMB,
       category: 'visual',
-      item: 'mobile_markerboard_Ttype',
+      item: 'mobile-markerboard-t-type',
     },
   ];
 

@@ -18,28 +18,28 @@ const TablesBenchesPage = () => {
       product: 'Convertible Tables',
       imageSrc: ctb,
       category: 'tables&benches',
-      item: 'convertible_tables',
+      item: 'convertible-tables',
     },
     {
       id: 2,
       product: 'Round Tables',
       imageSrc: rtb,
       category: 'tables&benches',
-      item: 'round_tables',
+      item: 'round-tables',
     },
     {
       id: 3,
       product: 'Mobile Tables',
       imageSrc: mbtb,
       category: 'tables&benches',
-      item: 'mobile_tables',
+      item: 'mobile-tables',
     },
     {
       id: 4,
       product: 'In-Wall Tables',
       imageSrc: iwtb,
       category: 'tables&benches',
-      item: 'inwall_tables',
+      item: 'inwall-tables',
     },
   ];
   return (
