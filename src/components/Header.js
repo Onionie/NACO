@@ -152,7 +152,7 @@ const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to="/display"
+                    to="/display-cases"
                     onClick={handleClose}
                   >
                     Display Cases

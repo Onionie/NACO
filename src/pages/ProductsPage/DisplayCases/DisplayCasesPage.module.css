@@ -1,0 +1,40 @@
+.section_display {
+  min-height: 100vh;
+  padding: 15rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dc_box {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dc_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dc_item img {
+  transform: scale(0.95);
+  transition: all 0.4s;
+}
+
+.dc_item img:hover {
+  transform: scale(1);
+}
+
+.dc_title:link,
+.dc_title:hover,
+.dc_title:visited,
+.dc_title:active {
+  display: inline-block;
+  margin-top: 2rem;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}

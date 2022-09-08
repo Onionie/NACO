@@ -31,7 +31,8 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
 
-import DisplayCasesPage from './pages/ProductsPage/DisplayCases/DisplayCases';
+import DisplayCasesPage from './pages/ProductsPage/DisplayCases/DisplayCasesPage';
+import HingedDisplayCase from './pages/ProductsPage/DisplayCases/HingedDisplayCase';
 
 function App() {
   return (
@@ -87,7 +88,13 @@ function App() {
 
         <Route path="/teaching-walls" element={<TeachingWalls />} />
         <Route path="/tackwall" element={<TackWallPage />} />
-        {/* <Route path="/display" element={<DisplayCasesPage />} /> */}
+
+        {/* ---------------------------------------------------------- */}
+        <Route path="/display-cases" element={<DisplayCasesPage />} />
+        <Route
+          path="/display-cases/hinged-display-cases"
+          element={<HingedDisplayCase />}
+        />
       </Routes>
       <Footer />
     </Router>
