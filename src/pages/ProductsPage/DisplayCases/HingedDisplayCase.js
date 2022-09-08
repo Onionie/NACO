@@ -5,9 +5,11 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
-import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import hdc from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_main.png';
+import hdc_detail from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_detail.png';
+import hdc_led from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_led.png';
+
 import forboColors from '../../../assets/images/VisualBoards/Finishes/forbo_colors_group.jpg';
 import bel from '../../../assets/images/VisualBoards/Finishes/BEL1.png';
 import dessand1 from '../../../assets/images/VisualBoards/Finishes/DesertSand1.png';
@@ -82,6 +84,20 @@ const HingedDisplayCase = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        <div className={styles.hdc_detail_box}>
+          <div>
+            <div className={styles.hdc_detail_title}>
+              Hinged Display Case Detail
+            </div>
+            <img src={hdc_detail} alt="hdc_details" />
+          </div>
+          <div>
+            <div className={styles.hdc_detail_title}>Available LED Lights</div>
+            <img src={hdc_led} alt="hdc_led_lights" />
+          </div>
+        </div>
+      </ProductInfo>
     </ProductSection>
   );
 };
