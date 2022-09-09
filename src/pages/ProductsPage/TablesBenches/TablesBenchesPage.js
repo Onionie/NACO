@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './TablesBenchesPage.module.css';
 import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 // import Tables and Benches Images
@@ -43,13 +42,7 @@ const TablesBenchesPage = () => {
     },
   ];
   return (
-    <section className={styles.section}>
-      <SliderContent
-        header="Tables & Benches"
-        products={tables}
-        slidesNum={3}
-      />
-    </section>
+    <SliderContent header="Tables & Benches" products={tables} slidesNum={3} />
   );
 };
 

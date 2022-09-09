@@ -52,7 +52,7 @@ const SliderContent = (props) => {
   };
 
   return (
-    <div className="slider">
+    <section className="slider">
       <div className="slider_title">{props.header}</div>
       <div className="item">
         {/* <div className={showModal ? `overlay` : `hidden`}>
@@ -103,7 +103,7 @@ const SliderContent = (props) => {
           })}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 

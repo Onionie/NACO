@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './VisualDisplays.module.css';
 import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 // import Visual Display Images
@@ -99,13 +98,11 @@ const ProductsPage = () => {
   ];
 
   return (
-    <section className={styles.section}>
-      <SliderContent
-        header="Visual Display Boards"
-        products={visualDisplayBoards}
-        slidesNum={5}
-      />
-    </section>
+    <SliderContent
+      header="Visual Display Boards"
+      products={visualDisplayBoards}
+      slidesNum={5}
+    />
   );
 };
 
