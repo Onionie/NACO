@@ -10,6 +10,9 @@ import TableComponent from '../../../components/SpecificProduct/TablesBenches/Ta
 import fdw_1 from '../../../assets/images/TackwallSystems/FDW/fdw_1.png';
 import fdw_2 from '../../../assets/images/TackwallSystems/FDW/fdw_2.png';
 import fdw_3 from '../../../assets/images/TackwallSystems/FDW/fdw_3.png';
+import fdw_det1 from '../../../assets/images/TackwallSystems/FDW/fdw_d1.png';
+import fdw_det2 from '../../../assets/images/TackwallSystems/FDW/fdw_d2.png';
+
 import forboColors from '../../../assets/images/VisualBoards/Finishes/forbo_colors.jpg';
 
 const ForboDW = () => {
@@ -68,6 +71,16 @@ const ForboDW = () => {
           </li>
         </HeroBody>
       </HeroProduct>
+      <ProductInfo>
+        {/* Details */}
+        <div className={styles.fdw_detail_box}>
+          <div className={styles.fdc_detail_title}>FDW Details</div>
+          <div className={styles.fdw_detail_images}>
+            <img src={fdw_det1} alt="forbo_direct_to_wall_details" />
+            <img src={fdw_det2} alt="forbo_direct_to_wall_details" />
+          </div>
+        </div>
+      </ProductInfo>
     </ProductSection>
   );
 };

@@ -1,0 +1,38 @@
+.fdc_detail_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.fdc_detail_title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.fdw_detail_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.fdw_detail_images img {
+  justify-content: center;
+}
+
+.fdw_detail_images img:first-child {
+  transform: scale(1.1);
+}
+
+.fdw_detail_images img:last-child {
+  transform: scale(0.9);
+}
+
+.fdc_detail_box > div img {
+  max-width: 100;
+}
