@@ -111,6 +111,16 @@ const TackwallPanel = () => {
             <img src={twp_det1} alt="tackwall_panels" />
           </div>
         </div>
+
+        {/* Edging */}
+        <div className={styles.fdw_edging_box}>
+          <div className={styles.fdc_detail_title}>
+            Tackwall Panel Edging Configurations
+          </div>
+          <div>
+            <img src={fdw_edg} alt="edging_configurations" />
+          </div>
+        </div>
       </ProductInfo>
     </ProductSection>
   );
