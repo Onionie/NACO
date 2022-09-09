@@ -10,6 +10,7 @@ import TableComponent from '../../../components/SpecificProduct/TablesBenches/Ta
 import fdw_1 from '../../../assets/images/TackwallSystems/FDW/fdw_1.png';
 import fdw_2 from '../../../assets/images/TackwallSystems/FDW/fdw_2.png';
 import fdw_3 from '../../../assets/images/TackwallSystems/FDW/fdw_3.png';
+import forboColors from '../../../assets/images/VisualBoards/Finishes/forbo_colors.jpg';
 
 const ForboDW = () => {
   const mainImages = [
@@ -30,12 +31,20 @@ const ForboDW = () => {
     },
   ];
 
+  const availImages = [
+    {
+      id: 1,
+      image: forboColors,
+      alt: 'forbo_colors',
+    },
+  ];
+
   return (
     <ProductSection>
       <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
         <HeroBody
           title="Forbo Directly to Wall (FDW)"
-          availImages={mainImages}
+          availImages={availImages}
           indicators={false}
           controls={false}
         >
