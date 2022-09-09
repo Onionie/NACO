@@ -159,10 +159,10 @@ const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to="/display"
+                    to="/tackwall-systems"
                     onClick={handleClose}
                   >
-                    Tackwall Panels
+                    Tackwall Systems
                   </NavDropdown.Item>
                 </NavDropdown>
                 <div
