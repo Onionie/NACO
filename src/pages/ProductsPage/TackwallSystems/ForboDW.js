@@ -32,11 +32,33 @@ const ForboDW = () => {
 
   return (
     <ProductSection>
-      <HeroProduct
-        mainImages={mainImages}
-        indicators={true}
-        controls={true}
-      ></HeroProduct>
+      <HeroProduct mainImages={mainImages} indicators={true} controls={true}>
+        <HeroBody
+          title="Forbo Directly to Wall (FDW)"
+          availImages={mainImages}
+          indicators={false}
+          controls={false}
+        >
+          <li>
+            Consists of optional clear satin anodized aluminum 1/4" [.250]
+            J-trim.
+          </li>
+          <li>
+            Recommended adhesives: Henry's 317 (5 minutes working time "Fast
+            grip") or Henry's 237 (30 minutes working time). Coverage 500 sq.ft.
+            +/- approximately per 1ea - 4 gallon (15.14 L) bucket of adhesive.
+          </li>
+          <li>L910 adhesive available at a higher cost.</li>
+          <li>
+            All aluminum is 6063-T5 alloy that comes in satin standard clear
+            anodized color.
+          </li>
+          <li>
+            Call the office for a vinyl wrapped j-trim or powder-coat option at
+            an additional cost.
+          </li>
+        </HeroBody>
+      </HeroProduct>
     </ProductSection>
   );
 };
