@@ -12,6 +12,7 @@ import fdw_2 from '../../../assets/images/TackwallSystems/FDW/fdw_2.png';
 import fdw_3 from '../../../assets/images/TackwallSystems/FDW/fdw_3.png';
 import fdw_det1 from '../../../assets/images/TackwallSystems/FDW/fdw_d1.png';
 import fdw_det2 from '../../../assets/images/TackwallSystems/FDW/fdw_d2.png';
+import fdw_edg from '../../../assets/images/TackwallSystems/FDW/fdw_edging.png';
 
 import forboColors from '../../../assets/images/VisualBoards/Finishes/forbo_colors.jpg';
 
@@ -80,7 +81,17 @@ const ForboDW = () => {
             <img src={fdw_det2} alt="forbo_direct_to_wall_details" />
           </div>
         </div>
+
+        {/* Edging */}
       </ProductInfo>
+      <div className={styles.fdw_edging_box}>
+        <div className={styles.fdc_detail_title}>
+          Tackwall Panel Edging Configurations
+        </div>
+        <div>
+          <img src={fdw_edg} alt="edging_configurations" />
+        </div>
+      </div>
     </ProductSection>
   );
 };
