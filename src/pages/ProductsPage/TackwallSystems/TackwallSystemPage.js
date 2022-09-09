@@ -3,6 +3,7 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
 import fdw_main from '../../../assets/images/TackwallSystems/FDW/fdw_main.png';
+import twp_main from '../../../assets/images/TackwallSystems/TWP/twp_main.png';
 
 const TackwallSystemPage = () => {
   const tackwallSystems = [
@@ -14,17 +15,17 @@ const TackwallSystemPage = () => {
       item: 'forbo-directly-to-wall',
     },
     {
-      id: 1,
-      product: 'Forbo',
-      imageSrc: mb,
-      category: 'visual',
-      item: 'markerboard',
+      id: 2,
+      product: 'Tackwall Panels (TWP)',
+      imageSrc: twp_main,
+      category: 'tackwall-systems',
+      item: 'tackwall-panels',
     },
     {
       id: 1,
       product: 'Forbo',
       imageSrc: mb,
-      category: 'visual',
+      category: 'tackwall-systems',
       item: 'markerboard',
     },
     {

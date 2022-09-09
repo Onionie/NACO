@@ -5,7 +5,6 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
-import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import fdw_1 from '../../../assets/images/TackwallSystems/FDW/fdw_1.png';
 import fdw_2 from '../../../assets/images/TackwallSystems/FDW/fdw_2.png';

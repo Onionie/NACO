@@ -37,6 +37,7 @@ import HingedDisplayCase from './pages/ProductsPage/DisplayCases/HingedDisplayCa
 // Tackwall Systems
 import TackwallSystemPage from './pages/ProductsPage/TackwallSystems/TackwallSystemPage';
 import ForboDW from './pages/ProductsPage/TackwallSystems/ForboDW';
+import TackwallPanel from './pages/ProductsPage/TackwallSystems/TackwallPanel';
 
 function App() {
   return (
@@ -97,6 +98,10 @@ function App() {
         <Route
           path="/tackwall-systems/forbo-directly-to-wall"
           element={<ForboDW />}
+        />
+        <Route
+          path="/tackwall-systems/tackwall-panels"
+          element={<TackwallPanel />}
         />
 
         {/* ---------------------------------------------------------- */}
