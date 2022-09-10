@@ -1,21 +1,16 @@
-.section_hdc {
-  padding: 14rem 12rem;
-  min-height: 100vh;
-}
-
-.hdc_detail_box {
+.dc_detail_box {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 8rem;
 }
 
-.hdc_detail > div {
+.dc_detail > div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.hdc_detail_title {
+.dc_detail_title {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
@@ -23,6 +18,6 @@
   margin-bottom: 2rem;
 }
 
-.hdc_detail_box > div img {
+.dc_detail_box > div img {
   max-width: 100;
 }

@@ -1,14 +1,13 @@
 import React from 'react';
-import styles from './HingedDisplayCase.module.css';
 
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
+import DetailsAndLight from '../../../components/SpecificProduct/DisplayCases/DetailsAndLight';
 
 import hdc from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_main.png';
 import hdc_detail from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_detail.png';
-import hdc_led from '../../../assets/images/DisplayCases/HingedDisplayCases/hdc_led.png';
 
 import forboColors from '../../../assets/images/VisualBoards/Finishes/forbo_colors_group.jpg';
 import bel from '../../../assets/images/VisualBoards/Finishes/BEL1.png';
@@ -85,18 +84,10 @@ const HingedDisplayCase = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
-        <div className={styles.hdc_detail_box}>
-          <div>
-            <div className={styles.hdc_detail_title}>
-              Hinged Display Case Detail
-            </div>
-            <img src={hdc_detail} alt="hdc_details" />
-          </div>
-          <div>
-            <div className={styles.hdc_detail_title}>Available LED Lights</div>
-            <img src={hdc_led} alt="hdc_led_lights" />
-          </div>
-        </div>
+        <DetailsAndLight
+          dc_title={'Hinged Display Case Detail'}
+          dc_image={hdc_detail}
+        />
       </ProductInfo>
     </ProductSection>
   );
