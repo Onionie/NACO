@@ -33,6 +33,7 @@ import InWallTable from './pages/ProductsPage/TablesBenches/InWallTable';
 // Display Cases
 import DisplayCasesPage from './pages/ProductsPage/DisplayCases/DisplayCasesPage';
 import HingedDisplayCase from './pages/ProductsPage/DisplayCases/HingedDisplayCase';
+import SlidingDisplayCase from './pages/ProductsPage/DisplayCases/SlidingDisplayCase';
 
 // Tackwall Systems
 import TackwallSystemPage from './pages/ProductsPage/TackwallSystems/TackwallSystemPage';
@@ -107,8 +108,12 @@ function App() {
         {/* ---------------------------------------------------------- */}
         <Route path="/display-cases" element={<DisplayCasesPage />} />
         <Route
-          path="/display-cases/hinged-display-cases"
+          path="/display-cases/hinged-display-case"
           element={<HingedDisplayCase />}
+        />
+        <Route
+          path="/display-cases/sliding-display-case"
+          element={<SlidingDisplayCase />}
         />
       </Routes>
       <Footer />

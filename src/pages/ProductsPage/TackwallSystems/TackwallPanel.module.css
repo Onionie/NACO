@@ -25,14 +25,6 @@
   justify-content: center;
 }
 
-.fdw_detail_images img:first-child {
-  transform: scale(1.1);
-}
-
-.fdw_detail_images img:last-child {
-  transform: scale(0.9);
-}
-
 .fdc_detail_box > div img {
   max-width: 100;
 }
