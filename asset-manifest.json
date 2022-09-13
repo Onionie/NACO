@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.2a992331.css",
-    "main.js": "/NACO/static/js/main.1b0e6942.js",
+    "main.css": "/NACO/static/css/main.035aa368.css",
+    "main.js": "/NACO/static/js/main.debae0ae.js",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/DesertSand1.png": "/NACO/static/media/DesertSand1.37a75bf24aa45ea1b52c.png",
     "static/media/BEL1.png": "/NACO/static/media/BEL1.f8c41289dcfe9ca8fe44.png",
@@ -122,11 +122,11 @@
     "index.html": "/NACO/index.html",
     "static/media/slick.ttf": "/NACO/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/NACO/static/media/slick.295183786cd8a1389865.woff",
-    "main.2a992331.css.map": "/NACO/static/css/main.2a992331.css.map",
-    "main.1b0e6942.js.map": "/NACO/static/js/main.1b0e6942.js.map"
+    "main.035aa368.css.map": "/NACO/static/css/main.035aa368.css.map",
+    "main.debae0ae.js.map": "/NACO/static/js/main.debae0ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a992331.css",
-    "static/js/main.1b0e6942.js"
+    "static/css/main.035aa368.css",
+    "static/js/main.debae0ae.js"
   ]
 }
