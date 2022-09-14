@@ -24,6 +24,16 @@ const EscribanoPage = () => {
           muted={true}
         />
       </div>
+
+      <div className={styles.feature_box}>
+        <div className={styles.feature_item}>
+          <div className={styles.feature_title}>Megameetings</div>
+          <div className={styles.feature_description}>
+            is a virtual conference system that allows the student to
+            participate in a face-to-face virtual class.
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
