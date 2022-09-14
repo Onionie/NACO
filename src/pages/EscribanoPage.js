@@ -29,8 +29,11 @@ const EscribanoPage = () => {
         <div className={styles.feature_item}>
           <div className={styles.feature_title}>Megameetings</div>
           <div className={styles.feature_description}>
-            is a virtual conference system that allows the student to
-            participate in a face-to-face virtual class.
+            A virtual conference system that allows the student to participate
+            in a face-to-face virtual class. Students can answer from their
+            tablets or computer, and the answer will be displayed on the
+            whiteboard! Students will always feel part of the class whether they
+            are in person or at home.
           </div>
         </div>
       </div>
