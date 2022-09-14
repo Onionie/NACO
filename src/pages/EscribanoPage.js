@@ -3,6 +3,10 @@ import styles from './EscribanoPage.module.css';
 
 import ReactPlayer from 'react-player/youtube';
 
+import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
+import iconWww from '../assets/images/Escribano/icons/www.png';
+import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
+
 const EscribanoPage = () => {
   return (
     <section className={styles.section_escribano}>
@@ -27,14 +31,40 @@ const EscribanoPage = () => {
 
       <div className={styles.feature_box}>
         <div className={styles.feature_item}>
-          <div className={styles.feature_title}>Megameetings</div>
-          <div className={styles.feature_description}>
-            A virtual conference system that allows the student to participate
-            in a face-to-face virtual class. Students can answer from their
-            tablets or computer, and the answer will be displayed on the
-            whiteboard! Students will always feel part of the class whether they
-            are in person or at home.
+          <div className={styles.feature_icon}>
+            <img src={iconMm} alt="icon_megameetings" />
           </div>
+          <div className={styles.feature_title}>MegaMeetings</div>
+          <p className={styles.feature_description}>
+            A virtual conference system that allows the student to participate
+            in a face-to-face virtual class. <br /> Students can answer from
+            their tablets or computer, and the answer will be displayed on the
+            whiteboard! And they will always feel part of the class whether they
+            are in person or at home.
+          </p>
+        </div>
+        <div className={styles.feature_item}>
+          <div className={styles.feature_icon}>
+            <img src={iconWww} alt="icon_internet" />
+          </div>
+          <div className={styles.feature_title}>MegaMeetings</div>
+          <p className={styles.feature_description}>
+            Navigate the web with our easy to access app! Set your favorite
+            search engine and browse the Internet to search for complementary
+            information and images.
+          </p>
+        </div>
+        <div className={styles.feature_item}>
+          <div className={styles.feature_icon}>
+            <img src={iconVr} alt="icon_voice_recognition" />
+          </div>
+          <div className={styles.feature_title}>MegaMeetings</div>
+          <p className={styles.feature_description}>
+            <b>Patricia</b> will always be available when the user wants to
+            quickly open an application, navigate between pages, active a tool
+            or use any other functions! The voice recognition assistant will
+            help in dictations, web search and more.
+          </p>
         </div>
       </div>
     </section>
