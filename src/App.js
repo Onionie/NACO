@@ -95,13 +95,13 @@ function App() {
         <Route path="/teaching-walls" element={<TeachingWalls />} />
 
         {/* ---------------------------------------------------------- */}
-        <Route path="/tackwall-systems" element={<TackwallSystemPage />} />
+        <Route path="/wall-systems" element={<TackwallSystemPage />} />
         <Route
-          path="/tackwall-systems/forbo-directly-to-wall"
+          path="/wall-systems/forbo-directly-to-wall"
           element={<ForboDW />}
         />
         <Route
-          path="/tackwall-systems/tackwall-panels"
+          path="/wall-systems/tackwall-panels"
           element={<TackwallPanel />}
         />
 

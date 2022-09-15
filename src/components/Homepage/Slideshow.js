@@ -86,7 +86,7 @@ const Slideshow = () => {
               onMouseEnter={changeToTackwall}
               onMouseLeave={changeBackToDefault}
             >
-              | Tackwall |
+              | Wall Systems |
             </div>
           </Link>
         </div>

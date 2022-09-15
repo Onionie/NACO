@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -159,10 +158,10 @@ const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to="/tackwall-systems"
+                    to="/wall-systems"
                     onClick={handleClose}
                   >
-                    Tackwall Systems
+                    Wall Systems
                   </NavDropdown.Item>
                 </NavDropdown>
                 <div
