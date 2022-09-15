@@ -4,6 +4,7 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 import mb from '../../../assets/images/VisualBoards/MB.jpg';
 import fdw_main from '../../../assets/images/TackwallSystems/FDW/fdw_main.png';
 import twp_main from '../../../assets/images/TackwallSystems/TWP/twp_main.png';
+import mw_main from '../../../assets/images/TackwallSystems/MarkerWall/mw_main.png';
 
 const TackwallSystemPage = () => {
   const tackwallSystems = [
@@ -22,11 +23,11 @@ const TackwallSystemPage = () => {
       item: 'tackwall-panels',
     },
     {
-      id: 1,
-      product: 'Forbo',
-      imageSrc: mb,
+      id: 3,
+      product: 'Marker Wall',
+      imageSrc: mw_main,
       category: 'wall-systems',
-      item: 'markerboard',
+      item: 'marker-wall',
     },
     {
       id: 1,
@@ -39,7 +40,7 @@ const TackwallSystemPage = () => {
 
   return (
     <SliderContent
-      header="Tackwall Systems"
+      header="Wall Systems"
       products={tackwallSystems}
       slidesNum={3}
     />

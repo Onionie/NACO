@@ -80,7 +80,7 @@ const Slideshow = () => {
               | Tables & Benches&nbsp;
             </div>
           </Link>
-          <Link to="/tackwall-systems">
+          <Link to="/wall-systems">
             <div
               className={`${styles.btn} ${styles.btn_tackwall}`}
               onMouseEnter={changeToTackwall}

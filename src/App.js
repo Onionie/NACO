@@ -36,9 +36,10 @@ import HingedDisplayCase from './pages/ProductsPage/DisplayCases/HingedDisplayCa
 import SlidingDisplayCase from './pages/ProductsPage/DisplayCases/SlidingDisplayCase';
 
 // Tackwall Systems
-import TackwallSystemPage from './pages/ProductsPage/TackwallSystems/TackwallSystemPage';
-import ForboDW from './pages/ProductsPage/TackwallSystems/ForboDW';
-import TackwallPanel from './pages/ProductsPage/TackwallSystems/TackwallPanel';
+import TackwallSystemPage from './pages/ProductsPage/WallSystems/WallSystemPage';
+import ForboDW from './pages/ProductsPage/WallSystems/ForboDW';
+import TackwallPanel from './pages/ProductsPage/WallSystems/TackwallPanel';
+import MarkerWall from './pages/ProductsPage/WallSystems/MarkerWall';
 
 function App() {
   return (
@@ -76,7 +77,7 @@ function App() {
           element={<MobileMbTtype />}
         />
 
-        {/* ---------------------------------------------------------- */}
+        {/* ----------------------- Tables&Benches ----------------------- */}
         {/* Tables Route */}
         <Route path="/tables&benches" element={<TablesBenchesPage />} />
         <Route
@@ -90,11 +91,11 @@ function App() {
         />
         <Route path="/tables&benches/inwall-tables" element={<InWallTable />} />
 
-        {/* ---------------------------------------------------------- */}
+        {/* ----------------------- Teaching Walls ---------------------- */}
 
         <Route path="/teaching-walls" element={<TeachingWalls />} />
 
-        {/* ---------------------------------------------------------- */}
+        {/* --------------------- Wall Systems -------------------- */}
         <Route path="/wall-systems" element={<TackwallSystemPage />} />
         <Route
           path="/wall-systems/forbo-directly-to-wall"
@@ -104,8 +105,9 @@ function App() {
           path="/wall-systems/tackwall-panels"
           element={<TackwallPanel />}
         />
+        <Route path="/wall-systems/marker-wall" element={<MarkerWall />} />
 
-        {/* ---------------------------------------------------------- */}
+        {/* -------------------- Display Cases ---------------- */}
         <Route path="/display-cases" element={<DisplayCasesPage />} />
         <Route
           path="/display-cases/hinged-display-case"
