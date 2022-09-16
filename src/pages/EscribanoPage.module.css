@@ -111,7 +111,14 @@
 }
 
 .butterfly_menu_body {
-  background-color: #c3fff8;
+  background: rgb(211, 248, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(211, 248, 255, 1) 0%,
+    rgba(112, 227, 250, 1) 45%,
+    rgb(135, 241, 220) 75%,
+    rgba(86, 244, 213, 1) 100%
+  );
   padding: 4rem 8rem;
   border-radius: 0.6rem;
   box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.4);
