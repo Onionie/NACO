@@ -60,8 +60,7 @@
   margin-bottom: 20rem;
 }
 
-.feature_box,
-.butterfly_menu_box {
+.main_features {
   padding: 0 20rem;
 }
 
@@ -108,6 +107,7 @@
   gap: 6rem;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .butterfly_menu_body {
@@ -115,9 +115,9 @@
   background: linear-gradient(
     180deg,
     rgba(211, 248, 255, 1) 0%,
-    rgba(112, 227, 250, 1) 45%,
-    rgb(135, 241, 220) 75%,
-    rgba(86, 244, 213, 1) 100%
+    rgba(159, 227, 240, 1) 59%,
+    rgba(104, 186, 247, 1) 90%,
+    rgba(73, 172, 245, 1) 100%
   );
   padding: 4rem 8rem;
   border-radius: 0.6rem;
@@ -143,4 +143,8 @@
 
 .butterfly_menu_image img {
   max-width: 100%;
+}
+
+.background_box img {
+  width: 100%;
 }
