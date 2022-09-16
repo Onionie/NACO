@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './EscribanoPage.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 import ReactPlayer from 'react-player/youtube';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
@@ -22,6 +25,9 @@ import bg_11 from '../assets/images/Escribano/background/bg_11.png';
 import bg_12 from '../assets/images/Escribano/background/bg_12.png';
 
 const EscribanoPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true }, []);
+  });
   return (
     <section className={styles.section_escribano}>
       <div className={styles.header_box}>
@@ -88,7 +94,12 @@ const EscribanoPage = () => {
 
         {/* Educators Section */}
         <div className={styles.educators_menu_box}>
-          <div className={styles.educators_menu_body}>
+          <div
+            className={styles.educators_menu_body}
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-anchor-placement="top-center"
+          >
             <div className={styles.educators_menu_title}>
               Helping Educators and Teachers
             </div>
@@ -108,7 +119,11 @@ const EscribanoPage = () => {
               Megameetings.
             </p>
           </div>
-          <div className={styles.educators_menu_image}>
+          <div
+            className={styles.educators_menu_image}
+            data-aos="fade-left"
+            data-aos-delay="1000"
+          >
             <img src={educators} alt="educators_icons" />
           </div>
         </div>
@@ -131,13 +146,21 @@ const EscribanoPage = () => {
               backgrounds, videos, clock, and calculator.
             </p>
           </div>
-          <div className={styles.butterfly_image}>
+          <div
+            className={styles.butterfly_image}
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img src={butterfly} alt="butterfly_menu" />
           </div>
         </div>
 
         {/* Background */}
-        <div className={styles.background_box}>
+        <div
+          className={styles.background_box}
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <Carousel
             className="background_carousel"
             indicators={true}
