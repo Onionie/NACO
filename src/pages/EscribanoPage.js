@@ -76,7 +76,7 @@ const EscribanoPage = () => {
       <div className={styles.butterfly_menu_box}>
         <div className={styles.butterfly_menu_body}>
           <div className={styles.butterfly_menu_title}>
-            Meet Our Butterfly Menu
+            Interact with Escribano!
           </div>
           <p className={styles.butterfly_menu_description}>
             Our butterfly menu gives you access to all the tools you need to use

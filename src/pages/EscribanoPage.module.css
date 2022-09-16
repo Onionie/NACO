@@ -111,7 +111,20 @@
 }
 
 .butterfly_menu_body {
-  background-color: rgb(255, 245, 233);
+  background-color: #c3fff8;
+  padding: 2rem 5rem;
+}
+
+.butterfly_menu_title {
+  font-weight: 500;
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.butterfly_menu_image {
+  display: flex;
+  justify-content: center;
 }
 
 .butterfly_menu_image img {
