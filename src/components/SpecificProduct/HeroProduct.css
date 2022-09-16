@@ -19,7 +19,8 @@
   border-radius: 0.6rem;
 } */
 
-.product_carousel {
+.product_carousel,
+.background_carousel {
   min-width: 100%;
   height: 100%;
   transform: scale(1);
@@ -58,9 +59,17 @@
   transform: scale(0.9);
 }
 
+.product_carousel.carousel-item img {
+  transform: scale(1);
+}
+
 .carousel-item.active img:hover,
 .modal-body .carousel-item img,
 .modal-body .carousel-item.active img:hover {
+  transform: scale(1);
+}
+
+.background_carousel .carousel-inner .carousel-item img {
   transform: scale(1);
 }
 

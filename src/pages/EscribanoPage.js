@@ -1,13 +1,24 @@
 import React from 'react';
 import styles from './EscribanoPage.module.css';
-
+import Carousel from 'react-bootstrap/Carousel';
 import ReactPlayer from 'react-player/youtube';
 
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
 import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
 import butterfly from '../assets/images/Escribano//escribano_butterfly.png';
-import backgroundChoices from '../assets/images/Escribano/background/background.png';
+import bg_1 from '../assets/images/Escribano/background/bg_1.png';
+import bg_2 from '../assets/images/Escribano/background/bg_2.png';
+import bg_3 from '../assets/images/Escribano/background/bg_3.png';
+import bg_4 from '../assets/images/Escribano/background/bg_4.png';
+import bg_5 from '../assets/images/Escribano/background/bg_5.png';
+import bg_6 from '../assets/images/Escribano/background/bg_6.png';
+import bg_7 from '../assets/images/Escribano/background/bg_7.png';
+import bg_8 from '../assets/images/Escribano/background/bg_8.png';
+import bg_9 from '../assets/images/Escribano/background/bg_9.png';
+import bg_10 from '../assets/images/Escribano/background/bg_10.png';
+import bg_11 from '../assets/images/Escribano/background/bg_11.png';
+import bg_12 from '../assets/images/Escribano/background/bg_12.png';
 
 const EscribanoPage = () => {
   return (
@@ -101,7 +112,105 @@ const EscribanoPage = () => {
 
         {/* Background */}
         <div className={styles.background_box}>
-          <img src={backgroundChoices} alt="background_options" />
+          <Carousel
+            className="background_carousel"
+            indicators={true}
+            controls={true}
+            variant="light"
+          >
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_1}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_2}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_3}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_4}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_5}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_6}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_7}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_8}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_9}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_10}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_11}
+                alt="background_option"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={bg_12}
+                alt="background_option"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div className={styles.background_body}>
+            <div className={styles.background_title}>There's More!</div>
+            <p className={styles.background_description}>
+              Escribano allows you to select from our 14 different backgrounds
+              to start your lesson. Escribano has a background selection for
+              every class like math, music and even sports!
+            </p>
+          </div>
         </div>
       </div>
     </section>
