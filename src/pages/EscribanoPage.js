@@ -83,6 +83,7 @@ const EscribanoPage = () => {
             Escribano and our displayed color pallet makes it easy to select the
             color pen you need.
             <br />
+            <br />
             Escribano also has a keyboard button to access our virtual keyboard
             and a home button to access all of the integrated applications like
             Megameetings, internet browser, email, backgrounds, videos, clock,

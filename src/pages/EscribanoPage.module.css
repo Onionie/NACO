@@ -112,7 +112,9 @@
 
 .butterfly_menu_body {
   background-color: #c3fff8;
-  padding: 2rem 5rem;
+  padding: 4rem 8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .butterfly_menu_title {
@@ -120,6 +122,11 @@
   font-size: 4.8rem;
   margin-bottom: 2rem;
   line-height: 1;
+}
+
+.butterfly_menu_description {
+  font-size: 2.4rem;
+  line-height: 1.6;
 }
 
 .butterfly_menu_image {
