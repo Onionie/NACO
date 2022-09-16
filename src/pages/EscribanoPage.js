@@ -6,7 +6,8 @@ import ReactPlayer from 'react-player/youtube';
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
 import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
-import butterfly from '../assets/images/Escribano//escribano_butterfly.png';
+import educators from '../assets/images/Escribano/escribano_butterfly.png';
+import butterfly from '../assets/images/Escribano/butterfly.png';
 import bg_1 from '../assets/images/Escribano/background/bg_1.png';
 import bg_2 from '../assets/images/Escribano/background/bg_2.png';
 import bg_3 from '../assets/images/Escribano/background/bg_3.png';
@@ -85,13 +86,40 @@ const EscribanoPage = () => {
           </div>
         </div>
 
-        {/* Butterfly Menu Section */}
-        <div className={styles.butterfly_menu_box}>
-          <div className={styles.butterfly_menu_body}>
-            <div className={styles.butterfly_menu_title}>
-              Interact with Escribano!
+        {/* Educators Section */}
+        <div className={styles.educators_menu_box}>
+          <div className={styles.educators_menu_body}>
+            <div className={styles.educators_menu_title}>
+              Helping Educators and Teachers
             </div>
-            <p className={styles.butterfly_menu_description}>
+            <p className={styles.educators_menu_description}>
+              Escribano is an intelligent board that comes with an educational
+              virtual assistant to help teachers navigate Escribano. Allowing
+              them to teach a hands-free class.
+              <br />
+              <br />
+              Educators can access the internet, download multimedia, documents
+              and store them locally, additionally, ESCRIBANO has proprietary
+              applications for writing text, making presentations, and
+              calculations with spreadsheets that can be saved in PDF or
+              ESCRIBANO proprietary format. Educators can easily retrieve saved
+              files and use external storage devices to enhance their daily work
+              while saving and sharing all their work through email or
+              Megameetings.
+            </p>
+          </div>
+          <div className={styles.educators_menu_image}>
+            <img src={educators} alt="educators_icons" />
+          </div>
+        </div>
+
+        {/* Butterfly */}
+        <div className={styles.butterfly_box}>
+          <div className={styles.butterfly_body}>
+            <div className={styles.butterfly_title}>
+              Meet The Butterfly Menu
+            </div>
+            <p className={styles.butterfly_description}>
               Our butterfly menu gives you access to all the tools you need to
               use Escribano and our displayed color pallet makes it easy to
               select the color pen you need.
@@ -100,12 +128,10 @@ const EscribanoPage = () => {
               Escribano also has a keyboard button to access our virtual
               keyboard and a home button to access all of the integrated
               applications like Megameetings, internet browser, email,
-              backgrounds, videos, clock, and calculator. Our home and keyboard
-              buttons are movable, the teacher can drag the button down for
-              easier access!
+              backgrounds, videos, clock, and calculator.
             </p>
           </div>
-          <div className={styles.butterfly_menu_image}>
+          <div className={styles.butterfly_image}>
             <img src={butterfly} alt="butterfly_menu" />
           </div>
         </div>
