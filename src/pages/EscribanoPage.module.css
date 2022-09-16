@@ -104,7 +104,16 @@
 /* Butterfly */
 .butterfly_menu_box {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 4.5fr 5.5fr;
+  gap: 6rem;
   justify-content: center;
   align-items: center;
+}
+
+.butterfly_menu_body {
+  background-color: rgb(255, 245, 233);
+}
+
+.butterfly_menu_image img {
+  max-width: 100%;
 }

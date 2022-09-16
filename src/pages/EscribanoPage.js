@@ -78,11 +78,17 @@ const EscribanoPage = () => {
           <div className={styles.butterfly_menu_title}>
             Meet Our Butterfly Menu
           </div>
-          <div className={styles.butterfly_menu_description}>
+          <p className={styles.butterfly_menu_description}>
             Our butterfly menu gives you access to all the tools you need to use
             Escribano and our displayed color pallet makes it easy to select the
             color pen you need.
-          </div>
+            <br />
+            Escribano also has a keyboard button to access our virtual keyboard
+            and a home button to access all of the integrated applications like
+            Megameetings, internet browser, email, backgrounds, videos, clock,
+            and calculator. Our home and keyboard buttons are movable, the
+            teacher can drag the button down for easier access!
+          </p>
         </div>
         <div className={styles.butterfly_menu_image}>
           <img src={butterfly} alt="butterfly_menu" />
