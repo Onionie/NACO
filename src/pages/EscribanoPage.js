@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player/youtube';
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
 import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
+import butterfly from '../assets/images/Escribano//escribano_butterfly.png';
 
 const EscribanoPage = () => {
   return (
@@ -29,6 +30,7 @@ const EscribanoPage = () => {
         />
       </div>
 
+      {/* Main Feature - 3 cells */}
       <div className={styles.feature_box}>
         <div className={styles.feature_item}>
           <div className={styles.feature_icon}>
@@ -67,6 +69,23 @@ const EscribanoPage = () => {
             or use any other functions! The voice recognition assistant will
             help in dictations, web search and more.
           </p>
+        </div>
+      </div>
+
+      {/* Butterfly Menu Section */}
+      <div className={styles.butterfly_menu_box}>
+        <div className={styles.butterfly_menu_body}>
+          <div className={styles.butterfly_menu_title}>
+            Meet Our Butterfly Menu
+          </div>
+          <div className={styles.butterfly_menu_description}>
+            Our butterfly menu gives you access to all the tools you need to use
+            Escribano and our displayed color pallet makes it easy to select the
+            color pen you need.
+          </div>
+        </div>
+        <div className={styles.butterfly_menu_image}>
+          <img src={butterfly} alt="butterfly_menu" />
         </div>
       </div>
     </section>
