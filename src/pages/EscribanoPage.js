@@ -47,7 +47,7 @@ const EscribanoPage = () => {
           <div className={styles.feature_icon}>
             <img src={iconWww} alt="icon_internet" />
           </div>
-          <div className={styles.feature_title}>MegaMeetings</div>
+          <div className={styles.feature_title}>Web Application</div>
           <p className={styles.feature_description}>
             Navigate the web with our easy to access app! Set your favorite
             search engine and browse the Internet to search for complementary
@@ -58,7 +58,9 @@ const EscribanoPage = () => {
           <div className={styles.feature_icon}>
             <img src={iconVr} alt="icon_voice_recognition" />
           </div>
-          <div className={styles.feature_title}>MegaMeetings</div>
+          <div className={styles.feature_title}>
+            Voice Recognition Assistant
+          </div>
           <p className={styles.feature_description}>
             <b>Patricia</b> will always be available when the user wants to
             quickly open an application, navigate between pages, active a tool
