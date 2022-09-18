@@ -1,0 +1,8 @@
+.mw_details {
+  display: flex;
+  justify-content: center;
+}
+
+.mw_details div image {
+  max-width: 100%;
+}
