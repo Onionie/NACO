@@ -1,16 +1,10 @@
 import React from 'react';
+import styles from './ArchitectCornerPage.module.css';
 
 const ArchitectCornerPage = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: '15rem',
-        fontSize: '4rem',
-      }}
-    >
-      Architect Corner Page
+    <div className={styles.architects_corner}>
+      <div className={styles.architects_title}>Architect's Corner</div>
     </div>
   );
 };

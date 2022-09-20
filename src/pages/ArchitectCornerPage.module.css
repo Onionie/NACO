@@ -1,0 +1,21 @@
+.architects_corner {
+  padding: 13rem 0 20rem;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+
+  background: rgb(247, 241, 241);
+  background: linear-gradient(
+    171deg,
+    rgba(247, 241, 241, 1) 0%,
+    rgba(208, 240, 241, 1) 74%,
+    rgba(208, 247, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.architects_title {
+  text-align: center;
+  font-size: 7.6rem;
+  font-weight: 500;
+  color: #000;
+}
