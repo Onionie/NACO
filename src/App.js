@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Homepage from './pages/Homepage';
 
 // Solo Pages
-import ArchitectCornerPage from './pages/ArchitectCornerPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import EscribanoPage from './pages/EscribanoPage';
@@ -41,13 +40,16 @@ import ForboDW from './pages/ProductsPage/WallSystems/ForboDW';
 import TackwallPanel from './pages/ProductsPage/WallSystems/TackwallPanel';
 import MarkerWall from './pages/ProductsPage/WallSystems/MarkerWall';
 
+// Architect's Corner Pages
+import AutoCAD from './pages/ArchitectPage/AutoCAD';
+
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} exact />
-        <Route path="/architect" element={<ArchitectCornerPage />} />
+        <Route path="/autocad-library" element={<AutoCAD />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/escribano" element={<EscribanoPage />} />

@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './ArchitectCornerPage.module.css';
+import styles from './AutoCAD.module.css';
 
 const ArchitectCornerPage = () => {
   return (
     <div className={styles.architects_corner}>
-      <div className={styles.architects_title}>Architect's Corner</div>
+      <div className={styles.architects_title}>AutoCAD Library</div>
     </div>
   );
 };
