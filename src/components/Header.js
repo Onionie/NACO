@@ -65,39 +65,14 @@ const Header = () => {
     }
   }, [location.pathname]);
 
-  // const [fix, setFix] = useState(false);
-
-  // const setFixed = function () {
-  //   if (window.scrollY >= 550) {
-  //     setFix(true);
-  //     console.log('true');
-  //   } else {
-  //     setFix(false);
-  //     console.log('false');
-  //   }
-  // };
-
-  // window.addEventListener('scroll', setFixed);
-
   return (
-    <header
-      className="headerSection"
-      // className={
-      //   fix
-      //     ? `${styles.headerSection} ${styles.fixed}`
-      //     : `${styles.headerSection}`
-      // }
-    >
-      {/* <div className={styles.demoDropdown}>
-        <div className={styles.emptyGrid}></div>
-        <div className={styles.navDrop}></div>
-      </div> */}
+    <header className="headerSection">
+      {/* Header Logo */}
       <div className={inHomepage ? `header inHome` : `header`}>
         <Link to="/" className="header_left">
           <div className="logo_div">
             <img className="logo" src={companyLogo} alt="company_logo" />
           </div>
-          {/* <div className={styles.header_title}>NELSON ADAMS NACO</div> */}
         </Link>
 
         {/* Navigation */}
@@ -107,7 +82,6 @@ const Header = () => {
             className={show ? `menu menu_active` : `menu`}
           >
             Menu
-            {/* <FiMenu /> */}
           </div>
 
           <Offcanvas
@@ -184,19 +158,39 @@ const Header = () => {
                     onClick={handleShowArchitect}
                     title="Architect's Corner"
                   >
-                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/autocad-library"
+                      onClick={handleClose}
+                    >
                       AutoCAD Library
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/installation-instructions"
+                      onClick={handleClose}
+                    >
                       Installation Instructions
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/product-data"
+                      onClick={handleClose}
+                    >
                       Product Data
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/specifications"
+                      onClick={handleClose}
+                    >
                       Specifications
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/color-cards"
+                      onClick={handleClose}
+                    >
                       Color Cards
                     </NavDropdown.Item>
                   </NavDropdown>
