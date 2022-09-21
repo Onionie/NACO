@@ -19,31 +19,42 @@ const Header = () => {
   const handleClose = () => {
     setShow(false);
     setShowProducts(false);
+    setShowArchitect(false);
   };
   const handleShow = () => setShow(true);
 
   // In Home Page or not state
   const [inHomepage, setInHomepage] = useState(null);
 
-  // Show Dropdown state
-  // const [showDropdown, setShowDropdown] = useState(false);
-
+  // Our Products Dropdown
   const [showProducts, setShowProducts] = useState(false);
 
-  // const menuClickHandler = () => {
-  //   setShowDropdown(!showDropdown);
-  // };
+  // Architect's Corner Dropdown
+  const [showArchitect, setShowArchitect] = useState(false);
 
+  // Our Products Dropdown
   const handleShowProducts = () => {
     if (showProducts === false) {
       setShowProducts(true);
+      setShowArchitect(false);
     } else {
       setShowProducts(false);
     }
   };
 
-  const handleCloseProducts = () => {
+  // Our Products Dropdown
+  const handleShowArchitect = () => {
+    if (showArchitect === false) {
+      setShowArchitect(true);
+      setShowProducts(false);
+    } else {
+      setShowArchitect(false);
+    }
+  };
+
+  const handleCloseSidebar = () => {
     setShowProducts(false);
+    setShowArchitect(false);
   };
 
   useEffect(() => {
@@ -111,7 +122,7 @@ const Header = () => {
             <Offcanvas.Body className="offcBody">
               {/* Using React Nav */}
               <Nav className="nav_">
-                <div onClick={handleCloseProducts}></div>
+                <div onClick={handleCloseSidebar}></div>
                 <Nav.Item onClick={handleClose}>
                   <Nav.Link as={Link} to="/escribano">
                     Escribano
@@ -164,63 +175,49 @@ const Header = () => {
                     Wall Systems
                   </NavDropdown.Item>
                 </NavDropdown>
+
+                {/* Move down sections when Our Products dropdown is clicked */}
                 <div
                   className={showProducts ? `translate_down flex_` : `flex_`}
                 >
-                  <Nav.Item onClick={handleClose}>
-                    <Nav.Link as={Link} to="/architect">
-                      Architects Corner
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link as={Link} to="/about" onClick={handleClose}>
-                      About Us
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link as={Link} to="/contact" onClick={handleClose}>
-                      Contact Us
-                    </Nav.Link>
-                  </Nav.Item>
+                  <NavDropdown
+                    onClick={handleShowArchitect}
+                    title="Architect's Corner"
+                  >
+                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                      AutoCAD Library
+                    </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                      Installation Instructions
+                    </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                      Product Data
+                    </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                      Specifications
+                    </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/" onClick={handleClose}>
+                      Color Cards
+                    </NavDropdown.Item>
+                  </NavDropdown>
+
+                  <div
+                    className={showArchitect ? `translate_down flex_` : `flex_`}
+                  >
+                    <Nav.Item>
+                      <Nav.Link as={Link} to="/about" onClick={handleClose}>
+                        About Us
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link as={Link} to="/contact" onClick={handleClose}>
+                        Contact Us
+                      </Nav.Link>
+                    </Nav.Item>
+                  </div>
                 </div>
-                <div onClick={handleCloseProducts}></div>
+                <div onClick={handleCloseSidebar}></div>
               </Nav>
-
-              {/* Custom List */}
-              {/* <ul className={`${styles.dropdown_menu}`}> */}
-              {/* <li>
-              <div className={styles.closeIcon} onClick={closeHandler}>
-                <GrClose />
-              </div>
-            </li> */}
-              {/* <Link to="/escribano">
-                  <li onClick={handleClose}>Escribano</li>
-                </Link>
-                <Link to="/escribano">
-                  <li onClick={handleClose}>Patricia</li>
-                </Link>
-                <li className={styles.product_bar}>
-                  Our Products
-                  <ul className={styles.product_list}>
-                    <Link to="/visual">
-                      <li onClick={handleClose}>Visual Display Boards</li>
-                    </Link>
-                    <Link to="/tables">
-                      <li onClick={handleClose}>Tables & Benches</li>
-                    </Link>
-                  </ul>
-                </li> */}
-
-              {/* <Link to="/architect">
-                  <li onClick={closeHandler}>Architect Corner</li>
-                </Link>
-                <Link to="/about">
-                  <li onClick={closeHandler}>About Us</li>
-                </Link>
-                <Link to="/contact">
-                  <li onClick={closeHandler}>Contact Us</li>
-                </Link> */}
-              {/* </ul> */}
             </Offcanvas.Body>
           </Offcanvas>
         </nav>
