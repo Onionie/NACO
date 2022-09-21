@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.4cc8e5cd.css",
-    "main.js": "/NACO/static/js/main.2f18589e.js",
+    "main.css": "/NACO/static/css/main.93366d2d.css",
+    "main.js": "/NACO/static/js/main.f6d33edb.js",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/DesertSand1.png": "/NACO/static/media/DesertSand1.37a75bf24aa45ea1b52c.png",
     "static/media/BEL1.png": "/NACO/static/media/BEL1.f8c41289dcfe9ca8fe44.png",
@@ -35,6 +35,7 @@
     "static/media/UCR.png": "/NACO/static/media/UCR.148b87fca962655ec72e.png",
     "static/media/tw_2.png": "/NACO/static/media/tw_2.97f43a860166d8ff3e30.png",
     "static/media/rtb_op.png": "/NACO/static/media/rtb_op.245c22d8e02ae47ff3e9.png",
+    "static/media/lines.png": "/NACO/static/media/lines.f87ab70ad8fce451eb7a.png",
     "static/media/twp_main.png": "/NACO/static/media/twp_main.1f7293257ea4f79f7633.png",
     "static/media/tackwall.jpg": "/NACO/static/media/tackwall.e861c18bed8641659c73.jpg",
     "static/media/mw_3.png": "/NACO/static/media/mw_3.260ce76c9262794157ce.png",
@@ -113,6 +114,7 @@
     "static/media/reversible_mobileMB.jpg": "/NACO/static/media/reversible_mobileMB.d3ddcd62b2d0542a7ce6.jpg",
     "static/media/box.jpg": "/NACO/static/media/box.7e4561a5edd4e4964296.jpg",
     "static/media/map_hook.jpg": "/NACO/static/media/map_hook.9759260d0d2998962430.jpg",
+    "static/media/mw_colors.PNG": "/NACO/static/media/mw_colors.ee5320b0c2aac03617dc.PNG",
     "static/media/surfaceMount.jpg": "/NACO/static/media/surfaceMount.0813d6cf6959f0e96de5.jpg",
     "static/media/maprail.jpg": "/NACO/static/media/maprail.e838f6ad74ac91cd4e93.jpg",
     "static/media/h_bar.jpg": "/NACO/static/media/h_bar.ff657385c8bb9c47ab54.jpg",
@@ -126,6 +128,7 @@
     "static/media/horizontal_slider.jpg": "/NACO/static/media/horizontal_slider.93d9502b256fb05370ab.jpg",
     "static/media/chalkboard_black.jpg": "/NACO/static/media/chalkboard_black.073cf1b96377585b6560.jpg",
     "static/media/roller_bracket.jpg": "/NACO/static/media/roller_bracket.455e408d6f1bb4d34584.jpg",
+    "static/media/mw_details.png": "/NACO/static/media/mw_details.0c4031812d87edfd2405.png",
     "static/media/c18_trim.jpg": "/NACO/static/media/c18_trim.ef05d56977d71d08b577.jpg",
     "static/media/c4_trim.jpg": "/NACO/static/media/c4_trim.c0174b225b60fe77183d.jpg",
     "static/media/guilfordmane.JPG": "/NACO/static/media/guilfordmane.609ece1994a92e3bbc78.JPG",
@@ -142,11 +145,11 @@
     "index.html": "/NACO/index.html",
     "static/media/slick.ttf": "/NACO/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/NACO/static/media/slick.295183786cd8a1389865.woff",
-    "main.4cc8e5cd.css.map": "/NACO/static/css/main.4cc8e5cd.css.map",
-    "main.2f18589e.js.map": "/NACO/static/js/main.2f18589e.js.map"
+    "main.93366d2d.css.map": "/NACO/static/css/main.93366d2d.css.map",
+    "main.f6d33edb.js.map": "/NACO/static/js/main.f6d33edb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc8e5cd.css",
-    "static/js/main.2f18589e.js"
+    "static/css/main.93366d2d.css",
+    "static/js/main.f6d33edb.js"
   ]
 }
