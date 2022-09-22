@@ -1,4 +1,70 @@
 .instruction_section {
-  padding: 13rem 0 20rem;
-  min-height: 100vh;
+  padding: 13rem 15rem 0;
+
+  background-image: url('../../assets/images/lines.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instruction_title {
+  text-align: center;
+  font-size: 7.6rem;
+  font-weight: 500;
+  color: #1282a2;
+}
+
+.instruction_video_box {
+  margin-top: 2rem;
+  background-color: red;
+  padding: 3rem 5rem;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+}
+
+.instruction_video_title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: rgb(25, 125, 155);
+}
+
+.instruction_video_grid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 3fr 2fr;
+}
+
+.iframe_container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.instruction_video_body_title {
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.instruction_video_body_desc {
+  font-size: 2rem;
+}
+
+.instruction_list_box {
+  padding-bottom: 10rem;
 }

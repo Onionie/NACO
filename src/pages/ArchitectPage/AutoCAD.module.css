@@ -1,6 +1,5 @@
 .architects_corner {
-  padding: 13rem 0 20rem;
-  min-height: 100vh;
+  padding: 13rem 20rem 0;
   font-family: 'Montserrat', sans-serif;
 
   /* background: rgb(247, 241, 241);
@@ -29,7 +28,9 @@
   gap: 5rem;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
-  padding: 5rem 20rem;
+
+  margin-top: 2rem;
+  padding-bottom: 10rem;
 }
 
 .ac_grid > div {
