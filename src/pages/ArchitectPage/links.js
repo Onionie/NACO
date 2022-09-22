@@ -130,4 +130,155 @@ const tnb = [
   },
 ];
 
-export { libraries, tnb };
+const instruction1 = [
+  {
+    id: 1,
+    series: '1000 SERIES',
+    product: 'Blade Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/1000_-_BLADE_TRAY_1000_INSTALLATION_INSTRUCTIONS.pdf?12622258682303868808',
+  },
+  {
+    id: 2,
+    series: '1500 SERIES',
+    product: 'Blade Tray C-18 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/1500_-_BLADE_TRAY_1500_INSTALLATION_INSTRUCTIONS.pdf?12622258682303868808',
+  },
+  {
+    id: 3,
+    series: '2000 SERIES',
+    product: 'Box Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/2000_-_BOX_TRAY_INSTALLATION_INSTRUCTIONS.pdf?12622258682303868808',
+  },
+  {
+    id: 4,
+    series: '2500 SERIES',
+    product: 'Box Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/2500_-_BOX_TRAY_INSTALLATION_INSTRUCTIONS.pdf?12622258682303868808',
+  },
+  {
+    id: 5,
+    series: 'FHS SERIES',
+    product: 'Full Height Slider Series',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/FHS_INSTALLATION_INSTRUCTIONS.pdf?8846400396684957288',
+  },
+  {
+    id: 6,
+    series: 'HSS SERIES',
+    product: 'Horizontal Surface Mount Sliders',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/HSS_-_INSTALLATION_INSTRUCTIONS-Model.pdf?14361471995195906541',
+  },
+  {
+    id: 7,
+    series: 'TWS SERIES',
+    product: 'Teaching Wall Sliders',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TWS_-_TEACHING_WALLS_INSTALLATION_INSTRUCTIONS.pdf?16275563692180196013',
+  },
+  {
+    id: 8,
+    series: 'VFM SERIES',
+    product: 'Vertical Floor Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/VWM_VFM_-_VERTICAL_SLIDER_INSTALL_INSTRUCTIONS.pdf?13475522443184767888',
+  },
+];
+const instruction2 = [
+  {
+    id: 1,
+    series: 'VWM SERIES',
+    product: 'Vertical Wall Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/VWM_VFM_-_VERTICAL_SLIDER_INSTALL_INSTRUCTIONS.pdf?13475522443184767888',
+  },
+  {
+    id: 2,
+    series: 'FDW SERIES',
+    product: 'Forbo Directly To Wall',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/FDW_INSTALLATION_INSTRUCTIONS.pdf?6252265329334587449',
+  },
+  {
+    id: 3,
+    series: 'TWP SERIES',
+    product: 'Tackwall Panels',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TWP_INSTALLATION_INSTRUCTIONS_WITH_NO_J-TRIM.pdf?v=1604076873',
+  },
+  {
+    id: 4,
+    series: 'TWP-NT SERIES',
+    product: 'Tackwall Panels',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TWP_INSTALLATION_INSTRUCTIONS_WITH_NO_J-TRIM.pdf?v=1604076873',
+  },
+  {
+    id: 5,
+    series: 'HDC SERIES',
+    product: 'Hinged Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/SDC_HDC_-_INSTALLATION_INSTRUCTIONS.pdf?9774202643507987770',
+  },
+  {
+    id: 6,
+    series: 'SDC SERIES',
+    product: 'Sliding Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/SDC_HDC_-_INSTALLATION_INSTRUCTIONS.pdf?9774202643507987770',
+  },
+  {
+    id: 7,
+    series: 'FHW SERIES',
+    product: 'Installation with Divider Bar',
+    link: 'https://drive.google.com/open?id=14-bALoVIz11_MYpzLGmjx1RVX3uDxA-F',
+  },
+  {
+    id: 8,
+    series: 'Other Methods of installation',
+    product: '',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/BLADE_TRAY_CLIPLESS_INSTALLATION_INSTRUCTIONS.pdf?14360855924186261655',
+  },
+];
+const instruction3 = [
+  {
+    id: 1,
+    series: 'DRM-3TB',
+    product: 'Singles',
+    link: 'https://drive.google.com/file/d/1vtVtlxXurf0jlCoWJoMltqP-v_h3XtiV/view',
+  },
+  {
+    id: 2,
+    series: 'DRM-6TB',
+    product: 'Doubles',
+    link: 'https://drive.google.com/file/d/1HGemfkvEEMd3vtjxuCmcp_R8sn1m5ydI/view',
+  },
+  {
+    id: 3,
+    series: 'DRM-9TB',
+    product: 'Triples',
+    link: 'https://drive.google.com/file/d/1gi8YWX_-aeq8yukij9PF8s6C1nubsrKd/view',
+  },
+  {
+    id: 4,
+    series: 'DRM-12TB',
+    product: 'Quads',
+    link: 'https://drive.google.com/file/d/1lXtPHL4oMjinBJ10_NoxNRZnNOnSm7fD/view',
+  },
+  {
+    id: 5,
+    series: 'DSM-3TB',
+    product: 'Singles',
+    link: 'https://drive.google.com/file/d/1Qckj8pt6dr9C0kQh3TiVdRDgFPZ-LzLR/view',
+  },
+  {
+    id: 6,
+    series: 'DSM-6TB',
+    product: 'Doubles',
+    link: 'https://drive.google.com/file/d/11af8nPfDfrgwb70TkcJ8plpduwY-gqFX/view',
+  },
+  {
+    id: 7,
+    series: 'DSM-9TB',
+    product: 'Triples',
+    link: 'https://drive.google.com/file/d/1wu1tR7A8Km7AnMFtQsdFSnrEiw2jl8bn/view',
+  },
+  {
+    id: 8,
+    series: 'DSM-12TB',
+    product: 'Quads',
+    link: 'https://drive.google.com/file/d/1DXMB4ntk3G5wDDkTFveB72WOOw72g_Yk/view',
+  },
+];
+
+export { libraries, tnb, instruction1, instruction2, instruction3 };
