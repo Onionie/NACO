@@ -42,6 +42,7 @@ import MarkerWall from './pages/ProductsPage/WallSystems/MarkerWall';
 
 // Architect's Corner Pages
 import AutoCAD from './pages/ArchitectPage/AutoCAD';
+import InstallationInstructions from './pages/ArchitectPage/InstallationInstructions';
 
 function App() {
   return (
@@ -49,7 +50,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} exact />
-        <Route path="/autocad-library" element={<AutoCAD />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/escribano" element={<EscribanoPage />} />
@@ -119,7 +119,15 @@ function App() {
           path="/display-cases/sliding-display-case"
           element={<SlidingDisplayCase />}
         />
+
+        {/* -------------------- Architect's Corner -------------------- */}
+        <Route path="/autocad-library" element={<AutoCAD />} />
+        <Route
+          path="/installation-instructions"
+          element={<InstallationInstructions />}
+        />
       </Routes>
+
       <Footer />
     </Router>
   );
