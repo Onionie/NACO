@@ -1,5 +1,5 @@
 .instruction_section {
-  padding: 13rem 15rem 0;
+  padding: 13rem 15rem 10rem;
 
   background-image: url('../../assets/images/lines.png');
   background-position: top;
@@ -14,7 +14,8 @@
   color: #1282a2;
 }
 
-.instruction_video_box {
+.instruction_video_box,
+.instruction_list_box {
   margin-top: 2rem;
   background-color: red;
   padding: 3rem 5rem;
@@ -25,8 +26,10 @@
   border-radius: 0.4rem;
 }
 
-.instruction_video_title {
+.instruction_video_title,
+.instruction_list_title {
   text-align: center;
+  text-transform: uppercase;
   font-size: 3.2rem;
   font-weight: 500;
   color: rgb(25, 125, 155);
@@ -66,5 +69,5 @@
 }
 
 .instruction_list_box {
-  padding-bottom: 10rem;
+  margin-top: 4rem;
 }

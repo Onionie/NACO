@@ -35,7 +35,12 @@ const InstallationInstructions = () => {
           </div>
         </div>
       </div>
-      <div className={styles.instruction_list_box}></div>
+      <div className={styles.instruction_list_box}>
+        <div className={styles.instruction_list_title}>
+          Installation Instructions in PDF
+        </div>
+        <div></div>
+      </div>
     </section>
   );
 };
