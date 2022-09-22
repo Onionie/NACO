@@ -380,4 +380,111 @@ const prodData = [
   },
 ];
 
-export { libraries, tnb, instruction1, instruction2, instruction3, prodData };
+const specifications = [
+  {
+    id: 1,
+    series: '1000 SERIES',
+    product: 'Blade Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_00_VISUAL_DISPLAY_SURFACES_BLADE_TRAY.pdf?7518332774779798866',
+  },
+  {
+    id: 2,
+    series: '1500 SERIES',
+    product: 'Blade Tray C-18 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_00_VISUAL_DISPLAY_SURFACES_BLADE_WIDE_TRIM_SPECS.pdf?3313453076253175497',
+  },
+  {
+    id: 3,
+    series: '2000 SERIES',
+    product: 'Box Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_00_VISUAL_DISPLAY_SURFACES_BOX_TRAY.pdf?2616217033573381970',
+  },
+  {
+    id: 4,
+    series: '2500 SERIES',
+    product: 'Box Tray C-18 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_00_VISUAL_DISPLAY_SURFACES_BOX_WIDE_TRIM_SPECS.pdf?2616217033573381970',
+  },
+  {
+    id: 5,
+    series: 'FHS SERIES',
+    product: 'Full Height Slider',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_00_VISUAL_DISPLAY_SURACES_FULL_HEIGHT_SPECS.pdf?13411136459302460173',
+  },
+  {
+    id: 6,
+    series: 'HSS SERIES',
+    product: 'Horizontal Surface Mount Slider',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_01_HORIZONTAL_SLIDERS_SPECS.pdf?7080386336206342601',
+  },
+  {
+    id: 7,
+    series: 'TWS SERIES',
+    product: 'Teaching Wall Sliders',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_01_HORIZONTAL_SLIDERS_SPECS.pdf?7080386336206342601',
+  },
+  {
+    id: 9,
+    series: 'VFM SERIES',
+    product: 'Vertical Floor Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_02_VERTICAL_SLIDERS_SPECS.pdf?10732015493973233362',
+  },
+  {
+    id: 10,
+    series: 'VWM SERIES',
+    product: 'Vertical Wall Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_11_02_VERTICAL_SLIDERS_SPECS.pdf?10732015493973233362',
+  },
+  {
+    id: 11,
+    series: 'FDW SERIES',
+    product: 'Forbo Directly To Wall',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/Forbo_Colorex_Specifications.pdf?313024491549903149',
+  },
+  {
+    id: 12,
+    series: 'TWP SERIES',
+    product: 'Tackwall Panels',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/00_92_50_TACKWALL_PANELS.pdf?12634582884215318460',
+  },
+  {
+    id: 13,
+    series: 'HDC SERIES',
+    product: 'Hinged Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_12_10_DISPLAY_CASES.pdf?4460534555611783279',
+  },
+  {
+    id: 14,
+    series: 'SDC SERIES',
+    product: 'Sliding Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/10_12_10_DISPLAY_CASES.pdf?4460534555611783279',
+  },
+  {
+    id: 15,
+    series: 'D-SERIES',
+    product: 'Tables & Benches',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TABLES_BENCHES_SPECIFICATIONS.pdf?v=1597092044',
+  },
+  {
+    id: 16,
+    series: 'D-SERIES',
+    product: 'Tables & Benches Word Format',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/T_B_SPECS_12640.docx?v=1597686329',
+  },
+  {
+    id: 17,
+    series: 'FHW SERIES',
+    product: 'Full Height Writing Walls',
+    link: 'https://drive.google.com/open?id=1sg3yYjY3uFukoEz8lqTyeLQf91Gc1hL6',
+  },
+];
+
+export {
+  libraries,
+  tnb,
+  instruction1,
+  instruction2,
+  instruction3,
+  prodData,
+  specifications,
+};

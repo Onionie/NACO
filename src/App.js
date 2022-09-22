@@ -44,6 +44,8 @@ import MarkerWall from './pages/ProductsPage/WallSystems/MarkerWall';
 import AutoCAD from './pages/ArchitectPage/AutoCAD';
 import InstallationInstructions from './pages/ArchitectPage/InstallationInstructions';
 import ProductData from './pages/ArchitectPage/ProductData';
+import Specifications from './pages/ArchitectPage/Specifications';
+import ColorCards from './pages/ArchitectPage/ColorCards';
 
 function App() {
   return (
@@ -128,6 +130,8 @@ function App() {
           element={<InstallationInstructions />}
         />
         <Route path="/product-data" element={<ProductData />} />
+        <Route path="/specifications" element={<Specifications />} />
+        <Route path="/color-cards" element={<ColorCards />} />
       </Routes>
 
       <Footer />
