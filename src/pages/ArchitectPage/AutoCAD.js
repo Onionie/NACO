@@ -5,7 +5,7 @@ import { libraries, tnb } from './links';
 
 const ArchitectCornerPage = () => {
   return (
-    <div className={styles.architects_corner}>
+    <section className={styles.architects_corner}>
       <div className={styles.architects_title}>AutoCAD Library</div>
 
       <div className={styles.ac_grid}>
@@ -41,7 +41,7 @@ const ArchitectCornerPage = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

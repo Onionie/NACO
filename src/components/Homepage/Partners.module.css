@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-image: url('../../assets/images/classroom.jpg');
   font-family: 'Montserrat', sans-serif; */
+  font-family: 'abel', sans-serif;
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr;
