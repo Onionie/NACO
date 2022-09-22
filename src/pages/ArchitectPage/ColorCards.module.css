@@ -1,0 +1,48 @@
+.colorCards_section {
+  padding: 13rem 15rem 5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colorCards_title {
+  text-align: center;
+  font-size: 7.6rem;
+  font-weight: 500;
+  color: #1282a2;
+}
+
+.colorCards_list_box {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.colorCards_list {
+  display: inline-block;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 3rem 5rem;
+  text-align: center;
+}
+
+.colorCards_list li {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.colorCards_list li a {
+  transition: all 0.2s;
+}
+
+.colorCards_list li a:link,
+.colorCards_list li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.colorCards_list li a:hover {
+  color: rgb(25, 125, 155);
+}

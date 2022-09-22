@@ -479,6 +479,51 @@ const specifications = [
   },
 ];
 
+const colorCards = [
+  {
+    id: 1,
+    series: 'NACO',
+    product: 'e3 Procelain',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_e3_porcelain.pdf?11283972242225078647',
+  },
+  {
+    id: 2,
+    series: 'NACO',
+    product: 'e3 Forbo',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_Forbo.pdf?11283972242225078647',
+  },
+  {
+    id: 3,
+    series: 'NACO',
+    product: 'FR701 New',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_FR701_NEWEST.pdf?975775358675742702',
+  },
+  {
+    id: 4,
+    series: 'NACO',
+    product: 'Natural Cork Data',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_Natural_Cork_Data.pdf?6009422613487265829',
+  },
+  {
+    id: 5,
+    series: 'NACO',
+    product: 'Powder Coat',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_POWDERCOAT.pdf?6009422613487265829',
+  },
+  {
+    id: 6,
+    series: 'NACO',
+    product: 'Standard Vinyls',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/NACO_STANDARD_VINYLS.pdf?6009422613487265829',
+  },
+  {
+    id: 7,
+    series: 'NACO',
+    product: 'Wilsonart',
+    link: 'https://drive.google.com/file/d/1Mf4DXvP6n_Kobg4OPy2RXPFqPlcjtsiK/view',
+  },
+];
+
 export {
   libraries,
   tnb,
@@ -487,4 +532,5 @@ export {
   instruction3,
   prodData,
   specifications,
+  colorCards,
 };
