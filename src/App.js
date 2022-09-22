@@ -43,6 +43,7 @@ import MarkerWall from './pages/ProductsPage/WallSystems/MarkerWall';
 // Architect's Corner Pages
 import AutoCAD from './pages/ArchitectPage/AutoCAD';
 import InstallationInstructions from './pages/ArchitectPage/InstallationInstructions';
+import ProductData from './pages/ArchitectPage/ProductData';
 
 function App() {
   return (
@@ -126,6 +127,7 @@ function App() {
           path="/installation-instructions"
           element={<InstallationInstructions />}
         />
+        <Route path="/product-data" element={<ProductData />} />
       </Routes>
 
       <Footer />

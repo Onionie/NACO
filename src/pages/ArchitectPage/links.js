@@ -281,4 +281,103 @@ const instruction3 = [
   },
 ];
 
-export { libraries, tnb, instruction1, instruction2, instruction3 };
+const prodData = [
+  {
+    id: 1,
+    series: '1000 SERIES',
+    product: 'Blade Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/BLADE_TRAY_-_PRODUCT_DATA.pdf?15877418209625998730',
+  },
+  {
+    id: 2,
+    series: '1500 SERIES',
+    product: 'Blade Tray C-18 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/BLADE_TRAY_WIDE_TRIM_-_PRODUCT_DATA.pdf?10137243875826656571',
+  },
+  {
+    id: 3,
+    series: '2000 SERIES',
+    product: 'Box Tray C-4 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/BOX_TRAY_-_PRODUCT_DATA.pdf?10137243875826656571',
+  },
+  {
+    id: 4,
+    series: '2500 SERIES',
+    product: 'Box Tray C-18 Trim',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/BOX_TRAY_WIDE_TRIM_-_PRODUCT_DATA.pdf?10137243875826656571',
+  },
+  {
+    id: 5,
+    series: 'FHS SERIES',
+    product: 'Full Height Slider Series',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/FULL_HEIGHT_SLIDERS_-_PRODUCT_DATA.pdf?8294079208006589250',
+  },
+  {
+    id: 6,
+    series: 'HSS SERIES',
+    product: 'Horizontal Surface Mount Slider',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/HSS_HORIZONTAL_SURFACEMOUNT_SLIDER-_PRODUCT_DATA.pdf?10137243875826656571',
+  },
+  {
+    id: 7,
+    series: 'TWS SERIES',
+    product: 'Teaching Wall Sliders',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TEACHING_WALLS_-_PRODUCT_DATA.pdf?8124003888519449421',
+  },
+  {
+    id: 8,
+    series: 'TWS SERIES',
+    product: 'Teaching Wall Sliders Custom',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TEACHING_WALLS_W-BOTTOM_ROLLERS_-_PRODUCT_DATA.pdf?15361814245396852723',
+  },
+  {
+    id: 9,
+    series: 'VFM SERIES',
+    product: 'Vertical Floor Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/VERTICAL_SLIDER_-_PRODUCT_DATA.pdf?11174324188089462288',
+  },
+  {
+    id: 10,
+    series: 'VWM SERIES',
+    product: 'Vertical Wall Mounted',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/VERTICAL_SLIDER_-_PRODUCT_DATA.pdf?11174324188089462288',
+  },
+  {
+    id: 11,
+    series: 'FDW SERIES',
+    product: 'Forbo Directly To Wall',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/FDW_-_PRODUCT_DATA.pdf?10137243875826656571https://drive.google.com/file/d/1WshQ7m2pzACf4dtIBPFRuMty3s995Awv/view',
+  },
+  {
+    id: 12,
+    series: 'TWP SERIES',
+    product: 'Tackwall Panels',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TWP_-_PRODUCT_DATA_25f69d5a-bf1a-4cf1-8b54-85410c747180.pdf?v=1602256265',
+  },
+  {
+    id: 13,
+    series: 'HDC SERIES',
+    product: 'Hinged Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/HDC_-_PRODUCT_DATA.pdf?11446265504417741824',
+  },
+  {
+    id: 14,
+    series: 'SDC SERIES',
+    product: 'Sliding Display Cases',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/SDC_-_PRODUCT_DATA.pdf?4205735441087969937',
+  },
+  {
+    id: 15,
+    series: 'FHW SERIES',
+    product: 'Full Height Writing Wall Visual Display',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/FHW_-_PRODUCT_DATA.pdf?14710538117901652427',
+  },
+  {
+    id: 16,
+    series: 'TKS SERIES',
+    product: 'Tackstrips Display Rails',
+    link: 'https://cdn.shopify.com/s/files/1/0046/6544/2397/files/TKS_-_PRODUCT_DATA.pdf?723',
+  },
+];
+
+export { libraries, tnb, instruction1, instruction2, instruction3, prodData };

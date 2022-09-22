@@ -1,10 +1,18 @@
 .instruction_section {
   padding: 13rem 15rem 10rem;
 
-  background-image: url('../../assets/images/lines.png');
+  background: rgb(247, 241, 241);
+  background: linear-gradient(
+    171deg,
+    rgba(247, 241, 241, 1) 0%,
+    rgba(208, 240, 241, 1) 74%,
+    rgba(208, 247, 255, 1) 100%
+  );
+
+  /* background-image: url('../../assets/images/lines.png');
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .instruction_title {
