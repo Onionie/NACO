@@ -2,10 +2,12 @@ import React, { useEffect } from 'react';
 import styles from './EscribanoPage.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 import ReactPlayer from 'react-player/youtube';
+import { Parallax, Background } from 'react-parallax';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+import deskBg from '../assets/images/desk_background.jpg';
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
 import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
@@ -30,24 +32,27 @@ const EscribanoPage = () => {
   });
   return (
     <section className={styles.section_escribano}>
-      <div className={styles.header_box}>
-        <div className={styles.header_title}>Escribano</div>
-        <div className={styles.header_subtitle}>
-          A fun and interactive board that is evolving the world of Education.
+      <Parallax bgImage={deskBg} bgImageAlt="desk_office" strength={200}>
+        <div className={styles.header_box}>
+          <div className={styles.header_title}>Escribano</div>
+          <div className={styles.header_subtitle}>
+            A fun and interactive board that is evolving the world of Education.
+          </div>
         </div>
-      </div>
-      <div className={styles.player_wrapper}>
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=ne5OEKFoLm8"
-          className={styles.react_player}
-          playing
-          width="60%"
-          height="60%"
-          controls={true}
-          volume={1}
-          muted={true}
-        />
-      </div>
+
+        <div className={styles.player_wrapper}>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=ne5OEKFoLm8"
+            className={styles.react_player}
+            playing
+            width="60%"
+            height="60%"
+            controls={true}
+            volume={1}
+            muted={true}
+          />
+        </div>
+      </Parallax>
 
       <div className={styles.main_features}>
         {/* Main Feature - 3 cells */}
