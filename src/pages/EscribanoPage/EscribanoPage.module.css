@@ -103,12 +103,14 @@
 
 /* educators */
 .educators_menu_box {
+  /* background-image: url('../../assets/images/Escribano/escribano_1.png'); */
   display: grid;
   grid-template-columns: 4.5fr 5.5fr;
   gap: 6rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 20rem;
+  min-height: 80vh;
 }
 
 .educators_menu_body {

@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 import deskBg from '../../assets/images/esc_bg_1.jpg';
 import deskBg2 from '../../assets/images/esc_bg_7.png';
 
-import educators from '../../assets/images/Escribano/escribano_butterfly.png';
+import educators from '../../assets/images/Escribano/escribano_1.png';
 import butterfly from '../../assets/images/Escribano/butterfly.png';
 import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
 import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
@@ -71,40 +71,42 @@ const EscribanoPage = () => {
         <FeaturesSect />
 
         {/* Educators Section */}
-        <div className={styles.educators_menu_box}>
-          <div
-            className={styles.educators_menu_body}
-            data-aos="fade-up"
-            data-aos-delay="300"
-            data-aos-anchor-placement="top-center"
-          >
-            <div className={styles.educators_menu_title}>
-              Helping Educators and Teachers
-            </div>
-            <p className={styles.educators_menu_description}>
-              {/* Escribano is an intelligent board that comes with an educational
+        <Parallax bgImage={educators} bgImageAlt="desk_office" strength={400}>
+          <div className={styles.educators_menu_box}>
+            <div
+              className={styles.educators_menu_body}
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-anchor-placement="top-center"
+            >
+              <div className={styles.educators_menu_title}>
+                Helping Educators and Teachers
+              </div>
+              <p className={styles.educators_menu_description}>
+                {/* Escribano is an intelligent board that comes with an educational
               virtual assistant to help teachers navigate Escribano. Allowing
               them to teach a hands-free class.
               <br />
               <br /> */}
-              Educators can access the internet, download multimedia, documents
-              and store them locally, additionally, ESCRIBANO has proprietary
-              applications for writing text, making presentations, and
-              calculations with spreadsheets that can be saved in PDF or
-              ESCRIBANO proprietary format. Educators can easily retrieve saved
-              files and use external storage devices to enhance their daily work
-              while saving and sharing all their work through email or
-              Megameetings.
-            </p>
-          </div>
-          <div
+                Educators can access the internet, download multimedia,
+                documents and store them locally, additionally, ESCRIBANO has
+                proprietary applications for writing text, making presentations,
+                and calculations with spreadsheets that can be saved in PDF or
+                ESCRIBANO proprietary format. Educators can easily retrieve
+                saved files and use external storage devices to enhance their
+                daily work while saving and sharing all their work through email
+                or Megameetings.
+              </p>
+            </div>
+            {/* <div
             className={styles.educators_menu_image}
             data-aos="fade-left"
             data-aos-delay="1000"
           >
             <img src={educators} alt="educators_icons" />
+          </div> */}
           </div>
-        </div>
+        </Parallax>
 
         {/* Butterfly */}
         <div className={styles.butterfly_box}>
