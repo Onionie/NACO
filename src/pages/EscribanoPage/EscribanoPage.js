@@ -4,28 +4,28 @@ import Carousel from 'react-bootstrap/Carousel';
 import ReactPlayer from 'react-player/youtube';
 import { Parallax, Background } from 'react-parallax';
 
+import FeaturesSect from './FeaturesSect';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-import deskBg from '../assets/images/esc_bg_1.jpg';
-import deskBg2 from '../assets/images/esc_bg_7.png';
-import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
-import iconWww from '../assets/images/Escribano/icons/www.png';
-import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
-import educators from '../assets/images/Escribano/escribano_butterfly.png';
-import butterfly from '../assets/images/Escribano/butterfly.png';
-import bg_1 from '../assets/images/Escribano/background/bg_1.png';
-import bg_2 from '../assets/images/Escribano/background/bg_2.png';
-import bg_3 from '../assets/images/Escribano/background/bg_3.png';
-import bg_4 from '../assets/images/Escribano/background/bg_4.png';
-import bg_5 from '../assets/images/Escribano/background/bg_5.png';
-import bg_6 from '../assets/images/Escribano/background/bg_6.png';
-import bg_7 from '../assets/images/Escribano/background/bg_7.png';
-import bg_8 from '../assets/images/Escribano/background/bg_8.png';
-import bg_9 from '../assets/images/Escribano/background/bg_9.png';
-import bg_10 from '../assets/images/Escribano/background/bg_10.png';
-import bg_11 from '../assets/images/Escribano/background/bg_11.png';
-import bg_12 from '../assets/images/Escribano/background/bg_12.png';
+import deskBg from '../../assets/images/esc_bg_1.jpg';
+import deskBg2 from '../../assets/images/esc_bg_7.png';
+
+import educators from '../../assets/images/Escribano/escribano_butterfly.png';
+import butterfly from '../../assets/images/Escribano/butterfly.png';
+import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
+import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
+import bg_3 from '../../assets/images/Escribano/background/bg_3.png';
+import bg_4 from '../../assets/images/Escribano/background/bg_4.png';
+import bg_5 from '../../assets/images/Escribano/background/bg_5.png';
+import bg_6 from '../../assets/images/Escribano/background/bg_6.png';
+import bg_7 from '../../assets/images/Escribano/background/bg_7.png';
+import bg_8 from '../../assets/images/Escribano/background/bg_8.png';
+import bg_9 from '../../assets/images/Escribano/background/bg_9.png';
+import bg_10 from '../../assets/images/Escribano/background/bg_10.png';
+import bg_11 from '../../assets/images/Escribano/background/bg_11.png';
+import bg_12 from '../../assets/images/Escribano/background/bg_12.png';
 
 const EscribanoPage = () => {
   useEffect(() => {
@@ -68,57 +68,7 @@ const EscribanoPage = () => {
 
       <div className={styles.main_features}>
         {/* Main Feature - 3 cells */}
-
-        <div className={styles.feature_box}>
-          <div className={styles.feature_item}>
-            <div className={styles.feature_icon}>
-              <img src={iconMm} alt="icon_megameetings" />
-            </div>
-            <div className={styles.feature_title}>MegaMeetings</div>
-            <p className={styles.feature_description}>
-              A virtual conference system that allows the student to participate
-              in a face-to-face virtual class. <br /> Students can answer from
-              their tablets or computer, and the answer will be displayed on the
-              whiteboard! And they will always feel part of the class whether
-              they are in person or at home.
-            </p>
-          </div>
-          <div className={styles.feature_item}>
-            <div className={styles.feature_icon}>
-              <img src={iconWww} alt="icon_internet" />
-            </div>
-            <div className={styles.feature_title}>Web Application</div>
-            <p className={styles.feature_description}>
-              Navigate the web with our easy to access app! Set your favorite
-              search engine and browse the Internet to search for complementary
-              information and images.
-            </p>
-          </div>
-          <div className={styles.feature_item}>
-            <div className={styles.feature_icon}>
-              <img src={iconVr} alt="icon_voice_recognition" />
-            </div>
-            <div className={styles.feature_title}>
-              Voice Recognition Assistant
-            </div>
-            <p className={styles.feature_description}>
-              <b>Patricia</b> will always be available when the user wants to
-              quickly open an application, navigate between pages, active a tool
-              or use any other functions! The voice recognition assistant will
-              help in dictations, web search and more.
-            </p>
-          </div>
-          <div className={styles.feature_item}>
-            <div className={styles.feature_icon}>
-              <img src={iconVr} alt="icon_voice_recognition" />
-            </div>
-            <div className={styles.feature_title}>Mail Applications</div>
-            <p className={styles.feature_description}>
-              Send out emails or slides created during class and make use of
-              several helper tools like our easy to use calculator and clock.
-            </p>
-          </div>
-        </div>
+        <FeaturesSect />
 
         {/* Educators Section */}
         <div className={styles.educators_menu_box}>
@@ -184,7 +134,7 @@ const EscribanoPage = () => {
         </div>
 
         {/* Background */}
-        <div
+        {/* <div
           className={styles.background_box}
           data-aos="fade-up"
           data-aos-delay="500"
@@ -279,8 +229,8 @@ const EscribanoPage = () => {
                 alt="background_option"
               />
             </Carousel.Item>
-          </Carousel>
-          <div className={styles.background_body}>
+          </Carousel> */}
+        {/* <div className={styles.background_body}>
             <div className={styles.background_title}>There's More!</div>
             <p className={styles.background_description}>
               Escribano allows you to select from our 14 different backgrounds
@@ -288,7 +238,7 @@ const EscribanoPage = () => {
               every class like math, music and even sports!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

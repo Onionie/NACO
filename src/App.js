@@ -7,7 +7,7 @@ import Homepage from './pages/Homepage';
 // Solo Pages
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import EscribanoPage from './pages/EscribanoPage';
+import EscribanoPage from './pages/EscribanoPage/EscribanoPage';
 
 // Visual Display Boards
 import VisualPage from './pages/ProductsPage/VisualDisplays/VisualDisplays.js';
