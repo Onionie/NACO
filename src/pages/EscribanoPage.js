@@ -7,7 +7,8 @@ import { Parallax, Background } from 'react-parallax';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-import deskBg from '../assets/images/desk_background.jpg';
+import deskBg from '../assets/images/esc_bg_1.jpg';
+import deskBg2 from '../assets/images/esc_bg_7.png';
 import iconMm from '../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../assets/images/Escribano/icons/www.png';
 import iconVr from '../assets/images/Escribano/icons/voiceRecognition.png';
@@ -32,30 +33,42 @@ const EscribanoPage = () => {
   });
   return (
     <section className={styles.section_escribano}>
-      <Parallax bgImage={deskBg} bgImageAlt="desk_office" strength={200}>
-        <div className={styles.header_box}>
-          <div className={styles.header_title}>Escribano</div>
-          <div className={styles.header_subtitle}>
-            A fun and interactive board that is evolving the world of Education.
-          </div>
-        </div>
+      <Parallax bgImage={deskBg} bgImageAlt="desk_office" strength={400}>
+        <div className={styles.header_bg}>
+          <div className={styles.header_box}>
+            <div className={styles.header_title}>Escribano</div>
+            <div className={styles.header_subtitle}>
+              A fun and interactive board that is evolving the world of
+              Education.
+            </div>
+            <div className={styles.header_desc}>
+              Escribano is an intelligent board system which allows the user to
+              easily manage a face to face or virtual presentation using a
+              simple interface with voice recognition technology. Allowing them
+              to teach a hands-free class.
+            </div>
 
-        <div className={styles.player_wrapper}>
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=ne5OEKFoLm8"
-            className={styles.react_player}
-            playing
-            width="60%"
-            height="60%"
-            controls={true}
-            volume={1}
-            muted={true}
-          />
+            <div className={styles.btn_inquire}>Talk to us</div>
+          </div>
+
+          <div className={styles.player_wrapper}>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=ne5OEKFoLm8"
+              className={styles.react_player}
+              playing
+              width="100%"
+              height="100%"
+              controls={true}
+              volume={1}
+              muted={true}
+            />
+          </div>
         </div>
       </Parallax>
 
       <div className={styles.main_features}>
         {/* Main Feature - 3 cells */}
+
         <div className={styles.feature_box}>
           <div className={styles.feature_item}>
             <div className={styles.feature_icon}>
@@ -95,6 +108,16 @@ const EscribanoPage = () => {
               help in dictations, web search and more.
             </p>
           </div>
+          <div className={styles.feature_item}>
+            <div className={styles.feature_icon}>
+              <img src={iconVr} alt="icon_voice_recognition" />
+            </div>
+            <div className={styles.feature_title}>Mail Applications</div>
+            <p className={styles.feature_description}>
+              Send out emails or slides created during class and make use of
+              several helper tools like our easy to use calculator and clock.
+            </p>
+          </div>
         </div>
 
         {/* Educators Section */}
@@ -109,11 +132,11 @@ const EscribanoPage = () => {
               Helping Educators and Teachers
             </div>
             <p className={styles.educators_menu_description}>
-              Escribano is an intelligent board that comes with an educational
+              {/* Escribano is an intelligent board that comes with an educational
               virtual assistant to help teachers navigate Escribano. Allowing
               them to teach a hands-free class.
               <br />
-              <br />
+              <br /> */}
               Educators can access the internet, download multimedia, documents
               and store them locally, additionally, ESCRIBANO has proprietary
               applications for writing text, making presentations, and
