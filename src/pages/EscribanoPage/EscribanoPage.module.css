@@ -1,7 +1,5 @@
 .section_escribano {
   min-height: 100vh;
-
-  padding-bottom: 20rem;
   background-color: #f8f8f8;
   font-family: 'Montserrat', sans-serif;
 }
@@ -89,8 +87,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* height: 95% !important;
-  width: 95% !important; */
   box-shadow: 0px 0px 8px 1px rgba(255, 255, 255, 0.2);
 }
 
@@ -104,27 +100,22 @@
 /* educators */
 .educators_menu_box {
   /* background-image: url('../../assets/images/Escribano/escribano_1.png'); */
-  display: grid;
-  grid-template-columns: 4.5fr 5.5fr;
-  gap: 6rem;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20rem;
-  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
 }
 
 .educators_menu_body {
-  background: rgb(211, 248, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(211, 248, 255, 1) 0%,
-    rgba(159, 227, 240, 1) 59%,
-    rgba(104, 186, 247, 1) 90%,
-    rgba(73, 172, 245, 1) 100%
-  );
-  padding: 4rem 8rem;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem 5rem;
   border-radius: 0.6rem;
-  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: -8px 8px 4px 2px rgba(0, 0, 0, 0.6);
+  /* margin: 0 30rem; */
+  width: 35%;
 }
 
 .educators_menu_title,
@@ -135,13 +126,14 @@
   margin-bottom: 2rem;
   line-height: 1;
   letter-spacing: -2px;
+  color: #04abc8;
 }
 
 .educators_menu_description,
 .background_description,
 .butterfly_description {
   font-size: 2.4rem;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .educators_menu_image {
@@ -155,23 +147,35 @@
 
 /* Butterfly Menu */
 .butterfly_box {
-  margin-bottom: 20rem;
+  background: rgb(117, 140, 156);
+  background: radial-gradient(
+    circle,
+    rgba(117, 140, 156, 1) 0%,
+    rgba(43, 91, 125, 1) 81%,
+    rgba(23, 74, 110, 1) 100%
+  );
+  padding: 10rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
 }
 
 .butterfly_body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 4rem;
-  padding-top: 4rem;
+  padding: 2rem 6rem;
+  background-color: rgb(206, 246, 253);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.butterfly_title {
+  text-align: center;
+  color: rgb(0, 43, 91);
 }
 
 .butterfly_description {
-  margin: 0 20rem;
 }
 
 .butterfly_image {
   box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+  width: 100%;
 }
 
 .butterfly_image img {
@@ -179,7 +183,7 @@
 }
 
 /* Background Options Section */
-.background_box {
+/* .background_box {
   background-color: rgba(211, 248, 255, 0.9);
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -198,4 +202,4 @@
   justify-content: center;
   padding: 4rem 7rem;
   font-size: 2.8rem;
-}
+} */

@@ -67,7 +67,7 @@ const EscribanoPage = () => {
       </Parallax>
 
       <div className={styles.main_features}>
-        {/* Main Feature - 3 cells */}
+        {/* Features Section - Component */}
         <FeaturesSect />
 
         {/* Educators Section */}
@@ -89,13 +89,13 @@ const EscribanoPage = () => {
               <br />
               <br /> */}
                 Educators can access the internet, download multimedia,
-                documents and store them locally, additionally, ESCRIBANO has
+                documents and store them locally. Additionally, ESCRIBANO has
                 proprietary applications for writing text, making presentations,
                 and calculations with spreadsheets that can be saved in PDF or
-                ESCRIBANO proprietary format. Educators can easily retrieve
-                saved files and use external storage devices to enhance their
-                daily work while saving and sharing all their work through email
-                or Megameetings.
+                ESCRIBANO proprietary format. <br />
+                Educators can easily retrieve saved files and use external
+                storage devices to enhance their daily work while saving and
+                sharing all their work through email or Megameetings.
               </p>
             </div>
             {/* <div
@@ -110,6 +110,13 @@ const EscribanoPage = () => {
 
         {/* Butterfly */}
         <div className={styles.butterfly_box}>
+          <div
+            className={styles.butterfly_image}
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <img src={butterfly} alt="butterfly_menu" />
+          </div>
           <div className={styles.butterfly_body}>
             <div className={styles.butterfly_title}>
               Meet The Butterfly Menu
@@ -125,13 +132,6 @@ const EscribanoPage = () => {
               applications like Megameetings, internet browser, email,
               backgrounds, videos, clock, and calculator.
             </p>
-          </div>
-          <div
-            className={styles.butterfly_image}
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <img src={butterfly} alt="butterfly_menu" />
           </div>
         </div>
 
