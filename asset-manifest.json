@@ -1,27 +1,22 @@
 {
   "files": {
-    "main.css": "/NACO/static/css/main.76292271.css",
-    "main.js": "/NACO/static/js/main.1e8a85d1.js",
+    "main.css": "/NACO/static/css/main.e567e717.css",
+    "main.js": "/NACO/static/js/main.500b563d.js",
+    "static/media/escribano_vid.mp4": "/NACO/static/media/escribano_vid.cd5664b528f2a786b975.mp4",
     "static/media/escribano.png": "/NACO/static/media/escribano.ddc3e34875d2b7c2fe06.png",
     "static/media/DesertSand1.png": "/NACO/static/media/DesertSand1.37a75bf24aa45ea1b52c.png",
     "static/media/BEL1.png": "/NACO/static/media/BEL1.f8c41289dcfe9ca8fe44.png",
     "static/media/DesertSand2.png": "/NACO/static/media/DesertSand2.6f400a7b29ba143a1cfb.png",
     "static/media/Mojave1.png": "/NACO/static/media/Mojave1.d513fd522958940931d7.png",
     "static/media/twp_2.png": "/NACO/static/media/twp_2.8989beb3b309c890cc0e.png",
-    "static/media/bg_10.png": "/NACO/static/media/bg_10.c11dcba89d7972f4e565.png",
     "static/media/Mojave2.png": "/NACO/static/media/Mojave2.b330cb80a215d6522873.png",
-    "static/media/bg_12.png": "/NACO/static/media/bg_12.0fba7b259b2d2155dee3.png",
     "static/media/twp_3.png": "/NACO/static/media/twp_3.4e0a0f953811cab26b2c.png",
-    "static/media/bg_9.png": "/NACO/static/media/bg_9.aa8a0921d5686a6b59cc.png",
     "static/media/fdw_3.png": "/NACO/static/media/fdw_3.ad3b075357f298bbe663.png",
-    "static/media/bg_3.png": "/NACO/static/media/bg_3.e20572dbc188a3d842a8.png",
     "static/media/natural_cork.png": "/NACO/static/media/natural_cork.b4dd544d2a4704da5419.png",
     "static/media/escribano_1.png": "/NACO/static/media/escribano_1.5b0cfb1f3f35982f2539.png",
+    "static/media/features_bg.png": "/NACO/static/media/features_bg.11676535d0435fdf0033.png",
     "static/media/tackboard.png": "/NACO/static/media/tackboard.734b2d54cb21f8f4db80.png",
     "static/media/twp_1.png": "/NACO/static/media/twp_1.7922645e291f7a961294.png",
-    "static/media/bg_4.png": "/NACO/static/media/bg_4.62012e286ebfa6ae395a.png",
-    "static/media/bg_2.png": "/NACO/static/media/bg_2.41eb7c35c1796a10b680.png",
-    "static/media/bg_11.png": "/NACO/static/media/bg_11.89fd6ba93fab7fb504c8.png",
     "static/media/mw_2.png": "/NACO/static/media/mw_2.d43ab1c5544b51a583b3.png",
     "static/media/mw_1.png": "/NACO/static/media/mw_1.f71379428373721b15d4.png",
     "static/media/fdw_1.png": "/NACO/static/media/fdw_1.7752fd803b7c5ca14d4a.png",
@@ -44,7 +39,6 @@
     "static/media/HarborWeave_group.png": "/NACO/static/media/HarborWeave_group.63a508e39551cc685476.png",
     "static/media/esc_bg_1.jpg": "/NACO/static/media/esc_bg_1.3d810afc2ac772145abb.jpg",
     "static/media/ctb_2.png": "/NACO/static/media/ctb_2.bcf7b893cda640982147.png",
-    "static/media/bg_8.png": "/NACO/static/media/bg_8.5525d07a9b02b9d1330d.png",
     "static/media/mw_main.png": "/NACO/static/media/mw_main.8bf67ec428cf85038864.png",
     "static/media/fdw_main.png": "/NACO/static/media/fdw_main.d4c72a2390963abc8bef.png",
     "static/media/mbtb_avail.png": "/NACO/static/media/mbtb_avail.69d6e1d8417012500314.png",
@@ -57,7 +51,6 @@
     "static/media/rtb_1.png": "/NACO/static/media/rtb_1.c6db03cd1d18cf8f93e3.png",
     "static/media/iwtb_1.png": "/NACO/static/media/iwtb_1.7798eeda7a63b9d0ffba.png",
     "static/media/forbo_colors_group.jpg": "/NACO/static/media/forbo_colors_group.8d718234b1d02dfe2e15.jpg",
-    "static/media/bg_7.png": "/NACO/static/media/bg_7.e14f1391b9984fa1cd75.png",
     "static/media/rtb_main.PNG": "/NACO/static/media/rtb_main.94b99485cdde361c0de0.PNG",
     "static/media/visualdisplay.jpg": "/NACO/static/media/visualdisplay.5b0fa873a447fb13134c.jpg",
     "static/media/forbo_blue.jpg": "/NACO/static/media/forbo_blue.dccea8a9e29ce317f6e7.jpg",
@@ -68,9 +61,6 @@
     "static/media/ctb_main.png": "/NACO/static/media/ctb_main.a2e10135876a869b6499.png",
     "static/media/rtb_custom.png": "/NACO/static/media/rtb_custom.fa33174f6905888f03bd.png",
     "static/media/enclosedBB_nc.jpg": "/NACO/static/media/enclosedBB_nc.c75b34b56f9077f2ff83.jpg",
-    "static/media/bg_5.png": "/NACO/static/media/bg_5.b67d17282b133fae80fc.png",
-    "static/media/bg_6.png": "/NACO/static/media/bg_6.471929cf7f2a43e84247.png",
-    "static/media/bg_1.png": "/NACO/static/media/bg_1.5eaeafb48bfaae81303f.png",
     "static/media/forbo_options.jpg": "/NACO/static/media/forbo_options.56b264f3c4c4514cdce2.jpg",
     "static/media/fdw_edging.png": "/NACO/static/media/fdw_edging.e92fb79c0783d99620fb.png",
     "static/media/cbNmb.jpg": "/NACO/static/media/cbNmb.b8e806c7f31df748fecb.jpg",
@@ -148,11 +138,11 @@
     "index.html": "/NACO/index.html",
     "static/media/slick.ttf": "/NACO/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/NACO/static/media/slick.295183786cd8a1389865.woff",
-    "main.76292271.css.map": "/NACO/static/css/main.76292271.css.map",
-    "main.1e8a85d1.js.map": "/NACO/static/js/main.1e8a85d1.js.map"
+    "main.e567e717.css.map": "/NACO/static/css/main.e567e717.css.map",
+    "main.500b563d.js.map": "/NACO/static/js/main.500b563d.js.map"
   },
   "entrypoints": [
-    "static/css/main.76292271.css",
-    "static/js/main.1e8a85d1.js"
+    "static/css/main.e567e717.css",
+    "static/js/main.500b563d.js"
   ]
 }
