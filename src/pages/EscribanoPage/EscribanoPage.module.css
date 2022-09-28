@@ -99,6 +99,65 @@
   margin-top: 100vh;
 }
 
+.feature_box {
+  padding: 6rem 10rem 12rem;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(155, 194, 221, 0.5) 65%,
+    rgba(105, 174, 223, 0.5) 100%
+  ); */
+  background: url('../../assets/images/Escribano/features_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.feature_box_title {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  color: #04abc8;
+  text-align: center;
+  font-weight: 600;
+}
+
+.feature_items {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90rem;
+}
+
+.feature_item {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem;
+
+  transition: all 0.4s;
+}
+
+.feature_icon img {
+  transform: scale(0.8);
+  max-width: 100%;
+}
+
+.feature_title {
+  font-weight: 500;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: #04d9ff;
+}
+
+.feature_description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.feature_description b {
+  color: #86cdff;
+}
+
 .header_bg {
   /* background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -135,6 +194,10 @@
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+
+  background: url('../../assets/images/Escribano/escribano_1.png');
+  background-position: top;
+  background-size: cover;
 }
 
 .educators_menu_body {

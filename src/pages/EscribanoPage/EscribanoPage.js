@@ -11,10 +11,15 @@ import 'aos/dist/aos.css';
 
 import deskBg from '../../assets/images/esc_bg_1.jpg';
 import deskBg2 from '../../assets/images/esc_bg_7.png';
+import featBackground from '../../assets/images/Escribano/features_bg.png';
 
 import educators from '../../assets/images/Escribano/escribano_1.png';
 import butterfly from '../../assets/images/Escribano/butterfly.png';
 import escVideo from '../../assets/images/Escribano/escribano_vid.mp4';
+
+import iconMm from '../../assets/images/Escribano/icons/megaMeetings.png';
+import iconWww from '../../assets/images/Escribano/icons/www.png';
+import iconVr from '../../assets/images/Escribano/icons/voiceRecognition.png';
 
 // import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
 // import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
@@ -83,55 +88,107 @@ const EscribanoPage = () => {
             a hands-free class.
           </div>
 
-          <div className={styles.btn_inquire}>Talk to us</div>
+          <div className={styles.btn_inquire}>Learn More</div>
         </div>
       </div>
       <div className={styles.hero_overlay}></div>
 
       <div className={styles.main_features}>
         {/* Features Section - Component */}
-        <FeaturesSect />
+        {/* <FeaturesSect /> */}
+
+        <div className={styles.feature_box}>
+          <div className={styles.feature_items}>
+            <div className={styles.feature_item}>
+              <div className={styles.feature_icon}>
+                <img src={iconMm} alt="icon_megameetings" />
+              </div>
+              <div className={styles.feature_title}>MegaMeetings</div>
+              <p className={styles.feature_description}>
+                A virtual conference system that allows the student to
+                participate in a face-to-face virtual class. <br /> Students can
+                answer from their tablets or computer, and the answer will be
+                displayed on the whiteboard! And they will always feel part of
+                the class whether they are in person or at home.
+              </p>
+            </div>
+            <div className={styles.feature_item}>
+              <div className={styles.feature_icon}>
+                <img src={iconWww} alt="icon_internet" />
+              </div>
+              <div className={styles.feature_title}>Web Application</div>
+              <p className={styles.feature_description}>
+                Navigate the web with our easy to access app! Set your favorite
+                search engine and browse the Internet to search for
+                complementary information and images.
+              </p>
+            </div>
+            <div className={styles.feature_item}>
+              <div className={styles.feature_icon}>
+                <img src={iconVr} alt="icon_voice_recognition" />
+              </div>
+              <div className={styles.feature_title}>
+                Voice Recognition Assistant
+              </div>
+              <p className={styles.feature_description}>
+                <b>Patricia</b> will always be available when the user wants to
+                quickly open an application, navigate between pages, active a
+                tool or use any other functions! The voice recognition assistant
+                will help in dictations, web search and more.
+              </p>
+            </div>
+            <div className={styles.feature_item}>
+              <div className={styles.feature_icon}>
+                <img src={iconVr} alt="icon_voice_recognition" />
+              </div>
+              <div className={styles.feature_title}>Mail Applications</div>
+              <p className={styles.feature_description}>
+                Send out emails or slides created during class and make use of
+                several helper tools like our easy to use calculator and clock.
+              </p>
+            </div>
+          </div>
+        </div>
 
         {/* Educators Section */}
-        <Parallax bgImage={educators} bgImageAlt="desk_office" strength={400}>
-          <div className={styles.educators_menu_box}>
-            <div
-              className={styles.educators_menu_body}
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-anchor-placement="top-center"
-            >
-              <div className={styles.educators_menu_title}>
-                Helping Educators and Teachers
-              </div>
-              <p className={styles.educators_menu_description}>
-                {/* Escribano is an intelligent board that comes with an educational
+
+        <div className={styles.educators_menu_box}>
+          <div
+            className={styles.educators_menu_body}
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-anchor-placement="top-center"
+          >
+            <div className={styles.educators_menu_title}>
+              Helping Educators and Teachers
+            </div>
+            <p className={styles.educators_menu_description}>
+              {/* Escribano is an intelligent board that comes with an educational
               virtual assistant to help teachers navigate Escribano. Allowing
               them to teach a hands-free class.
               <br />
               <br /> */}
-                Educators can access the internet, download multimedia,
-                documents and store them locally. Additionally, ESCRIBANO has
-                proprietary applications for writing text, making presentations,
-                and calculations with spreadsheets that can be saved in PDF or
-                ESCRIBANO proprietary format. <br />
-                Educators can easily retrieve saved files and use external
-                storage devices to enhance their daily work while saving and
-                sharing all their work through email or Megameetings.
-              </p>
-            </div>
-            {/* <div
+              Educators can access the internet, download multimedia, documents
+              and store them locally. Additionally, ESCRIBANO has proprietary
+              applications for writing text, making presentations, and
+              calculations with spreadsheets that can be saved in PDF or
+              ESCRIBANO proprietary format. <br />
+              Educators can easily retrieve saved files and use external storage
+              devices to enhance their daily work while saving and sharing all
+              their work through email or Megameetings.
+            </p>
+          </div>
+          {/* <div
             className={styles.educators_menu_image}
             data-aos="fade-left"
             data-aos-delay="1000"
           >
             <img src={educators} alt="educators_icons" />
           </div> */}
-          </div>
-        </Parallax>
+        </div>
 
         {/* Butterfly */}
-        <div className={styles.butterfly_box}>
+        {/* <div className={styles.butterfly_box}>
           <div
             className={styles.butterfly_image}
             data-aos="fade-up"
@@ -155,7 +212,7 @@ const EscribanoPage = () => {
               backgrounds, videos, clock, and calculator.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Background */}
         {/* <div
