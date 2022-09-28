@@ -14,18 +14,20 @@ import deskBg2 from '../../assets/images/esc_bg_7.png';
 
 import educators from '../../assets/images/Escribano/escribano_1.png';
 import butterfly from '../../assets/images/Escribano/butterfly.png';
-import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
-import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
-import bg_3 from '../../assets/images/Escribano/background/bg_3.png';
-import bg_4 from '../../assets/images/Escribano/background/bg_4.png';
-import bg_5 from '../../assets/images/Escribano/background/bg_5.png';
-import bg_6 from '../../assets/images/Escribano/background/bg_6.png';
-import bg_7 from '../../assets/images/Escribano/background/bg_7.png';
-import bg_8 from '../../assets/images/Escribano/background/bg_8.png';
-import bg_9 from '../../assets/images/Escribano/background/bg_9.png';
-import bg_10 from '../../assets/images/Escribano/background/bg_10.png';
-import bg_11 from '../../assets/images/Escribano/background/bg_11.png';
-import bg_12 from '../../assets/images/Escribano/background/bg_12.png';
+import escVideo from '../../assets/images/Escribano/escribano_vid.mp4';
+
+// import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
+// import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
+// import bg_3 from '../../assets/images/Escribano/background/bg_3.png';
+// import bg_4 from '../../assets/images/Escribano/background/bg_4.png';
+// import bg_5 from '../../assets/images/Escribano/background/bg_5.png';
+// import bg_6 from '../../assets/images/Escribano/background/bg_6.png';
+// import bg_7 from '../../assets/images/Escribano/background/bg_7.png';
+// import bg_8 from '../../assets/images/Escribano/background/bg_8.png';
+// import bg_9 from '../../assets/images/Escribano/background/bg_9.png';
+// import bg_10 from '../../assets/images/Escribano/background/bg_10.png';
+// import bg_11 from '../../assets/images/Escribano/background/bg_11.png';
+// import bg_12 from '../../assets/images/Escribano/background/bg_12.png';
 
 const EscribanoPage = () => {
   useEffect(() => {
@@ -33,7 +35,7 @@ const EscribanoPage = () => {
   });
   return (
     <section className={styles.section_escribano}>
-      <Parallax bgImage={deskBg} bgImageAlt="desk_office" strength={400}>
+      {/* <Parallax bgImage={deskBg} bgImageAlt="desk_office" strength={400}>
         <div className={styles.header_bg}>
           <div className={styles.header_box}>
             <div className={styles.header_title}>Escribano</div>
@@ -64,7 +66,27 @@ const EscribanoPage = () => {
             />
           </div>
         </div>
-      </Parallax>
+      </Parallax> */}
+
+      <div className={styles.hero_box}>
+        <video src={escVideo} muted loop autoPlay></video>
+
+        <div className={styles.header_box}>
+          <div className={styles.header_title}>Escribano</div>
+          <div className={styles.header_subtitle}>
+            A fun and interactive board that is evolving the world of Education.
+          </div>
+          <div className={styles.header_desc}>
+            Escribano is an intelligent board system which allows the user to
+            easily manage a face to face or virtual presentation using a simple
+            interface with voice recognition technology. Allowing them to teach
+            a hands-free class.
+          </div>
+
+          <div className={styles.btn_inquire}>Talk to us</div>
+        </div>
+      </div>
+      <div className={styles.hero_overlay}></div>
 
       <div className={styles.main_features}>
         {/* Features Section - Component */}
