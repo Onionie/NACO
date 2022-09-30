@@ -148,7 +148,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .feature_section_title {
@@ -231,7 +231,7 @@
   font-weight: 500;
   text-align: center;
   line-height: 1.2;
-  color: #22618a;
+  color: #1867a0;
 }
 
 .patricia_button {
@@ -269,11 +269,41 @@
 /* Butterfly Section */
 .butterfly_section {
   padding: 10rem 20rem 15rem;
+  background: url('../../assets/images/Escribano/esc_bg_1.PNG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .butterfly_body {
   display: grid;
   grid-template-columns: 2fr 3fr;
+  gap: 10rem;
+  align-items: center;
+}
+
+.butterfly_body_title {
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 4rem;
+  color: #91eeff;
+}
+
+.butterfly_body_description {
+  font-size: 2.6rem;
+  color: #fff;
+}
+
+.butterfly_image_div {
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.butterfly_image_div img {
+  max-width: 100%;
 }
 
 /* educators */

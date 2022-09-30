@@ -16,7 +16,7 @@ import deskBg2 from '../../assets/images/esc_bg_7.png';
 import featBackground from '../../assets/images/Escribano/features_bg.png';
 
 import educators from '../../assets/images/Escribano/escribano_1.png';
-import butterfly from '../../assets/images/Escribano/butterfly.png';
+import butterfly from '../../assets/images/Escribano/esc_butterfly_screen.png';
 import escVideo from '../../assets/images/Escribano/escribano_vid.mp4';
 import escLogo from '../../assets/images/Escribano/esc_logo.png';
 
@@ -157,15 +157,17 @@ const EscribanoPage = () => {
         <div className={styles.butterfly_section}>
           <div className={styles.butterfly_body}>
             <div>
-              <div>Meet The Butterfly Menu</div>
-              <div>
+              <div className={styles.butterfly_body_title}>
+                Meet The Butterfly Menu
+              </div>
+              <div className={styles.butterfly_body_description}>
                 Our butterfly menu gives you access to all the tools you need to
                 use Escribano and our displayed color pallet makes it easy to
                 select the color pen you need.
               </div>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className={styles.butterfly_image_div}>
+              <img src={butterfly} alt="escribano_butterfly_screen" />
             </div>
           </div>
           <div className={styles.butterfly_gallery}></div>
