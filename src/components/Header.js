@@ -58,7 +58,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    if (location.pathname === '/' || location.pathname === '/escribano') {
+    if (location.pathname === '/') {
       setInHomepage(true);
     } else {
       setInHomepage(false);

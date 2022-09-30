@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.header_relative {
+  position: relative;
+}
+
 .hero_box video {
   position: absolute;
   top: 0;
@@ -20,7 +24,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   z-index: 1;
 }
 
@@ -83,6 +87,20 @@
   cursor: pointer;
 }
 
+/* Escribano Header */
+.esc_header_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 0;
+}
+
+.esc_header_logo {
+  border-radius: 50%;
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Video Player */
 .player_wrapper {
   position: relative;
   width: 100%;
@@ -159,21 +177,6 @@
 
 .feature_description b {
   color: #86cdff;
-}
-
-.header_bg {
-  /* background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(140, 170, 191, 0.5662640056022409) 65%,
-    rgba(129, 159, 180, 1) 100%
-  ); */
-
-  display: grid;
-  grid-template-columns: 3fr 4fr;
-  gap: 6rem;
-  padding: 20rem 15rem 20rem;
 }
 
 .react_player {
@@ -265,9 +268,6 @@
 .butterfly_title {
   text-align: center;
   color: rgb(0, 43, 91);
-}
-
-.butterfly_description {
 }
 
 .butterfly_image {

@@ -16,6 +16,7 @@ import featBackground from '../../assets/images/Escribano/features_bg.png';
 import educators from '../../assets/images/Escribano/escribano_1.png';
 import butterfly from '../../assets/images/Escribano/butterfly.png';
 import escVideo from '../../assets/images/Escribano/escribano_vid.mp4';
+import escLogo from '../../assets/images/Escribano/esc_logo.png';
 
 import iconMm from '../../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../../assets/images/Escribano/icons/www.png';
@@ -43,7 +44,7 @@ const EscribanoPage = () => {
       <div className={styles.hero_box}>
         <video src={escVideo} muted loop autoPlay></video>
 
-        <div className={styles.header_box}>
+        {/* <div className={styles.header_box}>
           <div className={styles.header_title}>Escribano</div>
           <div className={styles.header_subtitle}>
             A fun and interactive board that is evolving the world of Education.
@@ -56,13 +57,22 @@ const EscribanoPage = () => {
           </div>
 
           <div className={styles.btn_inquire}>Learn More</div>
-        </div>
+        </div> */}
+        <div className={styles.hero_overlay}></div>
       </div>
-      <div className={styles.hero_overlay}></div>
 
       <div className={styles.main_features}>
         {/* Features Section - Component */}
         {/* <FeaturesSect /> */}
+
+        {/* Escribano Header */}
+        <div className={styles.esc_header_box}>
+          <div className={styles.esc_header_logo}>
+            <img src={escLogo} alt="escribano_logo" />
+          </div>
+          <div className={styles.esc_header_primary}></div>
+          <div className={styles.esc_header_secondary}></div>
+        </div>
 
         <div className={styles.feature_box}>
           <div className={styles.feature_items}>
