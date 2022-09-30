@@ -10,6 +10,19 @@ import iconMp4 from '../../assets/images/Escribano/icons/mp4.png';
 import iconPdf from '../../assets/images/Escribano/icons/pdf.png';
 import iconShapes from '../../assets/images/Escribano/icons/shapes.png';
 
+import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
+import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
+import bg_3 from '../../assets/images/Escribano/background/bg_3.png';
+import bg_4 from '../../assets/images/Escribano/background/bg_4.png';
+import bg_5 from '../../assets/images/Escribano/background/bg_5.png';
+import bg_6 from '../../assets/images/Escribano/background/bg_6.png';
+import bg_7 from '../../assets/images/Escribano/background/bg_7.png';
+import bg_8 from '../../assets/images/Escribano/background/bg_8.png';
+import bg_9 from '../../assets/images/Escribano/background/bg_9.png';
+import bg_10 from '../../assets/images/Escribano/background/bg_10.png';
+import bg_11 from '../../assets/images/Escribano/background/bg_11.png';
+import bg_12 from '../../assets/images/Escribano/background/bg_12.png';
+
 const features = [
   {
     id: 1,
@@ -88,4 +101,67 @@ const features = [
   },
 ];
 
-export { features };
+const background = [
+  {
+    id: 1,
+    image: bg_1,
+    alt: 'select_background_screen_1',
+  },
+  {
+    id: 2,
+    image: bg_2,
+    alt: 'select_background_screen_2',
+  },
+  {
+    id: 3,
+    image: bg_3,
+    alt: 'select_background_screen_3',
+  },
+  {
+    id: 4,
+    image: bg_4,
+    alt: 'select_background_screen_4',
+  },
+  {
+    id: 5,
+    image: bg_5,
+    alt: 'select_background_screen_5',
+  },
+  {
+    id: 6,
+    image: bg_6,
+    alt: 'select_background_screen_6',
+  },
+  {
+    id: 7,
+    image: bg_7,
+    alt: 'select_background_screen_7',
+  },
+  {
+    id: 8,
+    image: bg_8,
+    alt: 'select_background_screen_8',
+  },
+  {
+    id: 9,
+    image: bg_9,
+    alt: 'select_background_screen_9',
+  },
+  {
+    id: 10,
+    image: bg_10,
+    alt: 'select_background_screen_10',
+  },
+  {
+    id: 11,
+    image: bg_11,
+    alt: 'select_background_screen_11',
+  },
+  {
+    id: 12,
+    image: bg_12,
+    alt: 'select_background_screen_12',
+  },
+];
+
+export { features, background };

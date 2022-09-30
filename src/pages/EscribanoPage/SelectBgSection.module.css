@@ -1,7 +1,11 @@
 .select_bg_section {
   padding: 10rem 20rem 15rem;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 3fr 2fr;
   gap: 10rem;
   align-items: center;
+}
+
+.butterfly_image_div {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.4);
 }
