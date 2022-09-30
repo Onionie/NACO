@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './SelectBgSection.module.css';
 
+import ButterflyCarousel from './ButterflyCarousel';
 import { background } from './MapItems';
 
 import virtualKeyboard from '../../assets/images/Escribano/esc_keyboard_screen.png';

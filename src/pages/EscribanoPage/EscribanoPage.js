@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SelectBgSection from './SelectBgSection';
+import ButterflyCarousel from './ButterflyCarousel';
 import styles from './EscribanoPage.module.css';
 
 import ReactPlayer from 'react-player/youtube';
@@ -151,7 +152,9 @@ const EscribanoPage = () => {
               <img src={butterfly} alt="escribano_butterfly_screen" />
             </div>
           </div>
-          <div className={styles.butterfly_gallery}></div>
+          <div className={styles.butterfly_gallery}>
+            <ButterflyCarousel />
+          </div>
         </div>
 
         {/* Select Background Section */}

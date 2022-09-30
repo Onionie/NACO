@@ -306,6 +306,10 @@
   max-width: 100%;
 }
 
+.butterfly_gallery {
+  padding: 10rem 0;
+}
+
 /* educators */
 /* .educators_menu_section {
   background-image: url('../../assets/images/Escribano/escribano_1.png');
