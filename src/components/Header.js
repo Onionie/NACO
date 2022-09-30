@@ -103,7 +103,7 @@ const Header = () => {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item onClick={handleClose}>
-                  <Nav.Link as={Link} to="/escribano">
+                  <Nav.Link as={Link} to="/patricia">
                     Patricia
                   </Nav.Link>
                 </Nav.Item>

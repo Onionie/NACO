@@ -46,6 +46,7 @@ import InstallationInstructions from './pages/ArchitectPage/InstallationInstruct
 import ProductData from './pages/ArchitectPage/ProductData';
 import Specifications from './pages/ArchitectPage/Specifications';
 import ColorCards from './pages/ArchitectPage/ColorCards';
+import PatriciaPage from './pages/PatriciaPage';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/escribano" element={<EscribanoPage />} />
+        <Route path="/patricia" element={<PatriciaPage />} />
 
         {/* Visual Display Boards Route */}
         <Route path="/visual" element={<VisualPage />} />

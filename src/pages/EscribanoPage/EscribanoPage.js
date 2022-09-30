@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import styles from './EscribanoPage.module.css';
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
+
 import ReactPlayer from 'react-player/youtube';
 import { Parallax, Background } from 'react-parallax';
 
@@ -78,12 +80,14 @@ const EscribanoPage = () => {
 
         {/* Patricia Section */}
         <div className={styles.patricia_box}>
-          <div>
+          <div className={styles.patricia_header_box}>
             <div className={styles.patricia_header}>
               Reinventing School Technology With Patricia. Our Educational
               Virtual Assistant!
             </div>
-            <div className={styles.patricia_button}>Meet Patricia</div>
+            <Link to="/patricia" className={styles.patricia_button}>
+              Meet Patricia
+            </Link>
           </div>
           <div className={styles.patricia_description}>
             Escribano is an intelligent board that comes integrated with an
