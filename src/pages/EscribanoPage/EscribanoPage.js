@@ -70,8 +70,10 @@ const EscribanoPage = () => {
           <div className={styles.esc_header_logo}>
             <img src={escLogo} alt="escribano_logo" />
           </div>
-          <div className={styles.esc_header_primary}></div>
-          <div className={styles.esc_header_secondary}></div>
+          <div className={styles.esc_header_primary}>Escribano</div>
+          <div className={styles.esc_header_secondary}>
+            Evolving The World of Education
+          </div>
         </div>
 
         <div className={styles.feature_box}>
