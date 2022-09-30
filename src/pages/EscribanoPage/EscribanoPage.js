@@ -80,7 +80,7 @@ const EscribanoPage = () => {
         <div className={styles.patricia_box}>
           <div>
             <div className={styles.patricia_header}>
-              Reinventing School Technology With Patricia Our Educational
+              Reinventing School Technology With Patricia. Our Educational
               Virtual Assistant!
             </div>
             <div className={styles.patricia_button}>Meet Patricia</div>
