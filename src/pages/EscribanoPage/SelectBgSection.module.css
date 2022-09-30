@@ -1,0 +1,7 @@
+.select_bg_section {
+  padding: 10rem 20rem 15rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 10rem;
+  align-items: center;
+}

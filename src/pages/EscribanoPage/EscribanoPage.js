@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import styles from './EscribanoPage.module.css';
-import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
+import SelectBgSection from './SelectBgSection';
+import styles from './EscribanoPage.module.css';
 
 import ReactPlayer from 'react-player/youtube';
 import { Parallax, Background } from 'react-parallax';
@@ -24,19 +24,6 @@ import iconMm from '../../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../../assets/images/Escribano/icons/www.png';
 import iconVr from '../../assets/images/Escribano/icons/voiceRecognition.png';
 import iconMail from '../../assets/images/Escribano/icons/mail.png';
-
-// import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
-// import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
-// import bg_3 from '../../assets/images/Escribano/background/bg_3.png';
-// import bg_4 from '../../assets/images/Escribano/background/bg_4.png';
-// import bg_5 from '../../assets/images/Escribano/background/bg_5.png';
-// import bg_6 from '../../assets/images/Escribano/background/bg_6.png';
-// import bg_7 from '../../assets/images/Escribano/background/bg_7.png';
-// import bg_8 from '../../assets/images/Escribano/background/bg_8.png';
-// import bg_9 from '../../assets/images/Escribano/background/bg_9.png';
-// import bg_10 from '../../assets/images/Escribano/background/bg_10.png';
-// import bg_11 from '../../assets/images/Escribano/background/bg_11.png';
-// import bg_12 from '../../assets/images/Escribano/background/bg_12.png';
 
 const EscribanoPage = () => {
   useEffect(() => {
@@ -172,6 +159,9 @@ const EscribanoPage = () => {
           </div>
           <div className={styles.butterfly_gallery}></div>
         </div>
+
+        {/* Select Background Section */}
+        <SelectBgSection />
 
         {/* Educators Section */}
         {/* <div className={styles.educators_menu_section}>

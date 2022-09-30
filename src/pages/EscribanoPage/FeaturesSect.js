@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './FeaturesSect.module.css';
-import { features } from './FeaturesMap';
+import { features } from './MapItems';
 
 import iconMm from '../../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../../assets/images/Escribano/icons/www.png';
