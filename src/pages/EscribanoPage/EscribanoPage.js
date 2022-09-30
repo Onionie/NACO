@@ -76,6 +76,25 @@ const EscribanoPage = () => {
           </div>
         </div>
 
+        {/* Patricia Section */}
+        <div className={styles.patricia_box}>
+          <div>
+            <div className={styles.patricia_header}>
+              Reinventing School Technology With Patricia Our Educational
+              Virtual Assistant!
+            </div>
+            <div className={styles.patricia_button}>Meet Patricia</div>
+          </div>
+          <div className={styles.patricia_description}>
+            Escribano is an intelligent board that comes integrated with an
+            Educational virtual assistant. Our system allows the user to easily
+            manage a face-to-face or virtual presentation using a simple
+            interface with voice recognition technology. Allowing them to teach
+            a hands-free class.
+          </div>
+        </div>
+
+        {/* 4 Main Features */}
         <div className={styles.feature_box}>
           <div className={styles.feature_items}>
             <div className={styles.feature_item}>

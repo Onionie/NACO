@@ -215,6 +215,15 @@
   color: #000;
 }
 
+/* Patricia Section */
+.patricia_box {
+  padding: 10rem 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
 /* educators */
 .educators_menu_box {
   /* background-image: url('../../assets/images/Escribano/escribano_1.png'); */
