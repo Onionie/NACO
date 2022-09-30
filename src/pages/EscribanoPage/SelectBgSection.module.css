@@ -6,6 +6,15 @@
   align-items: center;
 }
 
-.butterfly_image_div {
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.4);
+.select_bg_title {
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  color: #1867a0;
+}
+
+.select_bg_description {
+  font-size: 2.6rem;
 }
