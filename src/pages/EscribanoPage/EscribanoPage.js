@@ -6,14 +6,8 @@ import styles from './EscribanoPage.module.css';
 import ReactPlayer from 'react-player/youtube';
 import { Parallax, Background } from 'react-parallax';
 
-import FeaturesSect from './FeaturesSect';
-
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-import deskBg from '../../assets/images/esc_bg_1.jpg';
-import deskBg2 from '../../assets/images/esc_bg_7.png';
-import featBackground from '../../assets/images/Escribano/features_bg.png';
 
 import educators from '../../assets/images/Escribano/escribano_1.png';
 import butterfly from '../../assets/images/Escribano/esc_butterfly_screen.png';
