@@ -280,6 +280,7 @@
   grid-template-columns: 2fr 3fr;
   gap: 10rem;
   align-items: center;
+  justify-items: center;
 }
 
 .butterfly_body_title {
@@ -299,7 +300,6 @@
 .butterfly_image_div {
   border-radius: 0.6rem;
   overflow: hidden;
-  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.6);
 }
 
 .butterfly_image_div img {

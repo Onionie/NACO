@@ -1,12 +1,19 @@
-.select_bg_section {
+.select_bg_section,
+.virtual_keyboard_section {
   padding: 10rem 20rem 15rem;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+
   gap: 10rem;
   align-items: center;
+  justify-items: center;
 }
 
-.select_bg_title {
+.select_bg_section {
+  grid-template-columns: 3fr 2fr;
+}
+
+.select_bg_title,
+.virtual_keyboard_title {
   font-size: 4.8rem;
   font-weight: 500;
   text-align: center;
@@ -15,6 +22,11 @@
   color: #1867a0;
 }
 
-.select_bg_description {
+.select_bg_description,
+.virtual_keyboard_description {
   font-size: 2.6rem;
+}
+
+.virtual_keyboard_section {
+  grid-template-columns: 2fr 3fr;
 }
