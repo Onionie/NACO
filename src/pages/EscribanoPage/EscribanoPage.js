@@ -23,6 +23,7 @@ import escLogo from '../../assets/images/Escribano/esc_logo.png';
 import iconMm from '../../assets/images/Escribano/icons/megaMeetings.png';
 import iconWww from '../../assets/images/Escribano/icons/www.png';
 import iconVr from '../../assets/images/Escribano/icons/voiceRecognition.png';
+import iconMail from '../../assets/images/Escribano/icons/mail.png';
 
 // import bg_1 from '../../assets/images/Escribano/background/bg_1.png';
 // import bg_2 from '../../assets/images/Escribano/background/bg_2.png';
@@ -43,10 +44,10 @@ const EscribanoPage = () => {
   });
   return (
     <section className={styles.section_escribano}>
-      <div className={styles.hero_box}>
+      <div className={styles.hero_section}>
         <video src={escVideo} muted loop autoPlay></video>
 
-        {/* <div className={styles.header_box}>
+        {/* <div className={styles.header_section}>
           <div className={styles.header_title}>Escribano</div>
           <div className={styles.header_subtitle}>
             A fun and interactive board that is evolving the world of Education.
@@ -68,7 +69,7 @@ const EscribanoPage = () => {
         {/* <FeaturesSect /> */}
 
         {/* Escribano Header */}
-        <div className={styles.esc_header_box}>
+        <div className={styles.esc_header_section}>
           <div className={styles.esc_header_logo}>
             <img src={escLogo} alt="escribano_logo" />
           </div>
@@ -79,8 +80,8 @@ const EscribanoPage = () => {
         </div>
 
         {/* Patricia Section */}
-        <div className={styles.patricia_box}>
-          <div className={styles.patricia_header_box}>
+        <div className={styles.patricia_section}>
+          <div className={styles.patricia_header_section}>
             <div className={styles.patricia_header}>
               Reinventing School Technology With Patricia. Our Educational
               Virtual Assistant!
@@ -99,7 +100,7 @@ const EscribanoPage = () => {
         </div>
 
         {/* 4 Main Features */}
-        <div className={styles.feature_box}>
+        <div className={styles.feature_section}>
           <div className={styles.feature_items}>
             <div className={styles.feature_item}>
               <div className={styles.feature_icon}>
@@ -141,7 +142,7 @@ const EscribanoPage = () => {
             </div>
             <div className={styles.feature_item}>
               <div className={styles.feature_icon}>
-                <img src={iconVr} alt="icon_voice_recognition" />
+                <img src={iconMail} alt="icon_voice_recognition" />
               </div>
               <div className={styles.feature_title}>Mail Applications</div>
               <p className={styles.feature_description}>
@@ -152,9 +153,26 @@ const EscribanoPage = () => {
           </div>
         </div>
 
-        {/* Educators Section */}
+        {/* Butterfly Menu */}
+        <div className={styles.butterfly_section}>
+          <div className={styles.butterfly_body}>
+            <div>
+              <div>Meet The Butterfly Menu</div>
+              <div>
+                Our butterfly menu gives you access to all the tools you need to
+                use Escribano and our displayed color pallet makes it easy to
+                select the color pen you need.
+              </div>
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div className={styles.butterfly_gallery}></div>
+        </div>
 
-        <div className={styles.educators_menu_box}>
+        {/* Educators Section */}
+        {/* <div className={styles.educators_menu_section}>
           <div
             className={styles.educators_menu_body}
             data-aos="fade-up"
@@ -164,13 +182,13 @@ const EscribanoPage = () => {
             <div className={styles.educators_menu_title}>
               Helping Educators and Teachers
             </div>
-            <p className={styles.educators_menu_description}>
-              {/* Escribano is an intelligent board that comes with an educational
+            <p className={styles.educators_menu_description}> */}
+        {/* Escribano is an intelligent board that comes with an educational
               virtual assistant to help teachers navigate Escribano. Allowing
               them to teach a hands-free class.
               <br />
               <br /> */}
-              Educators can access the internet, download multimedia, documents
+        {/* Educators can access the internet, download multimedia, documents
               and store them locally. Additionally, ESCRIBANO has proprietary
               applications for writing text, making presentations, and
               calculations with spreadsheets that can be saved in PDF or
@@ -180,7 +198,7 @@ const EscribanoPage = () => {
               their work through email or Megameetings.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

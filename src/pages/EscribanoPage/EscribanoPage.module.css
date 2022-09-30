@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.hero_box video {
+.hero_section video {
   position: absolute;
   top: 0;
   left: 0;
@@ -28,7 +28,7 @@
   z-index: 1;
 }
 
-.header_box {
+/* .header_section {
   position: absolute;
   left: 5%;
   top: 50%;
@@ -37,9 +37,9 @@
   flex-direction: column;
   z-index: 10;
   max-width: 70rem;
-}
+} */
 
-.header_title {
+/* .header_title {
   text-transform: uppercase;
   font-size: 7.6rem;
   font-weight: 700;
@@ -85,10 +85,10 @@
 .btn_inquire:hover {
   background-color: rgb(0, 255, 234);
   cursor: pointer;
-}
+} */
 
 /* Escribano Header */
-.esc_header_box {
+.esc_header_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,18 +123,19 @@
 }
 
 /* Video Player */
-.player_wrapper {
+/* .player_wrapper {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
-}
+} */
 
+/* Main Features */
 .main_features {
   margin-top: 100vh;
 }
 
-.feature_box {
+.feature_section {
   padding: 6rem 10rem 12rem;
   /* background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -147,11 +148,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
 }
 
-.feature_box_title {
+.feature_section_title {
   text-transform: uppercase;
   font-size: 3.2rem;
   color: #04abc8;
@@ -196,7 +196,7 @@
   color: #86cdff;
 }
 
-.react_player {
+/* .react_player {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,10 +208,10 @@
   font-size: 2.6rem;
   text-transform: uppercase;
   color: #000;
-}
+} */
 
 /* Patricia Section */
-.patricia_box {
+.patricia_section {
   padding: 10rem 25rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -220,7 +220,7 @@
   align-items: center;
 }
 
-.patricia_header_box {
+.patricia_header_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -266,9 +266,19 @@
   font-size: 3.2rem;
 }
 
+/* Butterfly Section */
+.butterfly_section {
+  padding: 10rem 20rem 15rem;
+}
+
+.butterfly_body {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
 /* educators */
-.educators_menu_box {
-  /* background-image: url('../../assets/images/Escribano/escribano_1.png'); */
+/* .educators_menu_section {
+  background-image: url('../../assets/images/Escribano/escribano_1.png');
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -278,9 +288,9 @@
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
-.educators_menu_body {
+/* .educators_menu_body {
   position: absolute;
   top: 12%;
   left: 5%;
@@ -288,13 +298,11 @@
   padding: 3rem 5rem;
   border-radius: 0.6rem;
   box-shadow: -8px 8px 4px 2px rgba(0, 0, 0, 0.6);
-  /* margin: 0 30rem; */
   width: 35%;
 }
 
 .educators_menu_title,
-.background_title,
-.butterfly_title {
+.background_title {
   font-weight: 500;
   font-size: 4.8rem;
   margin-bottom: 2rem;
@@ -304,8 +312,7 @@
 }
 
 .educators_menu_description,
-.background_description,
-.butterfly_description {
+.background_description {
   font-size: 2.4rem;
   line-height: 1.4;
 }
@@ -317,60 +324,4 @@
 
 .educators_menu_image img {
   max-width: 100%;
-}
-
-/* Butterfly Menu */
-.butterfly_box {
-  background: rgb(117, 140, 156);
-  background: radial-gradient(
-    circle,
-    rgba(117, 140, 156, 1) 0%,
-    rgba(43, 91, 125, 1) 81%,
-    rgba(23, 74, 110, 1) 100%
-  );
-  padding: 10rem;
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-}
-
-.butterfly_body {
-  padding: 2rem 6rem;
-  background-color: rgb(206, 246, 253);
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
-}
-
-.butterfly_title {
-  text-align: center;
-  color: rgb(0, 43, 91);
-}
-
-.butterfly_image {
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
-  width: 100%;
-}
-
-.butterfly_image img {
-  width: 100%;
-}
-
-/* Background Options Section */
-/* .background_box {
-  background-color: rgba(211, 248, 255, 0.9);
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  border-radius: 0.4rem;
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
-  margin-bottom: 20rem;
-}
-
-.background_box img {
-  width: 100%;
-}
-
-.background_body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 7rem;
-  font-size: 2.8rem;
 } */
