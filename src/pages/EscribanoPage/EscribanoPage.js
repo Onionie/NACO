@@ -152,9 +152,9 @@ const EscribanoPage = () => {
               <img src={butterfly} alt="escribano_butterfly_screen" />
             </div>
           </div>
-          <div className={styles.butterfly_gallery}>
+          {/* <div className={styles.butterfly_gallery}>
             <ButterflyCarousel />
-          </div>
+          </div> */}
         </div>
 
         {/* Select Background Section */}
