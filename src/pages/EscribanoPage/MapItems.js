@@ -52,16 +52,16 @@ const features = [
 
   {
     id: 4,
-    title: `Selectable Background`,
-    desc: `Select from our 14 different backgrounds to start your lesson. Escribano has a background selection for every class like math, music and even sports!`,
-    image: iconBg,
-  },
-  {
-    id: 5,
     title: `Mail Applications`,
     desc: `Send out emails or slides created during class and make use of
             several helper tools like our easy to use calculator and clock.`,
     image: iconMail,
+  },
+  {
+    id: 5,
+    title: `Selectable Background`,
+    desc: `Select from our 14 different backgrounds to start your lesson. Escribano has a background selection for every class like math, music and even sports!`,
+    image: iconBg,
   },
   {
     id: 6,

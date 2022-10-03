@@ -9,7 +9,7 @@ import iconVr from '../../assets/images/Escribano/icons/voiceRecognition.png';
 const FeaturesSect = () => {
   return (
     <div className={styles.feature_box}>
-      <div className={styles.feature_box_title}>Tools And Features</div>
+      {/* <div className={styles.feature_box_title}>Tools And Features</div> */}
 
       <div className={styles.feature_items}>
         {features.map((feat) => (

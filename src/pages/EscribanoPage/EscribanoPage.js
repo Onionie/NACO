@@ -83,7 +83,7 @@ const EscribanoPage = () => {
         </div>
 
         {/* 4 Main Features */}
-        <div className={styles.feature_section}>
+        {/* <div className={styles.feature_section}>
           <div className={styles.feature_items}>
             <div className={styles.feature_item}>
               <div className={styles.feature_icon}>
@@ -134,7 +134,7 @@ const EscribanoPage = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Butterfly Menu */}
         <div className={styles.butterfly_section}>
