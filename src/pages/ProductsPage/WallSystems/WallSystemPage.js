@@ -29,13 +29,6 @@ const TackwallSystemPage = () => {
       category: 'wall-systems',
       item: 'marker-wall',
     },
-    {
-      id: 1,
-      product: 'Forbo',
-      imageSrc: mb,
-      category: 'visual',
-      item: 'markerboard',
-    },
   ];
 
   return (
