@@ -9,7 +9,7 @@ import virtualKeyboard from '../../assets/images/Escribano/esc_keyboard_screen.p
 
 const SelectBgSection = () => {
   return (
-    <div>
+    <div className={styles.keyboard_section}>
       {/* Background */}
       <div className={styles.select_bg_section}>
         <Carousel
