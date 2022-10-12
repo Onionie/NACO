@@ -12,19 +12,22 @@ const SelectBgSection = () => {
     <div className={styles.keyboard_section}>
       {/* Background */}
       <div className={styles.select_bg_section}>
-        <Carousel
-          className="background_carousel"
-          indicators={true}
-          controls={true}
-          variant="light"
-        >
-          {background.map((bg) => (
-            <Carousel.Item key={bg.id}>
-              <img className="d-block w-100" src={bg.image} alt={bg.alt} />
-            </Carousel.Item>
-          ))}
-        </Carousel>
-        <div>
+        <div data-aos="fade-right" data-aos-delay="1000">
+          <Carousel
+            className="background_carousel"
+            indicators={true}
+            controls={true}
+            variant="light"
+          >
+            {background.map((bg) => (
+              <Carousel.Item key={bg.id}>
+                <img className="d-block w-100" src={bg.image} alt={bg.alt} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+
+        <div data-aos="fade-left" data-aos-delay="1100">
           <div className={styles.select_bg_title}>
             Pick A Background for Every Subject!
           </div>
@@ -39,7 +42,7 @@ const SelectBgSection = () => {
 
       {/*  Virtual Keyboard */}
       <div className={styles.virtual_keyboard_section}>
-        <div>
+        <div data-aos="fade-right" data-aos-delay="1300">
           <div className={styles.virtual_keyboard_title}>Virtual Keyboard</div>
           <div className={styles.virtual_keyboard_description}>
             Escribano also has a keyboard button to access our virtual keyboard
@@ -49,7 +52,11 @@ const SelectBgSection = () => {
             teacher can drag the button down for easier access!
           </div>
         </div>
-        <div className={styles.virtual_keyboard_image_div}>
+        <div
+          className={styles.virtual_keyboard_image_div}
+          data-aos="fade-left"
+          data-aos-delay="1500"
+        >
           <img src={virtualKeyboard} alt="virtual_keyboard_screen" />
         </div>
       </div>

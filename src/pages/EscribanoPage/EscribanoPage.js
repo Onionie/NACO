@@ -22,8 +22,9 @@ import iconVr from '../../assets/images/Escribano/icons/voiceRecognition.png';
 import iconMail from '../../assets/images/Escribano/icons/mail.png';
 
 const EscribanoPage = () => {
+  //once: true
   useEffect(() => {
-    Aos.init({ duration: 1500, once: true }, []);
+    Aos.init({ duration: 1500 }, []);
   });
   return (
     <section className={styles.section_escribano}>
@@ -53,11 +54,25 @@ const EscribanoPage = () => {
 
         {/* Escribano Header */}
         <div className={styles.esc_header_section}>
-          <div className={styles.esc_header_logo}>
+          <div
+            className={styles.esc_header_logo}
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img src={escLogo} alt="escribano_logo" />
           </div>
-          <div className={styles.esc_header_primary}>Escribano</div>
-          <div className={styles.esc_header_secondary}>
+          <div
+            className={styles.esc_header_primary}
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            Escribano
+          </div>
+          <div
+            className={styles.esc_header_secondary}
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
             Evolving The World of Education
           </div>
         </div>
@@ -65,15 +80,28 @@ const EscribanoPage = () => {
         {/* Patricia Section */}
         <div className={styles.patricia_section}>
           <div className={styles.patricia_header_section}>
-            <div className={styles.patricia_header}>
+            <div
+              className={styles.patricia_header}
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               Reinventing School Technology With Patricia. Our Educational
               Virtual Assistant!
             </div>
-            <Link to="/patricia" className={styles.patricia_button}>
+            <Link
+              to="/patricia"
+              className={styles.patricia_button}
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               Meet Patricia
             </Link>
           </div>
-          <div className={styles.patricia_description}>
+          <div
+            className={styles.patricia_description}
+            data-aos="fade-left"
+            data-aos-delay="1500"
+          >
             Escribano is an intelligent board that comes integrated with an
             Educational virtual assistant. Our system allows the user to easily
             manage a face-to-face or virtual presentation using a simple
@@ -140,16 +168,28 @@ const EscribanoPage = () => {
         <div className={styles.butterfly_section}>
           <div className={styles.butterfly_body}>
             <div>
-              <div className={styles.butterfly_body_title}>
+              <div
+                className={styles.butterfly_body_title}
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
                 Meet The Butterfly Menu
               </div>
-              <div className={styles.butterfly_body_description}>
+              <div
+                className={styles.butterfly_body_description}
+                data-aos="fade-right"
+                data-aos-delay="700"
+              >
                 Our butterfly menu gives you access to all the tools you need to
                 use Escribano and our displayed color pallet makes it easy to
                 select the color pen you need.
               </div>
             </div>
-            <div className={styles.butterfly_image_div}>
+            <div
+              className={styles.butterfly_image_div}
+              data-aos="fade-left"
+              data-aos-delay="900"
+            >
               <img src={butterfly} alt="escribano_butterfly_screen" />
             </div>
           </div>

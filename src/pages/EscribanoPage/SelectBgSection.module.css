@@ -1,6 +1,6 @@
 .select_bg_section,
 .virtual_keyboard_section {
-  padding: 10rem 20rem 15rem;
+  padding: 0 20rem 15rem;
   display: grid;
 
   gap: 10rem;
@@ -10,6 +10,11 @@
 
 .select_bg_section {
   grid-template-columns: 3fr 2fr;
+  padding-top: 10rem;
+}
+
+.virtual_keyboard_section {
+  margin-top: 5rem;
 }
 
 .select_bg_title,
