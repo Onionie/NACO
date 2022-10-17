@@ -44,6 +44,7 @@
 a .btn {
   font-size: 7.8rem;
   text-transform: uppercase;
+  text-shadow: 3px 3px 3px #000;
 }
 
 a .btn:hover {
