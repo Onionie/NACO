@@ -4,9 +4,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.header_relative {
+/* .hero_section {
   position: relative;
-}
+} */
 
 .hero_section video {
   position: absolute;

@@ -12,7 +12,11 @@ const SelectBgSection = () => {
     <div className={styles.keyboard_section}>
       {/* Background */}
       <div className={styles.select_bg_section}>
-        <div data-aos="fade-right" data-aos-delay="1000">
+        <div
+          className={styles.bg_image_div}
+          data-aos="fade-right"
+          data-aos-delay="1000"
+        >
           <Carousel
             className="background_carousel"
             indicators={true}
@@ -53,7 +57,7 @@ const SelectBgSection = () => {
           </div>
         </div>
         <div
-          className={styles.virtual_keyboard_image_div}
+          className={styles.bg_image_div}
           data-aos="fade-left"
           data-aos-delay="1500"
         >

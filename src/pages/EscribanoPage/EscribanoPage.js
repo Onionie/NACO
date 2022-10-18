@@ -24,7 +24,7 @@ import iconMail from '../../assets/images/Escribano/icons/mail.png';
 const EscribanoPage = () => {
   //once: true
   useEffect(() => {
-    Aos.init({ duration: 1500 }, []);
+    Aos.init({ duration: 1500, once: 'true' }, []);
   });
   return (
     <section className={styles.section_escribano}>
