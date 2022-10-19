@@ -59,6 +59,23 @@ const SelectBgSection = () => {
           data-aos-delay="1500"
         >
           <img src={virtualKeyboard} alt="virtual_keyboard_screen" />
+          <div className={styles.dict_text_box}>
+            <div className={`${styles.dict_text} ${styles.dict_text_1}`}>
+              Tell
+            </div>
+            <div className={`${styles.dict_text} ${styles.dict_text_2}`}>
+              Escribano
+            </div>
+            <div className={`${styles.dict_text} ${styles.dict_text_3}`}>
+              what
+            </div>
+            <div className={`${styles.dict_text} ${styles.dict_text_4}`}>
+              to
+            </div>
+            <div className={`${styles.dict_text} ${styles.dict_text_5}`}>
+              write.
+            </div>
+          </div>
         </div>
       </div>
     </div>
