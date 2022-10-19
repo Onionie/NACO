@@ -5,7 +5,7 @@ import styles from './SelectBgSection.module.css';
 import ButterflyCarousel from './ButterflyCarousel';
 import { background } from './MapItems';
 
-import virtualKeyboard from '../../assets/images/Escribano/esc_keyboard_screen.png';
+import virtualKeyboard from '../../assets/images/Escribano/esc_keyboard_screen2.png';
 
 const SelectBgSection = () => {
   return (
@@ -32,7 +32,7 @@ const SelectBgSection = () => {
         </div>
 
         <div data-aos="fade-left" data-aos-delay="1100">
-          <div className={styles.select_bg_title}>
+          <div className={styles.sbg_title}>
             Pick A Background for Every Subject!
           </div>
           <div className={styles.select_bg_description}>
@@ -47,13 +47,10 @@ const SelectBgSection = () => {
       {/*  Virtual Keyboard */}
       <div className={styles.virtual_keyboard_section}>
         <div data-aos="fade-right" data-aos-delay="1300">
-          <div className={styles.virtual_keyboard_title}>Virtual Keyboard</div>
+          <div className={styles.sbg_title}>Dictation Mode</div>
           <div className={styles.virtual_keyboard_description}>
-            Escribano also has a keyboard button to access our virtual keyboard
-            and a home button to access all of the integrated applications like
-            Megameetings, internet browser, email, backgrounds, videos, clock,
-            and calculator. Our home and keyboard buttons are movable, the
-            teacher can drag the button down for easier access!
+            Dictation Mode is a feature that allows the user to write using just
+            their voice.
           </div>
         </div>
         <div

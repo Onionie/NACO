@@ -18,7 +18,7 @@
   opacity: 0.8;
 }
 
-.hero_overlay {
+/* .hero_overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
+} */
 
 /* .header_section {
   position: absolute;
