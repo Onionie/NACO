@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './SelectBgSection.module.css';
 

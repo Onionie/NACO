@@ -1,17 +1,11 @@
 import React from 'react';
+import styles from './ContactPage.module.css';
 
 const ContactPage = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        marginTop: '15rem',
-        fontSize: '4rem',
-      }}
-    >
-      Contact Us Page
-    </div>
+    <section className={styles.contact_page}>
+      <div className={styles.contact_title}> Contact Us</div>
+    </section>
   );
 };
 
