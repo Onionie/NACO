@@ -2,10 +2,62 @@
   padding: 13rem 15rem;
 }
 
-.contact_title {
-  font-size: 7.2rem;
+.contact_title,
+.contact_sect_title {
   font-weight: 500;
   text-align: center;
+}
+
+/* .contact_title {
+  font-size: 7.2rem;
   margin-bottom: 4rem;
   color: #1282a2;
+} */
+
+.contact_sect_title {
+  margin-bottom: 2rem;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  color: #1282a2;
+}
+
+.contact_cards {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_card {
+  padding: 2rem 0;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+}
+
+.cards_name {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.cards_title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #21bff3;
+  line-height: 1.2;
+}
+
+.cards_email:link,
+.cards_email:hover {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.cards_extension {
+  font-size: 1.6rem;
 }
