@@ -1,6 +1,13 @@
 .libraries_list_section {
   padding: 13rem 15rem 5rem;
+  min-height: 90vh;
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(
+    170deg,
+    rgba(247, 241, 241, 1) 0%,
+    rgba(208, 240, 241, 1) 75%,
+    rgba(208, 247, 255, 1) 100%
+  );
 }
 
 .libraries_title {

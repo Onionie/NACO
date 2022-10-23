@@ -2,18 +2,17 @@
   padding: 13rem 20rem 0;
   font-family: 'Montserrat', sans-serif;
 
-  /* background: rgb(247, 241, 241);
   background: linear-gradient(
-    171deg,
+    170deg,
     rgba(247, 241, 241, 1) 0%,
-    rgba(208, 240, 241, 1) 74%,
+    rgba(208, 240, 241, 1) 75%,
     rgba(208, 247, 255, 1) 100%
-  ); */
+  );
 
-  background-image: url('../../assets/images/lines.png');
+  /* background-image: url('../../assets/images/lines.png');
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .architects_title {
