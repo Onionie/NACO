@@ -24,6 +24,19 @@
   line-height: 1.2;
 }
 
+.cards_email_box,
+.cards_extension {
+  display: flex;
+  align-items: center;
+}
+
+.cards_email_box svg,
+.cards_extension svg {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.6rem;
+}
+
 .cards_email {
   transition: all 0.2s;
 }
