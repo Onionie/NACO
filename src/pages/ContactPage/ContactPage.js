@@ -33,6 +33,16 @@ const ContactPage = () => {
           />
         ))}
       </ContactRow>
+
+      {/* Senior Manage*/}
+      <ContactRow rowTitle={'Senior Manager'}>
+        <ContactCard
+          name={'Albert Cardenas'}
+          title={'Senior Manager'}
+          email={'albert@nelsonadamsnaco.com'}
+          extNumber={'113'}
+        />
+      </ContactRow>
     </section>
   );
 };

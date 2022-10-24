@@ -4,7 +4,8 @@
   text-align: center;
   font-size: 4.2rem;
   text-transform: uppercase;
-  color: #1282a2;
+  color: #3b9ae1;
+  text-shadow: 0 0 1px #000;
 }
 
 .contact_cards {
