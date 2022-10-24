@@ -4,7 +4,7 @@ import styles from './ContactPage.module.css';
 import ContactRow from '../../components/Contacts/ContactRow';
 import ContactCard from '../../components/Contacts/ContactCard';
 
-import { project, estimating } from './ContactList';
+import { project, estimating, executive } from './ContactList';
 
 const ContactPage = () => {
   return (
@@ -40,7 +40,7 @@ const ContactPage = () => {
           name={'Albert Cardenas'}
           title={'Senior Manager'}
           email={'albert@nelsonadamsnaco.com'}
-          extNumber={'113'}
+          extNumber={'Ext. 113'}
         />
       </ContactRow>
 
@@ -50,8 +50,21 @@ const ContactPage = () => {
           name={'Kelvin Chavez'}
           title={'Contracts'}
           email={'kelvin@nelsonadamsnaco.com'}
-          extNumber={'106'}
+          extNumber={'Ext. 106'}
         />
+      </ContactRow>
+
+      {/* Executive Team */}
+      <ContactRow rowTitle={'ExecutiveTeam'}>
+        {executive.map((exec) => (
+          <ContactCard
+            key={exec.id}
+            name={exec.name}
+            title={exec.title}
+            email={exec.email}
+            extNumber={exec.ext}
+          />
+        ))}
       </ContactRow>
     </section>
   );

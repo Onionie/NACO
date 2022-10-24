@@ -9,7 +9,7 @@ const ContactCard = (props) => {
       <a href={`mailto:${props.email}`} className={styles.cards_email}>
         {props.email}
       </a>
-      <div className={styles.cards_extension}> Ext. {props.extNumber}</div>
+      <div className={styles.cards_extension}>{props.extNumber}</div>
     </div>
   );
 };

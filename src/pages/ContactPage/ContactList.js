@@ -4,28 +4,28 @@ const project = [
     name: 'Sayra Mojica',
     title: 'DIRECTOR OF PROJECT MANAGEMENT',
     email: 'sayra@nelsonadamsnaco.com',
-    ext: '115',
+    ext: 'Ext. 115',
   },
   {
     id: 2,
     name: 'Magali Santos',
     title: 'Project Manager',
     email: 'magali@nelsonadamsnaco.com',
-    ext: '111',
+    ext: 'Ext. 111',
   },
   {
     id: 3,
     name: 'Grecia Ocampo',
     title: 'Project Manager',
     email: 'grecia@nelsonadamsnaco.com',
-    ext: '201',
+    ext: 'Ext. 201',
   },
   {
     id: 4,
     name: 'Jonathan Castro',
     title: 'Project Manager',
     email: 'jonathan@nelsonadamsnaco.com',
-    ext: '204',
+    ext: 'Ext. 204',
   },
 ];
 
@@ -35,29 +35,44 @@ const estimating = [
     name: 'Arely Hernandez',
     title: 'Sales Manager',
     email: 'arely@nelsonadamsnaco.com',
-    ext: '112',
+    ext: 'Ext. 112',
   },
   {
     id: 2,
     name: 'Yoanna Herrera',
     title: 'Contract Negotiator',
     email: 'yoanna@nelsonadamsnaco.com',
-    ext: '105',
+    ext: 'Ext. 105',
   },
   {
     id: 3,
     name: 'Hector Millan',
     title: 'Estimator',
     email: 'hector@nelsonadamsnaco.com',
-    ext: '117',
+    ext: 'Ext. 117',
   },
   {
     id: 4,
     name: 'Melanie Mojica',
     title: 'Filtering',
     email: 'estimating@nelsonadamsnaco.com',
-    ext: '116',
+    ext: 'Ext. 116',
   },
 ];
 
-export { project, estimating };
+const executive = [
+  {
+    id: 1,
+    name: 'Rafael Rangel',
+    title: 'President',
+    email: 'rafaelrangel@nelsonadamsnaco.com',
+  },
+  {
+    id: 2,
+    name: 'Patricia Flores',
+    title: 'General Manager',
+    email: 'pflores@nelsonadamsnaco.com',
+  },
+];
+
+export { project, estimating, executive };
