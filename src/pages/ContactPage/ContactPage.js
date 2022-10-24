@@ -4,7 +4,7 @@ import styles from './ContactPage.module.css';
 import ContactRow from '../../components/Contacts/ContactRow';
 import ContactCard from '../../components/Contacts/ContactCard';
 
-import { project } from './ContactList';
+import { project, estimating } from './ContactList';
 
 const ContactPage = () => {
   return (
@@ -17,6 +17,19 @@ const ContactPage = () => {
             title={proj.title}
             email={proj.email}
             extNumber={proj.ext}
+          />
+        ))}
+      </ContactRow>
+
+      {/* Estimating Team */}
+      <ContactRow rowTitle={'Estimating Team'}>
+        {estimating.map((est) => (
+          <ContactCard
+            key={est.id}
+            name={est.name}
+            title={est.title}
+            email={est.email}
+            extNumber={est.ext}
           />
         ))}
       </ContactRow>
