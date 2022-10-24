@@ -34,13 +34,23 @@ const ContactPage = () => {
         ))}
       </ContactRow>
 
-      {/* Senior Manage*/}
+      {/* Senior Manager */}
       <ContactRow rowTitle={'Senior Manager'}>
         <ContactCard
           name={'Albert Cardenas'}
           title={'Senior Manager'}
           email={'albert@nelsonadamsnaco.com'}
           extNumber={'113'}
+        />
+      </ContactRow>
+
+      {/* Legal Department */}
+      <ContactRow rowTitle={'Legal Department'}>
+        <ContactCard
+          name={'Kelvin Chavez'}
+          title={'Contracts'}
+          email={'kelvin@nelsonadamsnaco.com'}
+          extNumber={'106'}
         />
       </ContactRow>
     </section>
