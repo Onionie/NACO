@@ -6,7 +6,7 @@ import Homepage from './pages/Homepage';
 
 // Solo Pages
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 import EscribanoPage from './pages/EscribanoPage/EscribanoPage';
 
 // Visual Display Boards
