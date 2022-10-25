@@ -11,6 +11,7 @@
 .mission_box {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
+  column-gap: 5rem;
 }
 
 .mission_image {
@@ -20,4 +21,26 @@
 
 .mission_image img {
   max-width: 100%;
+}
+
+.mission_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission_header {
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.environment_tag {
+  color: #82cd47;
+}
+
+.mission_subheader {
+  font-size: 2.2rem;
 }
