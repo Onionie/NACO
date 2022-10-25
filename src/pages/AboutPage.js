@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './AboutPage.module.css';
 
 import missionImg from '../assets/images/about_us_mission.png';
+import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const AboutPage = () => {
   return (
@@ -26,6 +27,12 @@ const AboutPage = () => {
             to day operation but culture and family values stayed the same.
           </div>
         </div>
+      </div>
+      <div className={styles.history_box}>
+        <div className={styles.history_background}>
+          <img src={companyLogo} alt="company_logo" />
+        </div>
+        <div className={styles.history_body}></div>
       </div>
     </section>
   );
