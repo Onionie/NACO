@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './AboutPage.module.css';
 
 const AboutPage = () => {
   return (
-    <div
+    <section
       style={{
         display: 'flex',
         justifyContent: 'center',
@@ -11,7 +12,7 @@ const AboutPage = () => {
       }}
     >
       About Us Page
-    </div>
+    </section>
   );
 };
 
