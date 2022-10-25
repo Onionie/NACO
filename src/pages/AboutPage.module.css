@@ -1,3 +1,23 @@
 .about_section {
   padding: 13rem 15rem;
+  background: linear-gradient(
+    170deg,
+    rgba(247, 241, 241, 1) 0%,
+    rgba(208, 240, 241, 1) 75%,
+    rgba(208, 247, 255, 1) 100%
+  );
+}
+
+.mission_box {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.mission_image {
+  display: flex;
+  justify-content: center;
+}
+
+.mission_image img {
+  max-width: 100%;
 }
