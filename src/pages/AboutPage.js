@@ -9,17 +9,18 @@ const AboutPage = () => {
     <section className={styles.about_section}>
       <div className={styles.mission_box}>
         <div className={styles.mission_image}>
-          <img src={missionImg} alt="collage_image" />
+          <img src={companyLogo} alt="company_logo" />
         </div>
         <div className={styles.mission_body}>
           <div className={styles.mission_header}>
-            At Nelson Adams NACO we have taken our products to the next level
-            making them more{' '}
+            Since its start in 1953, Nelson Adams continues to maintain
+            impeccable quality and customer service with our clients all over
+            the United States. We take pride in our work ensuring not only that
+            all our products are functional but{' '}
             <span className={styles.environment_tag}>
               environmentally friendly
-            </span>
-            , functional, easy, extraordinary, and the best way to optimize your
-            space.
+            </span>{' '}
+            as well.
           </div>
           <div className={styles.mission_subheader}>
             We take pride in our work and we continue a tradition that started

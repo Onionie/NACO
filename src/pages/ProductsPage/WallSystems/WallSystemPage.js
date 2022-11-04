@@ -16,13 +16,7 @@ import mw_main from '../../../assets/images/TackwallSystems/MarkerWall/mw_main.p
 </Link>; */
 }
 const TackwallSystemPage = () => {
-  return (
-    <SliderContent
-      header="Wall Systems"
-      products={tackwallSystems}
-      slidesNum={2}
-    />
-  );
+  return <div></div>;
 };
 
 export default TackwallSystemPage;
