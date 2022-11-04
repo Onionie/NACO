@@ -1,5 +1,5 @@
 .about_section {
-  padding: 13rem 15rem;
+  padding: 18rem 15rem;
   background: linear-gradient(
     170deg,
     rgba(247, 241, 241, 1) 0%,
@@ -49,45 +49,27 @@
   font-weight: 500;
 }
 
-/* History */
+/* projects */
 
-.history_box {
+.projects_box {
   margin-top: 15rem;
   padding-top: 5rem;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.4rem;
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
 }
 
-.history_box,
-.history_body {
+.projects_box,
+.projects_body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.history_img {
-  border-radius: 50%;
-  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.8);
-  overflow: hidden;
-  margin-bottom: 2rem;
-}
-
-.history_img img {
-  max-width: 100%;
-}
-
-.history_body {
+.projects_body {
   padding: 5rem 8rem;
 }
 
-.history_title {
-  font-weight: 500;
-  font-size: 3.2rem;
+.projects_title {
+  font-weight: 600;
+  font-size: 4.2rem;
   margin-bottom: 2rem;
-}
-
-.history_description {
-  font-size: 2.2rem;
-  line-height: 1.7;
+  text-transform: uppercase;
 }
