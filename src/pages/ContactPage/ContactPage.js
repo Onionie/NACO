@@ -11,7 +11,31 @@ import { project, estimating, executive } from './ContactList';
 const ContactPage = () => {
   return (
     <section className={styles.contact_page}>
-      <div className={styles.contact_hero}></div>
+      <div className={styles.contact_hero}>
+        <div className={styles.contact_body}>
+          <div className={styles.contact_header}>Get in touch</div>
+          <p className={styles.contact_subheader}>
+            Interested in how we can help your company improve?
+            <br />
+            We'd love to hear from you.
+            <br />
+            You can Call us at{' '}
+            <span className={styles.contact_info}>909-879-0421</span>{' '}
+          </p>
+
+          <div className={styles.contact_address_box}>
+            <div className={styles.contact_subheader}>
+              Want to know where we are?
+            </div>
+            <div>
+              We are located in{' '}
+              <span className={styles.contact_info}>
+                160 N. CACTUS AVE RIALTO CA, 92346
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
       <ContactRow rowTitle={'Project Management Team'}>
         {project.map((proj) => (
           <ContactCard
