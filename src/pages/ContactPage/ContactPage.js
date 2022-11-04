@@ -4,11 +4,14 @@ import styles from './ContactPage.module.css';
 import ContactRow from '../../components/Contacts/ContactRow';
 import ContactCard from '../../components/Contacts/ContactCard';
 
+import contactHeroImg from '../../assets/images/contactus_hero_image.png';
+
 import { project, estimating, executive } from './ContactList';
 
 const ContactPage = () => {
   return (
     <section className={styles.contact_page}>
+      <div className={styles.contact_hero}></div>
       <ContactRow rowTitle={'Project Management Team'}>
         {project.map((proj) => (
           <ContactCard
