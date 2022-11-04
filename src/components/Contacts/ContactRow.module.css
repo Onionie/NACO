@@ -4,7 +4,7 @@
   text-align: center;
   font-size: 4.2rem;
   text-transform: uppercase;
-  color: #1282a2;
+  color: #fff;
   text-shadow: 0 0 1px #000;
 }
 
@@ -12,5 +12,5 @@
   display: flex;
   justify-content: center;
   column-gap: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }

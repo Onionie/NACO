@@ -19,7 +19,7 @@ const ContactPage = () => {
             <br />
             We'd love to hear from you.
             <br />
-            You can Call us at{' '}
+            You can call us at{' '}
             <span className={styles.contact_info}>909-879-0421</span>{' '}
           </p>
 
@@ -82,7 +82,7 @@ const ContactPage = () => {
       </ContactRow>
 
       {/* Executive Team */}
-      <ContactRow rowTitle={'ExecutiveTeam'}>
+      <ContactRow rowTitle={'Executive Team'}>
         {executive.map((exec) => (
           <ContactCard
             key={exec.id}
