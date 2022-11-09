@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 
 const ContactPage = () => {
   useEffect(() => {
-    Aos.init({ duration: 1500, once: 'true' }, []);
+    Aos.init({ duration: 1000, once: 'true' }, []);
   });
 
   return (
