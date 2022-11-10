@@ -54,7 +54,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="300">
         <ContactRow rowTitle={'Project Management Team'}>
           {project.map((proj) => (
             <ContactCard
@@ -69,7 +69,7 @@ const ContactPage = () => {
       </div>
 
       {/* Estimating Team */}
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="300">
         <ContactRow rowTitle={'Estimating Team'}>
           {estimating.map((est) => (
             <ContactCard
@@ -84,7 +84,7 @@ const ContactPage = () => {
       </div>
 
       {/* Senior Manager */}
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="300">
         <ContactRow rowTitle={'Senior Manager'}>
           <ContactCard
             name={'Albert Cardenas'}
@@ -96,7 +96,7 @@ const ContactPage = () => {
       </div>
 
       {/* Legal Department */}
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="300">
         <ContactRow rowTitle={'Legal Department'}>
           <ContactCard
             name={'Kelvin Chavez'}
@@ -108,7 +108,7 @@ const ContactPage = () => {
       </div>
 
       {/* Executive Team */}
-      <div data-aos="fade-up" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-delay="300">
         <ContactRow rowTitle={'Executive Team'}>
           {executive.map((exec) => (
             <ContactCard
