@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './AboutPage.module.css';
 import { IoLocationSharp } from 'react-icons/io5';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+// Images
 import lydiksen from '../assets/images/AboutUsPage/lydiken.jpg';
 import tokay from '../assets/images/AboutUsPage/tokay.jpg';
 import hinsdale from '../assets/images/AboutUsPage/hinsdale.jpg';
@@ -13,13 +17,25 @@ import northBergen from '../assets/images/AboutUsPage/north_bergen.jpg';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const AboutPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, once: 'true' }, []);
+  });
+
   return (
     <section className={styles.about_section}>
       <div className={styles.mission_box}>
-        <div className={styles.mission_image}>
+        <div
+          className={styles.mission_image}
+          data-aos="fade-down-right"
+          data-aos-delay="500"
+        >
           <img src={companyLogo} alt="company_logo" />
         </div>
-        <div className={styles.mission_body}>
+        <div
+          className={styles.mission_body}
+          data-aos="fade-down-left"
+          data-aos-delay="1500"
+        >
           <div className={styles.mission_header}>
             Since its start in 1953, Nelson Adams continues to maintain
             impeccable quality and customer service with our clients all over
