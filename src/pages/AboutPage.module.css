@@ -50,12 +50,6 @@
 }
 
 /* projects */
-
-.projects_box {
-  margin-top: 15rem;
-  padding-top: 5rem;
-}
-
 .projects_box,
 .projects_body {
   display: flex;
@@ -64,6 +58,7 @@
 }
 
 .projects_body {
+  margin-top: 15rem;
   padding: 5rem 8rem;
 }
 

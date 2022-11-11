@@ -29,10 +29,9 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.projects_box}>
-        <div className={styles.projects_body}>
-          <div className={styles.projects_title}>Projects</div>
-        </div>
+
+      <div className={styles.projects_body}>
+        <div className={styles.projects_title}>Projects</div>
       </div>
     </section>
   );
