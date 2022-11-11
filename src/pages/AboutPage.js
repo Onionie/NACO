@@ -56,9 +56,19 @@ const AboutPage = () => {
 
       {/* PROJECTS Section */}
       <div className={styles.projects_body}>
-        <div className={styles.projects_title}>Projects</div>
+        <div
+          className={styles.projects_title}
+          data-aos="fade-down"
+          data-aos-delay="1800"
+        >
+          Projects
+        </div>
       </div>
-      <div className={styles.projects_gallery}>
+      <div
+        className={styles.projects_gallery}
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         <div className={styles.projects_gallery_item}>
           <div className={styles.gallery_image}>
             <img src={lydiksen} alt="lydiksen_school" />

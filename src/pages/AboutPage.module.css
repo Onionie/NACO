@@ -85,12 +85,18 @@
 .gallery_image {
   height: 30rem;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
 }
 
 .gallery_image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: all 0.4s;
+}
+
+.gallery_image img:hover {
+  transform: scale(1.1);
 }
 
 .item_title {
