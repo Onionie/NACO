@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './AboutPage.module.css';
+import { IoLocationSharp } from 'react-icons/io5';
 
-import missionImg from '../assets/images/about_us_mission.png';
+import lydiksen from '../assets/images/AboutUsPage/lydiken.jpg';
+import delOro from '../assets/images/AboutUsPage/del_oro.jpg';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
 const AboutPage = () => {
@@ -30,8 +32,34 @@ const AboutPage = () => {
         </div>
       </div>
 
+      {/* PROJECTS Section */}
       <div className={styles.projects_body}>
         <div className={styles.projects_title}>Projects</div>
+      </div>
+      <div className={styles.projects_gallery}>
+        <div className={styles.projects_gallery_item}>
+          <div className={styles.gallery_image}>
+            <img src={lydiksen} alt="lydiksen_school" />
+          </div>
+          <div className={styles.item_title}>Lydiksen Elementary School</div>
+          <div className={styles.item_location}>
+            <IoLocationSharp /> PLEASANTON, CA
+          </div>
+        </div>
+        <div className={styles.projects_gallery_item}>
+          <div className={styles.gallery_image}>
+            <img src={lydiksen} alt="lydiksen_school" />
+          </div>
+          <div className={styles.item_title}>Lydiksen Elementary School</div>
+          <div className={styles.item_location}>PLEASANTON, CA</div>
+        </div>
+        <div className={styles.projects_gallery_item}>
+          <div className={styles.gallery_image}>
+            <img src={lydiksen} alt="lydiksen_school" />
+          </div>
+          <div className={styles.item_title}>Lydiksen Elementary School</div>
+          <div className={styles.item_location}>PLEASANTON, CA</div>
+        </div>
       </div>
     </section>
   );

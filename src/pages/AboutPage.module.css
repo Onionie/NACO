@@ -6,6 +6,7 @@
     rgba(208, 240, 241, 1) 75%,
     rgba(208, 247, 255, 1) 100%
   );
+  font-family: 'Montserrat', sans-serif;
 }
 
 .mission_box {
@@ -67,4 +68,41 @@
   font-size: 4.2rem;
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+.projects_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.projects_gallery_item {
+  flex: 1 1 32%;
+  text-align: center;
+}
+
+.gallery_image {
+  height: 30rem;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.8);
+}
+
+.gallery_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item_title,
+.item_location {
+  font-weight: 500;
+}
+
+.item_title {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+
+.item_location {
+  font-size: 1.8rem;
 }
