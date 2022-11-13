@@ -27,6 +27,23 @@ const TackwallSystemPage = () => {
             Forbo Directly to Wall
           </Link>
         </div>
+
+        <div className={styles.systems_card}>
+          <img src={twp_main} alt="tackwall_panel" />
+          <Link
+            to="/wall-systems/tackwall-panels"
+            className={styles.system_title}
+          >
+            Tackwall Panel
+          </Link>
+        </div>
+
+        <div className={styles.systems_card}>
+          <img src={mw_main} alt="marker_wall" />
+          <Link to="/wall-systems/marker-wall" className={styles.system_title}>
+            Marker Wall
+          </Link>
+        </div>
       </div>
     </div>
   );
