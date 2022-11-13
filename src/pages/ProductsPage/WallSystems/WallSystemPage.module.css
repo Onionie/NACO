@@ -1,5 +1,6 @@
 .wall_systems {
   padding: 15rem;
+  min-height: 90vh;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,4 +14,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.systems_card img {
+  transform: scale(0.95);
+  transition: all 0.4s;
+}
+
+.systems_card img:hover {
+  transform: scale(1);
 }
