@@ -1,0 +1,16 @@
+.wall_systems {
+  padding: 15rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.systems_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.systems_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
