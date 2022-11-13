@@ -24,3 +24,17 @@
 .systems_card img:hover {
   transform: scale(1);
 }
+
+.system_title:link,
+.system_title:hover,
+.system_title:visited,
+.system_title:active {
+  display: inline-block;
+  margin-top: 2rem;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}

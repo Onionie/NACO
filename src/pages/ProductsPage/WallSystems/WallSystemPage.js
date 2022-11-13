@@ -22,7 +22,7 @@ const TackwallSystemPage = () => {
           <img src={fdw_main} alt="forbo_directy_to_wall" />
           <Link
             to="/wall-systems/forbo-directly-to-wall"
-            className={styles.dc_title}
+            className={styles.system_title}
           >
             Forbo Directly to Wall
           </Link>
