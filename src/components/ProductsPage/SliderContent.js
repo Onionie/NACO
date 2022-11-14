@@ -43,7 +43,7 @@ const SliderContent = (props) => {
     lazyLoad: true,
     speed: 400,
     slidesToShow: numOfSlide,
-    swipe: false,
+    swipe: true,
 
     centerPadding: 0,
     prevArrow: <PrevArrow />,
