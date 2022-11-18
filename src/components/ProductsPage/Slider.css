@@ -138,6 +138,11 @@
   opacity: 1;
 }
 
+.link_box {
+  display: flex;
+  justify-content: center;
+}
+
 .link_box,
 .slide img {
   pointer-events: none;
@@ -148,10 +153,18 @@
   pointer-events: auto;
 }
 
+.link_box a {
+  transition: all 0.2s;
+}
+
 .link_box a:link,
 .link_box a:visited {
   text-decoration: none;
   color: black;
+}
+
+.link_box a:hover {
+  color: rgb(255, 102, 0);
 }
 
 .slide_title_box {
