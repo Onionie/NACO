@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Markerboard.module.css';
 
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
