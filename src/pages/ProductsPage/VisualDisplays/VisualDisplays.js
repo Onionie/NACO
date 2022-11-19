@@ -10,7 +10,7 @@ import markerBoards from '../../../assets/images/VisualBoards/Markerboards/MB.jp
 import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
 import tTypeMB from '../../../assets/images/VisualBoards/mobileMb_T.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
-import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
+import vertical from '../../../assets/images/VisualBoards/VerticalSlider/verticalSliders.jpg';
 
 const ProductsPage = () => {
   const visualDisplayBoards = [
@@ -42,15 +42,8 @@ const ProductsPage = () => {
       category: 'visual',
       item: 'chalkboard',
     },
-    // {
-    //   id: 5,
-    //   product: 'Teaching Walls',
-    //   imageSrc: tWall,
-    //   category: 'visual',
-    //   item: 'teaching_walls',
-    // },
     {
-      id: 6,
+      id: 5,
       product: 'Tackboard',
       imageSrc: tackBoard,
       category: 'visual',
@@ -63,14 +56,6 @@ const ProductsPage = () => {
       category: 'visual',
       item: 'tackboard-forbo',
     },
-    // {
-    //   id: 7,
-    //   product: 'Bulletin Board Natural Cork',
-    //   imageSrc: bulletinBoard,
-    //   category: 'visual',
-    //   item: 'bulletin_board_natural_cork',
-    // },
-
     {
       id: 7,
       product: 'Enclosed Bulletin Board',

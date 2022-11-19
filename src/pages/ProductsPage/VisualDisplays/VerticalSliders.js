@@ -7,16 +7,12 @@ import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
-import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 
 // Images
 import vs1 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider1.jpg';
 import vs2 from '../../../assets/images/VisualBoards/VerticalSlider/vertical_slider2.jpg';
 import c4trim from '../../../assets/images/VisualBoards/Markerboards/c4_trim.jpg';
 import c18trim from '../../../assets/images/VisualBoards/Markerboards/c18_trim.jpg';
-// import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-// import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-// import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 import mb from '../../../assets/images/VisualBoards/Finishes/mb.jpg';
 
 const VerticalSliders = () => {
