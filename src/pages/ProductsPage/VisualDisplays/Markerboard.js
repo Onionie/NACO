@@ -7,16 +7,12 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
-import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
 import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
-import markerboard from '../../../assets/images/VisualBoards/MB.jpg';
+import markerboard from '../../../assets/images/VisualBoards/Markerboards/MB.jpg';
 import mb from '../../../assets/images/VisualBoards/Finishes/mb.jpg';
-// import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-// import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-// import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 
 const Markerboard = () => {
   const mainImages = [
@@ -34,43 +30,6 @@ const Markerboard = () => {
       alt: 'available_mb',
     },
   ];
-
-  // const colors = [
-  //   {
-  //     id: 1,
-  //     imgSrc: wbWhite,
-  //     title: 'White',
-  //   },
-  //   {
-  //     id: 2,
-  //     imgSrc: wbLightgrey,
-  //     title: 'Light Gray',
-  //   },
-  //   {
-  //     id: 3,
-  //     imgSrc: wbBeige,
-  //     title: 'Beige',
-  //   },
-  // ];
-
-  // const finishes = [
-  //   {
-  //     id: 1,
-  //     text: 'Ultra Gloss (EMEA/APAC)',
-  //   },
-  //   {
-  //     id: 2,
-  //     text: 'High Gloss (Americas)',
-  //   },
-  //   {
-  //     id: 3,
-  //     text: 'Satin Gloss (Americas)',
-  //   },
-  //   {
-  //     id: 4,
-  //     text: 'Low Gloss (EMEA/APAC)',
-  //   },
-  // ];
 
   return (
     <ProductSection>
@@ -103,8 +62,6 @@ const Markerboard = () => {
 
       {/* Product Information Section*/}
       <ProductInfo>
-        {/* Porcelain Section */}
-        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>

@@ -3,24 +3,21 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 
 // import Visual Display Images
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
-import bulletinBoard from '../../../assets/images/VisualBoards/enclosedBulletinBoard.jpg';
 import fTackBoard from '../../../assets/images/VisualBoards/ForboTackboard/forboBlueTackBoard_main.jpg';
 import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
-import markerBoard from '../../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
-import mb from '../../../assets/images/VisualBoards/MB.jpg';
+import horizontalSliders from '../../../assets/images/VisualBoards/markerBoardHorizontal.jpg';
+import markerBoards from '../../../assets/images/VisualBoards/Markerboards/MB.jpg';
 import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
 import tTypeMB from '../../../assets/images/VisualBoards/mobileMb_T.jpg';
 import tackBoard from '../../../assets/images/VisualBoards/tackboard.jpg';
 import vertical from '../../../assets/images/VisualBoards/verticalSliders.jpg';
-import tWall from '../../../assets/images/VisualBoards/teaching_walls1.jpg';
-// import tackboard1 from '../../../assets/images/VisualBoards/tackboard1.png';
 
 const ProductsPage = () => {
   const visualDisplayBoards = [
     {
       id: 1,
       product: 'Markerboards',
-      imageSrc: mb,
+      imageSrc: markerBoards,
       category: 'visual',
       item: 'markerboard',
     },
@@ -34,7 +31,7 @@ const ProductsPage = () => {
     {
       id: 3,
       product: 'Horizontal Sliders',
-      imageSrc: markerBoard,
+      imageSrc: horizontalSliders,
       category: 'visual',
       item: 'horizontal-sliders',
     },
