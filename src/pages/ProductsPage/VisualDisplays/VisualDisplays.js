@@ -4,7 +4,7 @@ import SliderContent from '../../../components/ProductsPage/SliderContent';
 // import Visual Display Images
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
 import fTackBoard from '../../../assets/images/VisualBoards/ForboTackboard/forboBlueTackBoard_main.jpg';
-import hingeDoor from '../../../assets/images/VisualBoards/hingedDoorDisplay.jpg';
+import enclosedBB from '../../../assets/images/VisualBoards/EnclosedBB/enclosed_bb_main.jpg';
 import horizontalSliders from '../../../assets/images/VisualBoards/HorizontalSlider/horizontal_slider.jpg';
 import markerBoards from '../../../assets/images/VisualBoards/Markerboards/MB.jpg';
 import revMobMB from '../../../assets/images/VisualBoards/reversible_mobileMB.jpg';
@@ -59,7 +59,7 @@ const ProductsPage = () => {
     {
       id: 7,
       product: 'Enclosed Bulletin Board',
-      imageSrc: hingeDoor,
+      imageSrc: enclosedBB,
       category: 'visual',
       item: 'enclosed-bulletin-board',
     },
