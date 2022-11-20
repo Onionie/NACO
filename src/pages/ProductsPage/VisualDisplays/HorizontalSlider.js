@@ -10,15 +10,11 @@ import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
 import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
-import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 
 // Images
 import horizontal_slider from '../../../assets/images/VisualBoards/HorizontalSlider/horizontal_slider.jpg';
 import slider_tracks from '../../../assets/images/VisualBoards/HorizontalSlider/slider_tracks.jpg';
 import sliding_markerboard from '../../../assets/images/VisualBoards/HorizontalSlider/sliding_markerboard.jpg';
-// import wbWhite from '../../../assets/images/VisualBoards/Finishes/color_mb_white.jpg';
-// import wbLightgrey from '../../../assets/images/VisualBoards/Finishes/color_mb_lightgrey.jpg';
-// import wbBeige from '../../../assets/images/VisualBoards/Finishes/color_mb_beige.jpg';
 import mb from '../../../assets/images/VisualBoards/Finishes/mb.jpg';
 
 const HorizontalSlider = () => {
@@ -37,43 +33,6 @@ const HorizontalSlider = () => {
       alt: 'available_mb',
     },
   ];
-
-  // const colors = [
-  //   {
-  //     id: 1,
-  //     imgSrc: wbWhite,
-  //     title: 'White',
-  //   },
-  //   {
-  //     id: 2,
-  //     imgSrc: wbLightgrey,
-  //     title: 'Light Gray',
-  //   },
-  //   {
-  //     id: 3,
-  //     imgSrc: wbBeige,
-  //     title: 'Beige',
-  //   },
-  // ];
-
-  // const finishes = [
-  //   {
-  //     id: 1,
-  //     text: 'Ultra Gloss (EMEA/APAC)',
-  //   },
-  //   {
-  //     id: 2,
-  //     text: 'High Gloss (Americas)',
-  //   },
-  //   {
-  //     id: 3,
-  //     text: 'Satin Gloss (Americas)',
-  //   },
-  //   {
-  //     id: 4,
-  //     text: 'Low Gloss (EMEA/APAC)',
-  //   },
-  // ];
 
   return (
     <ProductSection>
