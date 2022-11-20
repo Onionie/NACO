@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Chalkboard.module.css';
 
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
@@ -7,16 +6,11 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 import AvailableSizes from '../../../components/SpecificProduct/AvailableSizes';
 import OptionsRow from '../../../components/SpecificProduct/OptionsRow';
-import PorcelainSection from '../../../components/SpecificProduct/PorcelainSection';
 import CombinationBoards from '../../../components/SpecificProduct/CombinationBoards';
 import Joints from '../../../components/SpecificProduct/Joints';
 import Accessories from '../../../components/SpecificProduct/Accessories';
 
 import chalkboard from '../../../assets/images/VisualBoards/chalkboard_black.jpg';
-// import chalkBlack from '../../../assets/images/VisualBoards/Finishes/color_chalk_black.jpg';
-// import chalkBlue from '../../../assets/images/VisualBoards/Finishes/color_chalk_blue.jpg';
-// import chalkGreen from '../../../assets/images/VisualBoards/Finishes/color_chalk_green.jpg';
-// import chalkSlate from '../../../assets/images/VisualBoards/Finishes/color_chalk_slate.jpg';
 import cb from '../../../assets/images/VisualBoards/Finishes/cb.jpg';
 
 const Chalkboard = () => {
@@ -35,40 +29,6 @@ const Chalkboard = () => {
       alt: 'available_mb',
     },
   ];
-
-  // const colors = [
-  //   {
-  //     id: 1,
-  //     imgSrc: chalkGreen,
-  //     title: 'Green Chalk',
-  //   },
-  //   {
-  //     id: 2,
-  //     imgSrc: chalkBlack,
-  //     title: 'Black Chalk',
-  //   },
-  //   {
-  //     id: 3,
-  //     imgSrc: chalkSlate,
-  //     title: 'Slate Chalk',
-  //   },
-  //   {
-  //     id: 4,
-  //     imgSrc: chalkBlue,
-  //     title: 'Blue Chalk',
-  //   },
-  // ];
-
-  // const finishes = [
-  //   {
-  //     id: 1,
-  //     text: 'Ultra MAtte (Americas, EMEA, APAC)',
-  //   },
-  //   {
-  //     id: 2,
-  //     text: '*Available in EMEA + APAC Only',
-  //   },
-  // ];
 
   return (
     <ProductSection>
@@ -101,8 +61,6 @@ const Chalkboard = () => {
 
       {/* Product Information Section*/}
       <ProductInfo>
-        {/* Porcelain Section */}
-        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
         <AvailableSizes>
           <li>3' x 4'</li>
           <li>4' x 4'</li>
