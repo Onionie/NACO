@@ -11,7 +11,8 @@
   margin-bottom: 10rem;
 }
 
-.tw_details_box img {
+.tw_details_box img,
+.panel_configuration_box img {
   max-width: 100%;
   height: 100%;
 }
@@ -61,8 +62,4 @@
   flex-direction: column;
   justify-content: center;
   padding: 4rem;
-}
-
-.panel_configuration_box img {
-  max-width: 100%;
 }
