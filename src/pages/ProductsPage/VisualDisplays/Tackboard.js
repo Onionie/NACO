@@ -16,8 +16,6 @@ import mojave1 from '../../../assets/images/VisualBoards/Finishes/Mojave1.png';
 import mojave2 from '../../../assets/images/VisualBoards/Finishes/Mojave2.png';
 import harborW from '../../../assets/images/VisualBoards/Finishes/HarborWeave_group.png';
 
-import naturalCork from '../../../assets/images/VisualBoards/Tackboard/natural_cork.png';
-
 const Tackboard = () => {
   const mainImages = [
     {
@@ -84,7 +82,6 @@ const Tackboard = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
-        {/* <PorcelainSection colors={colors} finishes={finishes} /> */}
         <AvailableSizes>
           <li>4' x 4'</li>
           <li>4' x 5'</li>
