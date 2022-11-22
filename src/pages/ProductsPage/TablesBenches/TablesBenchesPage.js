@@ -7,9 +7,6 @@ import rtb from '../../../assets/images/TablesAndBenches/RoundTables/rtb_main.PN
 import mbtb from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_main.PNG';
 import iwtb from '../../../assets/images/TablesAndBenches/InWallTables/iwtb_main.png';
 
-import mobileTable from '../../../assets/images/TablesAndBenches/mobileTable.JPG';
-import surfaceMount from '../../../assets/images/TablesAndBenches/surfaceMount.jpg';
-
 const TablesBenchesPage = () => {
   const tables = [
     {
