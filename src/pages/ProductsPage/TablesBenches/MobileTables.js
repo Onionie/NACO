@@ -5,7 +5,6 @@ import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
-import TableComponent from '../../../components/SpecificProduct/TablesBenches/TableComponent';
 
 import mbtb1 from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_1.png';
 import mbtb_seat from '../../../assets/images/TablesAndBenches/MobileTables/mbtb_seating.PNG';
