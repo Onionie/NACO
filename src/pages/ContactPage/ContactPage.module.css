@@ -1,11 +1,5 @@
 .contact_page {
   padding-bottom: 13rem;
-  /* background: linear-gradient(
-    170deg,
-    rgba(247, 241, 241, 1) 0%,
-    rgba(208, 240, 241, 1) 75%,
-    rgba(208, 247, 255, 1) 100%
-  ); */
   background: rgb(42, 84, 112);
   background: linear-gradient(
     180deg,
@@ -20,7 +14,7 @@
   height: 105vh;
   margin-bottom: 10rem;
   background-image: url('../../assets/images/contactus_hero_image.png');
-  background-position: top;
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
 }
