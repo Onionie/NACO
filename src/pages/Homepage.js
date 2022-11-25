@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Slideshow from '../components/Homepage/Slideshow';
 import Partners from '../components/Homepage/Partners';
-import Feature from '../components/Homepage/Feature';
+// import Feature from '../components/Homepage/Feature';
 import styles from './Homepage.module.css';
 
 import Aos from 'aos';
