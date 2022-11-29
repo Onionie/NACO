@@ -95,7 +95,11 @@ const TeachingWall = () => {
             </div>
           </AvailableSizes>
 
-          <div className={styles.tw_details_box} data-aos="slide-up">
+          <div
+            className={styles.tw_details_box}
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div className={styles.tw_details_title}>Teaching Wall Details</div>
             <div className={styles.tw_details1}>
               <div>
@@ -110,7 +114,11 @@ const TeachingWall = () => {
             <div className={styles.panel_box}>
               <div className={styles.sliding_marker_box}>
                 <div className={styles.sliding_marker_title}></div>
-                <div className={styles.sliding_marker_image_box}>
+                <div
+                  className={styles.sliding_marker_image_box}
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
                   <div className={styles.sliding_marker_title}>
                     Sliding Markerboard
                   </div>
@@ -121,7 +129,11 @@ const TeachingWall = () => {
                 </div>
               </div>
 
-              <div className={styles.panel_configuration_box}>
+              <div
+                className={styles.panel_configuration_box}
+                data-aos="fade-up"
+                data-aos-delay="800"
+              >
                 <div className={styles.panel_configuration_title}>
                   Panel Configurations
                 </div>
