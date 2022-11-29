@@ -63,7 +63,11 @@ const InWallTable = () => {
       <ProductInfo>
         {/***** Safety *****/}
         <div className={styles.safety_box}>
-          <div className={styles.safety_text_box}>
+          <div
+            className={styles.safety_text_box}
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div className={styles.safety_title}>Safety Features</div>
             <div className={styles.safety_text_body}>
               At Nelson Adams, safety is our main priority. We have innovated
@@ -73,7 +77,11 @@ const InWallTable = () => {
             </div>
           </div>
 
-          <div className={styles.safety_image_box}>
+          <div
+            className={styles.safety_image_box}
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
             <img src={iwtb_deploy} alt="table_dimensions" />
             <img src={iwtb_safety} alt="table_dimensions" />
           </div>
@@ -82,7 +90,11 @@ const InWallTable = () => {
         {/***** Dimensions *****/}
         <div className={styles.dimensions_box}>
           <div className={styles.dimensions_title}>Dimensions</div>
-          <div className={styles.dimensions_image_box}>
+          <div
+            className={styles.dimensions_image_box}
+            data-aos="fade-up"
+            data-aos-delay="1500"
+          >
             <img src={iwtb_dim2} alt="table_dimensions" />
             <img src={iwtb_dim1} alt="table_dimensions" />
           </div>
