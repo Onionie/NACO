@@ -56,7 +56,7 @@ const RoundTable = () => {
       </HeroProduct>
       <ProductInfo>
         <div className={styles.rtb_csttc_box}>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="300">
             <div className={styles.rtb_csstc_title}>
               Custom Printing Available
             </div>
@@ -66,12 +66,20 @@ const RoundTable = () => {
         </div>
 
         {/* Sizes */}
-        <div className={styles.rtb_options_box}>
+        <div
+          className={styles.rtb_options_box}
+          data-aos="fade-up"
+          data-aos-delay="800"
+        >
           <div className={styles.rtb_options_title}>Table Seating Options</div>
           <img src={rtb_sizes} alt="seating_options" />
         </div>
 
-        <div className={styles.rtb_options_box}>
+        <div
+          className={styles.rtb_options_box}
+          data-aos="fade-up"
+          data-aos-delay="1200"
+        >
           <div className={styles.rtb_options_title}>Deployment Operations</div>
           <img src={rtb_op} alt="deployment_operations" />
         </div>
