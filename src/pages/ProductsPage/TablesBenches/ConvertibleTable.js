@@ -75,7 +75,11 @@ const ConvertibleTable = () => {
       </HeroProduct>
       <ProductInfo>
         {/* Available Table Sizes */}
-        <div className={styles.ctb_sizes_box}>
+        <div
+          className={styles.ctb_sizes_box}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div className={styles.ctb_sizes_title}>Seating Size Options</div>
           <div className={styles.ctb_sizes_image_box}>
             <img src={ctb_sizes} alt="availabe_sizes" />
@@ -84,7 +88,7 @@ const ConvertibleTable = () => {
 
         {/* How It Works and Table Components */}
         <div className={styles.ctb_hiwtc_box}>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="500">
             <div className={styles.ctb_hiwtc_title}>How It Works</div>
             <img src={ctb_hiw} alt="how_it_works" />
           </div>
@@ -92,7 +96,11 @@ const ConvertibleTable = () => {
         </div>
 
         {/* Settings */}
-        <div className={styles.ctb_settings_box}>
+        <div
+          className={styles.ctb_settings_box}
+          data-aos="fade-up"
+          data-aos-delay="1000"
+        >
           <div className={styles.ctb_settings_title}>Different Settings</div>
           <div className={styles.ctb_settings_image_box}>
             <img src={ctb_settings} alt="different_settings" />
