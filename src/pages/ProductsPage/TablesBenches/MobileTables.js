@@ -54,10 +54,18 @@ const MobileTables = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
-        <div className={styles.mbtb_seating_opt}>
+        <div
+          className={styles.mbtb_seating_opt}
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <img src={mbtb_seat} alt="seating_options" />
         </div>
-        <div className={styles.mbtb_seating_opt}>
+        <div
+          className={styles.mbtb_seating_opt}
+          data-aos="fade-up"
+          data-aos-delay="800"
+        >
           <img src={mbtb_avail} alt="available_tables" />
         </div>
       </ProductInfo>
