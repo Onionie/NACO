@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './TackwallPanel.module.css';
 
+// Components
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 
+// Pictures
 import twp_1 from '../../../assets/images/TackwallSystems/TWP/twp_1.png';
 import twp_2 from '../../../assets/images/TackwallSystems/TWP/twp_2.png';
 import twp_3 from '../../../assets/images/TackwallSystems/TWP/twp_3.png';
@@ -13,6 +15,7 @@ import twp_det from '../../../assets/images/TackwallSystems/TWP/twp_det.PNG';
 import twp_det1 from '../../../assets/images/TackwallSystems/TWP/twp_det1.png';
 import fdw_edg from '../../../assets/images/TackwallSystems/FDW/fdw_edging.png';
 
+// Finishes Pictures
 import bel from '../../../assets/images/VisualBoards/Finishes/BEL1.png';
 import dessand1 from '../../../assets/images/VisualBoards/Finishes/DesertSand1.png';
 import dessand2 from '../../../assets/images/VisualBoards/Finishes/DesertSand2.png';
@@ -104,7 +107,11 @@ const TackwallPanel = () => {
       </HeroProduct>
       <ProductInfo>
         {/* Details */}
-        <div className={styles.fdw_detail_box}>
+        <div
+          className={styles.fdw_detail_box}
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className={styles.fdc_detail_title}>TWP Details</div>
           <div className={styles.fdw_detail_images}>
             <img src={twp_det} alt="tackwall_panels" />
@@ -113,7 +120,11 @@ const TackwallPanel = () => {
         </div>
 
         {/* Edging */}
-        <div className={styles.fdw_edging_box}>
+        <div
+          className={styles.fdw_edging_box}
+          data-aos="fade-up"
+          data-aos-delay="800"
+        >
           <div className={styles.fdc_detail_title}>
             Tackwall Panel Edging Configurations
           </div>
