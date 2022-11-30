@@ -73,7 +73,11 @@ const ForboDW = () => {
       </HeroProduct>
       <ProductInfo>
         {/* Details */}
-        <div className={styles.fdw_detail_box}>
+        <div
+          className={styles.fdw_detail_box}
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <div className={styles.fdc_detail_title}>FDW Details</div>
           <div className={styles.fdw_detail_images}>
             <img src={fdw_det1} alt="forbo_direct_to_wall_details" />
@@ -82,7 +86,11 @@ const ForboDW = () => {
         </div>
 
         {/* Edging */}
-        <div className={styles.fdw_edging_box}>
+        <div
+          className={styles.fdw_edging_box}
+          data-aos="fade-up"
+          data-aos-delay="800"
+        >
           <div className={styles.fdc_detail_title}>
             Tackwall Panel Edging Configurations
           </div>
