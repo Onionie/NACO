@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './MarkerWall.module.css';
 
+// Components
 import ProductSection from '../../../components/SpecificProduct/ProductSection';
 import HeroProduct from '../../../components/SpecificProduct/HeroProduct';
 import HeroBody from '../../../components/SpecificProduct/HeroBody';
 import ProductInfo from '../../../components/SpecificProduct/ProductInfo';
 
+// Images
 import mw_1 from '../../../assets/images/TackwallSystems/MarkerWall/mw_1.png';
 import mw_2 from '../../../assets/images/TackwallSystems/MarkerWall/mw_2.png';
 import mw_3 from '../../../assets/images/TackwallSystems/MarkerWall/mw_3.png';
@@ -61,9 +63,7 @@ const MarkerWall = () => {
             Cover a wall completely, from floor to ceiling, with up to 16'0" of
             height.
           </li>
-          <li>Concealed Joints.</li>
-          <li>Highly Durable.</li>
-          <li>Easy to clean.</li>
+          <li>Highly Durable, concealed joints and easy to clean.</li>
           <li>Colorfast will not fade.</li>
           <li>Scratch, bacteria, chemical, and fire resistant.</li>
           <li>No made-to-order components.</li>
@@ -74,7 +74,11 @@ const MarkerWall = () => {
         </HeroBody>
       </HeroProduct>
       <ProductInfo>
-        <div className={styles.mw_details}>
+        <div
+          className={styles.mw_details}
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div>
             <img src={mw_details} alt="marker_wall_details" />
           </div>
