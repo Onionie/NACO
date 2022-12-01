@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import Magnifier from 'react-magnifier';
 import './ModalAvail.css';
-
-import grid from '../../assets/images/VisualBoards/Finishes/cbNmb.jpg';
-import mb from '../../assets/images/VisualBoards/Finishes/mb.jpg';
-import cb from '../../assets/images/VisualBoards/Finishes/cb.jpg';
-import bel1 from '../../assets/images/VisualBoards/Finishes/BEL1.png';
-import polarGrid from '../../assets/images/VisualBoards/Finishes/grid_polar_grid.jpg';
-import staffLines from '../../assets/images/VisualBoards/Finishes/grid_staff_lines.jpg';
-import AvailableSizes from './AvailableSizes';
 
 const ModalAvail = (props) => {
   const [modalShow, setModalShow] = useState(false);
@@ -52,12 +43,6 @@ const ModalAvail = (props) => {
               </Carousel.Item>
             ))}
           </Carousel>
-
-          {/* <div>
-            <img src={grid} alt="grid" />
-            <img src={polarGrid} alt="grid" />
-            <img src={grid} alt="grid" />
-          </div> */}
         </Modal.Body>
       </Modal>
     </>
