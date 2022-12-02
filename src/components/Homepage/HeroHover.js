@@ -6,7 +6,7 @@ import visual from '../../assets/images/homepage/visualdisplay.jpg';
 import table from '../../assets/images/homepage/tables.jpg';
 import tackwall from '../../assets/images/homepage/tackwall.jpg';
 
-import styles from './Slideshow.module.css';
+import styles from './HeroHover.module.css';
 
 const Slideshow = () => {
   const pictures = [escribanoWalk, escribano, visual, table, tackwall];

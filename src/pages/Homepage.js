@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Slideshow from '../components/Homepage/Slideshow';
+import HeroHover from '../components/Homepage/HeroHover';
 import Partners from '../components/Homepage/Partners';
 // import Feature from '../components/Homepage/Feature';
 import styles from './Homepage.module.css';
@@ -14,10 +14,7 @@ const Homepage = () => {
 
   return (
     <div className={styles.homepage}>
-      <Slideshow />
-      {/* <div data-aos="fade-down"> */}
-      {/* </div> */}
-      {/* <Feature /> */}
+      <HeroHover />
       <Partners />
     </div>
   );
