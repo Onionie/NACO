@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import HeroHover from '../components/Homepage/HeroHover';
 import Partners from '../components/Homepage/Partners';
-// import Feature from '../components/Homepage/Feature';
-import styles from './Homepage.module.css';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -13,7 +11,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div className={styles.homepage}>
+    <div>
       <HeroHover />
       <Partners />
     </div>
