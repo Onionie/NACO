@@ -7,16 +7,7 @@ const Libraries = (props) => {
       <div className={styles.libraries_title}>{props.title}</div>
 
       <div className={styles.libraries_list_box}>
-        <ul className={styles.libraries_list}>
-          {/* {prodData.map((product) => (
-            <li key={product.id}>
-              <a target="_blank" rel="noopener noreferrer" href={product.link}>
-                <b>{product.series}</b> {product.product}
-              </a>
-            </li>
-          ))} */}
-          {props.children}
-        </ul>
+        <ul className={styles.libraries_list}>{props.children}</ul>
       </div>
     </section>
   );
