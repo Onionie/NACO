@@ -199,13 +199,13 @@ const Header = () => {
                     className={showArchitect ? `translate_down flex_` : `flex_`}
                   >
                     <Nav.Item>
-                      <Nav.Link as={Link} to="/about" onClick={handleClose}>
-                        About Us
+                      <Nav.Link as={Link} to="/contact" onClick={handleClose}>
+                        Contact Us
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link as={Link} to="/contact" onClick={handleClose}>
-                        Contact Us
+                      <Nav.Link as={Link} to="/about" onClick={handleClose}>
+                        About Us
                       </Nav.Link>
                     </Nav.Item>
                   </div>
