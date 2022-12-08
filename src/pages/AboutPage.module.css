@@ -1,10 +1,10 @@
 .about_section {
   padding: 18rem 15rem;
   background: linear-gradient(
-    170deg,
-    rgba(247, 241, 241, 1) 0%,
-    rgba(208, 240, 241, 1) 75%,
-    rgba(208, 247, 255, 1) 100%
+    180deg,
+    rgba(42, 84, 112, 1) 0%,
+    rgba(13, 43, 91, 1) 41%,
+    rgb(11, 94, 110) 100%
   );
   font-family: 'Montserrat', sans-serif;
 }
