@@ -1,5 +1,6 @@
 .about_section {
   padding: 18rem 15rem;
+  color: #fff;
   background: linear-gradient(
     180deg,
     rgba(42, 84, 112, 1) 0%,
@@ -42,7 +43,7 @@
 }
 
 .environment_tag {
-  color: #82cd47;
+  color: #99e65e;
 }
 
 .mission_subheader {
@@ -63,6 +64,8 @@
 }
 
 .projects_title {
+  color: #fff;
+  text-shadow: 0px 2px 2px #000;
   font-weight: 600;
   font-size: 4.2rem;
   margin-bottom: 2rem;
@@ -99,6 +102,7 @@
 }
 
 .item_title {
+  color: #99efff;
   margin-top: 2rem;
   font-size: 2.2rem;
   font-weight: 600;
@@ -107,4 +111,8 @@
 .item_location {
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.item_location svg {
+  color: #fed049;
 }

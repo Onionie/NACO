@@ -28,14 +28,14 @@ const AboutPage = () => {
         <div
           className={styles.projects_title}
           data-aos="fade-down"
-          data-aos-delay="1800"
+          data-aos-delay="500"
         >
           Projects
         </div>
         <div
           className={styles.projects_gallery}
           data-aos="fade-up"
-          data-aos-delay="500"
+          data-aos-delay="1200"
         >
           <div className={styles.projects_gallery_item}>
             <div className={styles.gallery_image}>
