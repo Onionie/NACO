@@ -5,9 +5,6 @@ import ButterflyCarousel from './ButterflyCarousel';
 import FeaturesSect from './FeaturesSect';
 import styles from './EscribanoPage.module.css';
 
-import ReactPlayer from 'react-player/youtube';
-import { Parallax, Background } from 'react-parallax';
-
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
