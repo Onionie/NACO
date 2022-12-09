@@ -14,6 +14,11 @@
   opacity: 1;
 }
 
+/* Main Features */
+.main_features {
+  margin-top: 100vh;
+}
+
 /* Escribano Header */
 .esc_header_section {
   display: flex;
@@ -47,64 +52,6 @@
 .esc_header_secondary {
   font-size: 5.2rem;
   text-shadow: 1px 1px 1px #000;
-}
-
-/* Main Features */
-.main_features {
-  margin-top: 100vh;
-}
-
-.feature_section {
-  padding: 6rem 10rem 12rem;
-  background: url('../../assets/images/Escribano/features_bg.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.feature_section_title {
-  text-transform: uppercase;
-  font-size: 3.2rem;
-  color: #04abc8;
-  text-align: center;
-  font-weight: 600;
-}
-
-.feature_items {
-  margin-top: 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 90rem;
-}
-
-.feature_item {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 3rem;
-
-  transition: all 0.4s;
-}
-
-.feature_icon img {
-  transform: scale(0.8);
-  max-width: 100%;
-}
-
-.feature_title {
-  font-weight: 500;
-  font-size: 2.6rem;
-  margin-bottom: 1rem;
-  color: #04d9ff;
-}
-
-.feature_description {
-  font-size: 1.8rem;
-  line-height: 1.5;
-  color: #fff;
-}
-
-.feature_description b {
-  color: #86cdff;
 }
 
 /* Patricia Section */
