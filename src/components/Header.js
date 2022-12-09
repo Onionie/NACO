@@ -57,8 +57,13 @@ const Header = () => {
     setShowArchitect(false);
   };
 
+  // Change Menu box color depending on page <path></path>
   useEffect(() => {
-    if (location.pathname === '/') {
+    if (
+      location.pathname === '/' ||
+      location.pathname === '/patricia' ||
+      location.pathname === '/contact'
+    ) {
       setInHomepage(true);
     } else {
       setInHomepage(false);
