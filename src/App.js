@@ -46,7 +46,7 @@ import InstallationInstructions from './pages/ArchitectPage/InstallationInstruct
 import ProductData from './pages/ArchitectPage/ProductData';
 import Specifications from './pages/ArchitectPage/Specifications';
 import ColorCards from './pages/ArchitectPage/ColorCards';
-import PatriciaPage from './pages/PatriciaPage';
+import PatriciaPage from './pages/PatriciaPage/PatriciaPage';
 
 function App() {
   return (

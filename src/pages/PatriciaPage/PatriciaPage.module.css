@@ -1,0 +1,20 @@
+.patricia {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.patricia_hero {
+  height: 100vh;
+  background-image: url('../../assets/images/Patricia/abstract_connection.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.patricia_header {
+}
