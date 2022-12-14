@@ -28,9 +28,7 @@ const ContactPage = () => {
             data-aos="fade-right"
             data-aos-delay="1300"
           >
-            Interested in how we can help your company improve?
-            <br />
-            We'd love to hear from you.
+            For any visual display boards, Tack wall panels or Tables & Benches
             <br />
             You can call us at{' '}
             <span className={styles.contact_info}>909-879-0421</span>{' '}
@@ -42,9 +40,6 @@ const ContactPage = () => {
             data-aos-delay="1300"
           >
             <div className={styles.contact_subheader}>
-              Want to know where we are?
-            </div>
-            <div>
               We are located in{' '}
               <span className={styles.contact_info}>
                 160 N. CACTUS AVE RIALTO CA, 92346
