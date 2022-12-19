@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import CountUp from 'react-countup';
 import styles from './AboutPage.module.css';
 import { IoLocationSharp } from 'react-icons/io5';
 
@@ -16,7 +17,33 @@ import rocky from '../assets/images/AboutUsPage/rocky_elementray.jpg';
 import northBergen from '../assets/images/AboutUsPage/north_bergen.jpg';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
+// Intersection Observer Function
+function useOnScreen(options) {
+  const [ref, setRef] = useState(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setVisible(entry.isIntersecting);
+    }, options);
+
+    if (ref) {
+      observer.observe(ref);
+    }
+
+    return () => {
+      if (ref) {
+        observer.unobserve(ref);
+      }
+    };
+  }, [ref, options]);
+
+  return [setRef, visible];
+}
+
 const AboutPage = () => {
+  const [setRef, visible] = useOnScreen({ rootMargin: '-10px' });
+
   useEffect(() => {
     Aos.init({ duration: 1000, once: 'true' }, []);
   });
@@ -147,6 +174,9 @@ const AboutPage = () => {
             We take pride in our work and we continue a tradition that started
             in 1953. Since then we reinvented our processes, quality and the day
             to day operation but culture and family values stayed the same.
+          </div>
+          <div ref={setRef}>
+            {visible ? <CountUp end={70} duration={5} /> : <></>}
           </div>
         </div>
       </div>
