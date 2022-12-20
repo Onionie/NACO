@@ -1,0 +1,16 @@
+.command_item {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0.8rem;
+}
+
+.command_text {
+  font-size: 2.2rem;
+  font-weight: 600;
+}

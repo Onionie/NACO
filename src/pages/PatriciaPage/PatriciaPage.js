@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from './PatriciaPage.module.css';
+import CommandItem from '../../components/PatriciaPage/CommandItem';
+import Marquee from 'react-fast-marquee';
 
 // Animation
 import Aos from 'aos';
@@ -12,7 +14,7 @@ const PatriciaPage = () => {
 
   return (
     <div className={styles.patricia}>
-      <div className={styles.patricia_hero}>
+      <section className={styles.patricia_hero}>
         <div
           className={styles.patricia_header}
           data-aos="fade-up"
@@ -27,7 +29,16 @@ const PatriciaPage = () => {
         >
           Escribano's Virtual Assistant
         </div>
-      </div>
+      </section>
+
+      {/* Commands */}
+      <section className={styles.commands}>
+        <Marquee gradient={false} pauseOnHover={true}>
+          <CommandItem command="Patricia, go to Sleep" />
+          <CommandItem command="Patricia, turn off" />
+          <CommandItem command="Patricia, shutdown" />
+        </Marquee>
+      </section>
     </div>
   );
 };
