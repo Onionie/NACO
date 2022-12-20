@@ -14,3 +14,43 @@
   font-size: 2.2rem;
   font-weight: 600;
 }
+
+.aqua {
+  color: turquoise;
+}
+
+.green {
+  color: #10a48a;
+}
+
+.magenta {
+  color: #d03587;
+}
+
+.violet {
+  color: #ae5ffe;
+}
+
+.blue {
+  color: #3d53ff;
+}
+
+.light_blue {
+  color: #4da3f9;
+}
+
+.orange {
+  color: #f97659;
+}
+
+.red {
+  color: #f43f55;
+}
+
+.indigo {
+  color: #804efe;
+}
+
+.brown {
+  color: brown;
+}

@@ -36,17 +36,29 @@ const PatriciaPage = () => {
       <section className={styles.commands}>
         <Marquee gradient={false} pauseOnHover={true} speed={20}>
           {commands1.map((command) => (
-            <CommandItem key={command.id} command={command.command} />
+            <CommandItem
+              key={command.id}
+              command={command.command}
+              color={command.color}
+            />
           ))}
         </Marquee>
         <Marquee direction="right" gradient={false} pauseOnHover={true}>
           {commands2.map((comm2) => (
-            <CommandItem key={comm2.id} command={comm2.command} />
+            <CommandItem
+              key={comm2.id}
+              command={comm2.command}
+              color={comm2.color}
+            />
           ))}
         </Marquee>
         <Marquee gradient={false} pauseOnHover={true} speed={60}>
           {commands3.map((comm3) => (
-            <CommandItem key={comm3.id} command={comm3.command} />
+            <CommandItem
+              key={comm3.id}
+              command={comm3.command}
+              color={comm3.color}
+            />
           ))}
         </Marquee>
       </section>
