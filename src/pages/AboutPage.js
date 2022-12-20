@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import CountUp from 'react-countup';
 import styles from './AboutPage.module.css';
 import { IoLocationSharp } from 'react-icons/io5';
