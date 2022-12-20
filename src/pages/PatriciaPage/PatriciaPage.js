@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from './PatriciaPage.module.css';
 import CommandItem from '../../components/PatriciaPage/CommandItem';
-import { commands1 } from './commands.js';
+import { commands1, commands2, commands3 } from './commands.js';
 import Marquee from 'react-fast-marquee';
 
 // Animation
@@ -34,9 +34,19 @@ const PatriciaPage = () => {
 
       {/* Commands */}
       <section className={styles.commands}>
-        <Marquee gradient={false} pauseOnHover={true}>
+        <Marquee gradient={false} pauseOnHover={true} speed={20}>
           {commands1.map((command) => (
             <CommandItem key={command.id} command={command.command} />
+          ))}
+        </Marquee>
+        <Marquee direction="right" gradient={false} pauseOnHover={true}>
+          {commands2.map((comm2) => (
+            <CommandItem key={comm2.id} command={comm2.command} />
+          ))}
+        </Marquee>
+        <Marquee gradient={false} pauseOnHover={true} speed={60}>
+          {commands3.map((comm3) => (
+            <CommandItem key={comm3.id} command={comm3.command} />
           ))}
         </Marquee>
       </section>
