@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from './PatriciaPage.module.css';
 import CommandItem from '../../components/PatriciaPage/CommandItem';
+import { commands1 } from './commands.js';
 import Marquee from 'react-fast-marquee';
 
 // Animation
@@ -34,9 +35,9 @@ const PatriciaPage = () => {
       {/* Commands */}
       <section className={styles.commands}>
         <Marquee gradient={false} pauseOnHover={true}>
-          <CommandItem command="Patricia, go to Sleep" />
-          <CommandItem command="Patricia, turn off" />
-          <CommandItem command="Patricia, shutdown" />
+          {commands1.map((command) => (
+            <CommandItem key={command.id} command={command.command} />
+          ))}
         </Marquee>
       </section>
     </div>

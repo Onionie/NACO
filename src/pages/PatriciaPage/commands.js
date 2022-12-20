@@ -10,15 +10,15 @@ const commands1 = [
   },
   {
     id: 4,
-    command: 'Patricia, Ictivate calligraphy pen.',
+    command: 'Patricia, Activate calligraphy pen.',
   },
   {
     id: 5,
-    command: 'Patricia, Ictivate normal pen.',
+    command: 'Patricia, Activate normal pen.',
   },
   {
     id: 6,
-    command: 'Patricia, Ictivate marker.',
+    command: 'Patricia, Activate marker.',
   },
   {
     id: 7,
