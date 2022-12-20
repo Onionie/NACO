@@ -62,7 +62,8 @@ const Header = () => {
     if (
       location.pathname === '/' ||
       location.pathname === '/patricia' ||
-      location.pathname === '/contact'
+      location.pathname === '/contact' ||
+      location.pathname === '/about'
     ) {
       setInHomepage(true);
     } else {
