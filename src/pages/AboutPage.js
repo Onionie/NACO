@@ -17,33 +17,7 @@ import rocky from '../assets/images/AboutUsPage/rocky_elementray.jpg';
 import northBergen from '../assets/images/AboutUsPage/north_bergen.jpg';
 import companyLogo from '../assets/images/company_logo_big.jpg';
 
-// Intersection Observer Function
-function useOnScreen(options) {
-  const [ref, setRef] = useState(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      setVisible(entry.isIntersecting);
-    }, options);
-
-    if (ref) {
-      observer.observe(ref);
-    }
-
-    return () => {
-      if (ref) {
-        observer.unobserve(ref);
-      }
-    };
-  }, [ref, options]);
-
-  return [setRef, visible];
-}
-
 const AboutPage = () => {
-  const [setRef, visible] = useOnScreen({ rootMargin: '-10px' });
-
   useEffect(() => {
     Aos.init({ duration: 1000, once: 'true' }, []);
   });
@@ -175,8 +149,17 @@ const AboutPage = () => {
             in 1953. Since then we reinvented our processes, quality and the day
             to day operation but culture and family values stayed the same.
           </div>
-          <div ref={setRef}>
-            {visible ? <CountUp end={70} duration={5} /> : <></>}
+          <div className={styles.years_box}>
+            <CountUp
+              className={styles.years_number}
+              enableScrollSpy={true}
+              scrollSpyDelay={1500}
+              end={70}
+              duration={5}
+            />
+            <div className={styles.years_text}>
+              years of building and remodelling experience
+            </div>
           </div>
         </div>
       </div>
